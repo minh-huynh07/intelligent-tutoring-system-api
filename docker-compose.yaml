@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  flask_app:
+    build: .
+    container_name: intelligent_tutoring_system
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+    environment:
+      - FLASK_ENV=development
+      - SECRET_KEY=mysecret_production
+      - DATABASE_URL=mysql+pymysql://app:iamapp@db:3306/intelligent_tutoring_system
+
+
+  db:
+    image: mysql:8
+    container_name: mysql_container
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=root_password
+      - MYSQL_DATABASE=intelligent_tutoring_system
+      - MYSQL_USER=app
+      - MYSQL_PASSWORD=iamapp
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
