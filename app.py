@@ -1,6 +1,7 @@
 from flask import Flask
 from config import DevelopmentConfig, ProductionConfig  # Ensure proper imports here
-from api import api_blueprint
+from api import common_bp
+from api.recommendation_service import recommendation_bp
 from api.models import db
 import os
 import socket
@@ -30,8 +31,9 @@ def create_app(config_class):
     with app.app_context():
         db.create_all()
 
-    # Register blueprint for API
-    app.register_blueprint(api_blueprint, url_prefix='/api')
+    # Register blueprint for common services
+    app.register_blueprint(common_bp, url_prefix='/api')
+    app.register_blueprint(recommendation_bp, url_prefix='/recommendation')
     return app
 
 

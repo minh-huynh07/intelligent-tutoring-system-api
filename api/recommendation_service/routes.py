@@ -1,7 +1,7 @@
-from . import common_bp
+from . import recommendation_bp
 from flask import jsonify, request
 
-@common_bp.route('/test', methods=['GET'])
+@recommendation_bp.route('/get-heroes', methods=['GET'])
 def test_endpoint():
     return jsonify({"message": "Hello from Flask API"})
 
