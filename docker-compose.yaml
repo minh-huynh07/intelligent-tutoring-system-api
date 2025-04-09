@@ -6,6 +6,8 @@ services:
     container_name: intelligent_tutoring_system
     ports:
       - "5000:5000"
+    volumes:
+      - .:/app
     depends_on:
       - db
     environment:
