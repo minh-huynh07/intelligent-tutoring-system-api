@@ -1,0 +1,240 @@
+Acid Spray Link▶️Link▶️QD
+
+
+
+AbilityTarget Area
+AffectsEnemies ( Allies)
+DamagePhysical
+
+Sprays high-pressure acid across a target area. Enemy units who step across the contaminated terrain take damage per second and have their armor reduced.
+
+Cast Animation: 0.1+0.8Cast Range:  1000Radius:  375/450/500/575Damage per Second: 25/30/35/40Enemy Armor Reduction: 4/5/6/7 ( 5/6/7/8)Aura Linger Duration: 0.5Duration: 15 Ally Armor Bonus Multiplier: 1
+
+
+ 18/17/17/16
+ 110Modifiers [?]modifier_alchemist_acid_spray_thinkerUndispellable
+modifier_alchemist_acid_sprayUndispellable
+
+modifier_alchemist_acid_sprayUndispellableUsing traditional Alchemy from the Darkbrew family, Razzil concocts an acid that dissolves even the toughest metals.
+
+
+Both the armor reduction and ally armor increasing bonus are provided by an aura, its debuff lingers for 0.5 seconds.
+The damage is independent of the aura, and the damage of multiple instances of Acid Spray fully stacks.
+However, the enemy armor reduction and ally armor bonus value does not.
+Deals damage in 1-second intervals, starting immediately upon cast, resulting in up to 16 instances.
+Can deal up to 400/480/560/640 damage to a single unit (before reductions).
+When leveling up the ability while a cast is already active, the armor reduction value on already affected units does not update to the new value.
+However, if an enemy receives the debuff after leveling it up, that enemy receives the new armor reduction value.
+The damage value does not update and is always based on the level the ability was cast on.
+TALENT The armor reduction notes fully apply to the ally armor bonus  talent.
+Grants allies within the radius 4/5/6/7 ( 5/6/7/8) bonus armor.
+Does not affect  Couriers. Unstable Concoction  Link▶️Link▶️WE
+
+
+
+AbilityNo Target
+AffectsSelf
+DamagePhysical
+
+Alchemist brews up an unstable concoction that he can throw at an enemy hero, to stun and deal damage in an area around the explosion. The longer the concoction brews, the more damage it deals and the longer the stun. Alchemist is faster while charging the concoction. After 5 seconds, the brew reaches its maximum damage and stun time. However, after 5.5 seconds, the concoction will explode on Alchemist himself if not thrown.
+
+Cast Animation:  0+0Concoction Radius:  350 ( 475)Max Brew Time: 5Max Throw Time: 5.5Move Speed Bonus: 6%/6%/12%/16%Min Damage: 0Max Damage: 180/230/310/380 ( 580/630/710/780)Min Stun Duration: 0.25Max Stun Duration: 1.7/2.2/2.7/3.2
+
+
+ 18
+ 100Spell Block / Reflection Notes:Does not block blowing up on self.Blocked by enemies within the area individually, including when blowing up on self.Blocked upon impact.If blocked by the primary target, area effects are still applied.Modifiers [?]modifier_alchemist_unstable_concoctionDeath
+
+modifier_stunnedStrongA silver lining to the failure of turning a mountain into gold, this volatile solution has destructive potential.
+
+
+Interrupts Alchemist's channeling abilities upon cast.
+A timer above Alchemist's head shows how much time is left before the concoction blows up. This timer is visible to everyone.
+While brewing the concoction, Alchemist has increased movement speed, and he can move around and act freely.
+The increased movement speed buff lasts until the  Unstable Concoction Throw sub-ability is used or the concoction blows up.
+The brewing animation and particles are visible to everyone. The Unstable Concoction buff is hidden.
+The sound can be heard by enemies only when the ability is cast within their vision range.
+The damage starts at 0 and increases by 3.6/4.6/6.2/7.6 ( 11.6/12.6/14.2/15.6) per 0.1 seconds brewed, reaching the full damage in 5 seconds.
+The stun duration starts at 0.25 seconds and increases by 0.029/0.039/0.049/0.059 for each 0.1 seconds brewed, reaching 1.7/2.2/2.7/3.2 in 5 seconds.
+The concoction first applies the damage, then the debuff.
+Unstable Concoction always affects a 350 ( 475) radius around where it explodes, including when it explodes on Alchemist.
+When Alchemist dies while brewing, it instantly blows up, damaging enemy units around Alchemist based on the brewed duration.
+The self-inflicted damage is lethal, it can be used to deny oneself.
+TALENT Both the radius increasing and the maximum damage increasing  talents immediately updates all of Alchemist's currently brewing concoction and all of his currently flying concoction projectiles.
+SPELL STEAL Instantly stun the caster for the total channel duration upon losing the ability.
+MORPH NOTES Does not stun the caster upon losing the ability or while the countdown ends when the  Morph buff expires. Unstable Concoction Throw    Link▶️Link▶️WE
+
+
+
+AbilityTarget Unit
+AffectsEnemy Heroes
+DamagePhysical
+
+Throw it before it blows up!
+
+Cast Animation: 0.2+0.5Cast Range:  775Max Duration: 5.5
+
+
+ 0
+ 0Spell Block / Reflection Notes:Blocked upon impact by all units within the radius individually.Modifiers [?]
+modifier_stunnedStrong
+
+
+Replaces  Unstable Concoction until the sub-ability is used or the concoction blows up.
+The targeting reticule must be centered over an enemy unit.
+The concoction travels at a speed of 900.
+Once thrown, the Unstable Concoction stops brewing.
+Can only be cast on at heroes and illusions.
+Cannot be cast on, but can stun and damage non-hero units within the radius.
+When connecting with an invulnerable or hidden target, it still applies its area effect, hitting nearby units.
+SPELL STEAL Grants  Unstable Concoction if this sub-ability is the last cast ability. Corrosive Weaponry   EG
+
+
+
+AbilityPassive
+AffectsSelf
+
+
+Alchemist coats his weapons with an acid that applies a stacking slow and status resistance reduction to enemies hit. Slow and Status resistance increases when Alchemist is under the effect of Chemical Rage.
+
+Max Stacks: 4/6/8/10Move Speed Slow per Stack: 4%/5%/6%/7%Status Resistance Reduction per Stack: 3%/4%/5%/6%Debuff Duration: 4 Chemical RageMove Speed Slow per Stack: 5.5%/6.5%/7.5%/8.5%Status Resistance Reduction per Stack: 4.5%/5.5%/6.5%/7.5%Modifiers [?]modifier_alchemist_self_corrosive_weaponryDeath
+
+modifier_alchemist_corrosive_weaponry_debuffAny
+
+
+Debuff of successive attacks stack additively and refreshes the duration.
+However, the status resistance reduction stacks multiplicatively with other sources.
+Corrosive Weaponry places following debuffs on targets at max stacks:
+Movement speed reduced by up to 16%/30%/48%/70%.
+Status resistance reduced by up to 12%/24%/40%/60%.
+While  Chemical Rage is active, Corrosive Weaponry places following debuffs on targets at max stacks:
+Movement speed reduced by up to 22%/39%/60%/85%.
+Status resistance reduced by up to 18%/33%/52%/75%.
+Immediately updates all debuff values upon casting Chemical Rage.
+Neither affects buildings nor  Roshan. Greevil's Greed  FF
+
+
+
+AbilityPassive
+AffectsSelf
+
+
+Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next 40 seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield more gold.
+
+Base Gold Bonus: 2Extra Gold Bonus per Stack: 2Gold Bonus Cap: 24Stack Duration: 40Bounty Rune Multiplier: 2.5 Attack Damage Bonus per Stack: 4 Attack Damage Bonus Cap: 48Break Notes:Does not disable the Bounty Rune Multiplier.Disables the stacks gain.Does not disable the Attack Damage Bonus.
+Illusion Notes:Illusions have the buff but the ability is not functional on them.Modifiers [?]modifier_alchemist_goblins_greedDeath
+Ability Draft Notes:
+Aghanim's Scepter Synth is bound to Greevil's Greed.However,  Chemical Rage must be drafted as well for the bonus attack damage and bonus spell amplification component to work.
+While it is not a mountain, Razzil has mastered the conversion of smaller compounds to line his pockets.
+
+
+This is innate to Alchemist and does not need to be learned.
+Greevil's Greed triggers and grants a stack on every last hit Alchemist makes on units that have a death gold bounty, except for buildings, illusions, and the  Tempest Double.
+Denies or last hits from his player-controlled units do not add to the current stack.
+Does not trigger on units that have Reincarnation as well, except for  Wraith King Skeletons.
+All stacks work fully independently from each other. They last 40 seconds each and do not refresh each other.
+The status buff icon shows how much extra Gold  Alchemist gains on his next last hit.
+A second bounty number appears over Alchemist, showing the amount of extra gold earned. This number is only visible to Alchemist.
+TALENT Grants flat bonus attack damage per stack, values displayed on the HUD are rounded up.
+11 last hits is required to reach the gold bonus and bonus attack damage cap within the 40-second stack duration.
+Grants unreliable gold bonus from last hits.
+Grants reliable gold bonus from the  Bounty Rune multiplier.
+Greevil's Greed does not change the gold type granted and only affects the amount of gold granted to Alchemist, regardless of whether the rune is activated by Alchemist, his allies, or from  Store Rune.
+Allies still gain the default team gold value. Berserk Potion Link▶️Link▶️DB
+
+
+
+AbilityTarget Unit
+AffectsAllies
+
+
+Alchemist throws a potion at an ally, applying a basic dispel and giving them attack speed, movement speed and HP regen.
+
+Cast Animation: 0.2+0.63Cast Range:  750Move Speed Bonus: 50Attack Speed Bonus: 50Health Regen Bonus: 65Buff Duration: 15
+
+
+ 30
+ 125Modifiers [?]modifier_alchemist_berserk_potionAny
+Ability Draft Notes:
+Requires drafting  Chemical Rage to be unlocked.
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+Applies a basic dispel on the target ally upon cast.
+↓↓ Double-tapping automatically targets self.
+The projectile travels at a speed of 900.
+Increases Alchemist's total movement speed to 345, and to 375/390/405 ( 425/440/455) when combined with  Chemical Rage.
+Can regenerate up to 975 health over its full duration.
+The projectile can't be dodged by becoming invulnerable or hidden.
+Fully affect ally  Couriers. Chemical Rage Link▶️Link▶️RR
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and health regeneration.
+
+Cast Animation: 0+0Transformation Time: 0.35Base Attack Time: 1.2/1.1/1 ( 1.1/1/0.9)Health Regen Bonus: 50/80/110 ( 100/130/160)Move Speed Bonus: 30/45/60 ( 80/95/110)Corrosive Weaponry Reduction Bonus: 1.5%Rage Duration: 30
+
+
+ 60
+ 50/75/100
+Aghanim's Scepter Upgrade:
+Alchemist melts down Aghanim's Scepter to grant an allied hero all Aghanim's Scepter upgrades. Alchemist will gain bonus damage and spell amplification for each gifted Scepter.
+
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Berserk Potion ability.
+
+Illusion Notes:Illusions created while the ability is active copy the modifier with matching duration.Modifiers [?]modifier_alchemist_chemical_rage_transformDeath
+modifier_alchemist_chemical_rageDeath
+The brew Razzil gave to the Ogre during their prison bust has become a useful potion in the midst of combat.
+
+
+Chemical Rage disjoints projectiles and applies a basic dispel on self upon cast.
+During the transformation, Alchemist is prevented from acting and it cannot be interrupted.
+Grants the following effects while active:
+Increases  Corrosive Weaponry movement speed slow and status resistance reduction values.
+Increases total movement speed to 325/340/355 ( 375/390/405).
+Sets his base attack time to 1.2/1.1/1 ( 1.1/1/0.9).
+Can regenerate up to 1500/2400/3300 ( 3000/3900/4800) health over its full duration.
+Chemical Rage is fully canceled on death.
+Successive casts before the previous cast finishes refresh the duration and update all ability values to the current level. Aghanim's Scepter Synth Link▶️
+
+
+
+AbilityTarget Unit
+AffectsAllied Heroes  / Self
+
+
+Alchemist melts down Aghanim's Scepter to grant an allied hero all Aghanim's Scepter upgrades. Alchemist will gain bonus damage and spell amplification for each gifted Scepter.
+
+Cast Animation: 0+0Cast Range:  600Attack Damage Bonus per Stack: 25Spell Damage Amp per Stack: 5%Illusion Notes:Illusions do not copy the synth buff.Modifiers [?]modifier_item_ultimate_scepter_consumed_alchemistUndispellable
+modifier_alchemist_scepter_bonus_damage (x)Undispellable
+Ability Draft Notes:
+Requires drafting  Greevil's Greed to be unlocked, instead of being innate to Alchemist.However,  Chemical Rage must be drafted as well for the bonus attack damage and bonus spell amplification component to work.
+
+
+
+This is innate to Alchemist, despite  Chemical Rage's in-game ability upgrade tooltip.
+ Aghanim's Scepter has an active ability for Alchemist, allowing him to cast it on ally heroes.
+Treats clones and illusions as creeps.
+↓↓ Double-tapping Aghanim's Scepter in the inventory automatically targets self.
+Once cast, the Scepter is consumed and the target ally passively receives all of  Aghanim's Scepter's upgrades, as well as the item's attributes:
+10  all stats.
+175 health and 175 mana.
+The 4200  net worth of the item transfers from Alchemist to the target hero. Self-casting does not change the net worth.
+Doing so does not change Alchemist's or the target's GPM.
+A hero can only be targeted once by Aghanim's Scepter Synth.
+If the target ally bought Aghanim's Scepter and has it in their inventory or backpack, it gets refunded, removing it and granting them 4200 .
+If the target ally already has  Aghanim's Blessing or  Aghanim's Blessing - Roshan consumed, it gets refunded as well, granting them 5800 .
+It does not matter how the target acquired Aghanim's Blessing, the gold is always refunded to the target ally by Alchemist, except when targeting himself.
+Gold refunded this way is granted as unreliable gold.
+The number of stacks and amount of bonuses gained can be seen on the status buff icon. Grants the following bonuses to Alchemist upon cast on ally heroes:
+Flat bonus attack damage.
+Generic bonus outgoing damage amplification.
+Stacks additively with other sources of generic outgoing damage manipulation.
+Affects only spell damage sourced to Alchemist. Does not amplify damage flagged as HP removal.
+Since up to 4 allies and Alchemist himself can be infused, Alchemist can gain up to 125 attack damage and 25% spell damage amplification bonus.
