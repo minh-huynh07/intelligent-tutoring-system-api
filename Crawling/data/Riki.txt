@@ -1,0 +1,182 @@
+Smoke Screen Link▶️QC
+
+
+
+AbilityTarget Area
+AffectsEnemies
+
+
+Throws down a smoke bomb, silencing enemies. Enemies attacking from the smoke or attacking allies within the smoke have a chance to miss their attacks.
+
+Cast Animation: 0.2+0Cast Range:  550Effect Radius:  425 ( 475)Miss Chance: 30%/45%/60%/75%Duration: 6Aura Linger Duration: 0 Armor Reduction: 5
+
+
+ 20/17/14/11 ( 17/14/11/8)
+ 65/70/75/80
+Aghanim's Shard Upgrade:
+
+Enemies caught in the smoke screen have their armor reduced by 5 and cannot be targeted by their allies.
+
+Debuff Immunity Notes:Does not pierce debuff immunity.Armor reduction does not pierce debuff immunity, but the untargetability does.Modifiers [?]modifier_riki_smoke_screen_thinkerUndispellable
+
+modifier_riki_smoke_screenDeathSince his escape during the night of his betrayal, Riki has valued the use of a simple smoke screen to confuse his opponents.
+
+
+All effects of Smoke Screen are provided by an aura and its debuff lingers for 0 seconds.
+Smoke screen applies both a buff to allies and a debuff to enemies, such that enemies affected by the debuff have a chance to miss attacks regardless of the location of the target, and allies affected by the buff have a chance to evade attacks regardless of the location of the attacker.
+Debuff immunity suppresses the effects of the debuff, but does not prevent missing on targets affected by the buff.
+The buff also grants Riki assists when ally heroes get kills while affected by it.
+Successive casts do not update the current ability values but refresh its duration.
+However, Smoke Screen of different sources works independently of each other.
+Although the debuff lingers, its effects instantly stop if the target turns invulnerable and hidden.
+Blind uses pseudo-random distribution.
+Stacks additively with other blind sources and multiplicatively with evasion sources.
+While channeling  Tricks of the Trade, Smoke Screen has an  instant cast time and does not require facing the target area to cast, as long as the targeted point is within cast range.
+The channeling itself does get interrupted, but the ability continues with its effects.
+In this state, new ⇧ Shift-queue orders cause Tricks of the Trade to get completely canceled.
+However, with ▣ Channeled Abilities Require Hold/Stop enabled, Riki cannot cast Smoke Screen while channeling Tricks of the Trade.
+SHARD Enemies within the Smoke Screen radius are now untargetable and unselectable by their allies. Therefore, affected enemies also cannot be attacked by their allies.
+Does not prevent the affected enemies from self-casting and ↓↓ Double-tapping any abilities.
+Any attack or ability targeting the enemy units from their allies that are already in its attack or cast animation gets canceled.
+Does not remove the affected targets' hitbox.
+Does not prevent Spell Reflection from reflecting abilities back at them.
+Does not disjoint projectiles.
+Certain abilities can bypass unselectability conditionally, while almost every other ability cast by their ally treats the affected enemy targets as if they were invisible. Blink Strike   Link▶️WB
+
+
+
+AbilityTarget Unit
+AffectsSelf  / Enemies
+DamageMagical  /  Instant Attack
+
+Teleports behind the target unit, momentarily slowing them and striking for bonus damage if it is an enemy.
+
+Cast Animation: 0.3+0Cast Range:  600/700/800/900Self Attack Animation Bonus: 50%Damage: 40/55/70/85Enemy Move Speed Slow: 100%Slow Duration: 0.4
+
+ 25/21/17/13 ( 21/17/13/9)
+N 2
+
+ 0.1
+ 50/55/60/65Spell Block / Reflection Notes:When reflected, the caster first blinks next to the target, then the target blinks next to the caster.Modifiers [?]modifier_riki_blinkstrikeDeath
+
+modifier_riki_blinkstrike_slowAnyThe Stealth Assassin's agile movement makes him impossible to escape.
+
+
+Riki gets all 2 charges immediately upon learning Blink Strike.
+Blink Strike always teleports Riki behind the target.
+Does not disjoint projectiles upon teleporting.
+Can be cast on allies without damaging them.
+Although it does not break  Cloak and Dagger's invisibility, the ability effects can be seen by enemies.
+When cast on an enemy target, Blink Strike first applies the slow debuff, the bonus magical damage, then the instant attack.
+The bonus damage is applied instantly as spell damage in a separate damage instance, it is affected by spell damage amplification and works with spell lifesteal.
+The instant attack can proc any attack modifiers and on-hit effects normally, with cleave being an exception. They do not have True Strike, but completely ignore disarms.
+The instant attack of Blink Strike breaks Cloak and Dagger's invisibility.
+The hidden buff upon the instant attack grants the following effects:
+The instant attack also applies an ensured  Cloak and Dagger backstab hit based on its current level, regardless of the target's facing angle, even when the target manages to turn around before Riki's attack hits.
+Cloak and Dagger damage notes fully apply. If it is not learned, the backstab damage is not applied.
+Reduces the attack point of the next attack to 0.15+0.3.
+The buff does not reduce the attack backswing of the next attack.
+The hidden buff lasts for 1 attack, or for up to 1 second, whichever happens first.
+The buff is used up upon Riki's attack point, not upon landing the attack, so canceling or missing the attack wastes it.
+Since the buff has a duration, the ensured backstab damage may be dealt to other units than the Blink Strike target.
+Cannot be cast on invulnerable and hidden units, buildings,  Couriers and wards.
+ Counterspell does not reflect Blink Strike. However, it is still blocked.
+Blink Strike has a 0.1-second cooldown to prevent accidental double-casts on the same target.
+SOULBIND Only instant attack the secondary target. Other ability effects are applied to both the primary and secondary target,  Riki appears behind the primary target. Tricks of the Trade Link▶️ET
+
+
+
+AbilityTarget Area ( Target Unit) / Channeled
+AffectsSelf  / Enemies
+Damage Instant Attack
+
+Riki phases out of the world while striking random enemy units from behind in an area around him.
+
+Cast Animation: 0.3+0Cast Range:  400 ( 700)Max Channel Time: 2Radius:  450Attack Targets: 1 ( 2)Attack Count: 4 ( 5)Self Agility Bonus: 70%/80%/90%/100% ( 100%/110%/120%/130%)Instant Attack Damage: 40%
+
+
+ 18/16/14/12 ( 15/13/11/9)
+ 45/55/65/75
+Aghanim's Scepter Upgrade:
+Increases cast range, number of attacks and allows you to target an allied hero, hiding inside them for the duration. Each attack hits an additional target.
+
+Root Notes:Cannot be cast while rooted or leashed.Can be cast while rooted or leashed.Modifiers [?]modifier_riki_tricks_of_the_trade_phaseDeath
+Ability Draft Notes:
+ Cloak and Dagger must be drafted as well for it to get applied.
+The Stealth Assassin is not afraid to fight dirty, and specializes in attacking his opponents from behind.
+
+
+Tricks of the Trade applies a basic dispel and disjoints projectiles upon cast.
+Certain items abilities which do not cancel channeling (e.g.  Shadow Walk or  Arctic Blast) do cancel Tricks of the Trade.
+While channeling,  Smoke Screen has an  instant cast time and does not require facing the target area to cast, as long as the targeted point is within cast range.
+The channeling itself does get interrupted, but the ability continues with its effects.
+In this state, new ⇧ Shift-queue orders cause Tricks of the Trade to get completely canceled.
+However, with ▣ Channeled Abilities Require Hold/Stop enabled, Riki cannot cast Smoke Screen while channeling Tricks of the Trade.
+Riki is phased, invulnerable and hidden during Tricks of the Trade.
+Causes Riki to perform instant attacks on 1 ( 2) enemies within range in 0.67 ( 0.5)-second intervals, starting immediately upon cast, resulting in 4 ( 5) instances.
+These instant attacks can proc any attack modifiers and on-hit effects normally. They do not have True Strike, but completely ignore disarms.
+Since the damage comes from a regular attack, it counts as attack damage and not as spell damage.
+Fully affect enemy  Couriers.
+This means it is affected by damage block, unaffected by spell damage amplification, and cannot spell lifesteal.
+Tricks of the Trade first checks Riki's total  agility and grants the agility bonus, and then reduces his main and bonus attack damage.
+This can be defined as expr (29 + ΣAgi × 1.7/1.8/1.9/2 ( 2/2.1/2.2/2.3) + BonusAtk) × 40%
+The agility bonus lasts as long as the channel time, and only the ability can use it.
+Does not reduce conditional attack damage bonuses (e.g.  Pierce or  Shadow Walk).
+Stacks additively with other total attack damage reduction sources.
+TALENT The agility bonus increasing  talent does not update the current active instance.
+During Tricks of the Trade,  Cloak and Dagger based on the current level triggers on every attack, regardless of the enemy's facing angle.
+Cloak and Dagger damage notes fully apply. If it is not learned, the backstab damage is not applied.
+The instant attacks do not break  Disguise and Cloak and Dagger's invisibility, although Cloak and Dagger visually go on cooldown.
+Does not affect invisible units, but does affect units inside the Fog of War.
+The visual effects indicating Tricks of the Trade's attack radius are visible to both allies and enemies.
+The attack radius is always centered on Riki and follows him even when he gets moved (e.g. with  Glimpse).
+However, a part of the radius indicating visual effects on the ground does not follow Riki, and stays at the cast location.
+Riki reappears at the center of the ability after the max channel time.
+↓↓ Double-tapping automatically moves Riki to the targeted location within the cast range.
+SCEPTER Trick of the Trade now attacks 2 enemies at once, resulting in up to 10 attacks over the same intervals and duration.
+Can be cast on an allied hero, including illusions and clones, excluding creep-heroes.
+Fully ignore ally  Couriers.
+Riki and all of Tricks of the Trade's effects are centered around and follow the allied hero. Riki still remains hidden.
+The ability does not end when the target dies and continues at its corpse's location. It is still bound to the ally, so when it reincarnates, it follows it still. Cloak and Dagger  Link▶️RE
+
+
+
+AbilityPassive
+AffectsSelf  / Enemies
+DamagePhysical
+
+Riki fades into the shadows, becoming invisible. Every time Riki strikes his enemy from behind, he deals bonus damage based on his Agility. When Riki attacks, he becomes visible. Grants bonus experience for hero kills and assists.
+
+Fade Delay: 4/3/2Back Angle: 105°Hero Damage per Agility: 0.8/1.2/1.6 ( 1.1/1.5/1.9)Creep Damage Multiplier: 2Kill Experience Bonus: 150/250/350Assist Experience Bonus: 100 Move Speed Bonus: 8%Break Notes:Immediately disables invisibility despite the buff being only dispellable by Death.Disables the experience bonus per kill and assist component.
+Illusion Notes:Invisibility is fully functional.Triggers the ability sound effects, but does not apply the conditional attack damage bonus.Modifiers [?]modifier_riki_backstabUndispellable
+modifier_invisibleDeath
+Riki comes for you.
+
+     Cloak and Dagger's angle visualized. The red represents a valid angle for backstab, the green represents the front.  
+Applies the invisibility instantly when Riki respawns or during Reincarnation.
+Does not grant phased movement.
+The fade delay is shown visually as the ability's cooldown whenever the invisibility is broken, it is neither affected by cooldown reduction nor cooldown reset sources.
+Although both  Time Dilation and  Chakra Magic affect the cooldown visually, it does not interact with the fade delay in any way.
+Attacking breaks the invisibility and either reset the fade delay or the fade delay takes effect.
+As long as Cloak and Dagger is not affected by Break, Riki will keep turning invisible.
+Grants the following effects while fully invisible:
+No longer auto-attack enemies.
+Can turn, pick up, drop or use items without breaking the invisibility.
+Can cast abilities without breaking the invisibility.
+Grants  self movement speed bonus.
+Invisibility sources with fade delays use the same modifier and do not stack with other invisibility sources of the same type — Cloak and Dagger will always override the shorter one.
+Backstab damage is also applied when attacking and denying allies.
+Fully affect enemy  Couriers.
+Does not affect  Tormentors.
+Treats illusions and creep-heroes as heroes.
+Backstab damage is considered as a conditional attack damage bonus.
+Although the attack damage bonus values are not displayed in the HUD, it is still considered and directly added to Riki's attack damage.
+The attack damage bonus is considered by lifesteal, crit, and cleave, and it can be reduced only by flat reductions (e.g. damage block).
+Since it is considered bonus attack damage, it is not affected by percentage-based attack damage bonuses or reductions.
+During  Tricks of the Trade, the  agility bonus effectively increases Cloak and Dagger damage per agility to the following values:
+LEVEL 1 1.36/1.44/1.52/1.6 ( 1.87/1.98/2.09/2.2) damage per agility.
+LEVEL 2 2.04/2.16/2.28/2.4 ( 2.55/2.7/2.85/3) damage per agility.
+LEVEL 3 2.72/2.88/3.04/3.2 ( 3.23/3.42/3.61/3.8) damage per agility.
+
+The sound effect plays at the start of the attack, but the damage is applied on the attack hit.
+Grants flat experience bonuses for both hero kills and hero assists.

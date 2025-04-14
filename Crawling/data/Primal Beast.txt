@@ -1,0 +1,259 @@
+Onslaught  Link▶️Link▶️QG
+
+
+
+AbilityTarget Point
+AffectsEnemies  / Allies
+DamagePhysical
+
+Primal Beast charges up and then runs in the chosen direction, knocking back enemies and allies alike. Enemy units are damaged and stunned on impact. The longer the charge duration, the farther Primal Beast's momentum will carry him.Can be cancelled at any time with the Stop command.
+
+Cast Animation: 0+0Cast Range: GlobalMin Charge Distance: 100Max Charge Distance: 2000Effect Radius:  190Damage: 90/180/270/360 ( 180/270/360/450)Knockback Distance:  200Knockback Duration: 0.2Turn Rate During Charge: 50°Max Charge Duration: 1.7Stun Duration: 0.8/1/1.2/1.4
+
+
+ 25/22/19/16
+ 120Debuff Immunity Notes:The forced movement is instantly canceled.Root Notes:Cannot be cast while rooted or leashed.Getting rooted while charging up cancels the ability, getting leashed does not cancel it.Getting rooted or leashed while running stops the movement, but not the other effects. The movement may resume once the root expires.Modifiers [?]modifier_prevent_tauntsDeath
+modifier_primal_beast_onslaught_windupDeath
+modifier_primal_beast_onslaught_movement_adjustableAny
+modifier_primal_beast_onslaught_knockbackDeath
+
+modifier_primal_beast_onslaught_knockbackDeath
+modifier_stunnedStrongThe Beast's single-minded focus on chosen prey leaves all other considerations scattered in his ruinous wake.
+
+
+Primal Beast is disarmed during Onslaught. Attack orders behave like move orders ( Right Click or M) while disarmed, causing them to change the direction as well.
+Moves Primal Beast forward at a speed of 1200. This affects the following things while charging:
+Primal Beast does not need to turn in order to cast targeted abilities or items.
+Can charge through impassable terrain.
+During the wind-up, Onslaught is canceled in the following conditions:
+Either by stun, hex, sleep, fear, taunt sources, or is affected by other forced movement sources.
+When Primal Beast turns invulnerable or hidden, or upon death.
+Silence does not cancel the wind-up, but prevents using the  Begin Onslaught sub-ability to start the charge early.
+However, the charge can still be started early with the previously mentioned orders.
+Stun, taunt and hex sources do not cancel the charge but prevent Primal Beast from changing directions.
+Additionally, stun pauses Onslaught's charge, and Primal Beast continues charging once the stun duration expires.
+While charging, Onslaught can be canceled in the following conditions:
+When Primal Beast is given any targeted order that interrupts channeling abilities, including Hold (H) and Stop (S) commands.
+If Primal Beast gets slept, feared, or is affected by other forced movement sources.
+When channeling  Teleport.
+The max charge distance cannot be increased with cast range bonuses.
+For better readability, the turn rate is given as degrees per second, instead of radians per 0.03 seconds.
+During the charge, 50° degrees per second equals 0.87 radians, which is a turn rate of 0.029.
+Every enemy (except  Roshan) coming within 190 range of Primal Beast while charging gets damaged, knocked back, and stunned.
+Allies are only knocked back. Does not interrupt allied channeling abilities.
+Units are knocked 200 range away from Primal Beast over 0.2 seconds. Can knock units over impassable terrain.
+Onslaught first applies the damage, then the knockback, and then the stun.
+The damage is applied as spell damage, it is affected by spell damage amplification and works with spell lifesteal.
+Destroys trees within 100 radius around Primal Beast while charging, and around units during the knockback. Begin Onslaught QG
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Begins the rush to the specified location.
+
+Cast Animation:  0+0Max Windup Time: 2.2Turn Rate During Windup: 70°
+
+
+ 0.3
+ 0
+
+
+Replaces  Onslaught until the sub-ability is used or the wind-up ends.
+For better readability, the turn rate is given as degrees per second, instead of radians per 0.03 seconds.
+70° degrees per second equals 1.22 radians, which is a turn rate of 0.041.
+The sub-ability can be used while Primal Beast is disabled, or while being affected by forced movement sources.
+However, it cannot be used while being affected by silence and hex sources, or when prevented from acting.
+Primal Beast is unable to ⇧ Shift-queue this ability.
+The direction can be changed with a move order ( Right Click or M).
+A line indicator with a width of 2000 is cast in front of Primal Beast while winding up, showing the path Primal Beast will take.
+The line's length extends the longer Onslaught is wound up, indicating the charge distance based on the wind-up time.
+The indicator is visible to the player only. Neither allies nor enemies can see it.
+During the wind-up, if Primal Beast is given any order that cancels channeling abilities, the wind-up ends and the charge begins.
+This means non-targeted abilities that do not interrupt channeling (e.g.  Shadow Walk) do not end the wind-up.
+If ended by a targeted order, the order may get executed while charging if the target comes within range, considering no other orders are given while charging.
+Goes into a 0.3-second cooldown right after Onslaught is cast, this is to prevent accidental double-casts prematurely ending the wind-up. Trample Link▶️WT
+
+
+
+AbilityNo Target
+AffectsEnemies  / Self
+DamagePhysical
+
+Primal Beast stomps over everything. For every 140 units traveled, all enemies around the Beast receive damage. Deals base damage plus a multiplier of Primal Beast's attack damage. Primal Beast is disarmed for the duration of the ability.
+
+Cast Animation:  0+0Radius:  230Distance Required per Stomp: 140Distance Cap: 500Base Damage: 15/30/45/60Attack Damage as Damage: 35% ( 55%)Duration: 5.5 Magic Resistance Bonus: 25% Slow Immunity Duration: 5.5
+
+
+ 30/27/24/21 ( 25/22/19/16)
+ 90Modifiers [?]modifier_prevent_tauntsDeath
+
+modifier_primal_beast_trampleDeathAs the only member of his species to arrive on this world, locals can only speculate on the Beast's size relative to his kin. Such observation would prove easier of course if the subject didn't eat everything it sees and destroy most of what it doesn't.
+
+
+Does not interrupt Primal Beast's channeling abilities upon cast.
+Primal Beast is disarmed for the duration.
+TALENT Increases Primal Beast's magic resistance to 43.75% while active.
+Stacks multiplicatively with other sources of magic resistance.
+Immediately stomps once upon cast, without requiring to move.
+This only happens upon receiving the buff, refreshing the buff does not cause another immediate stomp.
+Trample releases a single pulse when Primal Beast collectively moves a distance of 140 on the x and y-axis.
+This includes forced movement sources and teleporting effects, including Blink-based abilities as well.
+Does not release pulses upon being moved by  Force Staff and  Hurricane Pike.
+Teleporting effects may only add up to 140 range to the distance counter, no matter how far the actual teleported distance was.
+This means teleporting a distance of 280 still results in one stomp, and not multiple times based on the entire distance.
+When Primal Beast moves or teleport a distance greater than 500 within 0.1 seconds, it does not stomp.
+Considering default movement speed of 310, Trample can stomp up to 2.21 times per second.
+For how many stomps per second Primal Beast can perform at varying movement speed values, please refer to the chart below.
+Does not perform instant attacks. Trample deals regular spell damage within the area.
+This means they do not trigger any attack modifier or on-hit effects, and ignore evasion.
+Only flat bonus attack damage sources from Primal Beast can increase the damage dealt.
+Other attack damage bonus sources (e.g.  Sidekick or percentages bonuses) are not considered.
+The attack damage as damage value is not capped at 0 attack damage, meaning if Primal Beast has negative attack damage, Trample deals 0 damage per stomp.
+The average damage dealt can be defined as expr 15/30/45/60 + Self(MainAtk + BonusAtk) × 35% ( 55%)
+This means it is affected by outgoing spell damage amplification and can spell lifesteal.
+Destroys trees around Primal Beast while active.
+TALENT Sets Primal Beast's current movement speed as its base movement speed for the buff duration.
+Fully overrides any flat or percentage-based movement speed reductions on Primal Beast, from items and abilities alike.
+Does not work against roots sources, trapping barriers and other set movement speed effects. Uproar   Link▶️Link▶️Link▶️Link▶️ER
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+Damage Physical
+
+The Beast's temper passively provides bonus damage. Additionally, for every instance of 50 damage or more Primal Beast takes from enemy heroes, he accumulates stacks of Uproar.When activated, Primal Beast releases a roar that slows surrounding enemies and grants the Beast additional attack damage and armor for 7 seconds based on his current stacks of Uproar.
+
+Passive ComponentBase Attack Damage Bonus: 5/10/15/20Max Stacks: 5Stack Gain Damage Threshold: 50Cast Animation:  0+0Roar Radius:  900Roar Attack Damage Bonus per Stack: 10/20/30/40Roar Armor Bonus per Stack: 2/3/4/5 ( 9/10/11/12)Roar Move Speed Slow per Stack: 8%Roar Slow Duration: 3Roar Buff Duration: 7Stacks Duration: 20 Number of Waves: 3 Wave Projectiles per Stack: 2 Damage per Line: 100 Wave Split Delay: 1.25 Break Duration on Hit: 2.5
+
+
+ 0
+ 0
+Aghanim's Scepter Upgrade:
+When Primal Beast activates Uproar, he releases 3 waves of 2 projectiles per stack of uproar each in a circle around him. Projectiles deal damage and Break enemies hit. After a short delay, each projectile splinters in two.
+
+Break Notes:Prevents gaining new stacks.If Break is applied by an attack, Uproar does not gain a stack from that attack either.Does not disable the passive attack damage bonus.
+Illusion Notes:Illusions cannot gain stacks.Illusions do not benefit from the flat attack damage bonus.Modifiers [?]modifier_primal_beast_uproarUndispellable
+modifier_primal_beast_roared_selfAny
+
+modifier_primal_beast_uproar_slowAny
+modifier_breakAnyAlready draped in a broken patchwork of barding and chains upon appearing in the mistwoods, the Beast tolerates no further attempts at subjugation.
+
+ Uproar statuses:0 stacks1 to 4 stacksMax stacks
+      Uproar damaging line shows in left. The right is a single damaging line size.  
+Passively grants flat bonus attack damage.
+Uproar passively gains a stack when Primal Beast collectively takes 50 damage (after all reductions).
+Counts player-based damage values of all 3 damage types between 20 – 2000 that is dealt to Primal Beast.
+The damage counter does not count damage flagged as HP Removal (e.g.  Dispersion).
+The damage counter and all stacks reset if no damage has been taken in the last 20 seconds.
+Any exceeding damage is completely ignored, this means if an enemy deals an instance of 100 damage, it gains only one stack.
+Gaining a new stack refreshes the duration of already existing stacks.
+Does not gain any stacks while on cooldown.
+Treats  Roshan-based damage as creep-based damage.
+The passive buff is always present but is hidden when having no stacks.
+The ability icon changes at 0 stacks, 1 – 4 stacks, and at 5 stacks.
+Also plays a sound effect when reaching 5 stacks, audible to the player only.
+A number on the icon shows how many stacks Primal Beast currently has.
+Uproar cannot be cast while having no stacks.
+Uproar does not interrupt Primal Beast's channeling abilities upon cast.
+When cast, goes on a 7-second cooldown. The cooldown timer on the ability icon is displayed in red.
+This cooldown is not affected by any cooldown reduction and cooldown reset sources, however, it is affected by  Time Dilation.
+Although the buff upon cast is dispellable, doing so does not affect the cooldown.
+Grants Primal Beast flat bonus attack damage, bonus armor and a basic dispel upon cast.
+Grants Primal Beast 50/100/150/200 attack damage and 10/15/20/25 ( 45/50/55/60) armor at max stacks.
+Slows enemy movement speed by 40% at max stacks.
+For how much attack damage and armor Primal Beast gains and enemies are slowed per stack, please refer to the chart below.
+The slow debuff on enemies has a number visible on it, showing them how many stacks Primal Beast had upon cast.
+However, the buff on Primal Beast does not have a number on it.
+SCEPTER Uproar releases 3 waves of damaging lines upon cast.
+Creates a damaging line on every 180°th/90°th/60°th/45°th/36°th based the number of Uproar stacks.
+The distance between the damaging lines is always even, and is centered on and follows Primal Beast for the full duration. Lines are also created upon Primal Beast's death location.
+The area of every single damaging line is shaped like a cone. Upon cast, a total of 2 lines are released towards the east and the west of Primal Beast, and the others adapt accordingly.
+SCEPTER The damaging lines travel at a speed of 500 and has an effect width of 75.
+After travelling for 625 distance in 1.25 seconds, the initial damaging line splints from one to two with a 30° angle.
+The newly splintered lines use the same travel distance and travel speed and do not further splinter.
+Although the total effect radius is 1400, units within certain cone areas might not be damaged.
+Each damaging line cannot hit the same unit more than once per cast upon expanding.
+Splintered lines are considered as new lines, and reapplies the damage if the unit is hit by the newly splintered lines, following the same notes as above.
+The lines first deal damage, then apply Break on the affected unit. Rock Throw Link▶️Link▶️Link▶️Link▶️DW
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamagePhysical
+
+Primal Beast throws a rock at the target location that stuns and damages enemies. The rock cannot be thrown within a minimum range of Primal Beast. After landing, the throck splits into 3 additional fragments that land behind the initial target location.
+
+Cast Animation: 0.5+0.5Cast Range:  1800 Min Distance: 550Initial Impact Radius:  225Fragment Impact Radius:  185Number of Fragments: 3Fragment Effect Delay: 0.5Damage: 325Stun Duration: 1.4 UproarStack per Hero Hit: 1
+
+
+ 25
+ 85Modifiers [?]
+modifier_stunnedStrongAbility Draft Notes:
+Requires drafting  Pulverize to be unlocked.
+AGAIN WITH THE ROCKS!
+
+     Initial impact and fragments impact visualized.  
+Requires  Aghanim's Shard to be unlocked.
+The projectile has a min and max travel time of 0.45 – 1.5 seconds respectively, and no set projectile speed.
+This means at min distance and default max cast range, it has a travel speed of 1222.22 - 1200 respectively.
+Upon selecting the ability, a red circle appears around Primal Beast, indicating the minimum distance.
+The min distance is not affected by cast range bonuses.
+Upon initial projectile impact, another 3 red circles appear 525 distance behind the initial impact radius, indicating the fragment impact radius that will happen in 0.5 seconds later.
+The initial impact radius and fragment impact radius indicator can only be seen by allies.
+Grants 1  Uproar stack per hit hero.
+Treat clones, illusions and creep-heroes as heroes.
+As long as Rock Throw hit heroes stun actually, Primal Beast will gain stack regardless the distance, damage value.
+Therefore, debuff immunity enemies will grant stack, but invlunerable enemies can not.
+Rock Throw first applies the damage, the debuff, then the self Uproar buff.
+Rock Throw deals regular spell damage, it is affected by spell damage amplification and works with spell lifesteal. Pulverize  Link▶️Link▶️RV
+
+
+
+AbilityTarget Unit  / Channeled
+AffectsEnemies
+DamagePhysical
+
+Primal Beast channels his rage, grabbing the target enemy and slamming them into the ground repeatedly, damaging and mini-stunning any enemies caught in the AoE. Each consecutive hit deals bonus damage. Lasts 2.3 seconds.
+
+Cast Animation: 0.25+0Cast Range:  200Slam Radius:  600Max Channel Time: 2.3 ( 3.841)Slam Interval: 0.75Damage: 125/175/225Damage Increment per Slam: 20/40/60Slam Stun Duration: 0.2
+
+
+ 40/36/32
+ 100
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Rock Throw ability.
+
+Modifiers [?]modifier_prevent_tauntsDeath
+
+modifier_primal_beast_pulverize_selfDeath
+modifier_primal_beast_pulverizeStrong
+modifier_stunnedStrongThough none are certain whether his utterances have true meaning, most concede the Beast's powerful grip and tendency to smash his enemies into naught but pulp and pieces communicates his intent well enough.
+
+
+The targeting reticule must be centered over an enemy unit.
+Fully disables the target as long as it is channeled.
+Exposes the target, revealing their model through the Fog of War for its duration. Does not provide True Sight over them.
+Teleports the target 200 distance in front of Primal Beast upon cast.
+Does not teleport  Roshan upon cast, but teleports him once the channeling stops in any way.
+Slams the target in 0.75-second intervals, starting 0.75 seconds after cast, resulting in up to 3 ( 5) instances.
+Can deal up to the following damage per slam (before reductions) to the target and enemies within the radius:
+LEVEL 1 125/145/165/185/205
+LEVEL 2 175/215/255/295/335
+LEVEL 3 225/285/345/405/465
+
+Can deal a total of 435/645/855 ( 825/1275/1725) damage for its entire duration.
+Pulverize first applies the damage, then the stun.
+Pulverize is not affected by status resistance sources.
+During Pulverize, the target cannot be affected by any forced movement sources.
+Pulverize ends immediately if the target gets teleported or is affected by fear, or when Primal Beast is being moved more than 200 distance.
+It also ends if  Pounce or  Soulbind expire on the target during Pulverize.
+When cast on  Roshan, Primal Beast does not slam him into the ground but instead throws punches at him.
+This animation difference only has cosmetic purposes, the ability still applies all its effects normally.
+Uses a different and louder sound effect when cast on heroes.
+SOULBIND Only slams the primary target. The secondary target is teleported next to the primary target when the duration ends.

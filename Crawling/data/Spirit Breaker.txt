@@ -1,0 +1,215 @@
+Charge of Darkness   Link▶️Link▶️Link▶️QC
+
+
+
+AbilityTarget Unit
+AffectsSelf  / Enemies
+
+
+Spirit Breaker fixes his sight on an enemy unit and starts charging through all objects. All enemy units passed through and the targeted unit will be hit by a Greater Bash. If the targeted unit dies, Spirit Breaker will change his target to the nearest enemy unit to that location.
+
+Cast Animation: 0.1+0.5Cast Range: GlobalGreater Bash Radius:  300Charge Speed Bonus: 275/325/375/425Stun Duration: 1.2/1.5/1.8/2.1
+
+
+ 22/19/16/13
+ 90 / 100 / 110 / 120
+Aghanim's Scepter Upgrade:
+Reduces Charge of Darkness cooldown and makes it pierce debuff immunity.
+
+Debuff Immunity Notes:Exposure and shared vision pierce debuff immunity.Despite the tooltip, Aghanim's Scepter does not make Charge of Darkness stun pierce debuff immunity but allows to target debuff immune target.Spell Block / Reflection Notes:Blocked fully upon cast only when primary target.If already charging, the impact stun is not blocked.Modifiers [?]modifier_spirit_breaker_charge_of_darknessDeath
+modifier_spirit_breaker_charge_of_darkness_targetDeath
+modifier_spirit_breaker_special_attackDeath
+
+modifier_spirit_breaker_charge_of_darkness_visionDeath
+modifier_stunnedStrongAbility Draft Notes:
+ Greater Bash must be drafted as well for it to get applied.
+Barathrum erupts from the darkness with unwieldy force.
+
+     Charge of Darkness visual indicator above the target.  
+Increases Spirit Breaker's total movement speed to  and removes the 550 movement speed cap.
+This means the charge speed bonus affects the damage of  Greater Bash.
+The charge speed is based on Spirit Breaker's current movement speed, checking his movement speed periodically and adapting immediately.
+Goes on cooldown once the charge ends or is canceled, not upon cast.
+The player can manually end the charge by giving the hero a stop (S), hold position (H), or any targeted order.
+Other non-targeted abilities do not cancel it, even if they have a cast time.
+The charge is canceled upon getting stunned, cycloned, hexed, rooted, slept, hidden, feared, hypnotized or by Forced Movement.
+It is not canceled by taunts. Instead, Spirit Breaker starts attacking the taunting unit once the charge stops.
+Charge of Darkness cannot be manually canceled during taunts.
+Spirit Breaker is unable to ⇧ Shift-queue orders with Charge of Darkness since it is not a channeling ability.
+⇧ Shift-queue orders cancels the ability, with the exception of shift-queued Patrol commands.
+However, when Charge of Darkness ends, Spirit Breaker is issued an attack order which overwrites shift-queue orders.
+When auto-attack is set to ◎ Always, Spirit Breaker can automatically attack units within attack range, without canceling the charge.
+During Charge of Darkness, Spirit Breaker has phased and unobstructed movement.
+Both the charge indicator above the target, as well as the target buff on the caster are visible to allies only.
+Alt+ Left Click the status buff announces in the team chat which hero is being charged.
+Charge of darkness doesn't grant caster vision to the target.
+Any unit which comes within 300 radius of Spirit Breaker during the charge gets hit by  Greater Bash based on its current level.
+Does not affect  Couriers.
+Greater Bash notes fully apply. If it is not leveled, the bash does not occur.
+A unit may only be bashed once per cast. If an enemy unit enters the radius a second time, they do not get bashed again.
+The bash radius is offset by 20 units in front of him, so it can hit units 280 range behind and 320 range in front of him.
+The primary target is bashed upon the charge reaching it, not upon coming within range of the bash radius.
+A hidden buff is placed upon reaching the target and lasts for 0.1 seconds. The buff is responsible for the Greater Bash proc.
+For situations when two targets are charging toward each other, the latter target that casts Charge of Darkness will apply all its ability effects, following the same notes as above.
+For how much damage  Greater Bash gains from Charge of Darkness' speed bonus, please refer to the chart below.
+If the target dies during the charge, it is transferred to the nearest valid target within 4000 range of the previous target.
+Untargetable units of  Book of Shadows and  Shadow Realm are valid targets.
+However, it does not change the target to invisible units.
+The charge exposes the target, revealing their silhouette when they become invisible.
+Also provides shared vision over the target, seeing what they see.
+Shared vision does not work against neutral creeps.
+Destroys trees within 150 radius around Spirit Breaker whenever the charge ends.
+SCEPTER Can be cast on enemy  Couriers.
+SPELL STEAL  Greater Bash applied is based on  Spirit Breaker's current ability level when acquired.
+SOULBIND Charges only to the primary target. Charges to the secondary target only when the ability is blocked on the primary target. Bulldoze Link▶️WD
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Spirit Breaker gains movement speed and status resistance to ram through enemies. Can be used while charging.
+
+Cast Animation:  0+0Move Speed Bonus: 10%/15%/20%/25%Status Resistance Bonus: 40%/50%/60%/70%Duration: 8 Damage Barrier:  400
+
+
+ 22/20/18/16 ( 19/17/15/13)
+ 30/40/50/60Modifiers [?]modifier_spirit_breaker_bulldozeAny
+Barathrum warps the fabric of reality around him, lessening its influence on his physical form.
+
+
+Interrupts Spirit Breaker's channeling abilities upon cast.
+Stacks multiplicatively with other status resistance sources.
+TALENT Grants Spirit Breaker a  universal damage barrier upon cast that absorbs damage values of all damage types (after all reductions), causing several on-damage effects to not trigger within its capacity.
+Stacks additively with the same damage-type barrier sources, and independently with other damage-type barrier sources.
+Universal damage barrier has the lowest priority in the group of damage barriers, its capacity is depleted last when combined with other damage-type barriers.
+However, when combined with other higher-priority damage-negating sources (e.g.  Refraction), Bulldoze does not absorb any damage until the damage-negation sources expire.
+Learning the  talent does not update the current active instance. Greater Bash   Link▶️Link▶️ET
+
+
+
+AbilityPassive
+AffectsEnemies
+DamageMagical
+
+Gives a chance to stun and knockback an enemy unit on an attack. Deals a percentage of movement speed as damage. Deals 1.3x damage to creeps.
+
+Proc Chance: 17% ( 34%)Move Speed as Damage: 25%/30%/35%/40% ( 50%/55%/60%/65%)Creep Damage Multiplier: 1.3Knockback Distance: 143/152/158/162Knockback Duration: 0.5Stun Duration: 0.9/1.1/1.3/1.5
+
+
+ 1.2
+Break Notes:Prevents from proccing on attacks.Does not prevent Spirit Breaker's abilities from triggering Greater Bash.
+Modifiers [?]modifier_spirit_breaker_greater_bashUndispellable
+
+modifier_knockbackStrongAbility Draft Notes:
+Fully stacks with the bash from  Skull Basher and  Abyssal Blade.
+The signature strike of Barathrum's ghostly ball and chain.
+
+
+Does not stack with other bashes.
+The bash from  Skull Basher and  Abyssal Blade is innately disabled for Spirit Breaker, even if Greater Bash isn't leveled up.
+Does not go on cooldown when proccing from  Charge of Darkness or  Nether Strike.
+Greater Bash first applies the debuff, then the damage, no matter whether it procs on attacks, or is applied by Spirit Breaker's abilities.
+The bash effects happen before the attack damage of the attack that procs it, and before Nether Strike's damage.
+Bashed units are knocked back at a speed of 286/304/316/324.
+Also knocks affected enemies 50 units upwards, resulting in a small arc. This has only visual purposes.
+Destroys trees within 100 radius enemies come in contact with during the knockback.
+Deals 32.5%/39%/45.5%/52% ( 65%/71.5%/78%/84.5%) of current movement speed as damage to non-hero units. Treats creep-heroes as heroes.
+For how much damage Greater Bash deals at various amounts of movement speeds, please refer to the chart below.
+The bonus damage is applied as spell damage in a separate damage instance, it is affected by spell damage amplification and works with spell lifesteal.
+Can proc on  Roshan, putting it on cooldown and applying the damage, but Roshan is neither knocked back nor stunned.
+Does not work against wards, buildings, and allied units.
+Fully affects enemy  Couriers.
+Adds an average of 4.25%/5.1%/5.95%/6.8% (or 5.53%/6.63%/7.74%/8.84% against non-hero units) of current movement speed as damage to every attack.
+TALENT With the proc chance increasing  talent, it adds an average of 8.5%/9.35%/10.2%/11.05% (or 11.05%/12.16%/13.26%/14.37% against non-hero units) damage.
+With the damage increasing  talent, it adds an average of 8.5%/10.2%/11.9%/13.6% (or 11.05%/13.26%/15.47%/17.68% against non-hero units) damage.
+With both  talents, it adds an average of 17%/18.7%/20.4%/22.1% (or 22.1%/24.31%/26.52%/28.73% against non-hero units) damage.
+Greater Bash uses pseudo-random distribution. Planar Pocket Link▶️Link▶️DP
+
+
+
+AbilityNo Target
+AffectsAllied Heroes  / Self
+
+
+Barathrum distorts the fabric of planar space, increasing his own magic resistance and redirecting the first targeted enemy hero spell in a radius towards him.
+
+Cast Animation: 0+0.5Radius:  900Abilities Redirected: All Enemy Hero SpellsMagic Resistance Bonus: 75%Duration: 6Aura Linger Duration: 0.5
+
+
+ 20
+ 75Modifiers [?]modifier_spirit_breaker_planar_pocketUndispellable
+modifier_spirit_breaker_planar_pocket_auraUndispellable
+Ability Draft Notes:
+Requires drafting  Nether Strike to be unlocked.
+Barathrum's unyielding focus forms a pocket of planar convergence from which not even the most powerful arcane energies can escape.
+
+
+Requires  Aghanim's Scepter to be unlocked.
+Stacks multiplicatively with other magic resistance sources.
+Increases Spirit Breaker's total magic resistance to 81.25% and a flat 0.675% per 10 points of  intelligence.
+Planar Pocket is an aura, it affects all ally heroes within its radius except for Spirit Breaker.
+Therefore, unit-targeted abilities targeting Spirit Breaker still affect him normally.
+The aura's buff lingers for 0.5 seconds.
+The unit-targeted ability is blocked, then redirected to Spirit Breaker while active.
+For unit-targeted abilities with projectiles (e.g.  Arcane Bolt), they are first blocked, and then recast on Spirit Breaker.
+Abilities redirected to Spirit Breaker can still be subjected to other Spell Reflection sources (e.g.  Soulbind).
+Planar Pocket only redirects abilities cast by heroes.
+Treats illusions as heroes and creep-heroes as creeps.
+Planar Pocket's Spell Block has the following priorities:
+ Counterspell ➤  Echo Shield ➤ Planar Pocket
+Planar Pocket has the same priority as  Transfer Spellblock and  Spellblock, which means that the spell gets redirected to Spirit Breaker, but the Linken's Sphere procs as well, effectively wasting it.
+Planar Pocket's Spell Reflection has the following priorities:
+ Counterspell ➤  Echo Shell ➤  Echo Shield ➤ Planar Pocket
+Neither blocks nor reflects the following abilities:
+ Ion Shell,  Valor,  Shine,  Soul Release and  Soul Release.
+Does not block the following abilities:
+ Whip,  Psychic Push,  Toss,  Snowball and  Infest.
+Does not reflect the following abilities:
+ Soulbind,  Morph,  Spell Steal and  Spectral Dagger. Nether Strike   Link▶️RE
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Self
+DamageMagical
+
+Spirit Breaker slips into the nether realm, reappearing next to his hapless victim. Upon reappearing, a Greater Bash of the current level occurs and deals bonus damage. Knocks back for double the normal distance.
+
+Cast Animation: 1+0Cast Range:  700Cast Range Buffer: 500Damage: 150 / 250 / 350
+
+
+ 75 / 55 / 35
+ 125/150/175
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Planar Pocket ability.
+
+Spell Block / Reflection Notes:Blocked upon cast, therefore, the target is still exposed during the cast time.When reflected, Greater Bash is only applied if the caster has the ability.Modifiers [?]modifier_spirit_breaker_special_attackDeath
+modifier_spirit_breaker_nether_strikeDeath
+
+modifier_spirit_breaker_nether_strike_visionAnyAbility Draft Notes:
+ Greater Bash must be drafted as well for it to get applied.
+Barathrum temporarily returns to the realm from where he came, bringing with him the retribution of both worlds.
+
+
+Nether Strike does not disjoint projectiles upon cast.
+Nether Strike places a hidden debuff on the target as soon as Spirit Breaker begins casting.
+The debuff is only present during the cast time and disappears once the cast is executed or canceled.
+Exposes the target, revealing their model through the Fog of War. Also provides True Sight over them.
+Instantly moves Spirit Breaker on the opposite side of the target, 54 range away from it.
+Nether Strike applies  Greater Bash based on its current level on the target upon cast.
+Greater Bash notes fully apply. If it is not leveled, the bash does not occur.
+The knockback distance is doubled. Bashed units are knocked back 286/304/316/324 distance, over 0.5 seconds, at a speed of 572/608/632/648.
+A hidden buff is placed upon reaching the target and lasts for 0.1 seconds. The buff is responsible for the Greater Bash proc.
+Nether Strike without Greater Bash leveled does not interrupt channeling abilities upon cast.
+Nether Strike first applies the Greater Bash debuff, the Greater Bash damage, and then its own damage.
+Spirit Breaker is then issued an attack order on the target. This attack order ignores the auto-attack settings.
+Can be cast on  Couriers, applying all its effects.
+Nether Strike has an increased cast range buffer of 500, instead of using the default 250.
+This means once the cast animation begins, the target has to move at least 1200 range away from Spirit Breaker to be considered out of range.
+The Nether Strike modifier is responsible for a delay upon successfully casting Nether Strike, during which Spirit Breaker is spell immune.
+However, its duration is set to 0, so it effectively does nothing.
+SPELL STEAL  Greater Bash applied is based on  Spirit Breaker's current ability level when acquired.
+SOULBIND Affects only the secondary target, when cast on the primary target.

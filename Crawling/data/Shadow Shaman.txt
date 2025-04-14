@@ -1,0 +1,138 @@
+Ether Shock  Link▶️QR
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamagePhysical
+
+Creates a cone of ethereal energy that strikes multiple enemy units.
+
+Cast Animation: 0.3+1.23Cast Range:  600Starting Radius:  200Max Distance: 600End Radius:  300Number of Targets: 3/5/7/9Damage: 140/200/260/320 ( 540/600/660/720)
+
+
+ 14/12/10/8
+ 90/105/120/135Spell Block / Reflection Notes:Blocked fully only when primary target.Modifiers [?]
+modifier_shadow_shaman_ethershockDeathOriginally used to open shows with the travelling con-man, Rhasta's lightning display shocks adversaries in more ways than one.
+
+
+With the starting radius, max distance, and end radius, Ether Shock can hit units up to 1100 range away.
+The complete area is shaped like a cone in front of Shadow Shaman.
+The area starts in front of Shadow Shaman, and not at the primary target's position.
+Targets within the cone area are not chosen randomly. It chooses the closest valid targets to the primary target within the cone.
+All strikes together can deal up to 420/1000/1820/2880 ( 1620/3000/4620/6480) damage (before reductions).
+The purpose of the modifier is unknown. Hex  Link▶️Link▶️WD
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamageInstant Kill
+
+Transforms an enemy unit into a harmless creature, disabling their attacks and abilities and amplifying the damage they receive.
+
+Cast Animation: 0+1.13Cast Range:  550Set Move Speed: 100Damage Amp: 10%/15%/20%/25% ( 20%/25%/30%/35%)Duration: 2/2.3/2.6/2.9 Break Duration: 2/2.3/2.6/2.9
+
+
+ 24/20/16/12
+ 110/140/170/200Modifiers [?]
+modifier_shadow_shaman_voodooStrongRhasta often ended performances by turning himself into a chicken - now, the humiliation is shared.
+
+     Link▶️ Chicken model  
+Applies a hex on the target, setting its base movement speed to 100, while silencing, muting, disarming and applying Break to it.
+However, the target's movement speed can still be affected by movement speed bonuses from items and abilities.
+Hex does not apply movement speed slow. Therefore, all movement speed increasing and reducing effects are calculated using the 100 base speed.
+Applies generic incoming damage amplification on the hexed target.
+Stacks additively with other sources of generic incoming damage manipulation.
+Affects all damage types the target receives. Does not amplify damage flagged as HP removal.
+Hex instantly destroys illusions.
+Treat strong illusions as heroes.
+Shadow Shaman's Hex transforms the target into a chicken.
+COSMETIC The  Lamb to the Slaughter and the  Golden Lamb to the Slaughter change the hexed model into a lamb. Shackles  Link▶️EE
+
+
+
+AbilityTarget Unit  / Channeled
+AffectsEnemies  / Self
+DamagePhysical
+
+physically binds an enemy unit so that it cannot move or attack, absorbing their life energy over time.
+
+Cast Animation: 0.3+0Cast Range:  450 ( 525)Max Channel Time: 2.4/3/3.6/4.2 ( 3.4/4/4.6/5.2)Total Damage: 75/150/225/300 ( 245/320/395/470)Total Self Heal: 75/150/225/300 ( 245/320/395/470) Number of Serpent Wards: 4 Wards Duration: 6
+
+
+ 16/14/12/10
+ 125/140/155/170
+Aghanim's Shard Upgrade:
+
+Shackles creates 4 Serpent Wards attacking the target. Increases Shackles cast range by 75. Serpent wards lasts 6 seconds.
+
+Debuff Immunity Notes:True Sight pierces debuff immunity.Spell Block / Reflection Notes:Neither reflect Shackles nor interrupt the current cast.Modifiers [?]
+modifier_shadow_shaman_shacklesStrongAbility Draft Notes:
+ Mass Serpent Ward must be drafted as well for  Serpent Wards to spawn.
+A self-defense incantation, Rhasta developed shackles after his master was slain in the Bleeding Hills.
+
+
+Stuns the target as long as the channeling time.
+If the target turns invulnerable or hidden, the channeling stops instantly.
+Provides True Sight over the target as long as the channeling time.
+It also provides 200 radius caster vision of the Shackled target for 2.4/3/3.6/4.2 seconds, even after it is canceled.
+Deals damage in 0.1-second intervals, starting immediately as the channel begins, resulting in 24/30/36/42 ( 34/40/46/52) damage instances.
+The damage per interval can be defined as expr ΣShacklesDamage / MaxChannelTime / (1 / 0.1).
+The duration increasing bonus from the  talent is ignored.
+This results in 3.125/5/6.25/7.143 ( 10.208/10.667/10.972/11.19) damage per interval, or 31.25/50/62.5/71.43 ( 102.08/106.67/109.72/111.9) damage per second.
+Therefore, the final damage dealt (before reductions) is 75/150/225/300 ( 245/320/395/470).
+TALENT
+The damage increasing  talent immediately updates the currently running instance.
+With the duration increasing  talent, it deals a total of 106.25/200/287.5/371.43 damage.
+With both  talents, it deals a total of 347.08/426.67/504.72/581.9 damage.
+The heal is calculated in the same way as the damage and is applied after each damage instance.
+Always heals for the full amount per interval, regardless of how much damage the target actually takes.
+SHARD Shackles now places a total of 4  Serpent Wards based on its current level, 100 range towards the target's north, east, south, and west.
+The wards summoned has a fixed 6-second duration, and it is not based on the total channel time.
+The wards' facing angle is set equal to Shadow Shaman's facing angle upon cast.
+The wards are ordered to attack the target upon creation, but they can be controlled by the player following Mass Serpent Wards' notes.
+All of Serpent Wards'  talents and  Aghanim's Scepter upgrade notes are fully applied as well.
+Serpent Wards are not summoned in the following conditions:
+If  Mass Serpent Ward is not learned.
+If the first damage instance kills the affected target.
+SPELL STEAL / MORPH NOTES   Serpent Wards summoned are based on  Shadow Shaman's current ability level when acquired. Mass Serpent Ward Link▶️RW
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamagePhysical ( Instant Attack)
+
+Summons 10 Serpent Wards to attack enemy units and structures. The Wards are immune to magic.
+
+Cast Animation: 0.3+0.97Cast Range:  550Spawn Radius: 150Number of Serpent Wards: 10Hero Attacks to Destroy: 2 ( 3)Creep Attacks to Destroy: 4 ( 6)Wards Duration: 45 Split Shot Search Radius: 650 ( 790) Bonus Attack Targets: 1
+
+
+ 110
+ 200/350/550
+Aghanim's Scepter Upgrade:
+Causes Serpent Wards to have split shot, attacking two units for full damage.
+
+Modifiers [?]modifier_shadow_shaman_serpent_wardDeath
+Snake charming was a big part of the Shadow Shaman's act; now Rhasta can empower the Snakes to do his bidding.
+
+
+Places a  Serpent Ward on every 36°th of a 150 radius circle, resulting in 10 wards forming a ring.
+The wards form a perfect barrier, enemies inside cannot move out unless they have phased movement.
+Destroying one ward is enough to allow units to walk in and out of the ring.
+The wards' facing angle is set equal to Shadow Shaman's facing angle upon cast.
+Serpent Wards can be controlled to attack a specific target or to stop attacking altogether.
+Serpent Wards have a lower target priority than other units and heroes, so they are attacked by towers and creeps last.
+ Roshan always prioritizes wards if there are no other units within his attack range.  Strength of the Immortal also instantly destroy Serpent Wards.
+Treat attacks from towers as heroes, and creep-heroes as creeps.
+The wards' attack damage is not reduced by damage block.
+SCEPTER The wards now perform instant attacks on 1 different enemy target within their attack range whenever they launch an attack projectile.
+An extra projectile is released at the same time together with the primary attack.
+Therefore, it does not matter whether the primary attack misses or not, the extra projectile is still released.
+The extra projectile travels at the same speed as the primary projectile and can be disjointed like regular attacks.
+These instant attacks neither proc any attack modifiers nor on-hit effects normally.
+They do not have True Strike and are affected by evasion.
+The extra attack does not target wards, invisible units, untargetable units, or units inside the Fog of War, but they do target buildings.
+The extra attack has no target priorities. It simply chooses a random valid target within its attack range.
+Acquiring  Aghanim's Scepter instantly upgrades all current existing  Serpent Wards.

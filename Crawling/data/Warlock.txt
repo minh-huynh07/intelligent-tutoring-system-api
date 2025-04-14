@@ -1,0 +1,404 @@
+Fatal Bonds  Link▶️Link▶️QF
+
+
+
+AbilityTarget Unit
+AffectsUnits
+DamageSource Type(No-reflection)
+
+Binds several enemy units together, causing a percentage of the damage dealt to one of them to be felt by the others. Summons an imp from the corpse of any unit that dies while under the effects of Fatal Bonds that lasts for 19/21/23/25 seconds and explodes on death. Imps will automatically seek out nearby units, favoring bonded heroes, and will explode when reaching their prey.
+
+Cast Animation: 0.2+0Cast Range:  1000Bounce Distance:  700Number of Bounces: 6Damage Shared: 12%/16%/20%/24% ( 16%/20%/24%/28%)Imps per Unit Death: 1Bonds Duration: 19/21/23/25Imp Duration: 15   Minor ImpsSearch Radius: 1200 Imp Bonus Level:  1
+
+
+ 36/30/24/18
+ 110/120/130/140
+Aghanim's Shard Upgrade:
+
+Increases the power of all imps summoned by Warlock.
+
+Spell Block / Reflection Notes:Blocked fully only when primary target.Modifiers [?]
+modifier_warlock_fatal_bondsAnyAn ancient incantation that links the vital energies of multiple lifeforms into one collective body.
+
+
+
+
+Minor Imp
+
+
+
+
+
+Summoned   Creep
+
+
+
+
+
+
+Health
+30/80/130/180/280
++0.5
+
+
+
+
+
+
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+1
+
+
+Duration
+
+
+
+15
+
+
+Armor
+
+
+
+1
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Attack Damage
+
+Link▶️
+
+Default10/12/14/16/18 ‒ 11/13/15/17/19
+
+
+Attack Range
+
+
+
+80
+
+
+Acquisition Range
+
+
+
+1200
+
+
+Attack Speed
+
+
+
+200 • 2s BAT
+
+
+Attack Animation
+
+
+
+0.38+0.57
+
+
+Projectile Speed
+
+
+
+Instant
+
+
+Move Speed
+
+Link▶️
+
+300/315/330/345/360 (100)
+
+
+Turn Rate
+
+
+
+0.5
+
+
+Collision Size
+
+
+
+18
+
+
+Bound Radius
+
+
+
+8
+
+
+Vision Range
+
+(G)
+
+800
+
+
+Bounty
+
+
+
+3
+
+
+Experience
+
+
+
+17
+
+
+Abilities
+
+
+
+ Eldritch Explosion
+
+
+Notes
+
+Uncontrollable
+
+
+
+Fatal Bonds have no bounce delay, so all targets are bonded and damaged at the same time.
+When cast multiple times, it searches and prioritizes enemies that were not debuffed by the previous cast, and then it searches for the next closest units.
+The debuff can still stack on the same units if no other previously bonded units are nearby.
+Can bond units inside the Fog of War, but cannot bond invisible units.
+The bond can only bounce to untargetable units from  Shadow Realm and  Shadows.
+Does not affect  Roshan at all.
+Successive casts of Fatal Bonds fully stack and work independently from each other.
+Damage shared is the same type as the source damage.
+Shares all 3 damage types, but not from HP Removal effects (e.g.  Sunder).
+Therefore, the shared damage interacts with every on-damage effects (i.e. disabling  Blink Dagger).
+Shared physical damage and magical damage is still affected by damage block and magic resistance respectively, and interacts with their respective damage barrier types.
+It is also fully affected by outgoing damage manipulation sourced to Warlock.
+Instant kill effects in the form of HP Removal (e.g.  Sacred Arrow on creeps) share an instance of 0 damage to all affected targets.
+Fully procs on-damage effects, except those which have a minimum damage threshold (e.g.  Gravekeeper's Cloak).
+Fatal Bonds' damage has the no-reflection flag, preventing its damage from interacting with other sources of damage with the same flag.
+Spreads the full damage value before the affected enemy targets actually take the damage.
+This means that the damage spreads before all manipulations, so that it may only be affected by incoming damage manipulation the affected targets have.
+This also means it shares damage instances that exceeded the targets' current health and killed them.
+The shared damage is always sourced to Warlock. Therefore, if a unit dies to the damage done by Fatal Bonds, Warlock gets credited for the kill.
+The distance between the bonded units does not matter. Once bonded, they always spread and/or receive the spread damage.
+Non-player-controlled units are not aggro'd by the damage.
+Neutral creeps do not react to the damage.
+Increases the total damage output of every damage by 60%/80%/100%/120% ( 80%/100%/120%/140%) when the maximum amount of units is bonded.
+Only dying enemy units affected by Fatal Bonds spawn  Minor Imps, regardless how the kill was made. This includes the following:
+Reincarnation sources.
+Being killed by neutral creeps.
+Does not spawn Imps from enemies dying to the following sources:
+Being denied or denying oneself.
+Forced Kill sources.
+Minor Imps are uncontrollable. However, they can be boosted by allied abilities or auras.
+They automatically choose the nearest valid attack target within , prioritizing heroes affected by Fatal Bonds.
+Minor Imps continue chasing their target even when the target turns invisible and untargetable.
+0.2 seconds after reaching its target,  Eldritch Explosion based on its current level is passively applied.
+Minor Imps only attack the nearest building and do not explode, if there are no other valid targets.
+Despite being uncontrollable, they can be Dominated. However, the Minor Imp continues its attempt to move to the last known location of its set target.
+Each Minor Imp spawned has its own duration.
+They use the same model as  Warlock Golem and have a smaller model size.
+SHARD Increases the Minor Imp's level by  based on the time spwaned and does not upgrade. Shadow Word Link▶️Link▶️WW
+
+
+
+AbilityTarget Unit ( Target Area)
+AffectsUnits
+DamageMagical
+
+Warlock whispers an incantation, healing a friendly unit or damaging an enemy unit over time.
+
+Cast Animation: 0.4+0.6Cast Range:  600/700/800/900Damage per Second: 15/25/35/45 ( 33/43/53/63)Heal per Second: 15/25/35/45 ( 33/43/53/63)Duration: 10 Radius:  450
+
+
+ 14
+ 120/130/140/150Spell Block / Reflection Notes:Blocked fully only when primary target.Modifiers [?]modifier_warlock_shadow_wordAny
+Warlock arcane arts have a myriad of uses, allowing them to be powerful friendly enchantments or damaging curses.
+
+
+↓↓ Double-tapping automatically targets self.
+Can be cast on ally  Couriers.
+Deals damage or heals in 1-second intervals, starting 1 second after cast, resulting in 10 instances.
+The debuff duration on enemies is not affected by status resistance sources.
+Can deal up to 150/250/350/450 ( 330/430/530/630) damage to the target (before reductions).
+Always heals for the full amount per instance, regardless of how much damage the target actually takes.
+TALENT Learning the damage and heal increasing  talent does not update already existing modifiers.
+Successive casts of Shadow Word fully stack and work independently from each other.
+The first sound is played when the target is an ally, and the second sound when it is an enemy.
+TALENT Shadow Word now turns into a  radius area-targeted ability, so that it cannot directly target units anymore.
+↓↓ Double-tapping centers the radius around Warlock.
+Can target invisible units and units inside the Fog of War. Upheaval Link▶️EE
+
+
+
+AbilityTarget Area  / Channeled
+AffectsEnemies ( Allies)
+DamageMagical
+
+A powerful slowing current that grows stronger as it's channelled. Lasts up to 10/12/14/16 seconds. Enemies are slowed for 3 seconds after leaving the area or the spell ends.
+
+Cast Animation: 0.4+0Cast Range:  900Radius:  500/550/600/650 ( 565/615/665/715)Max Channel Time: 10/12/14/16Damage Increase per Second: 10Max Damage per Second: 35/60/85/110Move Speed Slow Increase per Second: 11%/14%/17%/20%Max Move Speed Slow: 55%/70%/85%/100%Buff/Debuff Duration: 3 Number of Imps per Spawn: 1 Imp Spawn per Channel Interval: 2 Ally Attack Speed Bonus Increase per Second: 10 Ally Max Attack Speed Bonus: 70
+
+
+ 35
+ 70/80/90/100
+Aghanim's Shard Upgrade:
+
+While channeling, Warlock spawns an imp every 2 seconds that lasts for  seconds and explode dealing damage to all enemies around them upon death.
+
+Modifiers [?]modifier_warlock_upheaval_allyAny
+
+modifier_warlock_upheavalAnyDemnok manipulates space-time, impairing entire armies.
+
+
+The strength of the Upheaval is based on Warlock's channel duration, not on how long a unit stands in the affected area.
+Both the debuff and buff values are applied and/or refreshed in the same intervals.
+Upheaval's ability values stop increasing at the last 0.1-second of the channeling.
+The ability values increase as follows on each server tick, starting 1 tick after cast:
+The movement speed slow increases by 0.37%/0.47%/0.57%/0.67% per tick, taking 4.9/4.9/4.9/4.9 seconds to reach max values.
+The damage per second increases by 1.17/2/2.83/3.67 damage per tick, taking 3.4/5.9/8.4/10.9 seconds to reach max values.
+TALENT The ally attack speed bonus  talent increases by 0.33 attack speed bonus per tick, taking 6.9 seconds to reach max values.
+Learning the  talent immediately updates the current instance.
+With the max channel time and the debuff duration, it can deal up to a total 355.25/654/990.25/1364 damage (before reductions) within the area for the entire duration.
+For how much damage Upheaval deals per increased second, please refer to the chart below.
+Successive damage per second debuffs of Upheaval fully stack and work independently from each other.
+However, successive debuffs applied update its movement speed slow values and refreshes its duration.
+SHARD Upheaval now spawns 1  Minor Imp based on the current level of  Fatal Bonds per 2 seconds of channeling.
+Can spawn up to 4/5/6/7 Minor Imps for the entire duration per Upheaval cast.
+Fatal Bonds Minor Imp notes fully apply.
+Does not require Fatal Bonds to be learned to spawn Minor Imps. Chaotic Offering   Link▶️Link▶️Link▶️RR
+
+
+
+AbilityTarget Area ( Passive)
+AffectsEnemies
+
+
+Summons a Golem from the depths, stunning enemies for one second. The Golem lives 60 seconds, takes reduced damage from spells, has Permanent Immolation and Flaming Fists on attack.
+
+Passive Component Number of Golems on Death:  1Cast Animation: 0.5+0.7Cast Range:  1000Stun Radius:  600Effect Delay: 0.5Number of Golems: 1 ( 2)Stun Duration: 0.8Golem Duration: 60 Golem Spawn Interval: 0.5Golem Slow Resistance: 60%
+
+
+ 160
+ 200/400/600
+Aghanim's Scepter Upgrade:
+Calls 2 golems with reduced stats and bounty.
+
+Break Notes:Does not disable the passive cast on death.
+Illusion Notes:Illusions do not summon Golems on death.Modifiers [?]modifier_warlock_rain_of_chaos_death_triggerUndispellable
+modifier_warlock_rain_of_chaos_thinkerUndispellable
+modifier_killUndispellable
+modifier_special_bonus_unique_warlock_1Undispellable
+modifier_special_bonus_unique_warlock_2Undispellable
+
+modifier_stunnedStrongDemnok unleashes the captive spirit in his Dreadwood staff, causing destruction in enemy ranks.
+
+
+ Warlock Golems are always summoned at the center of the targeted area facing the east.
+They are considered as both creep-heroes and ancient creeps, making them interact differently with several abilities.
+Successive casts of Chaotic Offering do not replace any of the currently active Warlock Golems from a previous cast.
+Leveling up the ability, learning the magic resistance or armor increasing  talents does not update already existing golems.
+Upon spawning, Warlock Golems destroy all trees within 600 radius around them.
+The visual effects and sounds during the effect delay are visible and audible to everyone.
+It also plays a sound effect during the cast time, which is audible to everyone as well.
+Does not affect enemy  Couriers.
+SCEPTER Chaotic Offering now summons a second golem 0.5 seconds after the first golem.
+The second golem applies the area stun and destroys all trees within the radius as well, effectively extending the total stun duration to 1.3 seconds.
+TALENT The Golem on Death  talent automatically and passively casts Chaotic Offering centered on Warlock's death location whenever he dies.
+Does not trigger when Warlock has Reincarnation.
+The passive cast do not trigger the cooldown, work while on cooldown, and do not cost mana.
+Applies the area stun like a manual cast and summons 1 Warlock Golem.
+The Golem lasts its full duration, it is not bound to Warlock's death timer and does not disappear when he respawns.
+Chaotic Offering notes and all of Warlock Golem's  talents fully apply.
+The  Aghanim's Scepter upgrades are not applied to this on-death passive cast. Flaming Fists  QQ
+
+
+
+AbilityPassive
+AffectsEnemies
+DamagePure
+
+Deals extra damage to nearby units when attacking.
+
+Radius: 300Damage: 40/50/60Modifiers [?]modifier_warlock_golem_flaming_fistsUndispellable
+
+
+
+Neither affects buildings and wards, nor damages ethereal or attack immune units.
+The radius is centered around the attacked target.
+The bonus damage hits the attack target as well. Permanent Immolation  WW
+
+
+
+AbilityAura
+AffectsEnemies
+DamageMagical
+
+Burns the Golem's nearby enemy units, with damage per second.
+
+Radius: 300Damage per Second: 30/50/70Aura Linger Duration: 0.5Modifiers [?]modifier_warlock_golem_permanent_immolationUndispellable
+
+modifier_warlock_golem_permanent_immolation_debuffDeath
+
+
+Permanent Immolation of multiple Warlock Golems fully stacks with each other.
+Permanent Immolation is an aura and its debuff lingers for 0.5 seconds.
+Deals damage in 1-second intervals, starting 1 second after the debuff is placed, resulting in 59 possible instances.
+Can deal up to 1770/2950/4130 damage (before reductions) within the area per golem over the entire duration. Eldritch Explosion  Link▶️
+
+
+
+AbilityPassive
+AffectsEnemies  / Self
+DamageMagical  /  Instant Kill
+
+Shortly after dying, a burst of damage based on the max health of the imp is dealt to all enemies in a small area.
+
+Effect Radius: 400Effect Delay: 0.2Damage: 30/60/90/120/180Creep Damage Multiplier: 0.5
+Aghanim's Shard Upgrade:
+
+ Fatal Bonds increases the level of the Minor Imp's ability by 1 and unlocks the 5th ability level.
+
+Modifiers [?]modifier_warlock_imp_explodeUndispellable
+
+modifier_killDeath
+
+
+Passively triggers in the following conditions:
+Upon death or when the Minor Imp is killed.
+Upon reaching the affected enemy unit.
+Does not passively triggers when attacking buildings.
+Eldritch Explosion applies the damage, then instantly kill the Minor Imp.
+Can deal up to 15/30/45/60/90 damage to creeps (before reductions).
+SHARD NOTES Eldritch Explosion has 4 levels by default, but the 5th level can only be unlocked by   Fatal Bonds.

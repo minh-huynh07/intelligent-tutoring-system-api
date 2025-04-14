@@ -1,0 +1,135 @@
+Shadow Strike    Link▶️QD
+
+
+
+AbilityTarget Unit ( Target Area)
+AffectsEnemies  / Self
+DamageMagical
+
+Hurls a poisoned dagger which deals large initial damage, and then deals damage over time. The poisoned unit has its movement speed slowed for 15 seconds.  An instance of damage is dealt every 3 seconds. Queen of Pain relishes in the pain inflicted, healing every time the enemy takes damage. Creeps heal for half the damage only.
+
+Cast Animation: 0.4+0.67Cast Range:  450/500/550/600Initial Damage: 30/60/90/120 ( 80/110/140/170)Instance Interval: 3 ( 2.5)Damage per Instance: 20/40/60/80Self Heal per Instance: 10/20/30/40 ( 20/30/40/50)Creep Heal Multiplier: 0.5Move Speed Slow: 20%/35%/50%/65%Duration: 15 Radius:  375
+
+
+ 13/10/7/4
+ 125/135/145/155
+Aghanim's Scepter Upgrade:
+Causes Shadow Strike to become a 375 AoE Spell, and have increased initial damage. When Shadow Strike ends or is re-applied to an enemy Hero, the target emits a Scream of Pain, hitting any nearby enemies.
+
+Spell Block / Reflection Notes:Blocked upon impact.Not blocked.Cast Event Notes:Scream of Pain released by the affected targets does not proc on-cast effects.Modifiers [?]
+modifier_queenofpain_shadow_strikeAnyAbility Draft Notes:
+ Scream of Pain must be drafted as well for it to get applied.
+Akasha's envenomed dagger allows her to delight in the drawn out suffering of her victims.
+
+
+A unit with less than 25% of its max health can be denied when it has the Shadow Strike debuff on.
+The dagger travels at a speed of 900.
+Successive casts on the same target remove the debuff from the previous cast and place a new one.
+This means if the initial damage is dealt again, and the movement speed slow values and instance interval are effectively reset.
+The movement speed slow starts off at 20%/35%/50%/65% and decreases in 1-second intervals. For how much movement speed slow Shadow Strike slows on each level at each second, please refer to the chart below.
+3 ( 2.5) seconds after cast, Shadow Strike deals damage and self-heal over time in 3 ( 2.5)-second intervals.
+TALENT The number of instance intervals can be defined as expr ⌊ Duration / (3 -  0.7)⌋.
+Therefore, the instance interval's value is reduced to 2.5 seconds instead, resulting in a total of 6 instances within the entire duration.
+The initial damage is dealt upon projectile impact, resulting in 6 ( 7) total damage instances.
+Can deal up to 130/260/390/520 ( 150/300/450/600) ( 180/310/440/570,  200/350/500/650) damage (before reductions) to the affected target(s).
+However, it does not heal initially on projectile impact, resulting in 5 ( 6) total heal instances.
+Treats clones and creep-heroes as heroes, and illusions as creeps.
+Therefore, it can heal Queen of Pain for up to 50/100/150/200 ( 60/120/180/240) health from heroes, and 25/50/75/100 ( 30/60/90/120) health from non-hero units.
+Always heals for the full amount per instance, regardless of how much damage the target actually takes.
+Does not continue to heal Queen of Pain at full health.
+SCEPTER Shadow Strike now hits all enemy targets within 375 radius of the primary target.
+These daggers behave just like a regular cast, and can be disjointed normally.
+Also targets units inside the Fog of War and invisible units. However, invisible targets instantly disjoint it.
+Fully affect untargetable units.
+ Scream of Pain projectiles are released based on its current level within 600 radius around the affected target in the following conditions:
+Losing the debuff in any way (e.g. via dispels), including successive casts on the same target, or by debuff expiring.
+Projectiles are released even when the affected target turns spell immune, invulnerable and hidden, if the conditions are met.
+SCEPTER The primary affected target releasing the projectiles is also damaged. The damage of the released projectiles are sourced to the affected target, and not to Queen of Pain.
+Scream of Pain projectiles are not released in the following conditions:
+When the affected target(s) dies while affected by the debuff.
+When there are no valid targets within range upon debuff expiration.
+If the affected target is an illusion or the  Tempest Double expiring.
+Projectiles released by the affected target(s) this way do not interrupt their current channeling abilities.
+Scream of Pain notes fully apply. If it is not learned, Scream of Pain is not released upon losing the debuff.
+SPELL STEAL / MORPH NOTES The passive  Scream of Pain cast upon debuff expiration is based on  Queen of Pain's current ability level when acquired. Blink  Link▶️Link▶️Link▶️Link▶️Link▶️Link▶️WB
+
+
+
+AbilityTarget Point
+AffectsSelf ( Enemies)
+Damage Magical
+
+Short distance teleportation that allows Queen of Pain to move in and out of combat.
+
+Cast Animation: 0.33+0.07Cast Range: GlobalMin Blink Distance: 200Max Blink Distance:  1075/1150/1225/1300 Radius:  300 Damage: 125 Silence Duration: 1.75
+
+
+ 12/10/8/6 ( 10/8/6/4)
+ 65
+Aghanim's Shard Upgrade:
+
+Releases a sonic boom when Queen of Pain blinks, at both her starting and ending locations. Deals 125 damage in a 300 AoE and silences the target for 1.75 seconds.
+
+Modifiers [?]
+modifier_silenceAnyThe Secret Queen lives up to her title, making her pain impossible to escape.
+
+
+Disjoints projectiles upon cast.
+Attempting to blink less than the minimum distance will blink for 200 range instead.
+Does not blink for the full distance when targeting closer than the max distance.
+When targeting beyond the max blink distance, Queen of Pain blinks for the max distance towards the targeted point.
+SHARD Blink first applies the silence debuff, then the damage.
+The damage fully stack, so enemies within 300 radius of the starting and end location are hit twice, taking 250 damage.
+The silence debuff from multiple casts does not stack but refreshes the duration instead. Scream of Pain  Link▶️EF
+
+
+
+AbilityNo Target
+AffectsEnemies
+DamageMagical
+
+The Queen of Pain lets loose a piercing scream around her, damaging nearby enemies.
+
+Cast Animation: 0+0.63Search Radius:  600Damage: 75/150/225/300 ( 175/250/325/400)
+
+
+ 7
+ 120The sultry voice of Akasha beckons her opponents while stealing their souls.
+
+
+The projectiles travel at a speed of 900.
+Affects invisible units and units in the Fog of War.
+Does not affect invulnerable or hidden units. Sonic Wave Link▶️RW
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamagePure
+
+Creates a gigantic wave of sound in front of Queen of Pain, dealing heavy damage to all enemy units in its wake and pushing them back.
+
+Cast Animation: 0.452+0.9Cast Range:  700Starting Radius: 100Travel Distance:  900End Radius:  450Knockback Distance:  350Knockback Duration: 1.4Total Damage: 350/500/650 ( 600/750/900)
+
+
+ 110/95/80 ( 65/50/35)
+ 250/400/550Modifiers [?]
+modifier_queenofpain_sonic_wave_effectDeath
+modifier_queenofpain_sonic_wave_delayDeath
+modifier_queenofpain_sonic_wave_knockbackAny
+modifier_queenofpain_arcana_kill_effectUndispellableHer most exquisite of all of torments, Akasha's Sonic Wave puts her poor foes out of their misery.
+
+
+Sonic Wave travels at a speed of 900, taking 1 second to travel the full distance.
+With the travel distance and end radius, it can hit units up to 1350.
+The complete area is shaped like a cone.
+The knockback angle depends on the angle between the hit target and Queen of Pain's cast location.
+This means the knockback direction does not equal the cast direction. Enemies within close proximity may get pushed to the sides.
+Knocks hit enemies 350 range back over 1.4 seconds, resulting in a knockback speed of 250.
+Units are not disabled during the knockback. They can still turn, attack, cast abilities, and use items. Does not interrupt channeling abilities.
+Destroys trees within 200 radius enemies come in contact with during the knockback.
+Deals 25/35.71/46.43 ( 42.86/53.57/64.29) damage in 0.1-second intervals, starting immediately upon cast, ending 0.1 seconds after the last damage instance is over, resulting in 14 instances.
+Can deal a total of 350/500/650 ( 600/750/900) damage (before reductions).
+Status resistance sources reduce the knockback duration, but increase the damage per interval.
+Sonic Wave first applies its damage, then the knockback debuff.
+Fully affects  Couriers.

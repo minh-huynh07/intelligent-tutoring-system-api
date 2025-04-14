@@ -1,0 +1,180 @@
+Enfeeble  Link▶️QT
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamagePure
+
+Deals damage every second and lowers the enemy's total attack damage and cast range.
+
+Cast Animation: 0.2+0.57Cast Range:  800/900/1000/1100Damage per Second: 12/18/24/30 ( 25/31/37/43)Attack Damage Reduction: 55%/60%/65%/70%Cast Range Reduction: 30% ( 50%)Duration: 9
+
+
+ 28/21/14/7
+ 120Modifiers [?]
+modifier_bane_enfeeble_effectAnyEach tendril of fear that Atropos weaves increases the vulnerability of his victims to arcane and unknown arts.
+
+
+Reduces the target's main and bonus attack damage.
+Does not reduce conditional attack damage bonuses (e.g.  Pierce or  Shadow Walk).
+Stacks additively with other total attack damage reduction sources.
+Stacks additively with other percentage-based cast range reduction sources, and is calculated after all flat cast range bonuses.
+Does not reduce any ability's cast range beyond the 150 minimum cast range.
+The debuff of successive casts on the same target does not stack but refreshes the ability values and duration.
+Deals damage in 1-second intervals, starting when cast, resulting in up to 10 instances.
+Can deal up to 120/180/240/300 damage. Brain Sap  Link▶️WB
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Self
+DamagePure
+
+Feasts on the vital energies of an enemy unit, healing Bane and dealing damage.
+
+Cast Animation: 0.2+0.5Cast Range:  625Damage: 90/160/230/300 ( 340/410/480/550)Damage as Heal: 100% Radius:  550 Secondary Damage as Heal: 30%
+
+
+ 17/15/13/11 ( 14/12/10/8) ( 14/12/10/8,  11/9/7/5)
+ 120/130/140/150
+Aghanim's Shard Upgrade:
+
+Reduces cooldown by 3. Causes Brain Sap to become a 550 AoE spell. Secondary targets only heal for 30%.
+
+Spell Block / Reflection Notes:Blocked upon cast.Blocked fully only when primary target.Atropos finds no greater pleasure than to harvest the fear he creates.
+
+
+Despite the visual effects, the healing happens instantly after the damage is dealt, there is no travel time.
+The healing value is based on the damage dealt, damage manipulation sources fully affects the healing value.
+The healing value itself can still be subjected to heal manipulation.
+SHARD Adds a 550 radius to this ability. The ability must be centered over a unit still.
+Can target secondary invisible units and secondary units inside the Fog of War.
+From secondary targets, it can only heal for 27/48/69/90 ( 102/123/144/165) health. Nightmare   Link▶️EE
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Allies
+
+
+Puts the target enemy or friendly Hero to sleep. Sleeping units are awakened when damaged. If the target was directly attacked, the Nightmare passes to the attacking unit. Bane can attack nightmared targets freely.
+
+Cast Animation: 0.4+0.57Cast Range:  500/550/600/650Set Vision Range: 200Self Attack Speed Bonus: 15/25/35/45Sleep Duration: 3.5/4.5/5.5/6.5Invulnerability Duration: 1
+
+
+ 24/21/18/15 ( 21/18/15/12)
+ 120/130/140/150Spell Block / Reflection Notes:Blocked upon cast.Blocked upon attacking a unit affected by an enemy Nightmare.Illusion Notes:The innate component fully benefits illusions.Does not grant attack speed bonus to illusions.Modifiers [?]modifier_bane_nightmare_invulnerableDeath
+modifier_bane_nightmare_attackspeed_bonusAny
+
+modifier_bane_nightmareAnyAbility Draft Notes:
+Bane keeps his innate ability to attack Nightmared units.The drafting hero and their illusions can attack Nightmared units as well.
+A stolen prowess from the goddess Nyctasha is to put his prey into forever sleep.
+
+
+↓↓ Double-tapping automatically targets self.
+Cannot be cast on allies who have ☐ Disabled Help from Bane.
+Applies the following effects on the affected unit:
+Sleep and the affected target is prevented from acting.
+Grants a 1-second  Invulnerability.
+Sets the affected target's base vision to 200.
+Nightmare has the second highest priority in the group of base vision setting effects, lower than  Tree Dance.
+Since  Consume increases the base  nighttime vision, therefore, it is reduced by Nightmare.
+However, other vision bonus sources (e.g.  Shade Sight) are applied after the vision reduction.
+The Nightmared target wakes up in the following conditions:
+When a unit other than the Nightmare caster starts attacking it, including from manually casting active attack modifiers.
+When affected by  Fiend's Grip or with the  Nightmare End sub-ability.
+The target does not wake up when taking damage from certain sources and under a few rare circumstances:
+From the following instant attack sources:  Sleight of Fist,   Side Gunner and  Stifling Dagger.
+Any damage instance from the Nightmare caster, including attack and spell damage, except  Fiend's Grip.
+Any damage from active attack modifiers, be it a debuff (e.g.  Burning Spear), or direct damage (e.g.  Tidebringer).
+Any damage flagged as HP Removal.
+Any self-damaging sources (e.g.  Rot).
+Any damage from already launched  ranged attacks if the projectiles hit after the invulnerability period.
+When waking up with an attack, the Nightmare is transferred to the attacking unit at the start of an attack point, not when the attack hits.
+When Nightmare is transferred by attack the Nightmared unit or from Spell Reflection sources, its duration is refreshed, including the 1-second invulnerability.
+The nightmare duration transferred is based on the duration of the first affected target.
+Therefore, status resistance sources on the first affected target affects the following transferred Nightmare durations.
+Nightmare cannot be transferred to spell immune units, or to wards and buildings. So their attacks only wake up Nightmared units.
+Sleeping units are never automatically attacked, regardless of auto-attack settings.
+This means that sleeping units are never attacked by lane creeps, neutral creeps, towers and fountains.
+They are also not considered targets for secondary attacks (e.g.  Moon Glaives).
+Player-controlled units can still force an attack order on the target ( Right Click or A) to transfer the Nightmare to themselves.
+As long as a unit is affected by Nightmare from Bane, Nightmare is replaced by the  Nightmare End sub-ability which allows Bane to wake the unit up.
+Grants flat attack speed bonus only to the caster, during its attack point against the Nightmared unit, as long as the caster is attacking the Nightmared unit.
+The attack speed is no longer granted upon the Nightmared unit waking up.
+Nightmare's invulnerability status effect uses the default invulnerability icon, instead of its own ability icon. Nightmare End EE
+
+
+
+AbilityToggle
+
+
+
+Ends all ongoing Nightmares.
+
+Cast Animation:  0+0
+
+
+ 0
+ 0
+
+
+Replaces  Nightmare until there is no Nightmare debuff from Bane active.
+Does not interrupt Bane's channeling abilities upon cast.
+Can wake a unit up at any time during a Nightmare, even during the 3.5/4.5/5.5/6.5-second invulnerability.
+Wakes up all units that were put asleep by Nightmare, no matter who put them asleep.
+Can be used while stunned, cycloned, slept, taunted, hidden, or during forced movement.
+Cannot be used while silenced, hexed or prevented from acting.
+Bane is unable to ⇧ Shift-queue this ability.
+SPELL STEAL Does not grant  Nightmare if this sub-ability is the last cast ability. Fiend's Grip  Link▶️RF
+
+
+
+AbilityTarget Unit  / Channeled
+AffectsEnemies  / Self
+DamagePure
+
+Grips an enemy unit, disabling it and causing heavy damage over time, while stealing mana every 0.5 second based on the unit's maximum mana.
+
+Cast Animation: 0.2+0Cast Range:  625Max Channel Time: 4.75/5.25/5.75 ( 7.75/8.25/8.75)Damage per Second: 70/110/150Max Mana Drain per Second: 5% ( 10%) Number of Illusions: 2    Fiend's Grip Illusions Damage Taken:  200% Duration:  20
+
+
+ 120/110/100 ( 75/65/55)
+ 200/300/400
+Aghanim's Scepter Upgrade:
+Reduces Fiend's Grip cooldown by 45 seconds. Fiend's Grip now creates two uncontrollable illusions that are also channeling Fiend's Grip on the target. Illusions takes  incoming damage and immediately die if they are interrupted. Damage does not stack.
+
+Spell Block / Reflection Notes:Blocked upon cast.If the affected target has both Spell Block and Spell Reflection, it is reflected instead.Modifiers [?]modifier_bane_fiends_grip_illusionDeath
+modifier_bane_fiends_grip_illusion_can_only_channelUndispellable
+modifier_illusionDeath
+modifier_invulnerableDeath
+
+modifier_bane_fiends_gripStrong
+modifier_bane_fiends_grip_cast_illusionStrongVictims of Atropos are frequently torn apart by vivid conjurations of their own nightmares.
+
+       Fiend's Grip illusion and their formation as they appear to allies, channeling the ability for Bane.  
+Fiend's Grip fully disables and provides True Sight over the target until the channeling ends.
+If the target turns invulnerable or hidden, the channeling stops instantly.
+Deals 35/55/75 damage and drains 2.5% ( 5%) mana in 0.5-second intervals, starting immediately as the channeling begins, resulting in up to 9.5/10.5/11.5 ( 15.5/16.5/17.5) instances.
+Can deal up to 332.5/577.5/862.5 damage (before reductions).
+Can drain up to 23.75%/26.25%/28.75% ( 47.5%/52.5%/57.5%) of the target's max mana.
+TALENT
+With the duration increasing  talent, it can deal up to 542.5/907.5/1312.5 damage and drain up to 38.75%/41.25%/43.75% of the target's max mana.
+With both  talents, it can drain up to 77.5%/82.5%/87.5% of the target's mana for its full duration.
+Fiend's Grip first applies the damage on each interval, the self mana restore, then the mana loss.
+Unlike other targeted abilities, the caster vision of Fiend's Grip lasts for the entire channel duration, even when it gets canceled, instead of just 2 seconds.
+Casting Fiend's Grip on  Nightmared units automatically wake them up.
+Can be cast on  Couriers.
+SCEPTER Fiend's Grip now spawn 2 illusions 400 range towards Bane's right and left side, facing towards the target whenever casting Fiend's Grip.
+The illusions are able to cast abilities and are automatically ordered to cast an instance of Fiend's Grip based on the current level onto the same target, with an  instant cast time.
+Items' passive abilities (e.g.  Empower Spell) fully work on the spawned illusions.
+The illusions can be given any order normally, except for item cast orders. Doing so interrupts the channeling and kills the illusion.
+SCEPTER The illusions' Fiend's Grip places a different modifier than the real hero does. This modifier only stuns the target if the real hero's modifier is present.
+However, as soon as the real hero's modifier disappears, the illusions' modifier continues dealing damage and draining mana in its place.
+In this case, the damage and mana drain is sourced to the illusion, not to Bane.
+The illusions have a maximum duration of  seconds, hard-capping the maximum time they can spend channeling.
+Since the illusions are actually casting Fiend's Grip as well, this upgrade does not work for heroes who do not have Fiend's Grip (e.g. Spell Reflection).
+The Fiend's Grip Illusions neither have gold nor an experience bounty.
+SPELL STEAL Can be cast on the  Fiend's Grip illusion.  Spell Steal goes into cooldown and consumes mana, but does not acquire abilities.
+SOULBIND Prematurely ending the channeling only cancels Fiend's Grip on the originally targeted enemy and does not affect the channeling on the other target, even with the leash debuff expired.

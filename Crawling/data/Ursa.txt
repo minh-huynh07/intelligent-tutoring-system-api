@@ -1,0 +1,126 @@
+Earthshock  Link▶️Link▶️QE
+
+
+
+AbilityNo Target
+AffectsEnemies ( Self)
+DamageMagical
+
+Ursa leaps forward 250 units and slams the earth, causing a powerful shock to damage and slow all enemy units in a nearby area for 4 seconds.
+
+Cast Animation:  0+0Radius:  385 ( 785)Leap Distance: 250Damage: 75/125/175/225Move Speed Slow: 22%/28%/34%/40%Slow Duration: 4Leap Duration: 0.25 Enrage Duration: 1.5 Fury Swipe Stacks: 2
+
+   14/12/10/8
+N   2
+
+ 14/12/10/8
+ 95
+Aghanim's Shard Upgrade:
+
+Earthshock applies a 1.5 second Enrage on Ursa when cast.
+
+Root Notes:Does not move the caster forwards when cast while rooted.Getting rooted while already leaping cancels the leap.Modifiers [?]modifier_ursa_earthshock_moveDeath
+
+modifier_ursa_earthshockAnyAbility Draft Notes:
+ Fury Swipes must be drafted as well for it to get applied.
+ Enrage must be drafted as well for it to get applied.
+The very steps of a male ursine shake the ground as well as the resolve of opposing warriors.
+
+
+Interrupts Ursa's channeling abilities upon cast.
+Ursa leaps 250 range forwards, 83 range high, at a speed of 1000 and for up to 0.25 seconds.
+Always leaps toward the direction Ursa is facing, and can leap over other units and over impassable terrain.
+During leap, Ursa can attack, turn, and cast abilities.
+While in the air, other units may pass below Ursa.
+Earthshock and the Enrage buff is applied upon losing the leap buff.
+If the leap gets interrupted in any way, Earthshock is applied at Ursa's current location.
+Earthshock first applies the debuff, the damage, then the Fury Swipe stacks.
+Successive debuffs refresh its duration but do not update its ability values.
+SHARD Earthshock now applies the current level of  Enrage upon cast.
+Enrage notes fully apply. If it is not learned, no buff is applied.
+Only the incoming damage reduction and status resistance bonus are applied. Other of Enrage's cast effects (e.g. strong dispel) are not applied.
+If the buff is already present, its duration gets extended by  instead.
+TALENT The Earthshock applies Fury Swipes  talent instantly applies 2 stacks of  Fury Swipes based on its current level, within radius upon impact.
+Fury Swipes notes fully apply. If it is not leveled, no stacks are applied.
+Acquiring the Earthshock charges  talent instantly grants 1 extra charge. Overpower Link▶️WV
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Using his skill in combat, Ursa gains increased attack speed and slow resistance for a number of subsequent attacks.
+
+Cast Animation: 0.3+0Attack Speed Bonus: 400Number of Attacks: 3/4/5/6 ( 6/7/8/9)Slow Resistance Bonus: 10%/15%/20%/25%Duration: 20
+
+
+ 12/11/10/9
+ 30/40/50/60Modifiers [?]modifier_ursa_overpowerAny
+For a behemoth of his size, Ursa is deceptively nimble.
+
+
+A charge is consumed whenever an attack is executed. Therefore, missed attacks use up charges as well.
+The number of remaining charges is visible on the buff icon. The buff and the visual effects of the ability are visible to everyone.
+Stacks multiplicatively with other slow resistance sources.
+Successive casts do not stack but refresh the whole amount of charges and the buff duration instead. Fury Swipes  EW
+
+
+
+AbilityPassive
+AffectsEnemies  / Self
+DamagePhysical
+
+Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage. If the same target is not attacked after 8/12/16/20 seconds, the bonus damage is lost.
+
+Attack Damage Bonus per Stack: 10/19/28/37 ( 20/29/38/47)Debuff Duration: 8/12/16/20 ( 28/32/36/40)Against  RoshanDebuff Duration: 10Break Notes:Prevents gaining new stacks.Existing stacks still provide bonus attack damage.
+Modifiers [?]modifier_ursa_fury_swipesUndispellable
+modifier_ursa_enrageDeath
+
+modifier_ursa_fury_swipes_damage_increaseDeathIn nature, the wounded rarely survive the attacks of hungry predators.
+
+
+Fury Swipe's damage is considered as a conditional attack damage bonus.
+Although the attack damage bonus values are not displayed in the HUD, it is still considered and directly added to Ursa's attack damage.
+The attack damage bonus values are not considered by critical strike.
+However, it is considered by lifesteal and cleave, and it can be reduced only by flat reductions (e.g. damage block).
+Since it is considered bonus attack damage, it is not affected by percentage-based attack damage bonuses or reductions.
+On each attack Fury Swipes first adds 1 stack and then deals damage based on the stack count.
+This means that the bonus attack damage is applied even with the first attack.
+Each successful attack refreshes the duration, ability and  talent upgrade values of the whole stack. Missed attacks neither place the buff, nor add a stack or refresh it.
+The number of Fury Swipe stacks is visible on the debuff icon placed on affected units.
+For how much damage Fury Swipe deals on each level, and the total damage it accumulates over a certain amount of attacks, please refer to the chart below.
+Does not work against buildings, wards and allied units.
+TALENT The stack duration increasing  talent does not increase the debuff duration against  Roshan. Enrage Link▶️RR
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Ursa goes into a frenzy, providing damage reduction and status resistance. Removes any existing debuffs.
+
+Cast Animation:  0+0Damage Reduction: 80%Status Resistance Bonus: 50% ( 70%)Duration: 4/4.5/5
+
+
+ 70/50/30 ( 30/24/18)
+ 0
+Aghanim's Scepter Upgrade:
+Reduces cooldown and allows Ursa to use Enrage while disabled.
+
+Modifiers [?]modifier_ursa_enrageDeath
+Ulfsaar succumbs to his ancient spirit, becoming the most ferocious creature on the battlefield.
+
+
+Interrupts Ursa's channeling abilities upon cast.
+Enrage first applies the buff, then the strong dispel.
+Applies a generic incoming damage reduction buff on Ursa. Stacks additively with other sources of generic incoming damage manipulation.
+Affects all damage types Ursa receive. Does not reduce damage flagged as HP removal.
+Stacks multiplicatively with other sources of status resistance.
+Causes Ursa's hero model to glow red and increases its model size by 20%. This has no impact on its collision size.
+The buff of successive casts does not stack but refresh its duration.
+TALENT The status resistance increasing  talent does not update the current buff instance until the current instance ends.
+SCEPTER Enrage can now be cast while stunned, cycloned, slept, taunted, hidden or during forced movement.
+Cannot be cast while silenced, hexed or prevented from acting.
+Ursa is unable to ⇧ Shift-queue this ability upon acquiring  Aghanim's Scepter.

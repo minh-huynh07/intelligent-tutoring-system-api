@@ -1,0 +1,214 @@
+Dispose  Link▶️Link▶️QD
+
+
+
+AbilityTarget Unit
+AffectsAllies  / Enemies
+DamagePhysical
+
+Marci grabs an allied or enemy target and throws it effortlessly behind her, damaging and slowing the unit if it's an enemy. Any enemy units in the landing area will also be damaged and slowed.
+
+Passive Component Number of Unleash Pulses:  1 Pulse Silence Duration:  1Cast Animation: 0.2+1.04Cast Range:  175Facing Angle: 115°Landing Radius:  300Throw Distance: 250 ( 600)Landing Damage: 70/150/230/310 ( 160/240/320/400)Throw Duration: 0.5Move Speed Slow: 20%/30%/40%/50%Slow Duration: 3
+
+
+ 16/14/12/10
+ 75/80/85/90Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]modifier_marci_grapple_victim_motionDeath
+
+modifier_marci_dispose_debuffAnyMarci excels at removing obstacles from Princess Mirana's path.
+
+
+Although seeming like a  melee ability, the cast range can be further increased by other cast range bonuses. However, it is not affected by attack range bonuses.
+Dispose has a circular segment with a radius of 175, and cutting off and at a total angle of 230°.
+This means Marci can Dispose units in front of her, and to her left and right up to a certain degree without turning.
+Moves the target in an arc over Marci's head, with a height of 150. The throw always takes 0.5 seconds.
+The target is fully disabled and prevented from acting during the throw, and always lands 250 range behind Marci, so the throw distance varies based on the target's location.
+Destroys trees within 275 radius around the target upon landing.
+Applies both the landing damage and movement speed slow within the landing radius on all enemies.
+The ability effects are fully applied as well on the affected target when throwing an enemy target. Thrown allies are not affected, applying only the landing damage and movement speed slow.
+Applies the movement speed slow and area damage around  Roshan, but does not move him.
+Dispose first applies the movement speed slow, then the damage.
+The throw can only be interrupted by death or by other forced movement sources.
+When interrupted, the area damage and movement speed slow are applied prematurely at the unit's current location.
+Cannot be cast on the following units:
+On allies who have ☐ Disabled Help from Marci.
+ Courier, wards, buildings, and invulnerable units.
+On units affected by  Chronosphere and  Black Hole.
+SCEPTER Releases 1  Unleash pulse based on its current level at the enemy's landing location.
+If Unleash is not leveled, no pulses are released.
+Unleash notes fully apply. Rebound   Link▶️Link▶️WR
+
+
+
+AbilityTarget Unit  / Vector Targeting
+AffectsSelf  / Allies / Enemies
+DamagePhysical
+
+Vector targeted. Marci bounds to the targeted unit, choosing a direction and distance she will spring away from it. Upon reaching the unit, Marci lunges to her final destination, damaging and stunning enemies in the area.The ally receives 25%/30%/35%/40% bonus movement speed for 5s.
+
+Passive Component Number of Unleash Pulses:  1 Pulse Silence Duration:  1Cast Animation: 0.1+0Cast Range:  450/550/650/750 ( 550/650/750/850)Min Leap Distance: 150Max Leap Distance: 450/550/650/750 ( 550/650/750/850)Landing Position Offset: 64Landing Radius:  275Landing Damage: 75/150/225/300Stun Duration: 0.8/1.1/1.4/1.7 ( 1.55/1.85/2.15/2.45)Ally Move Speed Bonus: 25%/30%/35%/40% ( 35%/40%/45%/50%)Buff Duration: 5 Self Move Speed Bonus: 25%/30%/35%/40% ( 35%/40%/45%/50%)
+
+
+ 24/20/16/12 ( 21/17/13/9)
+ 70/80/90/100
+Aghanim's Shard Upgrade:
+
+Decreases the cooldown of Rebound, it can be cast on enemies, and causes Marci to also get the speed boost when she casts it.
+
+Ability Disjoint Notes:When disjointed, Marci stops at the target's last location before the disjoint, no other effects are applied.Root Notes:Cannot be cast while rooted.Getting rooted after cast does not cancel the cast.Modifiers [?]modifier_marci_lunge_tracking_motionDeath
+modifier_marci_lunge_arcUndispellable
+modifier_marci_lunge_landing_animAny
+modifier_marci_companion_run_ally_movespeedAny
+
+modifier_stunnedStrongWith a friendly or brazen boost, Marci can find her way into the midst of any fight.
+
+     Rebound's vector targeting interface.  
+Launches a projectile and periodically drags Marci along with it at a speed of 1700 upon cast. The visual effects around Marci come from that projectile.
+Can dash over impassable terrain and through trees.
+If the distance between the target and Marci becomes greater than the sum of the current cast range and 700 at any time, the dash stops.
+With the cast range and the range limit buffer, Rebound has a maximum leap distance of 1150/1250/1350/1450 ( 1250/1350/1450/1550).
+However, the projectile itself does not stop. If re-cast before the projectile reaches the target, it may cause the leap of the new cast to trigger earlier.
+Upon reaching the target, Marci leaps and faces toward the targeted direction.
+The leap has a min and max duration of 0.1 ‒ 0.2 seconds, and a height of 200 ‒ 250 respectively.
+During the dash and the leap, Marci is fully disabled.
+Grants the targeted ally the movement speed bonus once Marci reaches them.
+Marci does not land at the center of the area of effect. Instead, she lands 64 range away from the center, towards where she leaped from.
+With the position offset and leap distance, the actual minimum and maximum distance is 86 – 386/486/586/686 ( 486/586/686/786).
+This means the damage and slow radius are always located 64 range in front of Marci upon landing.
+Destroy trees within 275 radius upon landing.
+The dash can only be interrupted by death or by other sources of forced movement.
+However, the leap can only be interrupted by other sources of forced movement.
+If interrupted at any point, the ability fully cancels.
+Rebound first applies the landing damage, then the stun within the area.
+Cannot be cast on  Courier, wards, buildings, and invulnerable units.
+SCEPTER Releases 1  Unleash pulse based on its current level at Marci's location upon landing.
+If Unleash is not leveled, no pulses are released.
+Unleash notes fully apply.
+SHARD Now allows targeting and using an enemy unit as an anchor point, leaping and facing towards the targeted direction.
+Grants self 25%/30%/35%/40% ( 35%/40%/45%/50%) movement speed bonus once Marci reaches the enemy target.
+All Rebound's leap notes fully apply.
+The movement speed buff is applied at the same time while leaping. Therefore, with the leap duration, the buff can last up to 4.9 seconds. Sidekick Link▶️EC
+
+
+
+AbilityPassive  / Target Unit
+AffectsSelf  / Allied Heroes
+Damage Physical
+
+Marci's loyalty helps ensure survival, imbuing a chosen allied hero and herself with shared lifesteal and attack damage. If Marci and her ally are further apart from each other than 2500, the ally receives no bonuses and Marci only gets 0.5 until they get close again. Marci's lifesteal also heals her ally and the ally lifesteal also heals Marci.
+
+Passive ComponentSelf Bonus Factor: 0.5 Number of Unleash Pulses per Ally:  1 Pulse Silence Duration:  1Cast Animation: 0+0.54Cast Range:  1000Max Affected Allies: 1Attack Damage Bonus: 6/12/24/48 ( 71/77/89/113)Lifesteal: 10%/15%/20%/25% ( 20%/25%/30%/35%)Shared Lifesteal: 10%/15%/20%/25% ( 20%/25%/30%/35%)Creep Lifesteal Multiplier: 0.6Penalty Distance: 2500Ally Penalty Reduction: 100%Buff Duration: Permanent
+
+
+ 20
+ 45/40/35/30Break Notes:All ability effects are not affected by Break.
+Modifiers [?]modifier_marci_guardian_buffDeath
+Marci learned at a young age that the best asset in a scrap is a steady companion.
+
+     Overhead Sidekick icon.  
+Grants unique flat bonus attack damage.
+Although the bonus attack damage is displayed on the HUD, Sidekick grants the attack damage bonus upon the affected targets' attack point.
+For  ranged units, it grants the attack damage bonus upon projectile hit.
+Passively grants Marci the following bonuses:
+3/6/12/24 ( 35.5/38.5/44.5/56.5) flat bonus attack damage.
+5%/7.5%/10%/12.5% ( 10%/12.5%/15%/17.5%) lifesteal bonus.
+For Marci, these bonuses increase to their maximum value when the distance between both Marci and the affected ally is less than 2500 distance.
+For the affected ally hero, the ability values are reduced by 100% when the distance between both Marci and the affected ally is greater than 2500 distance
+Can only be cast on allied heroes, including illusions, clones, and creep-heroes.
+Cannot be cast on self, invulnerable and hidden heroes.
+Grants lifesteal and shared lifesteal to both Marci and the affected ally.
+Sidekick first heals Marci, then the affected ally. For the affected ally, Sidekick first heals the affected ally, then Marci.
+Both lifesteal components are affected by lifesteal amplification, but only if the amplification source is on the affected units themselves.
+Stacks additively with other lifesteal sources.
+Cannot lifesteal off of buildings or ally units.
+Can lifesteal off of wards that do not require a fixed amount of attacks to destroy.
+Sidekick's lifesteal can only heal as much as the attacked target's max health.
+The Sidekick buff icon appears overhead on both Marci and the affected ally, with blue ability particles on both hands as long as they are within 2500 distance apart.
+The ability particles on either Marci or the affected ally can be seen by everyone, even when the enemies have no vision on either of them.
+The buff can only be dispelled in the following conditions:
+If either Marci or the affected ally hero dies.
+When casting Sidekick onto another ally hero.
+However, the buff is not dispelled when the affected ally is Forced Killed.
+SCEPTER Release 2 Unleash pulses in total, at both Marci's and the targeted ally's location upon cast.
+The debuff from successive Unleash pulses does not stack, an enemy within the radius of both pulses can only be affected by one of them.
+If Unleash is not leveled, no pulses are released.
+Unleash notes fully apply. Bodyguard Link▶️EC
+
+
+
+AbilityPassive  / Target Unit
+AffectsSelf  / Allied Heroes
+Damage Physical
+
+Marci protects an allied hero. For 6s, whenever the ally attacks or is attacked by an enemy, Marci counter-attacks that target if they are within her attack range plus 125. The ally also gains bonus armor for the duration. Passively grants Marci lifesteal and bonus attack damage.
+
+Passive ComponentBuff Duration: PermanentPulse Silence Duration:  Cast Animation: 0+0.54Cast Range:  1000Max Affected Allies: 1Lifesteal: 10%/15%/20%/25% ( 610%/1210%/2410%/4810%)Base Attack Damage Bonus: 12%/18%/24%/30% ( 75%/80%/85%/90%)Bonus armour to ally: 4/6/8/10Creep Lifesteal Multiplier: 0.6 Number of Unleash Pulses per Ally: 1
+
+
+ 20
+ 50Break Notes:All ability effects are not affected by Break.
+Modifiers [?]modifier_marci_guardian_buffDeath
+
+
+
+Grants unique percentage bonus attack damage.
+Passively grants Marci the following bonuses:
+12%/18%/24%/30%  percentage bonus base attack damage
+10%/15%/20%/25%  lifesteal
+Can only be cast on allied heroes, including clones, and creep-heroes but not illusions.
+Cannot be cast on self, invulnerable and hidden heroes.
+Bodyguard triggers on the following conditions :
+Everytime two attacks from the affected ally successfully hit an enemy target
+Everytime an attack from an enemy successfully hits the affected ally.
+The enemy target in both of the previous conditions is in range of Marci's attack range + 125.
+Bodyguard launches an  instant attack on the targeted enemy that fully applies attack modifiers when either of the first 2 conditions are met as well as the 3rd.
+Both of the first 2 conditions are triggered independently from each other.
+The lifesteal component is affected by lifesteal amplification.
+Stacks additively with other lifesteal sources.
+Cannot lifesteal off of buildings or ally units.
+Can lifesteal off of wards that do not require a fixed amount of attacks to destroy.
+Sidekick's lifesteal can only heal as much as the attacked target's max health.
+The armor component gives bonus armor to the affected ally.
+The Sidekick buff icon appears overhead on the affected ally, with blue ability particles the ally's hand and light waves spreading accross their hero model. Unleash  Link▶️Link▶️RE
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+DamagePhysical
+
+Marci taps a hidden power, gaining Fury charges that allow her to deliver a rapid sequence of strikes. The last strike in every Fury combo creates a damaging pulse around the target that slows movement and attack speed for 2s. In between Fury combos, Marci is unable to attack for 1.5s.Marci gains 15% movement speed when Unleash is cast.
+
+Cast Animation: 0.2+0.34Self Move Speed Bonus: 15% ( 30%)Attacks per Flurry: 4/5/6Flurry Attack Speed Bonus: 700/975/1325Flurry Time Window: 1Flurry Cooldown: 1.5Flurry Target Move Speed Slow: 30%Flurry Target Base Attack Speed Slow: 60/80/100Flurry Target Debuff Duration: 2Pulse Radius:  800Pulse Damage: 50/100/150Duration: 16 Pulse Silence Duration: 1
+
+
+ 90/75/60 ( 80/65/50)
+ 100/125/150
+Aghanim's Scepter Upgrade:
+Reduces Unleash cooldown by 10 seconds and causes Unleash to apply a basic dispel on Marci. While Unleash is Active, all of Marci's abilities unleash pulses when cast. All of Marci's unleash pulses will silence units for 1 seconds.
+
+Modifiers [?]modifier_marci_unleashDeath
+modifier_marci_unleash_flurryDeath
+
+modifier_marci_unleash_flurry_cooldownDeath
+modifier_marci_unleash_flurry_pulse_debuffAny
+modifier_marci_unleash_pulse_silenceAnyThough some have sought to understand its origins, Marci rebuffs all attempts to divine the source of her power.
+
+     Unleash's Fury status buff icon.  
+While active, Unleash unlocks maximum attack speed and removes the 700 attack speed cap for Marci.
+The 700/975/1325 attack speed bonus is only gained while having the Flurry buff.
+An attack charge is consumed whenever an attack is executed (including attacks missed, from instant attack sources, and attacking allies).
+The number of remaining attacks is visible on the buff icon and on top of Marci. The buff and the visual effects of the ability are visible to everyone.
+Each attack first applies the 2-second movement speed and base attack speed slow debuff on the target, then deals its damage.
+This debuff is refreshed with each attack.
+Upon finishing the Flurry combo, Unleash releases a pulse around the attack target on the last attack and removes the Flurry buff.
+This pulse deals 50/100/150 damage within its radius and silences enemies affected.
+The attack releasing the pulse first applies pulse debuff, the pulse damage, the silence, then its own attack damage.
+Upon starting a Flurry combo, all attacks must be executed within 1 second, otherwise, the combo fails and the Flurry buff is lost.
+Upon losing the Flurry buff in any way, the cooldown debuff is applied.
+If the flurry combo was executed successfully, Marci's base attack rate is set to a fixed 2 seconds by this debuff afterward. This prevents her from performing attacks for 2 seconds after the last strike.
+The fixed attack rate resets as the next flurry starts, effectively preventing her from attacking for 1.5 seconds.
+If the Flurry cooldown was applied by failing the combo, her base attack rate will not be changed and she can attack normally.
+Once the cooldown debuff expires, she gains the Flurry buff again, with a new set of 4/5/6 charges.
+This repeats indefinitely while Unleash is active, there is no limit to how many Flurry buffs can be gained.
+SCEPTER Unleash now first apply the Flurry buff, then the basic dispel.
+While active, Unleash releases pulses only with Marci's abilities. It does not react to items cast or other abilities.

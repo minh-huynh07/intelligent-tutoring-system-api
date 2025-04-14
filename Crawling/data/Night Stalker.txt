@@ -1,0 +1,126 @@
+Void Link▶️QV
+
+
+
+AbilityTarget Unit ( Target Area)
+AffectsEnemies ( Self)
+DamageMagical
+
+Creates a damaging void that slows an enemy unit and deals damage. At night, Void also mini-stuns, interrupting channeling abilities, and the slowing effect lasts longer.
+
+Cast Animation: 0.3+0.47Cast Range:  525Damage: 80/160/240/320 ( 130/210/290/370)Move Speed Slow: 50%Attack Speed Slow: 50Day Slow Duration: 1.25Night Slow Duration: 2.5/3/3.5/4Day Stun Duration: 0Night Stun Duration: 0.1 ( 1) Radius:  450 Void Zone Duration: 5 Aura Linger Duration: 0
+
+
+ 11/10/9/8
+ 90/95/100/105
+Aghanim's Scepter Upgrade:
+Void becomes an area of effect ability. Increases the mini-stun duration and leaves behind a void zone. While in the zone, all of Night Stalker's abilities are empowered with their night time effect.
+
+Modifiers [?]modifier_night_stalker_void_zoneUndispellable
+
+modifier_night_stalker_voidAny
+modifier_stunnedStrongBalanar creates a vortex of infinite night, tearing opponents violently into the eternal darkness that once was.
+
+
+Uses the  nighttime values during the night, and from the following sources:
+The  nighttime of  Dark Ascension and  Eclipse.
+Within the   Void Zone radius.
+Void first applies the movement speed slow debuff, the damage, the stun debuff, then creates the Void Zone.
+Has a cast backswing of 0.73 when the passive component of  Hunter in the Night is active during  nighttime.
+SCEPTER Turns Void into an area-targeted ability affecting all enemy units within 450 radius.
+Does not target invisible units or units inside the Fog of War within the radius.
+With the cast range and effect radius, Void can hit units up to 975 range away.
+SCEPTER 0.4 seconds after cast, the Void Zone created provides an aura that grants all of Night Stalker's abilities the  nighttime bonuses within the radius.
+Unlike  nighttime, the Void Zone created neither lingers nor modifies the Time of Day in any way.
+Each created Void Zone has its own independent duration.
+SPELL STEAL  Night Stalker does not benefit from  Rubick's  Void Zone. Crippling Fear Link▶️Link▶️WF
+
+
+
+AbilityNo Target
+AffectsEnemies
+DamageMagical
+
+Night Stalker horrifies all nearby enemies, causing them to become silenced and take damage over time while near him. The effect lasts longer at night.
+
+Cast Animation:  0+0Radius:  375Damage per Second: 25/30/35/40Day Duration: 3Night Duration: 4.5/5/5.5/6Aura Linger Duration: 0.5
+
+
+ 30/25/20/15 ( 25/20/15/10)
+ 50Modifiers [?]modifier_night_stalker_crippling_fear_auraDeath
+
+modifier_night_stalker_crippling_fearDeathA vision of the twisted maw of Balanar etches itself into the minds of the poor souls unlucky enough to cross his path.
+
+
+Uses the  nighttime values during the night, and from the following sources:
+The  nighttime of  Dark Ascension and  Eclipse.
+Within the   Void Zone radius.
+Both the damage per second and silence are provided by an aura, its debuff lingers for 0.5 seconds.
+Although the damage per second component does not affect invulnerable and hidden units, the silence debuff fully affects them.
+Deals 2.5/3/3.5/4 damage in 0.1-second intervals, resulting in  35 and  50/55/60/65 damage instances for daytime and nighttime respectively.
+Can deal up to  87.5/105/122.5/140 or  125/165/210/260 damage to a single unit (before reductions) when the affected unit stays in range for the entire duration.
+Does not update the current instance when the time of day turns  daytime or  nighttime while active. Hunter in the Night  Link▶️Link▶️EG
+
+
+
+AbilityPassive ( Target Unit)
+AffectsSelf ( Units)
+Damage Instant Kill
+
+Night Stalker is in his element at night, attacking and moving with great swiftness.
+
+Passive ComponentMove Speed Bonus: 22%/28%/34%/40%Attack Speed Bonus: 20/40/60/80 ( 120/140/160/180) Status Resistance Bonus:  25% Cast Animation: 0+1.07 Cast Range:  125 Max Health as Heal: 30% Max Mana as Mana Restore: 25%
+
+
+   30
+  50
+Aghanim's Shard Upgrade:
+
+Hunter in the Night may be cast on a creep, instantly killing it and restoring some of Night Stalker's maximum health and mana. Cannot target ancients during the daytime.
+
+Modifiers [?]modifier_night_stalker_hunter_in_the_nightUndispellable
+The hunting prowess of Balanar improves as the night beckons.
+
+
+Grants passive bonuses only during  nighttime, and from the following sources:
+The  nighttime of  Dark Ascension and  Eclipse.
+Within the   Void Zone radius.
+SHARD Adds an active component to Hunter in the Night, with the passive effects still present.
+Can be cast on any unit except for heroes, wards and buildings.
+Treats illusions, clones, creep-heroes and  Roshan as heroes.
+Cannot be cast on ancient creeps during  daytime, but can during  nighttime.
+The targeted creep is instantly killed, granting its gold and experience bounties if it was an enemy, denying it if it was an ally.
+Despite the visual effect, the health and mana restored are applied instantly upon cast.
+SHARD The active has a minimum cast range of 150 despite having a different value in the game files.
+TALENT Stacks multiplicatively with other status resistance sources.
+SPELL STEAL The acquired ability is a passive ability on  Rubick if he does not have  Aghanim's Shard equipped. Dark Ascension Link▶️Link▶️RR
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. Refreshes the cooldown of all non-ultimate abilities when cast. Night Stalker gains flight and bonus damage during this time. Has unobstructed vision.
+
+Cast Animation: 0.3+0Attack Damage Bonus: 50/100/150 ( 80/130/180)Current Cooldown Skip: 100%Duration: 30 ( 38)
+
+
+ 140/135/130 ( 90/85/80)
+ 125/175/225Modifiers [?]modifier_night_stalker_darknessDeath
+It is a humbling sight to see when the mightiest of warriors become afraid of the dark.
+
+
+Time of Day modifying abilities has the following priorities:  Supernova ➤  Eclipse ➤ Dark Ascension.
+The ability's bonuses are not disabled during Supernova's  daytime. However, the vision is limited to Night Stalker's default daytime vision.
+Eclipse does not interfere with the  nighttime caused by Dark Ascension in any way — they do not cancel or pause each other's nighttime.
+Upon cast, the hero model and hitbox of Night Stalker ascends 150 units above the z-axis.
+However, its collision size is still on the ground. This does not change the current absolute coordinates of the model as well.
+Grants flying vision based on the caster's current vision range for its duration.
+For Night Stalker, Dark Ascension grants  1800 flying vision.
+Resets the current cooldowns of all the caster's basic abilities upon cast.
+Neither reset ultimate abilities nor item abilities.
+Does not reset charges for charged-based abilities.
+Destroys trees within a 150 radius at the end of the duration.
+Always replaces the game clock's  daytime or  status with  Night Stalker's minimap icon regardless of the caster.
+SPELL STEAL  Rubick neither ascends above the z-axis nor turns into a flying unit.

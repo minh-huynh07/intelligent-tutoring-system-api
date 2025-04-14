@@ -1,0 +1,165 @@
+Berserker's Call  Link▶️QE
+
+
+
+AbilityNo Target
+AffectsEnemies  / Self
+
+
+Axe taunts nearby enemy units, forcing them to attack him, while he gains bonus armor during the duration.
+
+Cast Animation: 0.3+0.5Radius:  315 ( 415)Armor Bonus: 25 ( 29)Duration: 1.8/2.2/2.6/3
+
+
+ 17/15/13/11 ( 14/12/10/8)
+ 80/90/100/110
+Aghanim's Scepter Upgrade:
+Berserker's Call applies Battle Hunger to affected units and reduces Berserker's Call cooldown.
+
+Spell Block / Reflection Notes:Battle Hunger applied by Berserker's Call is not blocked.Modifiers [?]modifier_axe_berserkers_call_armorDeath
+
+modifier_axe_berserkers_callDeathAbility Draft Notes:
+ Battle Hunger must be drafted as well for it to get applied.
+Mogul Khan's warcry taunts opponents into engaging in an unconquerable battle with the Axe.
+
+
+Taunts affected enemies, forcing them to attack Axe.
+Has the same taunt priority with  Little Friends,   Life Break and  Winter's Curse, but lower than  Duel.
+Does not silence, so active attack modifiers with Autocast on are still applied.
+Affects invisible units and units in the Fog of War. Does not affect towers, wards, invulnerable or hidden units.
+Does not affect the following units:
+Lane creeps from the first creep wave that spawns, until they meet the opposing creeps in the lane.
+ Couriers.
+Applies the debuff to uncontrollable units (e.g.  Undying Zombies), but the taunt does nothing.
+Successive taunts on units under the taunt effect of Berserker's Call refreshes the duration.
+When Axe dies, the taunt ends immediately.
+Berserker's Call effectively increases  Battle Hunger's damage per second by 25 ( 50) for its duration.
+Can increase Battle Hunger's total damage by up to 25/50/50/75 ‒ 50/75/75/75 ( 29/58/58/87 ‒ 58/87/87/87), depending on the tick timings.
+SCEPTER  Battle Hunger of its current level is now applied to all enemies within 315 ( 415) radius upon cast.
+Both the taunt and Battle Hunger debuff are applied at the same time.
+Battle Hunger notes fully apply. If it is not leveled, Battle Hunger is not applied. Battle Hunger  Link▶️WR
+
+
+
+AbilityTarget Unit
+AffectsEnemies ( Self)
+DamagePhysical
+
+Enrages an enemy unit, causing it to take damage over time until it kills another unit or the duration ends. The damage is increased by a factor of Axe's armor. The enemy is also slowed as long as he's facing away from Axe.
+
+Cast Animation: 0.3+0.5Cast Range:  700/775/850/925Base Damage per Second: 12/16/22/26Armor as Damage per Second: 100% ( 200%)Move Speed Slow: 11%/19%/27%/35% ( 23%/31%/39%/47%)Creep Speed/Armor Multiplier: 0.5Facing Angle: 90°Duration: 12 Enemy Armor Reduction: 7 Self Armor Bonus per Affected Enemy: 7 Self Move Speed Bonus per Affected Enemy: 12%
+
+
+ 20/15/10/5
+ 50/60/70/80
+Aghanim's Scepter Upgrade:
+Battle Hunger also reduces enemy armor and grants Axe armor per affected target.
+
+Spell Block / Reflection Notes:Blocked upon cast.Not blocked when applied by Berserker's Call.Modifiers [?]modifier_axe_battle_hunger_selfUndispellable
+
+modifier_axe_battle_hungerAnyOrdinary heroes cannot withstand Mogul Khan's rage for battle, such that it injures them until it is satisfied.
+
+     Battle Hunger's angle visualised  
+The debuff can be removed by killing any unit that is not an illusion, in any way. This includes buildings, wards, and denying allied units.
+The affected unit has to make the kill to remove the debuff. Summons, player-controlled units, and illusions owned by the same player do not remove the debuff when they make a kill.
+Enemies are not slowed when they have Axe within 90° in front of them, regardless of distance or Fog of War.
+This does not apply to the movement speed bonus granting  talent.
+Reduces non-hero units' movement speed by 5.5%/9.5%/13.5%/17.5% and armor by 3.5, while granting self 6% movement speed bonus per affected non-hero units.
+Treats creep-heroes and illusions as creeps.
+Deals damage in 1-second intervals, starting 1 second after the debuff is placed, resulting in 12 instances.
+Can deal up to 144/192/264/312 + 12x ( 24x) armor as damage (before reductions) when lasting its full duration.
+Axe's armor is checked periodically and the armor-based damage is updated immediately.
+The armor-based damage is not capped at 0 armor, meaning if Axe has 12/16/22/26 ( 6/8/11/13) negative armor, it deals 0 damage per second.
+Leveling up Battle Hunger does not update both the movement speed slow and base damage values of already placed debuffs.
+Re-casting Battle Hunger on the same target refreshes and updates the debuff.
+SCEPTER Battle Hunger has a passive modifier that is present on Axe at all times, but hidden when no enemies are debuffed. By default, this modifier serves no purpose.
+With  Aghanim's Scepter, this modifier now grants Axe the armor bonus and movement speed bonus for each debuffed enemy. This means, acquiring Aghanim's Scepter immediately updates the current instance.
+Effectively increases Battle Hunger's damage per second by 7 ( 14) and total damage by 84 ( 168) per affected hero.
+TALENT The armor multiplier increasing  talent immediately updates already placed debuffs as well.
+Both the self movement speed increasing and the slow increasing  talents do not update the value of already placed debuffs. Counter Helix   Link▶️EX
+
+
+
+AbilityPassive
+AffectsEnemies
+DamagePhysical
+
+After a set number of attacks, Axe will perform a helix counter attack, dealing Physical damage to all nearby enemies.
+
+Radius:  300Incoming Attacks: 7/6/5/4Damage: 95/120/145/170 ( 125/150/175/200) Max Debuff Stacks on Enemy: 6 Damage Reduction per Stack: 15% Stack Duration: 6
+
+
+ 0.3 ( 0)
+
+Aghanim's Shard Upgrade:
+
+Counter Helix now applies a stacking debuff to enemies hit by it that causes them to deal less total attack damage to Axe. Counter Helix no longer has a cooldown.
+
+Break Notes:If Break is applied by an attack, Counter Helix may trigger on that attack before getting disabled.
+Modifiers [?]modifier_axe_counter_helixUndispellable
+
+modifier_axe_counter_helix_damage_reductionAnyAxe is the only reinforcement this army needs.
+
+
+The attack counting buff starts at 7/6/5/4 and lowers by 1 when Axe is hit by a basic attack regardless of distance. This includes secondary attacks from other instant attacks.
+The buff is always present, but it is hidden when the ability is not learned.
+When the counter reaches 1, the next attack to hit Axe will proc Counter Helix and reset the counter to 7/6/5/4.
+Attacks will not reduce the counter under the following conditions:
+Missed attacks.
+Attacks from allies.
+Attacks from wards and buildings.
+Instant attacks that cannot proc attack modifiers:   Split Shot (without the Split Shot uses modifiers  talent),  Flak Cannon and etc.
+Spell damage sources.
+The attack counter has no duration and lasts indefinitely, and persists death.
+However, when respawning, reincarnating, or leveling up Counter Helix, the counter is reset to 7/6/5/4.
+Despite the visual effects, the damage is applied instantly within the radius.
+SHARD Counter Helix now places a debuff that refreshes on successive procs on enemies within its radius.
+Successive procs also refresh the entire stack's duration.
+The debuff can stack up to 6 times. A number on the icon shows the current number of stacks.
+Applies a unique outgoing damage reduction debuff on affected enemies that reduces attack damage.
+Only affects the target's attack damage against Axe. Neither reduces any other damage types nor attack damage against other targets.
+Can reduce an enemy's attack damage by 15%/30%/45%/60%/75%/90% with each amount of stacks. Culling Blade  Link▶️Link▶️RC
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Allies
+DamagePhysical  /  Instant Kill
+
+Axe spots a weakness and strikes, dealing Physical damage. When an enemy hero is killed with Culling Blade, its cooldown is reset, Axe gains bonus armor permanently and all nearby allied units gain bonus movement speed and armor.
+
+Cast Animation: 0.3+0.5Cast Range:  175Damage: 275/375/475 ( 425/525/625)Current Health Kill Threshold: 275/375/475 ( 425/525/625)Armor Bonus per Kill: 1/1.5/2 ( 2/2.5/3)Kill Speed Radius:  900Kill Move Speed Bonus: 20%/25%/30%Kill Armor Bonus: 20/25/30Buff Duration: 6 ( 10)Cooldown Skip on Target Death: 100/85/70
+
+
+ 100/85/70
+ 100/125/150Modifiers [?]modifier_axe_culling_blade_boostAny
+modifier_axe_culling_blade_permanentUndispellable
+modifier_axe_culling_blade_jungle_weapon_gestureDeath
+Mogul Khan is the embodiment of battle and fury, launching into a gruesome fatality against those who dare engage the Axe in combat.
+
+
+Checks the target's current health upon cast.
+If the current health is lower than the final outgoing damage of Culling Blade, it results in an instant kill.
+The kill threshold can be increased by the following sources:
+ Incoming damage manipulation the affected target has.
+ Outgoing damage manipulation sourced to Axe.
+Incoming damage reduction sources on the target do not prevent Culling Blade from killing it this way.
+Does not instantly kill  Tormentors.
+When the target dies to Culling Blade's damage, the following effects are applied:
+Removes all death preventing modifiers (e.g.  Borrowed Time,  Shallow Grave,  False Promise and  Battle Trance).
+However,   Wraith Delay is not removed.
+As long as the target dies, Culling Blade applies the movement speed and armor bonus to all nearby allies, excluding invulnerable and hidden ones.
+Treats kills against clones and illusions as heroes, creep-heroes as creeps.
+Upon culling an enemy hero for the first time, Axe gains a permanent buff that grants armor. Following successful kills on enemy heroes update this buff.
+Treats the  Tempest Double, illusions and creep-heroes as creeps.
+Does not gain a stack if the culled enemy is affected by   Wraith Delay.
+Gains a stack even when the culled enemy has Reincarnation.
+The number of stacks is visible on the ability icon, while the armor bonus is visible in the buff's description.
+The armor bonus is retroactive, leveling up the ability and learning the armor per kill increasing  talent update the value.
+The armor bonus effectively increases  Battle Hunger's damage per second by 1/1.5/2 ( 2/3/4) permanently.
+TALENT With the armor per kill increasing  talent, this further increases to 2/2.5/3 ( 4/5/6).
+Fully affects couriers.
+Cannot be cast on units under the effect of   Wraith Delay.
+COSMETIC The jungle weapon gesture modifier is responsible for the sound effects and ability animations used by  Fists of Axe Unleashed.
+SPELL STEAL The armor bonus per kill buff is not lost upon losing the ability.
+SOULBIND Culling Blade's cooldown reset depends if the primary target dies to the damage. If only the secondary target dies to the ability's damage, Culling Blade grants only the speed bonus with the ability going on cooldown.

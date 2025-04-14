@@ -1,0 +1,393 @@
+Icarus Dive  Link▶️QD
+
+
+
+AbilityTarget Point
+AffectsEnemies  / Self
+DamageMagical
+
+Phoenix dives forward in an arc with a fixed distance in the targeted direction, dealing damage over time and slowing the movement speed of any units it comes into contact with, and then orbiting back to its original position. If Phoenix casts Supernova, the dive ends.
+
+Cast Animation: 0.2+0Cast Range: GlobalEffect Radius:  200Dive Distance: 1100/1200/1300/1400 ( 2100/2200/2300/2400)Dive Width:  500Dive Duration: 2 ( 3)Damage per Second: 15/35/55/75 ( 35/55/75/95)Move Speed Slow: 16%/19%/22%/25% ( 41%/44%/47%/50%)Debuff Duration: 4
+
+
+ 36/34/32/30
+ 0
+
+
+
+
+ 15% Current HealthRoot Notes:Getting rooted during the dive does not cancel the dive.Modifiers [?]modifier_phoenix_icarus_diveDeath
+
+modifier_phoenix_icarus_dive_burnAnyThough no stranger to travelling the cosmic void, soaring within an atmosphere offers unique pleasures.
+
+
+Icarus Dive cannot be cast during  Supernova.
+Casting Supernova during Icarus Dive immediately ends the dive.
+Phoenix can attack, cast and channel abilities while diving.
+However,  Sun Ray is inactive during the dive, and cannot be cast.
+During Icarus Dive, Phoenix does not need to turn to cast targeted abilities or items.
+Icarus Dive does not disjoint projectiles.
+The current health as cost counts as setting health.
+Phoenix dives in an ellipse with a major axis length of 1100/1200/1300/1400 ( 2100/2200/2300/2400) and a minor axis length of 500.
+This results in a total path of 2602.44/2784.8/2968.87/3154.41 ( 4480.83/4673.03/4865.71/5058.83), which Phoenix covers in 2 ( 3) seconds.
+This means Phoenix dives at an average speed of 1301.22/1392.4/1484.44/1577.21 ( 2240.41/2336.52/2432.86/2529.41).
+The dive speed is not constant. Phoenix starts at 0, accelerates until halfway through max distance, then slows down towards max distance, then repeats the process on the way back.
+Destroys trees within a 200 radius around Phoenix during the dive.
+Phoenix always dives clockwise, hitting units on the left side of the dive first.
+Since the minor axis length value is less than its effect radius, units right in the middle of the arc might not be hit.
+Icarus Dive is canceled when Phoenix is stunned, cycloned, hexed, slept or affected by other forced movement sources.
+Roots and taunts do not cancel it.
+Deals damage in 0.2-second intervals, starting 0.2 seconds after the debuff is applied, ending 0.2 seconds after the last damage instance is over, resulting in 19 instances.
+Deals 3/7/11/15 damage in one damage instance, totally can deal up to 57/133/209/285 damage to a single unit (before reductions).
+SPELL STEAL / MORPH NOTES Immediately ends upon losing ability. Stop Icarus Dive QD
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Immediately cancels the dive.
+
+Cast Animation:  0+0
+
+
+ 0
+ 0SCREE!
+
+
+Replaces  Icarus Dive until the sub-ability is used or until the dive stops.
+Interrupts Phoenix's channeling abilities upon cast. Fire Spirits Link▶️WF
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Summons 4 Fire Spirits that circle around Phoenix. Each spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced.
+
+Cast Animation:  0+0Max Fire Spirits: 4Spirits Duration: 20
+
+
+ 50/40/30/20
+ 100
+
+
+
+
+ 20% Current HealthModifiers [?]modifier_phoenix_fire_spirit_countDeath
+
+modifier_phoenix_fire_spirit_burnAnyThe ever-collapsing core of Phoenix often emits short-lived bursts of conscious light.
+
+
+Fire Spirits cannot be cast during  Supernova.
+Casting Supernova while Fire Spirits is active, immediately removes the Fire Spirit buff.
+The current health as cost counts as setting health.
+Interrupts Phoenix's channeling abilities upon cast.
+Grants  Launch Fire Spirit 4 charges upon cast. Launch Fire Spirit  Link▶️Link▶️Link▶️WF
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamageMagical
+
+Each fire spirit can be launched independently at a targeted area of effect. Affected enemy units take damage over time and have their attack speed greatly reduced.
+
+Cast Animation: 0+0Cast Range:  1400Effect Radius:  200Damage per Second: 20/40/60/80 ( 40/60/80/100)Attack Speed Slow: 65/90/115/140Debuff Duration: 4
+
+ -
+N 4
+
+ 0
+ 0PKAWW! BOOM
+
+
+Replaces  Fire Spirits until all spirits are launched.
+The max amount of charges for Launch Fire Spirit always equals the value given on the status buff.
+The launched spirits travel at a speed of 1000.
+Successive burn damage debuffs on the same unit do not stack but refresh the debuff duration.
+Leveling up the ability does not immediately update the current debuff values.
+TALENT However, the damage per second increasing  talent immediately update the current active damage per second values.
+Deals damage in 0.2-second intervals, starting 0.2 seconds after the debuff is applied, ending 0.2 seconds after the last damage instance is over, resulting in 19 instances.
+Each spirit deals 4/8/12/16 ( 8/12/16/20) damage in one damage instance, totally can deal up to 76/152/228/304 ( 152/228/304/380) damage to a single unit.
+Can deal up to a total of 304/608/912/1216 ( 608/912/1216/1520) damage to a single unit (before reductions).
+During  Icarus Dive and  Sun Ray, the spirits can be fired in any direction without requiring Phoenix to face that direction.
+Each Fire Spirit provides a 1-second  radius ground vision at the targeted area upon impact.
+SPELL STEAL Existing Fire Spirits immediately disappear upon losing ability. Sun Ray Link▶️ER
+
+
+
+AbilityTarget Point
+AffectsEnemies  / Allies
+DamageMagical
+
+Phoenix expels a beam of light at the cost of its own health. The beam damages enemies and heals allies for a base amount plus a percentage of their health. The percentage increases as the beam continues to fire. Enemies are also blinded and get a miss chance that increases as the beam continues to fire.
+
+Cast Animation: 0.01+0.5Cast Range:  1200Ray Distance:  1150Ray Radius:  130Base Damage per Second: 14/20/26/32Max Health as Damage per Second: 1%/2.75%/4.5%/6.25% ( 2.5%/4.25%/6%/7.75%)Base Heal per Second: 7/10/13/16Max Health as Heal per Second: 0.5%/1%/1.5%/2%Turn Rate in Degrees per Second: 25°Miss Chance per Second: 10%Miss Duration: 5Ray Duration: 6 Move Speed Slow: 10% Slow Duration: 0.67
+
+
+ 30
+ 100/110/120/130
+
+
+
+
+ 6%/ second
+Aghanim's Shard Upgrade:
+
+Allows Sun Ray to be cast during Supernova, and slows affected enemies by 10%.
+
+Modifiers [?]modifier_phoenix_sun_rayDeath
+modifier_phoenix_sun_ray_visionUndispellable
+
+modifier_phoenix_sun_ray_blindAny
+modifier_phoenix_sun_ray_slowAnyAbility Draft Notes:
+Does not have the  Toggle Movement sub-ability.
+The vent through which such stellar energy flows is mere atoms wide.
+
+
+Sun Ray cannot be cast during  Icarus Dive and  Supernova.
+Casting Supernova during Sun Ray immediately ends it. Casting Icarus Dive during it does not end it.
+SHARD Casting Supernova during Sun Ray no longer ends it, and this ability now becomes castable during Supernova.
+The 6% current health as cost per second counts as setting health.
+Drains 1.2% of current health in 0.2-second intervals, starting 0.2 seconds after cast, ending 0.2 seconds after the last drain instance is over, resulting in 29 drain instances in 6 seconds.
+This results in a total health cost of 29.54% of Phoenix's initial current health on cast to sustain the full 6 seconds.
+For better readability, the turn rate during Sun Ray is given as degrees per second, instead of radians per 0.03 seconds.
+25° per second equal a turn rate of 0.013.
+Has 175 non-lingering ground vision around the ray for the duration.
+Sun Ray is canceled if Phoenix gets stunned, silenced, cycloned, feared, hexed or slept. Roots, taunts and forced movement do not cancel it.
+While affected by the taunts, Phoenix can neither change directions nor use  Toggle Movement and  Stop Sun Ray.
+Sun Ray sets Phoenix's movement speed to 0 (has priority over hastes) and disarms Phoenix for its duration, so it cannot move or attack.
+Attack orders behave like move orders during disarms, so a  Right Click on an enemy sets a new location as well.
+Phoenix can cast and channel abilities during Sun Ray.
+During Sun Ray, Phoenix does not need to turn to cast targeted abilities or items.
+First deals heal, next for damage, then applies the movement speed slow, finally blinds to all affected targets in 0.2-second intervals, starting 0.2 seconds after cast, ending 0.2 seconds after the last heal/damage instance is over, resulting in up to 29 instances of heal, damage and slow per unit.
+Stacks additively with other sources of blind.
+Blind uses pseudo-random distribution.
+Increases the miss chance by 2% per damage instance.
+Successive blind debuff on the affected units increase the stack count and fully refreshes the whole stack's duration.
+Initially, the beam deals 14/20/26/32 + 1%/2.75%/4.5%/6.25% ( 2.5%/4.25%/6%/7.75%) of the affected units' max health as damage per second.
+For each passing 0.2 seconds, the damage increases by 0.467/0.667/0.867/1.067 + 0%/0.1%/0.2%/0.2% ( 0.1%/0.1%/0.2%/0.3%) of their max health.
+In 6 seconds, the damage reaches 28/40/52/64 + 2%/5.5%/9%/12.5% ( 5%/8.5%/12%/15.5%) of theirmax health per second. At this point, the ray stops.
+Can deal up to 126/180/234/288 + 9%/24.75%/40.5%/56.25% ( 22.5%/38.25%/54%/69.75%) of max health as damage (before reductions) when an enemy is hit for its full duration.
+Initially, the beam heals for 7/10/13/16 + 0.5%/1%/1.5%/2% of the affected units' max health per second.
+For each passing 0.2 seconds, the heal increases by 0.233/0.333/0.433/0.533 + 0%/0%/0.1%/0.1% of their max health.
+In 6 seconds, the heal reaches 14/20/26/32 + 1%/2%/3%/4% of their max health per second. At this point, the ray stops.
+Can heal up to 63/90/117/144 + 4.5%/9%/13.5%/18% of max health when an ally is hit by the beam for the full duration.
+Does not affect  Couriers, ancient creeps or  Roshan.
+SPELL STEAL Immediately ends upon losing ability. Grants  Toggle Movement upon acquiring this ability.
+MORPH NOTES Immediately ends upon losing ability. Stop Sun Ray ER
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Immediately stops the Sun Ray.
+
+Cast Animation:  0+0
+
+
+ 0
+ 0CHIRP!
+
+
+Replaces  Sun Ray until the sub-ability is used, the duration ends or until Phoenix's death.
+Interrupts Phoenix's channeling abilities upon cast.
+Phoenix is unable to level Sun Ray up while this sub-ability is active.
+SPELL STEAL Does not grant  Sun Ray if this sub-ability is the last cast ability. Toggle Movement  DE
+
+
+
+AbilityToggle
+AffectsSelf
+
+
+Toggles slow forward movement during Sun Ray firing.
+
+Cast Animation:  0+0Set Move Speed: 250
+
+
+ 0
+ 0Root Notes:Can neither be toggled on nor off while rooted.If already toggled off, the movement stops, and resumes once the root expires.Ability Draft Notes:
+This ability is not available in Ability Draft.
+SQAWRK!
+
+
+This ability is only active while having Sun Ray buff.
+Interrupts Phoenix's channeling abilities upon cast.
+Moves Phoenix towards the direction of the ray with a fixed 250 speed.
+The speed value cannot be altered in any way and it is not based on Phoenix's movement speed, hence, movement speed bonuses and reductions do not affect it.
+Can move Phoenix through impassable terrain, and destroys trees 200 radius around Phoenix in its path.
+SPELL STEAL Does not grant  Sun Ray if this sub-ability is the last cast ability. Supernova Link▶️Link▶️Link▶️RV
+
+
+
+AbilityNo Target ( Target Unit)
+AffectsEnemies ( Allied Heroes)
+DamageMagical  /  Instant Kill
+
+The Phoenix willingly ends its current life for the chance to be reborn. Transforms into a burning sun that scorches enemies in a huge area. The sun can be destroyed by attacks from enemy Heroes. After 6 seconds the sun explodes, stunning all nearby enemies while restoring Phoenix to full health and mana with refreshed abilities.
+
+Cast Animation: 0.01+0.5Radius:  1200Hero Attacks to Destroy: 6/8/10 ( 9/11/13) ( 7/10/13,  10/13/16)Damage per Second: 60/90/120Stun Duration: 1.6/2/2.4 ( 2/2.4/2.8)Aura Linger Duration: 0.5Nova Duration: 6 Cast Range:  500
+
+
+ 120
+ 150/200/250
+Aghanim's Scepter Upgrade:
+Increases number of attacks to destroy Supernova and allows Phoenix to cast Supernova on an allied hero, bringing both into the sun to be reborn together.
+
+Modifiers [?]modifier_phoenix_supernova_hidingDeath
+modifier_phoenix_sunDeath
+
+modifier_phoenix_sun_debuffDeath
+modifier_stunnedStrongThe solar crucible of a Supernova may be fatal, yet from its flames arise new beacons to wander infinity.
+
+     Hero icon indicates the ally hero brought into the  Supernova to be reborn together.  
+
+
+Phoenix Sun
+
+
+
+
+
+Summoned Ward
+
+
+
+
+
+
+Health
+100
++0
+
+
+
+
+
+
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+0
+
+
+Duration
+
+
+
+6
+
+
+Armor
+
+
+
+0
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Collision Size
+
+
+
+27
+
+
+Bound Radius
+
+
+
+24
+
+
+Vision Range
+
+(G)
+
+1800 • 800
+
+
+Bounty
+
+
+
+20
+
+
+Experience
+
+
+
+0
+
+
+Notes
+
+PhasedAffected by Fountain attacks.
+
+
+
+Supernova turns  nighttime into  daytime for its duration.
+Time of Day modifying abilities have the following priorities: Supernova ➤  Eclipse ➤  Dark Ascension.
+Disjoints projectiles and applies a strong dispel on Phoenix and the ally's upon cast.
+Supernova also dispels certain buffs that are only dispellable by death:  Shallow Grave,  Fire Spirits etc.
+Resets Phoenix' and the affected ally's basic abilities, and replenishes their mana upon cast. Does not resets the cooldowns of items and ultimates.
+If the sun survives, the affected targets' health and mana get replenished at the end of the duration.
+The health replenished counts as setting health.
+The mana replenished counts as restoring mana.
+This can be defined as expr ManaRestored = MaxMana - CurrentMana
+During Supernova, Phoenix is hidden, invulnerable, rooted, muted, and disarmed.
+All of Phoenix's abilities are also turned inactive during Supernova, so they cannot be cast either.
+Only attacks from heroes can damage the  Phoenix Sun.
+Treats attacks from clones as heroes, and attacks from creep-heroes and illusions as creeps.
+The area damage is provided by an aura and its debuff lingers for 0.5 seconds.
+Deals damage in 0.2-second intervals, starting 0.2 second after the debuff is applied, resulting in up to 32 possible instances at most.
+Deals 12/18/24 damage in one damage instance, totally can deal up to 384/576/768 damage to a single unit (before reductions) when it stays in range for the full duration.
+The source of the damage is the Phoenix, not the sun itself, and fully benefits from spell amplification.
+Destroying the sun instantly kill and credit Phoenix and the ally's death to its destroyer.
+The sun is a ward-type unit, it can be denied once it drops below 50% max health. Doing so also denies Phoenix and the ally.
+Destroys trees within a 500-side length rectangular around Phoenix upon cast.
+SCEPTER Adds single-target functionally to Supernova with a 500 cast range.
+The cast range is only for selecting an ally hero within the range. The sun still appears in Phoenix's current location.
+Treats illusions and clones as heroes.
+↓↓ Double-tapping automatically targets self.
+Cannot be cast on allies who have ☐ Disabled Help from Phoenix.
+The targeted ally is prevented from acting during Supernova, on top of the same effects that are applied to Phoenix during it.
+If the sun gets destroyed and Phoenix has Reincarnation, the ally is released with its health, mana and cooldowns unaffected.
+If the sun gets destroyed and the ally inside has Reincarnation, it reincarnates while Phoenix dies.
+Other Supernova notes fully apply.
+SHARD  Sun Ray now becomes castable during Supernova, and casting Supernova during Sun Ray no longer ends it.
+However, since Phoenix is also rooted, it can neither move nor use the  Toggle Movement sub-ability during it.
+Phoenix can still turn in place and change the Sun Ray's direction, but the  Stop Sun Ray sub-ability cannot be used.
+If Supernova is cast during Sun Ray, it can immediately be cast again once it ends, due to Supernova refreshing its cooldown upon cast.
+If Supernova ends during Sun Ray, the ability continues normally, and its sub-abilities become usable again.
+SPELL STEAL Does not instantly kill  Rubick upon losing the ability. Although Supernova notes fully apply, Rubick is able to cast the latest acquired ability if the  Spell Steal projectile reaches him while already within the  Phoenix Sun.

@@ -1,0 +1,237 @@
+Impetus   Link▶️Link▶️QT
+
+
+
+AbilityActive Attack Modifier
+AffectsEnemies
+DamagePure
+
+Places an enchantment on each attack while activated, causing it to deal additional damage based on how far away the target is. The farther the target, the greater the damage dealt. Deals double damage to creeps and illusions.
+
+Cast Range:  575Distance as Damage: 5%/10%/15%/20% ( 11.5%/16.5%/21.5%/26.5%)Distance Cap: 1750Creep Damage Multiplier: 2
+
+
+ 6/4/2/0
+ 50Modifiers [?]modifier_enchantress_impetusUndispellable
+While Aiushtha favors peaceful means, she is capable of a physical onslaught from a distance, her spears gaining energy from the natural life around her.
+
+
+Impetus' cast range can only be further increased by attack range bonuses of the same range type as the caster. However, it is not affected by cast range bonuses.
+Both Autocast and manually casting it uses Enchantress' current attack range.
+The distance is calculated as the projectile hits the target.
+This means moving away from the target causes it to deal more damage on impact, and vice versa.
+The bonus damage is applied as spell damage in a separate damage instance, it is affected by spell damage amplification and works with spell lifesteal.
+Impetus first applies the spell damage, then the attack damage, but still depends on the attack hitting the target.
+The damage is capped at a distance of 1750, resulting in the following maximum damage values:
+Treats creep-heroes and  Roshan as heroes, illusions as creeps.
+Can deal a total of 87.5/175/262.5/350 ( 201.25/288.75/376.25/463.75) damage to heroes.
+Can deal a total of 175/350/525/700 ( 402.5/577.5/752.5/927.5) damage to creeps.
+Does not work against allied units, buildings or wards.
+Cannot be cast on  Couriers. Enchant  Link▶️Link▶️WC
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+
+
+Enchantress charms an enemy. If the enemy is a hero, they are slowed and damaged for 5 s. 
+If the enemy is a creep, she brings it under her control, increasing its attack damage and max health. Only one creep can be controlled at a time.
+
+Cast Animation: 0.3+0.67Cast Range:  500/550/600/650Hero Move Speed Slow: 30%/40%/50%/60%Hero Slow Duration: 5Max Enchanted Creeps: 1 ( 2)   Enchant Creep Max Level: 4/5/6/6 Hero Damage Per Second: 20/30/40/50 Enchanted CreepMax Health Bonus: 200/300/400/500 ( 260/390/520/650)Attack Damage Bonus: 0/25/50/75 ( 0/32.5/65/97.5)Armor Bonus: 0/3/6/9Duration: 30/60/90/120
+
+
+ 30/24/18/12
+ 40/50/60/70
+Aghanim's Scepter Upgrade:New Ability
+Grants the Little Friends ability.Enchantress can control multiple creeps at a time.
+
+Modifiers [?]modifier_enchantress_enchant_controlledDeath
+modifier_dominatedDeath
+modifier_killDeath
+
+modifier_enchantress_enchant_slowAnyAbility Draft Notes:
+Toggling Autocast on swaps this ability out with  Little Friends. Their cooldowns are separate.
+A true steward of the forest, Aiushtha befriends all within it - from lowly trolls to powerful centaurs.
+
+
+Casting Enchant on heroes applies the movement speed slow and a basic dispel on them (the long sound is played).
+Treats clones, creep-heroes and the   Vengeance Illusion as heroes.
+ Couriers can be targeted, but it has no effect on them, wasting the mana and cooldown.
+Successive casts on heroes refresh its duration.
+Cannot be cast on the following units:
+Ancient creeps,  Roshan and  Siege Creeps.
+ Necronomicon Units.
+Cannot be cast again on  Enchanted creeps from the same faction.
+The following neutral creeps cannot be targeted due to the level restriction:
+LEVEL 3+ Can enchant all neutral creeps.
+LEVEL 2 Cannot enchant:  Dark Troll Summoner,  Satyr Tormenter,
+LEVEL 1 Additionally cannot enchant:  Alpha Wolf,  Centaur Conqueror,  Hellbear Smasher,  Mega Ranged Creep,  Ranged Creep,  Super Ranged Creep,  Warpine Raider,  Wildwing Ripper,
+Slowed units leave behind a trail of flowers as they move, which is only visible when having vision over the unit.
+Grants the unit the following bonuses as long as it can be enchanted: (short sound is played)
+It first applies a basic dispel on the target creep which removes both buffs and debuffs.
+Increases the enchanted unit's max health values by , then sets the creep's current health equal of the new max health value. This counts as setting health and does not count as a heal.
+Grants flat bonus attack damage.
+Leveling the ability or the health and damage increasing  talent does not update the stats of already enchanted creeps.
+The creep's abilities' levels are based on the time enchanted and do not upgrade.
+However, the enchanted creep's mana is not restored.
+ Reinforced units receive  10% less damage (before reductions) from the enchanted creep.
+Treats illusions as creeps.
+Enchanting an illusion does not change the creator of the illusion.
+Does not grant any of Enchant's ability effects.
+Enchanted illusions are not counted toward the max enchanted units allowed. Therefore, there is no limit to how many illusions can be enchanted.
+Enchanting a new creep while already having the maximum amount of creeps instantly kills the oldest enchanted creep.
+When an enchanted creep's duration ends, it gets instantly killed as well.
+These deaths are not credited to anyone so that no one gets experience from it.
+Deals damage in 1-second intervals, starting 1 second after cast, resulting in 5 instances.
+Can deal up to 100/150/200/250 damage. Nature's Attendants Link▶️ER
+
+
+
+AbilityNo Target
+AffectsAllies ( Self)
+
+
+A cloud of wisps heals Enchantress and any friendly units nearby. Lasts 9/10/11/12 seconds.
+
+Cast Animation: 0.3+0.93Search Radius:  275Number of Wisps: 8 ( 13)Heal per Second per Wisp: 4/8/12/16 ( 24/28/32/36)Duration: 9/10/11/12 Move Speed Bonus: 30
+
+
+ 35
+ 140Modifiers [?]modifier_enchantress_natures_attendantsDeath
+Whimsical spirits of the woods possess a healing power that is quite subtle, but gains strength in numbers.
+
+
+Every 0.5 seconds, each wisp chooses a random allied unit to heal. So it is possible to heal up to 8 ( 13) allies at a time.
+The heal targets are chosen randomly, without any priorities. Multiple wisps can randomly select the same unit.
+Each wisp approaches its chosen target, indicating the wisp is healing the target.
+Nature's Attendants ignores ancient creeps and allies that already are at full health.
+It can heal invulnerable units, but not hidden units.
+The search radius is centered around Enchantress' current location and follows her at all times.
+When Enchantress dies, the wisps still continue to heal units nearby her death location.
+When Reincarnation triggers, the wisps fly back from nearby units to Enchantress upon respawning.
+Successive casts do not stack but refresh the duration.
+Can heal a total of 32/64/96/128 health per second or 392/864/1416/2048 health over its full duration.
+TALENT The movement speed increasing  talent does not update the current active instance.
+Increases Enchantress' total movement speed to 350 while active.
+The number of wisps increasing  talent can heal a total of 52/104/156/208 health per second or 468/1040/1716/2496 health over its full duration.
+However, the ability's visual effects do not adapt for this  talent.
+The bonus heal per wisp  talent can heal a total of 192/224/256/288 health per second or 1728/2240/2816/3456 health over its full duration.
+With both  talents, it can heal a total of 312/364/416/468 health per second or 2808/3640/4576/5616 health over its full duration. Sproink Link▶️DF
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+Damage Instant Attack
+
+Leaps backward, and dodges incoming projectiles, and launches an Impetus attack on the 2 furthest enemy units within Enchantress' attack range + 675.
+
+Cast Animation:  0+0Leap Distance: 500Leap Duration: 0.4Impetus Search Range:  675Number of Impetus Attacks: 2
+
+
+ 8
+ 50Modifiers [?]modifier_enchantress_bunny_hop_passiveUndispellable
+modifier_enchantress_bunny_hopDeath
+Ability Draft Notes:
+ Impetus must be drafted as well for it to get applied.
+Requires drafting  Untouchable to be unlocked.
+Sproink is as Sproink does.
+
+
+Requires  Aghanim's Shard to be unlocked.
+Interrupts Enchantress' channeling abilities upon cast.
+Sproink disjoints projectiles upon cast.
+Upon cast, Enchantress leaps in an arc with a height of 150 and 180° away from the direction she is facing.
+Leaps at a speed of 1250 for up to 0.4 seconds, or until touching the ground again.
+Can leap over other units and over impassable terrain.
+This means the leap distance and duration can be reduced/increased by jumping up/down a ramp or impassable terrain.
+During Sproink, Enchantress can attack, cast abilities, and use items.
+0.2 seconds after cast, Enchantress performs instant attacks on the furthest 2 enemies within the search radius.
+This means if the leap gets interrupted before that, the instant attacks do not happen.
+The instant attacks are also not performed if  Impetus is not learned, or when she is disarmed.
+The instant attacks apply Impetus based on its current level on their targets, they do not cost any mana, and are applied even if Impetus is currently not castable.
+These instant attacks can proc any attack modifiers and on-hit effects normally. They do not have True Strike.
+Fully ignores  Couriers.
+The Impetus attacks' search range can only be further increased by attack range bonuses of the same range type as the caster. However, it is not affected by cast range bonuses.
+Searches for enemies all around her, meaning it may target enemies behind Enchantress as well.
+For  melee units, if the enemy target is farther than 350 range more than the attacker's range, the attack will always miss. Little Friends  Link▶️FL
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Units
+
+
+Enchantress roots an enemy unit. All creeps, ally, enemy and neutral within a radius will gain bonus movement and attack speed and attack Enchantress' chosen target for 6 seconds.
+
+Cast Animation: 0+0Cast Range:  750Search Radius:  1200Taunt Move Speed Bonus: 100%Taunt Attack Speed Bonus: 100Taunt Duration: 6Base Root Duration: 2Root Duration Bonus per Creep: 0.5Max Root Duration: 5
+
+
+ 20
+ 75Modifiers [?]
+modifier_enchantress_little_friendsDeath
+modifier_rooted_undispellableDeath
+modifier_enchantress_little_friends_auraUndispellable
+modifier_enchantress_little_friends_kill_creditUndispellableAbility Draft Notes:
+Requires drafting  Enchant to be unlocked.
+
+
+
+Requires  Aghanim's Scepter to be unlocked.
+Provides True Sight over the target, while all creeps (including lane, neutral and ancient creeps), regardless of its faction that are within the radius get taunted, forcing them to attack the affected target.
+Creep-heroes can be targeted, but they are not affected by the taunt.
+Treats illusions as heroes.
+Has the same taunt priority with  Berserker's Call,   Life Break and  Winter's Curse, but lower than  Duel.
+Upon cast, Little Friends applies root on the affected target based on the number of creeps within 1200 radius.
+Creeps leaving or entering the area afterward do not change the root duration.
+However, creeps that enter the search radius after the cast are taunted for the ability's remaining duration.
+Does not affect or check for spell immune, invulnerable, or hidden enemies, wards or buildings.
+To reach the max root duration, 6 creeps have to be within the radius upon cast.
+The search radius is centered around the affected target's current location and follows the target at all times.
+Three wisps appear above the affected target, while a single wisp appears on the taunted creep, visible to everyone.
+The taunt is based on an aura, with an infinite linger duration. The debuff gets cleared when the debuff on the primary target expires, or when the target dies.
+This means the taunt sticks on the affected units, and getting moved outside the radius does not free the unit from the taunt.
+This also means the taunt sticks even if the debuff got removed on the primary target due to no enemies being within the area.
+Little Friends first roots the target, then taunts the creeps within the radius.
+Little Friends has the lowest priority in the group of kill credit manipulation effects.
+All damage dealt to the affected target from heroes and creeps during the taunt duration is neither sourced to Little Friends nor credited to Enchantress.
+As long as the hidden debuff is present, Enchantress is given the kill credit.
+The kill credit is still given to Enchantress if the creep's attack projectile lands the kill upon the ability's duration expiring.
+The debuff causes non-lethal self-damage sources (e.g.  Poison Nova) affecting the target to be lethal, and credits Enchantress for the death as long the debuff is active.
+Does not affect damage flagged as HP Removal.
+However, the following conditions do not credit Enchantress with the kill credit.
+When combined with other higher priority kill credit manipulation effects (e.g.  Reaper's Scythe and/or  Winter's Curse).
+When the affected target dies to  Ice Blast's kill threshold.
+Forced Kill sources applied to the affected target during the taunt duration.
+When the affected target is brought into   Supernova and the  Phoenix Sun is destroyed or denied.
+When affected by   Wraith Delay. Untouchable   Link▶️RN
+
+
+
+AbilityPassive
+AffectsEnemies
+
+
+Enchantress beguiles her enemies, slowing their attacks when she is attacked.
+
+Attack Speed Slow: 100/150/200 ( 165/215/265)
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Sproink ability.
+
+Break Notes:Does not prevent placing the debuff when attacked.The debuff does not slow enemies while affected by break.
+Modifiers [?]modifier_enchantress_untouchableUndispellable
+
+modifier_enchantress_untouchable_slowAnyAfter attacking Aiushtha, most opponents are overwhelmed with guilt having attacked such a natural beauty.
+
+
+Untouchable is triggered whenever a unit, including wards, starts an attack on Enchantress, regardless of distance.
+This means it does not matter if the attack successfully hits or not, the attack speed slow is still applied.
+Does not work against buildings, allies, or invulnerable units.
+When the attack was fully executed, then the slow debuff lasts as long as the remaining attack backswing duration.
+Canceling the attack backswing does not affect this duration, so it is not possible to reset the attack speed by canceling it.
+When switching attack targets, the debuff persists but does not apply the slow against the new target.
+The debuff persists until the attack against the new target finishes or gets canceled.
+This means it is possible to skip the backswing-based slow duration by issuing an attack order (A) on a new target within attack range between each attack.
+The debuff does not affect the idle animation in attack animation after the backswing.

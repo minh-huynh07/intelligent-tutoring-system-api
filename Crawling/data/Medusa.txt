@@ -1,0 +1,192 @@
+Split Shot    Link▶️QT
+
+
+
+AbilityToggle
+AffectsEnemies
+Damage Instant Attack
+
+Medusa magically splits her shot into several arrows. These arrows deal a lower percent of her normal damage.The extra targets will not receive other attack effects (such as critical strike).
+
+Cast Animation:  0+0Secondary Arrows Search Radius:  750Bonus Attack Targets: 4Self Attack Damage: 40%/55%/70%/85% ( 50%/65%/80%/95%)
+
+
+ 0
+ 0Break Notes:Disables the secondary attacks.Does not disable the outgoing damage reduction.
+Illusion Notes:Illusions copy the current toggle state upon creation, and cannot change the toggle state.Modifiers [?]modifier_medusa_split_shotUndispellable
+All who encounter the cursed Gorgon will feel her rage.
+
+
+Does not interrupt Medusa's channeling abilities upon toggling On / Off.
+Reduces Medusa's main and bonus attack damage when toggled On. This can be defined as:
+expr (MainAtk + BonusAtk) × 40%/55%/70%/85% ( 50%/65%/80%/95%)
+Does not reduce conditional attack damage bonuses (e.g.  Pierce or  Shadow Walk).
+Stacks additively with other total attack damage reduction sources.
+The reduction displayed in the HUD is inaccurate, as it is based on the main attack damage, instead of the main and bonus attack damage.
+Split Shot persists through Medusa's death. If Split Shot was active upon death, she respawns with it active.
+Causes Medusa to perform instant attacks on the closest 4 enemies whenever she launches an attack projectile.
+This means all projectiles are released at the same time together with the main attack. It does not matter whether the primary attack misses.
+The extra projectiles travel at the same speed as the leading attack's projectile.
+This means their speed can be further increased by other attack projectile speed bonuses.
+These instant attacks do not have True Strike and may not proc any attack modifiers or on-hit effects.
+TALENT The Split Shot uses modifiers removes this restriction upon learning the  talent, the instant attacks still do not have True Strike.
+However, certain sources still interact differently with Split Shot:
+ Shadow Walk applies Break to only the primary target and the secondary target nearest to Medusa.
+ Witch Blade-based damage per second is only applied to the nearest attacked target upon triggering its cooldown.
+ Phantom Province do not automatically attack secondary ethereal units.
+The secondary arrows search radius can be further increased by other attack range bonuses.
+Does not target wards, buildings, invisible units, attack immune units, or units inside the Fog of War, but does target  Couriers.
+However, attacking wards or buildings still causes secondary arrows to hit valid targets within the search radius.
+Secondary arrows are not released upon attacking allies.
+For  melee units, if the enemy target is farther than 350 range more than the attacker's range, the attack will always miss.
+SPELL STEAL Can only be acquired when the ability is toggled On. Mystic Snake   Link▶️Link▶️Link▶️Link▶️WC
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Self
+DamageMagical
+
+A mystic snake made of energy jumps from target to target dealing damage. Damage and speed increases with each jump. After it reaches its last target, it returns to Medusa to replenish her with mana. The snake deals more damage per jump and returns 14%/15%/16%/17% mana based on the targets' total mana.
+
+Cast Animation: 0.2+0.67Cast Range:  750Bounce Radius:  450Number of Bounces: 3/4/5/6 ( 6/7/8/9)Projectile Speed: 800Projectile Speed Multiplier per Bounce: 1.15Base Damage: 85/130/175/220Damage Multiplier per Bounce: 1.35Max Mana as Mana Restored: 14%/15%/16%/17%Move Speed Slow: 30% ( 45%)Turn Rate Slow: 50% ( 65%)Slow Duration: 3 Base Petrify Duration: 1 Petrify Duration Increment per Bounce: 0.2
+
+
+ 13/12/11/10 ( 10/9/8/7)
+ 80/100/120/140
+Aghanim's Scepter Upgrade:
+Causes Mystic Snake to turn enemies hit into stone. Stone duration increases with each bounce of the Mystic Snake.
+
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Cold Blooded ability.
+
+Debuff Immunity Notes:Does not place the Stone Gaze debuff on debuff immune enemies.Spell Block / Reflection Notes:Blocked fully when primary or secondary target.Blocked upon impact.When blocked, stops bouncing and returns to Medusa to restore her mana.Spell Reflection does not reflect ability on secondary targets.Modifiers [?]modifier_projectile_visionUndispellable
+
+modifier_medusa_mystic_snake_slowAny
+modifier_medusa_stone_gaze_stoneStrongThe Gorgon's curse is her greatest strength.
+
+
+Mystic Snake travels at a speed of 800 and its projectile speed increases by 15% per bounce.
+From the 1st target onwards, the projectile has a speed of 920/1058/1216.7/1399.21/1609.09/1850.45/2128.02 on subsequent bounces.
+Mystic Snake first applies the damage, the slow debuff, then the petrify debuff.
+The snake always bounces to the closest valid target around its current target. Cannot hit the same unit more than once per cast.
+The snake can bounce on units in the Fog of War, but not on invisible, invulnerable or hidden units.
+If the snake's current target turns invulnerable, hidden, or invisible, the bounce neither counts nor increases the damage.
+The snake continues bouncing to nearby valid targets in these cases.
+The snake provides 100 radius flying vision around itself. The vision does not last.
+Medusa's mana is restored when the snake returns to her. The restored amount is based on all hit enemies' max mana.
+Hit illusions are not counted towards the mana restore value.
+Mystic Snake needs to hit units with a combined total mana pool of 572/667/750/824 to fully reclaim its mana cost.
+Each successful hit on an enemy increases the damage of the next bounce by 35% of the ability's base damage.
+This means its damage grows linearly, not exponentially, dealing 29.75/45.5/61.25/77 damage more per bounce.
+For how much damage Mystic Snake deals (before reductions) and the petrify duration per bounce, please refer to the chart below.
+SCEPTER Mystic Snake applies the Stone Gaze debuff based on its current level on enemies it hits.
+If it is not leveled, or if the caster does not have  Stone Gaze, the debuff is not applied. Stone Gaze petrify notes fully apply.
+Since it uses the same modifier as Stone Gaze, their effects do not stack. The debuff also always uses Stone Gaze's icon.
+Acquiring  Aghanim's Scepter instantly updates the current Mystic Snake projectile.
+SHARD Fully works for the Mystic Snake of  Cold Blooded as well.
+SPELL STEAL  Stone Gaze applied is based on  Medusa's current ability level when acquired. Mana Shield   Link▶️Link▶️EE
+
+
+
+AbilityPassive
+AffectsSelf
+
+
+Creates a shield that absorbs 98% of incoming damage in exchange for Medusa's mana. Illusions absorb less damage per point of mana. Provides bonus mana capacity.
+
+Mana Bonus: 0/50/100/150/200Damage Reduction: 98%Damage Absorbed per Mana: 2/2.4/2.8/3.2/3.6 ( 3.7/4.1/4.5/4.9/5.3) IllusionsDamage Reduction: 100%Damage Absorbed per Mana: 1/1.4/1.8/2.2/2.6 ( 1.9/2.3/2.7/3.1/3.5)
+
+
+ 0
+ 0Modifiers [?]modifier_medusa_mana_shieldUndispellable
+Ability Draft Notes:
+The drafting hero's mana bar is visible to everyone. Medusa begins the game with a level 1 Mana Shield if the ability is not drafted. However, Mana Shield has a max level of 4 when drafted by other heroes.
+While Medusa was not gifted with eternal life upon birth, her curse bestowed her with impressive defensive powers.
+
+
+This is innate to Medusa and does not need to be learned. This ability can be upgraded up to level 5.
+Medusa's mana bar is visible to everyone.
+Mana Shield has the highest priority in the group of damage manipulation effects.
+Mana Shield first reduces incoming damage (before reductions), then the damage instance is applied while her current mana is drained.
+As long as Medusa has mana, Mana Shield precedes armor, magic resistance, damage block, damage barrier and damage negating sources (e.g.  Aphotic Shield).
+This also affects everything which works directly with damage dealt after reductions (e.g.  Soul Burn).
+Applies 98% ( 100%)  unique incoming damage reduction on Medusa.
+Stacks multiplicatively with all other sources of incoming damage manipulation.
+Affects all damage types Medusa receive, including damage flagged as HP removal.
+The health cost of casting abilities such as  Soul Ring is also reduced. However, it does not reduce inflicted health cost (e.g.  Armlet of Mordiggian,  Soul Rip).
+Increases Medusa's effective health by 1.96/2.352/2.744/3.136/3.528 ( 3.63/4.02/4.41/4.8/5.19) per point of mana, assuming she has enough mana.
+In other words, for each 100 damage taken, Medusa loses 2 health and 49/40.83/35/30.63/27.22 ( 26.49/23.9/21.78/20/18.49) mana.
+For Medusa's illusions, they lose the following amount of mana per 100 damage:
+expr IllusionDamageTaken × 100/71.43/55.56/45.45/38.46 ( 52.63/43.48/37.04/32.26/28.57) Cold Blooded    Link▶️Link▶️Link▶️DD
+
+
+
+AbilityPassive
+AffectsEnemies
+DamageMagical
+
+When Medusa is targeted with a spell, a single-target Mystic Snake is sent back towards the enemy.
+
+Max Trigger Distance: 2000Number of Bounces: 1
+
+
+ 12
+Spell Block / Reflection Notes:Mystic Snake notes fully apply.Modifiers [?]modifier_medusa_cold_bloodedUndispellable
+modifier_projectile_visionUndispellable
+
+modifier_medusa_mystic_snake_slowAny
+modifier_medusa_stone_gaze_stoneStrongAbility Draft Notes:
+Requires drafting  Mystic Snake to be unlocked. Does not take any ability slot and is hidden. A permanent status buff appears instead.
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+Follows the same rules as Spell Block. Abilities that do not trigger Spell Block, do not trigger Cold Blooded.
+Does not trigger on abilities that have been cast from a distance greater than 2000. The effective area for the max trigger distance is half of a sphere and not a flat circle.
+The single target  Mystic Snake projectile is based on the current level of the ability, and its notes fully apply.
+This includes the fact that the snake does not count bounces on targets that died, turned spell immune, invulnerable, or hidden before impact.
+This means the snake may bounce onto another target in these cases.
+SCEPTER The  Aghanim's Scepter upgrade notes fully apply as well.
+TALENT The Mystic Snake bounce increasing  talent does not upgrade Cold Blooded.
+The snake is sent out even if the triggering enemy is invulnerable or hidden. Stone Gaze Link▶️Link▶️RG
+
+
+
+AbilityNo Target
+AffectsEnemies  / Self
+
+
+Any enemy units looking at Medusa will have their movement and attack speed slowed. If 2 seconds of total time is accumulated looking at Medusa while Stone Gaze is active, that unit will turn to stone. Petrified units are stunned, and take bonus physical damage.
+
+Cast Animation: 0.4+0.5Radius:  1200Facing Angle: 85°Self Move Speed Bonus: 50%Enemy Move Speed Slow: 35%Enemy Attack Speed Slow: 35Enemy Turn Rate Slow: 35%Physical Damage Amp: 35%/45%/55% ( 43%/53%/63%)Gaze Duration: 5/5.5/6 ( 6.5/7/7.5)Petrify Duration: 2/2.2/2.4
+
+
+ 90
+ 150Modifiers [?]modifier_medusa_stone_gazeDeath
+modifier_medusa_stone_gaze_trackerDeath
+
+modifier_medusa_stone_gaze_facingDeath
+modifier_medusa_stone_gaze_slowDeath
+modifier_medusa_stone_gaze_stoneStrongThe beauty of Medusa is legendary.
+
+     Stone Gaze's angle visualised.  
+The enemy team must have vision over Medusa, while she is using Stone Gaze, for at least 1 server tick before the ability starts affecting any enemies.
+Stone Gaze will affect no enemies at all until this is achieved.
+Once this is achieved, enemies that break the vision of Medusa can still be affected by Stone Gaze, even through the Fog of War.
+Every enemy unit that faces Medusa within 85° in front of them within a 1200 radius around Medusa gets the facing and the slow debuff applied.
+The facing debuff counts for how long the unit faces Medusa. If it accumulates 2 seconds of facing time, it petrifies the unit.
+The facing debuff lasts for either as long as Stone Gaze does (or ending whenever Stone Gaze ends in any way), or until getting petrified.
+Looking away from Medusa does not reset the 2-second facing counter.
+Facing Medusa while invulnerable or hidden still counts towards the 2-second counter.
+This means that petrification can be avoided by being invulnerable as the ability attempts to petrify.
+The slow debuff only slows affected enemies while facing Medusa. Units that turn away are not slowed but keep the debuff.
+The slow debuff lasts for either as long as Stone Gaze does (ending whenever Stone Gaze ends in any way), or until getting petrified.
+Once the petrify debuff expires, the unit can be affected by Stone Gaze again, repeating until Stone Gaze ends, so long the unit faces Medusa.
+The petrify debuff is a stun that also freezes animations.
+The same debuff applies a unique incoming damage amplification on affected enemies. Stacks multiplicatively with all other sources of incoming damage manipulation.
+Amplifies all physical damage, including spell damage (e.g.  Quill Spray}), the affected enemy targets receive.
+Does not amplify the magical or pure damage sources of any kind.
+Does not affect neutral creeps.
+Stone Gaze ends when Medusa dies, but already petrified enemies stay petrified for the duration.

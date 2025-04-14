@@ -1,0 +1,303 @@
+Arc Lightning  Link▶️Link▶️QC
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamageMagical
+
+Hurls a bolt of lightning that leaps through nearby enemy units.
+
+Cast Animation: 0.2+0.63Cast Range:  850Bounce Distance:  500Number of Bounces: 5/7/9/15Bounce Interval: 0.25Base Damage: 85/110/135/160Current Health as Damage: 3%/4%/5%/6% ( 9%/10%/11%/12%)
+
+
+ 1.6
+ 75/80/85/90Spell Block / Reflection Notes:Blocked fully only when primary target.Modifiers [?]modifier_zuus_arc_lightningUndispellable
+Arc Lightning is Zeus' favorite spell to use against puny mortals.
+
+
+The lightning bounces in 0.25-second intervals, so hitting all targets takes 1/1.5/2/3.5 seconds.
+Does not bounce on invisible units or units in the Fog of War.
+Can never hit the same unit twice per cast.
+All bounces together can deal up to 425/770/1215/2400 base damage (before reductions).
+The current health as damage is dealt together with the base damage as a single spell damage instance.
+The hidden buff is required for the lightning to jump.
+TALENT The current health as damage increasing  talent immediately update the current active instances. Lightning Bolt  Link▶️WG
+
+
+
+AbilityTarget Point  / Target Unit( Target Area)
+AffectsEnemies
+DamageMagical
+
+Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 750 radius. Can be cast on the ground, affecting the closest enemy hero in 325 range.
+
+Cast Animation: 0.25+0.72Cast Range:  700/750/800/850Search Radius:  325Vision/True Sight Radius:  750Damage: 125/200/275/350Stun Duration: 0.35 ( 0.85)Vision Duration: 5True Sight Duration: 5True Sight Linger Duration: 0.5
+
+
+ 6
+ 120/125/130/135Debuff Immunity Notes:True Sight pierces debuff immunity.Spell Block / Reflection Notes:Stun and damage are blocked, no matter if directly targeted or not.Vision is only blocked when directly targeted.Despite removing unit-targeting, the talent does not affect the Spell Block interaction.Modifiers [?]modifier_zuus_lightningbolt_vision_thinkerUndispellable
+
+modifier_stunnedStrong
+modifier_truesightUndispellableA shocking punishment for rebellious heathen.
+
+
+Lightning Bolt first applies the damage, then the debuff.
+When unit-targeted, the 750 range flying vision and True Sight are provided at the target's position upon cast. The vision is stationary and does not follow the target.
+When ground-targeted, Lightning Bolt searches for any enemy unit within its area. Chooses the closest target to the center.
+Prioritizes heroes, including illusions, clones, and creep-heroes.
+It does not require any vision or True Sight to hit invisible or enemies in the Fog of War.
+With the cast range and search radius, it can hit an enemy up to 1025/1075/1125/1175 range away.
+When cast this way, the vision, and True Sight is always centered on the targeted point, regardless of hitting a unit.
+The flying vision and True Sight last for 5 seconds. The True Sight is provided by an aura, and its debuff lingers for 5 seconds.
+The lightning particles and sound effects during the cast time are visible and audible to everyone.
+TALENT The area of effect  talent turns Lightning Bolt into a 325 radius area-targeted ability, so that it cannot directly target units anymore.
+Lightning Bolt now hits every enemy unit within the search radius.
+Does not hit invulnerable or hidden enemies, but still hits invisible enemies and enemies inside the Fog of War.
+SCEPTER Does not upgrade the Lightning Bolts of Lua error in Module:Ability_ID at line 61: Could not find Cargo data for "Nimbus"..
+The reveal aura is still created where his cursor points, not at every hit unit's location.
+SOULBIND Upon cast, both the primary and the secondary target are affected by 3 Lightning Bolts with the area of effect  talent learned. Heavenly Jump  Link▶️Link▶️EF
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+DamageMagical
+
+Zeus performs a Heavenly Jump shocking the closest visible nearby enemy (prioritizing heroes), dealing damage, reducing their movement, attack speed and increasing their cast time. If Zeus was moving forward, he will jump forwards that direction. Zeus gets 900 unobstructed vision around him for 3 seconds.
+
+Cast Animation:  0+0Search Radius:  700/800/900/1000Leap Distance: 500Number of Targets: 1 ( 2)Damage: 25/50/75/100Move Speed Slow: 80%Attack Speed Slow: 100Buff/Debuff Duration: 1.6Leap Duration: 0.5 Move Speed Bonus: 30
+
+
+ 26/22/18/14 ( 22/18/14/10)
+ 50/60/70/80Root Notes:Getting rooted while already leaping does not cancel the leap.Modifiers [?]modifier_zuus_heavenly_jumpDeath
+modifier_zuus_lightningbolt_vision_thinkerUndispellable
+modifier_zuus_heavenly_jump_boost_buffDeath
+
+modifier_zuus_static_field_slowAny
+
+
+Interrupts Zeus' channeling abilities upon cast.
+Leaps at a speed of 1000 over 0.5 seconds.
+Always leaps towards the direction Zeus is facing while locking his facing angle during the leap.
+Moves Zeus 250 range upwards over other units and over impassable terrain.
+During Leap, Zeus can attack, use items, and cast abilities.
+However, he cannot turn, so targeted abilities and items may only be used in the direction he is facing.
+Casting Heavenly Jump while already leaping has no effect, wasting the mana and cooldown.
+Heavenly Jump provides 900 radius flying vision for 3 seconds at the cast location upon cast.
+This vision is stationary and does not follow Zeus.
+0.13 seconds after cast, Heavenly Jump deals damage and applies the debuff to 1 ( 2) closest enemies within its search radius.
+Can target any unit, but prioritizes heroes, including illusions, clones, and creep-heroes.
+Does not target invulnerable, invisible, or hidden enemies.
+Debuff and buff of successive casts do not stack but refresh its duration instead.
+TALENT Increases Zeus' total movement speed to 345 upon cast.
+The buff is applied instantly upon cast, not upon landing.
+The buff of successive casts does not stack but refreshes its duration.
+Heavenly Jump first applies the debuff, the damage, and then movement speed increasing buff. Nimbus Link▶️Link▶️DT
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamageMagical
+
+Creates a storm cloud anywhere on the map that automatically casts Lightning Bolt on nearby enemies.
+
+Cast Animation: 0.2+0.64Cast Range: GlobalRadius:  450Melee Hero Attacks to Destroy: 4Ranged Hero Attacks to Destroy: 8Creep Attacks to Destroy: 16Lightning Bolt Interval: 2.5Duration: 30
+
+
+ 45
+ 325Spell Block / Reflection Notes:Lightning Bolts from the Nimbus are not blocked.Modifiers [?]modifier_zuus_cloudDeath
+modifier_killDeath
+modifier_zuus_lightningbolt_vision_thinkerUndispellable
+
+modifier_stunnedStrong
+modifier_truesightUndispellableAbility Draft Notes:
+ Lightning Bolt must be drafted as well for it to get applied.
+Requires drafting Lua error in Module:Ability_ID at line 61: Could not find Cargo data for "Thundergod's Wrath". to be unlocked.
+Where the thunder god's ire grows, storm clouds quickly gather.
+
+
+
+
+Nimbus
+
+
+
+
+
+Summoned Ward
+
+
+
+
+
+
+Health
+16
++0
+
+
+
+
+
+
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+0
+
+
+Duration
+
+
+
+30
+
+
+Armor
+
+
+
+0
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Collision Size
+
+
+
+18
+
+
+Bound Radius
+
+
+
+8
+
+
+Vision Range
+
+(G)
+
+500
+
+
+Bounty
+
+
+
+125
+
+
+Experience
+
+
+
+0
+
+
+
+Requires  Aghanim's Scepter to be unlocked.
+Treats attacks from clones as heroes, and attacks from creep-heroes and illusions as creeps.
+Casts a regular unit-targeted  Lightning Bolt based on its current level on the closest valid enemy target.
+Fully applies the stun while providing vision and True Sight around the target.
+Lightning Bolt notes fully apply. If it is not learned, nothing happens.
+The damage source is the Nimbus itself, meaning certain on-damage effects react on the Nimbus rather than on Zeus (e.g.  Blade Mail).
+This also means that damage manipulation sources on Zeus do not affect the Nimbus' bolt damage either.
+Starts striking immediately upon cast if an enemy is within the radius.
+Also strikes immediately when the last strike was longer than an interval ago and an enemy enters the area.
+Always strikes the closest valid target. There are no priorities. Cannot target wards or buildings.
+The Nimbus can strike invisible units and units inside the Fog of War.
+Can strike up to 13 times over its full duration, considering the default 2.5 strike interval.
+The strike interval is not affected by any cooldown reduction and cooldown reset sources.
+The visual effects on the ground that mark the Nimbus' radius are visible to everyone.
+SPELL STEAL  Nimbus does not disappear, but stops casting Lightning Bolts upon losing the ability. Reacquiring  Lightning Bolt or Lua error in Module:Ability_ID at line 61: Could not find Cargo data for "Nimbus". causes Nimbus to cast Lightning Bolts again. Lightning Hands   Link▶️FE
+
+
+
+AbilityToggle  / Passive
+AffectsSelf  / Enemies
+DamageMagical
+
+Zeus gains bonus attack range and his attacks create Arc Lightnings that deal a percentage of its damage. Can be toggled off to stop this effect.
+
+Passive ComponentSelf Attack Range Bonus: 100Trigger Radius:  480Base Damage: 42.5/55/67.5/80Current Health as Damage: 1.5%/2%/2.5%/3% ( 4.5%/5%/5.5%/6%) IllusionsBase Damage: 17/22/27/32Current Health as Damage: 0.6%/0.8%/1%/1.2% ( 1.8%/2%/2.2%/2.4%)Spell Block / Reflection Notes:Cannot be blocked or reflected.Modifiers [?]modifier_zuus_lightning_handsUndispellable
+Ability Draft Notes:
+This ability is bound to  Arc Lightning. Lightning Hands is hidden in the ability panel when Shard is acquired, but can be enabled and disabled by activating Autocast on  Arc Lightning.
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+Increases Zeus' total attack range to 480.
+Grants attack range bonus based on the caster's attack range type.
+Toggling Off does not disable the attack range bonus.
+Zeus' attacks now passively casts  Arc Lightning on the target based on its current level when toggled On.
+Arc Lightning applied by Lightning Hands does not trigger the cooldown and work while on cooldown and does not cost mana.
+It can be applied even if the ability itself is currently not castable.
+They do not proc on-cast effects either.
+Arc Lightning notes fully apply. If it is not learned, it is not passively applied.
+The passive Arc Lightning trigger when the normal attack impact. For melee unit, this is upon attack point. It does not require the normal attack to actually hit to trigger.
+In other word, the passive Arc Lightning triggers even if the normal attack misses or the target become attack immune upon attack projectile impacting.
+Disjointing the normal attack projectile immediately triggers the passive Arc Lightning.
+As long as the disjointing unit remains valid cast target for Arc Lightning (e.g. not invisible, invulnerable or hidden).
+Illusions' Arc Lightning damage is independent of the illusion's  outgoing attack damage manipulation, and it can be defined as:
+expr  ΣSpellDamage × 0.2
+Lightning Hands first applies the passive Arc Lightning cast, then the attack damage. Thundergod's Wrath Link▶️Link▶️RW
+
+
+
+AbilityNo Target
+AffectsEnemy Heroes
+DamageMagical
+
+Strikes all enemy heroes with a bolt of lightning, no matter where they may be. Does a flat amount of damage and additional damage based on the max health of the target.Thundergod's Wrath also provides True Sight around each hero struck. If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location.
+
+Cast Animation: 0.4+0.43Effect Radius: GlobalVision Radius:  500True Sight Radius:  500Damage: 300/425/550 ( 450/575/700)Max Health as Damage: 5%/7.5%/10%Vision Duration: 3True Sight Duration: 3True Sight Aura Linger Duration: 0.5
+
+
+ 120
+ 250/375/500
+Aghanim's Scepter Upgrade:New Ability
+Grants the Nimbus ability.
+
+Debuff Immunity Notes:True Sight pierces debuff immunity.Modifiers [?]modifier_zuus_thundergodswrath_vision_thinkerUndispellable
+
+modifier_truesightDeathThe Lord of Heaven smites all who oppose him, near or far.
+
+
+Only hits enemy heroes, including the  Tempest Double, but excluding  Meepo Clones, illusions and creep-heroes.
+Does not hit invulnerable or hidden enemies.
+Thundergod's Wrath first applies its damage and max health as damage in once damage instance, then provides its vision and True Sight.
+If an invisible enemy is not revealed beforehand, it only applies the vision and True Sight around them, but not the damage.
+The damage affects enemy heroes on the scoreboard from top to bottom.
+Thundergod's Wrath provides 500 radius flying vision and 500 radius True Sight around each struck hero.
+The vision and True Sight last for 3 seconds.
+The True Sight is provided by an aura, its debuff lingers for 3 seconds.
+Hitting all 5 enemy heroes collectively deals 1500/2125/2750 ( 2250/2875/3500) damage (before reductions).
+The visual and sound effects during the cast time are visible and audible to everyone.
+The sound effects upon cast are Global. Enemies can hear it when they have vision over Zeus, or else they can only hear the local hit sound.
+Shifts the lighting of the whole map for a split second, which is also visible to everyone.

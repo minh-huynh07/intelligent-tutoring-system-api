@@ -1,0 +1,189 @@
+Mirror Image Link▶️QR
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Creates multiple images of Naga Siren under her control.
+
+Cast Animation: 0.4+0Split Time: 0.5Number of Illusions: 3 ( 4)    IllusionsDamage Dealt: 25%/30%/35%/40% ( 35%/40%/45%/50%)Damage Taken: 350%Duration: 26
+
+
+ 40/35/30/25 ( 30/25/20/15)
+ 75/90/105/120Modifiers [?]modifier_naga_siren_mirror_imageDeath
+modifier_illusionDeath
+modifier_invulnerableDeath
+Slithice, while being strong in her own right, is notoriously hard to track down.
+
+     The illusions' formations.  
+Applies a basic dispel on Naga Siren and disjoints projectiles upon cast.
+Naga Siren is invulnerable, hidden and spell immune during the 0.5-second split time.
+After the 0.5-second split time, Naga Siren reappears with her illusions.
+The reappear locations are based on Naga Siren's position upon cast, with one appearing at the cast location, and the others north, east, south, or west from that point.
+This means when spawning 3 illusions, the formation is T-shaped and when spawning 4 illusions, it is shaped like a plus.
+Though the formation is always the same, Naga Siren and her illusions take a random position in the formation and have all the same facing angle.
+The illusions have a expr 2 × IllusionLVL bounty.
+The distance in between each created illusion is 108-distance if the caster's collision size is 27, and 72-distance if its collision size is 18.
+Orders the caster to stop after the split time, canceling all queued orders, and orders given during the split time.
+Also stops all ongoing targeted orders of other units that have been issued before Mirror Image was cast.
+Successive casts replace the illusions from the previous cast, no matter under whose control they are. Ensnare   Link▶️Link▶️WE
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+
+
+Interrupts the target and traps them in place, preventing movement or blinking.
+
+Cast Animation: 0.3+0.47Cast Range:  500/525/550/575Duration: 2.75/3.5/4.25/5 Ensnare Cast Range Multiplier: 1.6
+
+
+ 21/18/15/12 ( 19/16/13/10)
+ 70/80/90/100
+Aghanim's Scepter Upgrade:New Ability
+Grants the Reel In ability.Increases Ensnare cast range and net speed by 1.6.
+
+Debuff Immunity Notes:True Sight pierces debuff immunity.Modifiers [?]
+modifier_naga_siren_ensnareAnyAbility Draft Notes:
+Toggling Autocast on swaps this ability out with  Reel In. Their cooldowns are separate.
+The only way to escape the onslaught of a Slithereen is to never oppose one in the first place.
+
+
+The net travels at a speed of 1500 ( 2400).
+Roots the target, preventing it from moving and casting certain mobility abilities.
+Provides True Sight over the target.
+Can be cast on and fully affects any invulnerable unit, not just sleeping units.
+Fully affects  Couriers.
+All illusions owned by Naga Siren within 900 range of the target also cast a fake Ensnare.
+They play the whole cast animation and release their fake nets at the same time the real net is released.
+When illusions currently do not have any order and are standing still, they turn to face the target and cast the fake nets.
+When illusions are moving or attacking, they continue to do so and do not turn to face the target. They still play the cast animation, overriding their move or attack animations.
+When canceling the cast, the illusions still play the full cast animation, but do not release the fake nets.
+The fake nets do not interact with anything and do not root.
+SCEPTER Increases the default cast range to 800/840/880/920.
+Stacks additively with other sources of percentage-based cast range manipulations, and is calculated after all flat cast range bonuses. Rip Tide   Link▶️Link▶️ED
+
+
+
+AbilityPassive
+AffectsEnemies
+DamageMagical
+
+Every 6 attacks from naga and her illusions, the Naga Siren and her images will hit all nearby units with a damaging wave of water that lowers armor for 4 seconds.
+
+Required Hits: 6 ( 5)Radius:  300Damage: 34/41/48/55 ( 59/66/73/80)Armor Reduction: 2/4/6/8Duration: 4Illusion Notes:The illusions have independent attack counters.Rip Tide is only applied around heroes and illusions that have this ability.Modifiers [?]modifier_naga_siren_rip_tide_passiveUndispellable
+modifier_naga_siren_rip_tide_counterUndispellable
+
+modifier_naga_siren_rip_tideAnyA torrent from the Deep Ones crushes the defenses of the Siren's enemies.
+
+
+Each successful attack performed by Naga Siren or her illusions applies the attack counter buff on Naga Siren.
+If the buff is already present, its stack count gets increased instead.
+Counts attacks against any enemy unit, except buildings.
+The counter buff has no duration and lasts indefinitely.
+When the counter reaches 6 ( 5), Rip Tide's effects are applied around all units under Naga Siren's control that have this ability, and the counter buff is removed.
+Enemies may only be hit by one instance, even when within range of multiple Rip Tides. Neither the damage nor the debuff stack.
+The damage source of all Rip Tides is the unit that performed the triggering attack, meaning on-damage effects react on the unit that triggered it (e.g.  Blade Mail).
+Rip Tide first applies the armor reduction debuff, the Rip Tide damage, then the attack damage. Reel In Link▶️DL
+
+
+
+AbilityNo Target  / Channeled
+AffectsEnemies  / Self
+
+
+Naga Siren channels for up to 5 seconds, pulling all units affected by Naga's Ensnare in a 1400 range towards her at a speed of 200.
+
+Cast Animation: 0+0Radius:  1400Min Distance: 100Pull Speed: 200Max Channel Time: 5
+
+
+ 8
+ 0Modifiers [?]modifier_naga_siren_reel_inDeath
+Ability Draft Notes:
+Requires drafting  Ensnare to be unlocked.
+Even the youngest Slithereen are well schooled in trawling for prey with nothing but their wits and nets.
+
+
+Requires  Aghanim's Scepter to be unlocked.
+Requires an  Ensnared target to be cast.
+There is no limit to how many targets, including enemies and allies alike, can be moved by Reel In, as long as they are affected by the net, they are considered an Ensnared target.
+While  Roshan and ancient creeps (e.g.  Couriers) can be Ensnared, Reel In does not consider them to be an Ensnared target.
+Fully affects invulnerable units.
+Reel In does not affect the following units:
+Hidden units, unless it turns hidden while already being moved.
+Units affected by true sight immunity.
+Untargetable units.
+ Tree Dance unit, although the ability can be cast on them.
+Upon cast, the Ensnared target is moved towards Naga Siren.
+Upon the target reaching the 100 min distance, they are no longer moved.
+The Ensnare target is not disabled during the movement. They can still turn, attack and use items.
+Reel In only moves the target when it is Ensnared.
+Sets the target's movement speed to 200 upon cast.
+If the target gets moved or teleported, the speed does not adapt.
+Can move the affected target for 1000 distance when channeled for the entire duration.
+Does not pull the Ensnared target over impassable terrain.
+Does not pull the affected target when being affected by other disabling forced movement sources.
+Does not impede the affected target at all and they can still turn, attack, and cast abilities.
+SPELL STEAL This ability is not acquirable. Song of the Siren Link▶️RG
+
+
+
+AbilityNo Target  / Aura
+AffectsEnemies ( Allies)
+
+
+All enemies in range of the Naga Siren are put into a magical stasis where they cannot act or be attacked. Using Song of the Siren again will end the duration early.
+
+Cast Animation: 1+0.3Radius:  1000/1200/1400Duration: 7 ( 8)Aura Linger Duration: 0.4 Max Health as Health Regen Bonus: 5%
+
+
+ 180/130/80 ( 160/110/60)
+ 150/175/200
+Aghanim's Shard Upgrade:
+
+Song of the Siren heals allies by 5% of their Max HP per second for its duration.
+
+Modifiers [?]modifier_naga_siren_song_of_the_siren_auraDeath
+modifier_naga_siren_song_of_the_siren_healing_auraDeath
+modifier_naga_siren_song_of_the_siren_healingUndispellable
+
+modifier_naga_siren_song_of_the_sirenUndispellableSlithice's powerful voice enchants leagues of opponents, while calling her Slithereen kin in a time of need.
+
+
+Applies a sleep on affected units, preventing them from acting until woken up.
+Affected units are invulnerable while sleeping.
+Song of the Siren's radius is centered on Naga Siren for the entire duration, so if she moves far enough away from affected units, they wake up.
+All effects are provided by an aura, and its debuff lingers for 0.4 seconds.
+SHARD Restores health in the form of health regeneration for allies within the same aura radius, despite the tooltip stating otherwise.
+The health regeneration bonus values are not shown on the HUD.
+Affects invulnerable, but not hidden allies. Does not affect ally buildings or wards.
+Can regenerate up to 42% of an ally's max health over its full duration.
+Song of the Siren cannot be interrupted. Only Naga Siren's death or the  Song of the Siren End sub-ability can stop it.
+However, silencing Naga Siren prevents her from manually stopping the song with the sub-ability.
+Fully affect enemy buildings.
+Does not affect  Roshan,  Couriers, enemy wards or hidden units.
+Does not affect invulnerable enemy units either, unless their invulnerability is provided by Song of the Siren. Song of the Siren End Link▶️RG
+
+
+
+AbilityNo Target
+
+
+
+Release enemy units from your song so they can be targeted again.
+
+Cast Animation: 0+0.97
+
+
+ 1
+ 0
+
+
+Replaces  Song of the Siren until the sub-ability is used, the song duration ends, or Naga Siren's death.
+Naga Siren is unable to level Song of the Siren up while this sub-ability is active.
+Goes into a 1-second cooldown right after Song of the Siren is cast, this is to prevent accidental double-casts prematurely ending the ability.
+When cast, affected units wake up after the aura's 0.4-second linger duration.
+SPELL STEAL Does not grant  Song of the Siren if this sub-ability is the last cast ability.

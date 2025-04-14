@@ -1,0 +1,176 @@
+Sprout  Link▶️Link▶️QT
+
+
+
+AbilityTarget Point  / Target Unit
+AffectsEnemies  / Allies
+DamagePhysical
+
+Sprouts a ring of trees around a unit, damaging and trapping it in place and providing vision in a 250 radius.
+
+Cast Animation: 0.35+0.44Cast Range:  625/700/775/850Trees Spawn Radius: 150Vision Radius:  250Damage Radius:  275Number of Trees: 8Damage per Second: 25/40/55/70Damage Interval: 0.5Duration: 3/4/5/6     Sprout Talent Auras Aura Radius:  200 Miss Chance:  100% Leash Duration:  0.5
+
+
+ 15/13/11/9
+ 70/90/110/130Spell Block / Reflection Notes:Blocked fully only when directly targeted.Modifiers [?]modifier_furion_sprout_damage_auraUndispellable
+modifier_furion_sprout_blind_auraUndispellable
+modifier_furion_sprout_tether_auraUndispellable
+
+modifier_furion_sprout_damageDeath
+modifier_furion_sprout_blindDeath
+modifier_furion_sprout_tetherDeathVerdant overgrowth is a common ailment reported by Nature's Prophet's attackers.
+
+
+Can either directly be cast units or ground-targeted.
+↓↓ Double-tapping automatically targets self.
+Cannot be cast on ancient creeps, wards, buildings, or invulnerable or hidden units.
+Creates a planted tree on every 45°th of a 150 radius circle, resulting in 8 trees forming an octagon and trapping the targeted unit.
+Trees created with Sprout act exactly like the other trees on the map. They block pathing, vision, and interact with other abilities the same way.
+Sprout trees have a different model and are smaller than other trees on the map and they do not have a dying animation.
+Destroying one tree is enough to allow units to walk in and out of the ring of trees.
+Non-player-controlled units (i.e. lane creeps) do not try to path around the Sprout trees, but simply walk against them as if they are not there.
+This effectively causes them to get stuck, until they change directions (e.g. when being aggro'd), or until the trees expire.
+Sprout grants 250 range flying vision around the targeted point for its duration.
+The vision granted is not provided by the trees and remains even after all Sprouted trees are destroyed.
+All other ability effects are applied by different auras centered around the Sprouted trees, and are not bound to the Sprouted trees respectively.
+The auras always last the full duration and lingers for 3/4/5/6 seconds, even if all trees are destroyed.
+Despite the damage per interval aura not being bound to the Sprouted trees, it relies on and checks for Sprouted trees periodically within 275 radius to deal damage.
+Deals damage in 0.5-second intervals, starting immediately upon cast, resulting in 7/9/11/13 instances.
+Can deal up to 87.5/180/302.5/455 damage (before reductions) within the area for the entire duration.
+Since the damage radius is larger than the tree spawn radius, the outer radius of trees also deals damage.
+TALENT Both the Sprout miss chance and Sprout leashes  talents add another 200 radius aura to the center of Sprout.
+The blind aura and leash aura use different debuffs and are provided by two different auras.
+Blind uses pseudo-random distribution.
+Stacks additively with other blind sources up to 100% and multiplicatively with evasion sources.
+The leashed enemies are preventing them from casting certain mobility abilities.
+SOULBIND Affects both the primary and the secondary targets when directly targeted. Teleportation Link▶️Link▶️WR
+
+
+
+AbilityTarget Point
+AffectsSelf
+
+
+Teleports to any point on the map. After teleporting, Nature's Prophet gains stacks of bonus attack damage. Every attack consumes a stack of bonus damage to increase Nature Prophet's armor.
+
+Cast Animation: 3+0Cast Range: GlobalMax Stacks: 6/8/10/12 ( 10/12/14/16)Attack Damage Bonus per Stack: 6Armor Bonus per Stack: 1Buff Duration: 15
+
+
+ 75/60/45/30 ( 0)
+ 50/60/70/80Modifiers [?]modifier_teleportingDeath
+modifier_aboreal_might_attack_damageAny
+modifier_aboreal_might_armorAny
+The Prophet keeps his sentinel over the forest, protecting it when in need.
+
+
+↓↓ Double-tapping automatically targets the team's fountain.
+Disjoints projectiles upon teleporting.
+Teleportation uses a cast time instead of a channeling.
+Therefore, unlike  Teleport, canceling this one neither puts the ability on cooldown nor consumes mana.
+During the cast time, a visual effect is created around Nature's Prophet and at the target location. These visual effects are visible to everyone.
+Also plays a sound at the target location, however, this is only audible to enemies when Nature's Prophet is visible to them.
+Grants flat bonus attack damage upon reaching the destination.
+Every attack reduces a stack of bonus attack damage, then grants a stack of bonus armor.
+Grants a total of 36/48/60/72 ( 60/72/84/96) bonus attack damage upon reaching the destination.
+Can grant up to a total of 6/8/10/12 ( 10/12/14/16) bonus armor.
+TALENT The max stacks increasing  talent does not update the current active Teleportation instance.
+SPELL STEAL This ability's cast point is not modified when acquired. Nature's Call Link▶️EF
+
+
+
+AbilityTarget Area
+AffectsTrees
+
+
+Converts an area of trees into Treants under the command of Nature's Prophet.
+
+Cast Animation: 0.5+1.23Cast Range:  750Radius:  150/225/300/375Number of Treants: 2/3/4/5 ( 7/8/9/10)Treant Duration: 50
+
+
+ 37/35/33/31 ( 29/27/25/23)
+ 120Modifiers [?]modifier_killDeath
+modifier_treant_bonusDeath
+Verodicia bestowed the Prophet with the ability to summon the Treant Guard, a mythical sentient army of the wild.
+
+
+Nature's Call can only summon as many Treants as there are trees in the targeted area.
+Therefore,  Sprout can summon up to 8 Treants.
+Destroys all trees in the target area, regardless of how many Treants are created.
+Treants always spawn at the center of the area facing the east.
+Must have at least 1 tree within its area to be castable. Targeting an area without trees gives an error message.
+Does not cancel the ability cast if the trees within the targeted area disappear during the cast point, effectively wasting mana and cooldown.
+TALENT Despite the  talent's description, the Treants health and damage multiplier  talent does not multiply the health and damage values by 2.5.
+Instead, it adds 825 health and 27/39/51/63 min/max attack damage to the  Treants.
+This effectively increases the health of Treants by 2.5x and its average attack damage by 3.08/2.86/2.76/2.7x. Curse of the Oldgrowth Link▶️Link▶️DL
+
+
+
+AbilityNo Target
+AffectsEnemy Heroes
+DamagePhysical
+
+Applies a curse on all enemy heroes within 1200 range, displaying them in fog, slowing them, and causing damage over time based on the number of trees within 250 radius. Treants count as trees for this purpose.
+
+Cast Animation: 0.2+0.6Radius:  1200Tree Search Radius:  250Damage per Second per Tree: 20Move Speed Slow per Tree: 7%Duration: 7
+
+
+ 18
+ 80Modifiers [?]modifier_furion_curse_of_the_forestAny
+Ability Draft Notes:
+Requires drafting  Wrath of Nature to be unlocked.
+Though powerful, Nature's Prophet's gifts do not include all-sight, and he must rely heavily upon reconnaissance and aid from a long-standing network of stalwart friends.
+
+
+Requires  Aghanim's Shard to be unlocked.
+Applies a debuff and expose enemy heroes within the radius that are affected by the Fog of War. There is no travel time.
+Does not provide True Sight over exposed enemy heroes.
+Leaving or entering the area afterward neither reapplies nor dispels the debuff.
+Does not affect invisible units and units affected by the following abilities:
+ Blur,  Disguise and  Solitary Disguise.
+Treats clones, illusions and creep-heroes as heroes.
+Checks for trees periodically within 250 radius and adapts the damage and movement speed slow values instantly.
+Trees includes  Treants regardless of factions, regular trees and planted trees.
+Deals damage in 1-second intervals, starting immediately upon cast, resulting in 8 instances.
+Deals 0 damage per second to affected enemy targets if there are no trees within the radius.
+Fully procs on-damage effects, such as  Corrosive Skin, except those which have a minimum damage threshold (e.g.  Gravekeeper's Cloak).
+With  Sprout's planted trees and damage per interval, Curse of the Oldgrowth can deal up to 480/640/800/960 + 87.5/180/302.5/455 damage (before reductions) to the unit trapped for the entire duration.
+Curse of the Overgrowth first applies the damage, then the debuff. Wrath of Nature  Link▶️Link▶️RW
+
+
+
+AbilityTarget Point  / Target Unit
+AffectsEnemies  / Self
+DamageMagical
+
+Damaging energy bounces around the map, striking enemies close to the cast point that are in vision. Each enemy hit beyond the first adds damage.
+
+Cast Animation: 0.5+0.97Cast Range: GlobalBounce Distance: GlobalNumber of Bounces: 18Base Damage: 120/155/190 ( 150/185/220)Damage Multiplier per Bounce: 1.1 Min Root Duration: 2 Max Root Duration: 3.8
+
+
+ 85 ( 60)
+ 130/160/190
+Aghanim's Scepter Upgrade:
+Lowers cooldown to 60s. Entangles all enemies it hits. Duration scales from 2s up to 3.8s seconds at max bounce.
+
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Curse of the Oldgrowth ability.
+
+Spell Block / Reflection Notes:Blocked fully only when directly targeted.Modifiers [?]modifier_furion_wrath_of_nature_thinkerUndispellable
+modifier_furion_wrathofnature_buffAny
+
+modifier_furion_sprout_entangleAnyNature's Prophet calls Verodicia's fury to strike down those who might ravage the wilderness.
+
+
+When ground-targeted, Wrath of Nature automatically bounces on the closest enemy unit within the vision. Cannot hit the same unit more than once per cast.
+Does not bounce on  Couriers, invisible, invulnerable, hidden units or units in the Fog of War.
+If the current target turns invulnerable, hidden, or invisible, the bounce neither counts nor increases the damage.
+The bounced projectile continues bouncing to nearby valid targets in these cases.
+Bounces in 0.25-second intervals, so hitting all targets takes 4.25 seconds.
+If no valid targets can be found within 0.25 seconds after the previous bounce, Wrath of Nature ends prematurely.
+All bounces together can collectively deal up to 5471.9/7067.9/8663.8 ( 6839.9/8435.8/10031.8) damage.
+For how much damage each bounce deals on each level, please refer to the chart below.
+SCEPTER Wrath of Nature now roots and disarms all hit enemies and provides True Sight over them.
+The duration starts at 2 and increases by 0.106 seconds per bounce.
+Wrath of Nature first applies the debuff, then the damage.
+For the root duration increase per bounce, please refer to the chart below.

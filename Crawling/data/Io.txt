@@ -1,0 +1,275 @@
+Tether  Link▶️Link▶️Link▶️QT
+
+
+
+AbilityTarget Unit ( Passive)
+AffectsSelf  / Allies / Enemies
+Damage Instant Attack
+
+Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, the tethered unit gains a portion of that amount. The tether breaks when the allied unit moves too far away, or Io cancels the tether. Tether briefly slows enemies touching it.
+
+Passive Component Spell Lifesteal Bonus:  10%Cast Animation: 0+0Cast Range:  1600Tether Break Distance:  1000Tether Pull Distance: 700Tether Break Distance During Pull: 2150Target Heal Multiplier: 0.6/0.8/1/1.2Target Mana Restore Multiplier: 0.6/0.8/1/1.2Target Move Speed Bonus: 6%/8%/10%/12% ( 12%/14%/16%/18%)Enemy Move Speed Slow: 15%/25%/35%/45% ( 30%/40%/50%/60%)Enemy Attack Speed Slow: 15/25/35/45 ( 30/40/50/60)Slow Duration: 0.2 Attack Damage Bonus: 15 Health Bonus: 400
+
+
+ 12
+ 40
+Aghanim's Shard Upgrade:
+
+Io gains Spell Lifesteal and can now share Spell Lifesteal with its tethered target.
+
+Break Notes:Does not disable the passive spell lifesteal.
+Modifiers [?]modifier_wisp_tetherDeath
+modifier_wisp_tether_hasteDeath
+
+modifier_wisp_tether_slowAnyThe benevolent touch of Io brings strength from between the planes.
+
+
+Tethering a unit that is 700 units or further away causes Io to latch on and pull itself to the target.
+Pulls Io at a speed of 1000, until coming within 300 range of the target.
+Can pull Io over impassable terrain and through trees. Destroys trees within 350 radius around Io once the pull ends.
+If Io breaks the tether while getting pulled to the tethered target, the pull immediately stops.
+The pull gets interrupted when Io gets stunned, hexed, hidden, feared, hypnotized, or rooted during the pull.
+Forced movement sources cancel the pull as well, but only after the movement ends, and not upon getting applied.
+Taunts, leashes, and silences do not interrupt the pulling.
+If the distance between Io and the target gets greater than 2150 during the pull, the pull ends, and the Tether breaks.
+If the distance between Io and the target gets greater than 1000, the Tether breaks.
+When the distance between Io and the tethered target gets greater than 700, the link's visual appearance changes.
+The link changes color at 700 distance and jiggles at 800 distance.
+Tether has no set duration. It breaks only when exceeding the break distances, when Io or the target dies, when affected by an allied   Dismember, or when using the  Break Tether sub-ability.
+The movement speed bonus is first applied to the tethered ally, then it sets Io's base movement speed equal to the target's current movement speed.
+If the target has its movement speed slowed, Tether copies the target's movement speed as if they are not slowed.
+However, it does not copy the target's movement speed while Io is hasted.
+Percentage-based movement speed changes on Io are now based on this set value during Tether.
+Fully overrides any flat movement speed sources on Io.
+While tethered, Io is prevented from and cannot bypass the maximum movement speed limit, even if the tethered ally does (e.g.  Thirst).
+The tethered unit benefits from  Overcharge,  Relocate, and from Io regenerating or replenishing health and mana.
+Io's health regeneration, healing, lifesteal and spell lifesteal are transferred to the ally as healing.
+Io's mana regeneration and mana restore are transferred to the ally as mana restore.
+Tethered units still benefit from the aforementioned effects even when turning invulnerable or hidden.
+The heal and mana restore transfer happens regardless of how much Io actually healed or restored, and is applied after all restoration manipulation sources on Io.
+Io's health and mana regeneration values are checked and transferred to the target in 0.1-second intervals, while the heal and mana restore values are checked and transferred on each server tick.
+If Io or the tethered unit is invisible, enemies can only see a fake link leading to the invisible unit's last known location. If the tethered unit is visible to the enemy, enemies can still see the unit is tethered.
+The movement speed slow gets applied to every enemy that comes within approximately 55 range of the tether link on each server tick.
+Cannot be cast on  Couriers.
+SHARD Tether now passively grants Io spell lifesteal and the 10% spell lifesteal is also shared with the Tethered target.
+Other spell lifesteal sources on Io are not shared.
+Stacks additively with other sources of spell lifesteal.
+Heals for 2% from creeps. Treats creep-heroes as creeps and does not heal off of illusions.
+The shared spell lifesteal is still sourced to Io, not to the tethered ally.
+TALENT Most of Tether's  talents affects both the target and Io.
+The attack damage bonus  talent immediately updates the Tether buff both on the target and Io.
+Grants regular flat bonus attack damage.
+The ally movement speed bonus increasing  talent immediately updates the Tether buff on the target and Io.
+The health bonus  talent immediately updates the Tether buff on the target and Io.
+The health talent increases max health capacity and keeps the current health percentage.
+Treats illusions and creep-heroes as creeps.
+However, the enemy movement speed and attack speed slow  talent does not update the current instance.
+The attack tethered ally target  talent causes Io performs instant attacks on every enemy the tethered ally attacks.
+These instant attacks can proc any attack modifiers and on-hit effects normally. They do not have True Strike.
+The attacks are performed as soon as the ally launches their attack (including instant attacks from the ally). It does not matter whether the attack actually hits or not.
+For  melee units, if the enemy target is 350 range farther than the attacker's range, the attack will always miss.
+If Io is stunned or disarmed, no instant attack is performed.
+Does not perform attacks when the tethered target also has this talent (i.e. an illusion of Io).
+SPELL STEAL Immediately breaks upon losing ability.
+MORPH NOTES Immediately breaks upon losing ability and while  Morphing back to original form. Break Tether QT
+
+
+
+AbilityNo Target
+
+
+
+Break the link to the tethered unit.
+
+Cast Animation: 0+0Initial Cooldown: 0.25
+
+
+ 1
+ 0
+
+
+Replaces  Tether until the sub-ability is used or the tether is broken.
+Interrupts Io's channeling abilities upon cast.
+Break Tether goes on a 0.25-second cooldown when Tether is cast, this is to prevent accidental double-casts and prematurely ending the ability. Spirits   Link▶️Link▶️Link▶️WW
+
+
+
+AbilityNo Target ( Passive)
+AffectsEnemies
+DamagePhysical
+
+Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging all enemy units in an area around it. Creeps take minor damage from touching a particle spirit, but do not cause them to explode. When its duration ends, any remaining Spirits explode.
+
+Passive Component Passive Spirit Spawn Interval:  1Cast Animation:  0+0Creep Collision Radius:  150Hero Collision Radius: 110Explosion Radius:  360Number of Spirits: 5Collision Damage: 10/15/20/25Explosion Damage: 30/50/70/90 ( 85/105/125/145)Duration: 19 ( Infinite) Explosion Move Speed Slow: 15% Slow Duration: 0.3
+
+
+ 26/24/22/20 ( 13/12/11/10)
+ 100/110/120/130
+Aghanim's Scepter Upgrade:
+Spirits now passively spawn around Io constantly every second up to the max. Spirits colliding with enemy Heroes slows them briefly. Can be activated to explode spirits.
+
+Break Notes:Does not disable the passive spirits spawning.
+Modifiers [?]modifier_wisp_spiritsDeath
+
+modifier_wisp_spirits_slowAnyAbility Draft Notes:
+Spirits are replaced by their sub-abilities upon cast.  Right Click toggles between  Spirits In and  Spirits Out.These 3 abilities share a single ability slot.
+Io twists the particles of the universe with his unimaginable capabilities.
+
+
+Interrupts Io's channeling abilities upon cast.
+Summons a spirit in 1-second intervals, starting immediately upon cast, taking 5 seconds to summon all 5 spirits.
+The first spirit is always spawned to the north of Io, with the next spirit spawning behind the previous spirit.
+The spirits expand automatically to its 650 maximum distance upon cast.
+The spirits always rotate clockwise and are centered around Io's location, following it wherever it goes.
+Moving the Spirits  In or  Out do not break their formation. They always rotate in a circle and keep an equal distance from each other.
+The spirits complete a revolution every 2.7 seconds regardless of distance from Io.
+Their angular velocity is constant, meaning their speed increases the further away they are from the caster.
+This means the first created spirit can rotate at most 7 times around Io.
+When a creep, illusion, or a creep-hero comes within 150 radius of the spirits, it takes the collision damage.
+Heroes and the  Spirit Bear do not take this collision damage.
+Fully ignores  Couriers.
+When a hero, or a creep-hero comes within 110 radius, the spirit explodes, dealing the explosion damage and slowing enemies within a 360 radius.
+The explosion damage and slow affect all enemies within the area, not only heroes.
+SCEPTER The explosions first apply the damage, then the slow.
+Spirits do not collide with or explode on invulnerable or hidden units.
+Remaining spirits explode simultaneously at the end of the duration, dealing the explosion damage around them.
+Successive casts instantly cause the current active spirits to explode as well.
+Spirits provide 3-second 150 radius flying vision at the location where they collided with a hero.
+They do not provide vision when exploding caused by expiring or recasting.
+The spirits are invisible to the enemy if Io is invisible.
+Can deal up to 150/250/350/450 ( 425/525/625/725) damage to a single unit when all spirits explode on a target (before reductions).
+SCEPTER Adds a passive component to Spirits, constantly and passively spawning spirits around Io with the same intervals, with the active component and effects still present.
+Now instantly cause the current active spirits to explode upon cast.
+The  Spirits In and  Spirits Out sub-abilities become permanently available as well.
+The Spirits' now has an Infinite duration and they do not explode unless colliding with heroes.
+If the spirits did not collide with a hero for more than 6 seconds, the next explosion will deal twice the damage.
+This is because when the colliding spirit exploded, the newly spawned spirit now takes its place and collides with the enemy hero again.
+When acquiring  Aghanim's Scepter while a cast is already active, the spirits from that cast disappear without exploding while creating new spirits.
+When losing Aghanim's Scepter, the spirits from it disappear immediately, without exploding.
+SPELL STEAL Spirits immediately explode upon losing the ability.
+MORPH NOTES Spirits immediately explode upon losing the ability and while  Morphing back to original form. Overcharge Link▶️EV
+
+
+
+AbilityNo Target
+AffectsSelf  / Allies
+
+
+Io gains bonus attack speed, spell amplification, and HP Regen based on max health. If Io is tethered to an ally, that unit also gains the bonuses.
+
+Cast Animation:  0+0Attack Speed Bonus: 35/60/85/110Max Health as Health Regen Bonus: 0.5%/0.6%/0.7%/0.8% ( 0.7%/0.8%/0.9%/1%)Spell Damage Amp: 8%/10%/12%/14%Duration: 8 Slow Resistance Bonus: 30%
+
+
+ 25/22/19/16
+ 40/60/80/100
+Aghanim's Shard Upgrade:
+
+Grants Overcharge Slow Resistance.
+
+Modifiers [?]modifier_wisp_overchargeDeath
+Drawing on the energy of matter from all worlds, Io begins the unravelling of time.
+
+
+Interrupts Io's channeling abilities upon cast.
+Applies generic outgoing damage amplification on both Io and the  Tethered ally. Stacks additively with other sources of generic outgoing damage manipulation.
+Affects spell damage on both Io and the Tethered target deal. Does not amplify damage flagged as HP removal.
+Io does not need to be already tethered to the target transfer Overcharge. Tethering afterward transfers it as well.
+The Overcharge on allies does not show a duration and always appears like a permanent buff.
+Can regenerate up to 4%/4.8%/5.6%/6.4% of Io's max health over the duration.
+Can restore up to 4%/4.8%/5.6%/6.4% ( 5.6%/6.4%/7.2%/8%) of the target's max health + 2.4%/3.84%/5.6%/7.68% ( 3.36%/5.12%/7.2%/9.6%) of Io's max health on the Tethered ally.
+TALENT The max health regeneration increasing  talent does not update the current Tether instance.
+SHARD Stacks multiplicatively with other slow resistance sources.
+The Tethered target can also gain slow resistance. Spirits In DD
+
+
+
+AbilityToggle
+
+
+
+Calls the spirits closer to you. Can be toggled on and off.
+
+Cast Animation:  0+0Min Distance: 200
+
+
+ 0
+ 0
+
+
+This ability is hidden if Io does not have the spirits buff.
+Does not interrupt Io's channeling abilities upon cast.
+Moves the spirits towards Io at a speed of 250. It takes 1.8 seconds from moving the spirits from maximum to minimum distance.
+SCEPTER This sub-ability becomes permanently available. Spirits Out FE
+
+
+
+AbilityToggle
+
+
+
+Sends the spirits farther away from you. Can be toggled on and off.
+
+Cast Animation:  0+0Max Distance:  650
+
+
+ 0
+ 0
+
+
+This ability is hidden if Io does not have the spirits buff.
+Does not interrupt Io's channeling abilities upon cast.
+Moves the spirits away from Io at a speed of 250. It takes 1.8 seconds from moving the spirits from minimum to maximum distance.
+SCEPTER This sub-ability becomes permanently available. Relocate Link▶️Link▶️Link▶️RR
+
+
+
+AbilityTarget Point
+AffectsSelf  / Allied Heroes
+
+
+Teleports Io and any tethered ally to any location. After the spell expires Io and any tethered ally will return to their original location. Double-click to teleport to your team's base fountain.
+
+Cast Animation: 0+0.53Cast Range: GlobalEffect Delay: 3.5/3.25/3Duration: 12
+
+
+ 100/90/80 ( 75/65/55)
+ 175Root Notes:Can be cast while rooted.Does not teleport Io or the tethered ally while Io is still rooted as the delay finishes.Modifiers [?]modifier_wisp_relocate_thinkerUndispellable
+modifier_teleportingDeath
+modifier_wisp_relocate_returnDeath
+Io is the embodiment of the mystery of the universe.
+
+
+↓↓ Double-tapping automatically targets the team's fountain.
+☐ Disabled Help prevents Io from relocating the tethered ally.
+If Io is rooted, stunned, slept, cycloned, or hexed during the effect delay, Relocate gets canceled.
+If Io is silenced as the delay finishes, the teleport does not happen.
+Disabling the tethered ally of Io does not prevent the ally from getting teleported if Io successfully does so.
+The returning teleportation cannot be prevented.
+Enemies get a ‼ Ping on their minimap during the teleport delay, showing them where Relocate was targeted.
+Creates a visual effect at the targeted point during the teleport delay, which is visible to everyone.
+Creates a visual effect at Io's position before the teleport happens, which also is visible to everyone.
+Provides a 3.5/3.25/3-second 300 radius flying vision at the targeted point.
+Relocate interrupts channeling abilities and every current order of Io and the tethered ally both on initial teleport, and when teleporting back.
+Disjoints projectiles for Io upon teleporting to the targeted point, but does not disjoint upon teleporting back.
+Does not disjoint projectiles for the teleported ally in any way.
+Io may  Break Tether at any time to prevent bringing an ally back.
+Can only teleport heroes, clones, illusions and creep-heroes.
+This includes invulnerable and hidden targets.
+Destroys trees within 350 radius around Io upon both teleports.
+Successive casts teleports Io and the affected ally to the newly selected location upon each cast, but it Relocates them back to the first point when the ability was cast.
+Does not refresh the duration. Io and the affected ally are Relocated back after 12 seconds. Io Innate 
+
+
+
+AbilityInnate
+AffectsSelf
+
+
+There is no description for this ability.
+
+Effect Range: 256Modifiers [?]modifier_wisp_tentaclesDeath
+
+Notes
+Io's facing direction is marked by an arc-like effect.
+A hidden modifier causes Io to have several "tentacles" that randomly palpate any visible unit within 256 range of it, enemies and allies alike, randomly switching between units every few seconds.
+This is purely for aesthetic purposes.

@@ -1,0 +1,197 @@
+Vacuum Link▶️QC
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamagePhysical
+
+Dark Seer creates a vacuum over the target area that sucks in enemy units, disrupting them and dealing damage.
+
+Cast Animation: 0.4+0.4Cast Range:  450/500/550/600Effect Radius:  325/400/475/550 ( 425/500/575/650)Damage: 70/130/190/250Pull Duration: 0.3/0.4/0.5/0.6
+
+
+ 60/50/40/30
+ 60/90/120/150Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]
+modifier_dark_seer_vacuumStrongIsh'Kafel modifies the center of gravity to a place of his choosing.
+
+
+The pull duration always takes 0.3/0.4/0.5/0.6 seconds, no matter how far or close the units are from the center, so the pull speed varies.
+Affected units are fully disabled during the pull.
+Grants affected enemy units phased and unobstructed movement during the pull duration and can pull units over impassable terrain.
+Fully affects invisible units.
+Does not affect ancient creeps.
+Does not affect hidden units and specifically units affected by  Eul's Scepter of Divinity's Cyclone.
+Vacuum removes the invulnerability buff of certain non-hidden invulnerable sources, then fully affects the units. This affects the following sources:
+Any other Cyclone source, regardless of faction.
+ Activate Fire Remnant,  Time Walk,  Reverse Time Walk,  Waveform and  Ball Lightning.
+For  Nightmare and  Song of the Siren, Vacuum pulls the affected units but does not removes the invulnerability. If the pull ends during the invulnerability, it does not deal damage.
+The damage is applied upon losing the debuff, dispelling the debuff causes the damage to be applied earlier.
+Destroys trees within 150 radius at the targeted point upon cast. Ion Shell  Link▶️WE
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Allies
+DamagePhysical
+
+Surrounds the target unit with a bristling shield that damages enemy units in an area around it.
+
+Cast Animation: 0.4+0.7Cast Range:  800Damage Radius:  275 ( 325)Damage per Second: 30/50/70/90 ( 80/100/120/140)Duration: 21/24/27/30 Max Health Bonus: 250
+
+   9
+N   2
+
+ 9 ( 0)
+ 110/120/130/140Spell Block / Reflection Notes:Cannot be reflected.Modifiers [?]modifier_dark_seer_ion_shellAny
+The Dark Seer slices holes into the 'Land Behind the Wall,' causing prismatic energy to seep forth.
+
+
+Ion Shell can be cast on both enemy and ally units, but damaging only enemy units. The affected unit with the shell itself is not damaged.
+The damage affects invisible enemies within the radius, However, the visual effects do not appear.
+Cannot be cast on  Couriers.
+↓↓ Double-tapping automatically targets self.
+Cannot be cast on allies who have ☐ Disabled Help from Dark Seer.
+Successive casts on the same unit do not stack, but refresh the duration and update the damage to the current level instead.
+When two opposing heroes cast it on the same target, the modifier updates and start damaging the enemies of the latest caster.
+However, the modifier status does not update. Whether it is treated as a buff or debuff is determined upon the first cast, and is not updated on a refresh.
+Leveling up the ability does not update the current active instances.
+TALENT However, the damage increasing  talent immediately updates all currently active instances.
+Deals 6/10/14/18 ( 16/20/24/28) damage in 0.2-second intervals, starting 0.2 seconds after the cast, resulting in 105/120/135/150 damage instances.
+Can deal up to 630/1200/1890/2700 ( 1680/2400/3240/4200) damage to a single unit (before reductions), if the enemy unit stays within range for the full duration.
+TALENT Ion Shell  talents do not instantly update the current active instances.
+The max health increasing  talent increases the max health of the targeted ally by 250, keeping the current health percentage the same. This counts as setting health.
+The health increasing  talent fully affects the  Spirit Bear, but not other creep-heroes.
+Acquiring the Ion Shell charges  talent instantly grants 1 extra charge. Surge Link▶️ER
+
+
+
+AbilityTarget Unit ( Target Area)
+AffectsAllies ( Enemies)
+Damage Physical
+
+Charges a target friendly unit with power, giving it a brief burst of movement speed and removes unit collisions. Allows the unit to reach maximum movement speed and cannot be slowed.
+
+Cast Animation: 0.4+0.57Cast Range:  600Haste Speed: 550Duration: 3/4/5/6 Trail Radius:  150 Trail Move Speed Slow: 50% Trail Damage per Instance: 35 Trail Duration: 7 Radius: 350
+
+
+ 24/19/14/9
+ 50
+Aghanim's Shard Upgrade:
+
+Surged units leave behind a 150 radius trail that lasts 7s, slows enemies around it by -50% and deals 35 damage every 0.5s. Can be put on Alt-Cast to disable the trail.
+
+Modifiers [?]modifier_dark_seer_surgeAny
+
+modifier_dark_seer_surge_trailAnyIsh'Kafel once used his speed of mind to navigate the maze between the walls.
+
+Alt-Cast Icon
+↓↓ Double-tapping automatically targets self.
+Grants affected allies phase and haste movement, meaning they cannot be slowed below the hasted value.
+Fully affects  Couriers.
+SHARD Upon acquiring the  Ability Upgrade, it has Alt-cast disabled by default.
+With Alt-Cast activated, the Surged target now creates a 150 radius trail on the its current location in 0.5-second intervals.
+Deals 35 damage in 0.5-second intervals (before reductions), starting 0.5 seconds after the debuff is applied, resulting in 14 damage instances.
+Can deal up to 490 damage to a single unit when the affected unit stays in range for the full duration.
+When the Surged target dies, the already existing trail on the ground still stays for the remaining duration.
+Acquiring  Aghanim's Shard does not update the current active instance.
+TALENT The area of effect  talent turns Surge into a 350 radius area-targeted ability, so that it cannot directly target units anymore.
+↓↓ Double-tapping now centers the radius around Dark Seer. Normal Punch    Link▶️Link▶️Link▶️
+
+
+
+AbilityPassive
+AffectsEnemy Heroes
+DamagePhysical
+
+Passive cooldown attack. Causes Dark Seer's next attack on a hero to have True Strike, knock an illusion out of the victim, damaging and stunning them based on how far Dark Seer has moved in the past 3 seconds. Max power is reached after 1100 distance moved.
+
+Recent Movement Time Window: 3Distance Required for Max Values: 1100Min Knockback Distance: 50Max Knockback Distance: 350Min Damage: 10Max Damage: 450Min Stun Duration: 0.2Max Stun Duration: 1.5Number of Illusions: 1      Normal Punch IllusionDamage Dealt: 70%/85%/100% ( 90%/105%/120%)Damage Taken: 200%Spawn Delay: 0.25Duration: 6
+
+
+ 9
+ 0Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]modifier_dark_seer_normal_punchUndispellable
+modifier_dark_seer_normal_punch_illusion_thinkerUndispellable
+modifier_dark_seer_normal_punch_illusionDeath
+modifier_illusionDeath
+modifier_invulnerableDeath
+
+modifier_stunnedStrong
+modifier_knockbackStrongAbility Draft Notes:
+Requires drafting  Wall of Replica to be unlocked.
+
+
+     Consecutive Normal Punches.Left: 0-299 distanceMiddle: 300-899 distanceRight: 900 distance  
+     Normal Punch illusion as they appear to allies and enemies.  
+Requires  Aghanim's Scepter to be unlocked.
+Grants Dark Seer's next attack True Strike when not on cooldown. The cooldown triggers upon successfully landing an attack on an enemy.
+The bonus damage is applied as spell damage in a separate damage instance, it is affected by spell damage amplification and works with spell lifesteal.
+Constantly checks the distance Dark Seer moves and calculates the damage, knockback distance, knockback duration, and stun duration accordingly on each server tick.
+For every 10 distance moved, the damage increases by 4, knockback distance by 2.727, knockback duration by 0.006, and stun duration by 0.012.
+Teleporting effects (e.g.  Blink) may only add up to 600 range to the distance counter, no matter how big the actual teleported distance was.
+Does not consider upward movement distances.
+The distance counter never resets, so it is possible to perform multiple full power punches in a row, with cooldown resetting sources.
+These are the damage, knockback distance, and stun duration values at certain distances moved in the last 3 seconds (before reductions):
+0 distance moved: 10 damage, 50 knockback distance, 0.1s knockback duration, 0.2s stun duration.
+180 distance moved: 82 damage, 99.09 knockback distance, 0.206s knockback duration, 0.413s stun duration.
+360 distance moved: 154 damage, 148.18 knockback distance, 0.313s knockback duration, 0.625s stun duration.
+540 distance moved: 226 damage, 197.27 knockback distance, 0.419s knockback duration, 0.838s stun duration.
+720 distance moved: 298 damage, 246.36 knockback distance, 0.525s knockback duration, 1.051s stun duration.
+900 distance moved: 370 damage, 295.45 knockback distance, 0.632s knockback duration, 1.264s stun duration.
+
+Normal Punch first applies the stun, the spell damage, the knockback, then the attack damage.
+If  Wall of Replica is not learned, the illusion deals 80% damage by default.
+The illusion is spawned 350 range behind the enemy's determined landing position,  seconds after Normal Punch was delivered.
+The illusion can be controlled normally and is initially ordered to attack the punched target.
+Successive punches can create multiple illusions.
+The illusion has a expr 2 × IllusionLVL bounty.
+Treats clones, illusions and the  Spirit Bear as heroes, and creep-heroes as creeps.
+Destroys trees within 100 radius enemies come in contact with during the knockback.
+The punch particle and sound effects upgrade when the distance counter is at 300, and upgrade again when at 900.
+COSMETIC The invulnerable modifier is responsible for the ability effects upon knocking back an enemy unit.
+It is only for cosmetic purposes and has no impact on gameplay. Wall of Replica Link▶️RW
+
+
+
+AbilityTarget Point  / Vector Targeting
+AffectsEnemy Heroes
+
+
+Raises a wall of warping light that slows and creates replicas of any enemy hero who crosses it. Enemy replicas serve at the Dark Seer's will. Replicas last until they are destroyed, or until the wall's duration ends.
+
+Cast Animation: 0.2+0.73Cast Range:  1300Number of Walls: 1Wall Length:  1300Wall Width: 50Move Speed Slow: 50%/60%/70%Slow Duration: 1  Wall Duration: 30   Wall of Replica IllusionsDamage Dealt: 70%/85%/100% ( 90%/105%/120%)Damage Taken: 200%Max Duration: 30
+
+
+ 100 ( 60)
+ 125/250/375
+Aghanim's Scepter Upgrade:New Ability
+Grants the Normal Punch ability.
+
+Modifiers [?]modifier_dark_seer_wall_of_replicaUndispellable
+modifier_darkseer_wallofreplica_illusionDeath
+modifier_illusionDeath
+modifier_invulnerableDeath
+
+modifier_dark_seer_wall_slowAnyThe Dark Seer, while unable to return to his natural realm, can channel part of the prismatic wall with powerful strength of mind, sowing confusion amongst enemy ranks.
+
+     Wall of Replica illusion as they appear to allies and enemies.  
+The values of the wall are set upon cast and do not update upon leveling the ability up after having placed the wall.
+A wall can only create one illusion per player. There cannot be more than one illusion per player per wall.
+This means when there are multiple walls up (with multiple casts), every valid enemy unit affected is still limited to one illusion per wall.
+For  Enchanted illusions, the wall still cannot create another illusion until the previous one dies.
+When the illusion dies, Wall of Replica creates a new illusion of that hero as soon as it comes in range.
+Wall of Replica may create illusions from the following sources:
+From real heroes, it does not create illusions of illusions pathing through the wall.
+From  Meepo Clones and the  Tempest Double.
+From the  Spirit Bear.
+From invisible units, but it does not provide vision or True Sight over them.
+From invulnerable units, but does not apply the movement speed slow on them.
+From untargetable units.
+Does not create illusions from hidden units, creep-heroes and from  Wukong's Command Soldiers.
+Upon spawning, the created illusions are visually distinguishable and are automatically ordered to attack the heroes they are based on.
+Its duration is based on the remaining Wall of Replica duration from which they originate.
+They have a static 5  and 5XP bounty which does not scale with levels.
+The illusion spawns 108-distance from the affected enemy hero if the target's collision size is 27, and 72-distance if its collision size is 18.
+The created illusion appears either north, east, south, or west from the target.
+The movement speed slow is applied constantly within the wall's area, provided by an aura. The aura lingers for 1 second.
+The slow of multiple overlapping walls does not stack.

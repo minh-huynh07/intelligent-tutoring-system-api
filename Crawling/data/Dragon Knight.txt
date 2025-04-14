@@ -1,0 +1,167 @@
+Breathe Fire  Link▶️QF
+
+
+
+AbilityTarget Point  / Target Unit
+AffectsEnemies
+DamageMagical
+
+Unleashes a breath of fire in front of Dragon Knight that burns enemies and reduces the damage their attacks deal.While in Dragon Form, applies the corresponding debuff from Corrosive Breath and Frost Breath when in those forms.
+
+Cast Animation: 0.2+0.67Cast Range:  600Starting Radius:  150Travel Distance:  750End Radius:  250Damage: 80/160/240/320Attack Damage Reduction: 30% ( 60%)Debuff Duration: 11   Elder Dragon FormCast Range:  600 ( 1110)Travel Distance:  750 ( 1387)Damage: 80/160/240/320 ( 148/296/444/592)Corrosive Breath Debuff Duration: 3Frost Breath Debuff Duration: 3
+
+
+ 14/13/12/11
+ 90/95/100/105Modifiers [?]
+modifier_dragonknight_breathefire_reductionAnyKnight Davion's breath has become that of the mighty Eldwurm Slyrak, remembered for burning numerous other knights to a crisp.
+
+
+Breathe Fire travels at a speed of 1050, taking 1.4 seconds to travel the full distance.
+With the travel distance and end radius, Breathe Fire can hit units up to 1000 range away.
+The complete area is shaped like a cone.
+Reduces affected targets' main and bonus attack damage.
+Does not reduce conditional attack damage bonuses (e.g.  Pierce or  Shadow Walk).
+Stacks additively with other total attack damage reduction sources.
+Breathe Fire first applies the damage, the attack reduction debuff, then the Corrosive Breath and Frost Breath debuff based on its current level respectively.
+While in  Elder Dragon Form, Breathe Fire has a cast backswing of 0.53 seconds.
+COSMETIC Has a cast backswing of 0.67 with  Davion of Dragon Hold equipped.
+TALENT With the travel distance and end radius, Breathe Fire while in Elder Dragon Form can hit units up to 1637 range away, taking 0.76 seconds to travel the full distance Dragon Tail   Link▶️Link▶️WT
+
+
+
+AbilityTarget Unit ( Target Area)
+AffectsEnemies
+DamageMagical
+
+Dragon Knight smites an enemy unit in melee range with his shield, stunning it while dealing minor damage. When in Elder Dragon Form, the cast range increases to 400.
+
+Cast Animation: 0+0.5Cast Range:  150Projectile Speed: InstantDamage: 70/100/130/160Stun Duration: 1.8/2/2.2/2.4 ( 2.2/2.4/2.6/2.8)  Elder Dragon FormCast Range:  450Projectile Speed: 1600 Radius:  400
+
+
+ 16/14/12/10
+ 70/80/90/100Spell Block / Reflection Notes:Blocked upon cast.Blocked fully when primary target upon projectile impact.Reflected upon cast while in Elder Dragon Form.Ability Disjoint Notes:Disjointable only with the Elder Dragon Form projectile.Modifiers [?]
+modifier_stunnedStrongDavion's combination of dragon talents and knightly skills makes him a vicious opponent in melee combat.
+
+
+In human form, Dragon Tail does not rely on a projectile and can therefore not be disjointed.
+Dragon Tail first applies the damage, then the debuff.
+While in  Elder Dragon Form, Dragon Tail has an increased cast range and uses a projectile with a 1600 speed projectile, instead of being 70/100/130/160.
+COSMETIC Has a cast backswing of 0.7 with  Davion of Dragon Hold equipped.
+While in Elder Dragon Form, it has a cast backswing of 0.6.
+TALENT The area of effect  talent adds a 400 radius to this ability while in Elder Dragon Form. The ability still must be centered over a unit.
+Causes the launched projectile to apply its effects within the area, instead of only to the targeted unit.
+Can hit invisible units and units inside the Fog of War.
+SPELL STEAL Uses a projectile with  projectile speed if it is acquired while in  Elder Dragon Form. Losing Elder Dragon Form does not change the projectile type and projectile speed. Dragon Blood  ED
+
+
+
+AbilityPassive
+AffectsSelf
+
+
+The life blood of the Dragon improves health regeneration and strengthens armor.
+
+Health Regen Bonus: 4/7/10/13 ( 16/19/22/25)Armor Bonus: 4/7/10/13 ( 16/19/22/25)Illusion Notes:Benefits from the health regeneration bonus.Does not benefit from the armor bonus.Modifiers [?]modifier_dragon_knight_dragon_bloodUndispellable
+Slyrak's blood still courses through Davion's veins, giving him twice the vitality of an ordinary knight.
+
+
+Can regenerate up to 240/420/600/780 ( 960/1140/1320/1500) health in one minute. Fireball Link▶️DB
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamageMagical
+
+Ignites an area, dealing damage over time that lingers on enemies in it. Has reduced cast range when melee.
+
+Cast Animation: 0.2+0.53Cast Range:  600Radius:  350Damage per Second: 75Duration: 8Aura Linger Duration: 2 Elder Dragon FormCast Range:  1400
+
+
+ 20
+ 80Modifiers [?]modifier_dragon_knight_fireballUndispellable
+
+modifier_dragon_knight_fireball_burnUndispellableAbility Draft Notes:
+Requires drafting  Elder Dragon Form to be unlocked.
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+The damage is provided by an aura and lingers for  seconds.
+Deals 37.5 damage in 0.5-second intervals, immediately upon receiving the debuff, resulting in 21 damage instances.
+Can deal up to 787.5 damage to a single unit (before reductions).
+Successive casts of Fireball debuff do not stack but refresh the duration.
+While in  Elder Dragon Form, Fireball has a 0.6 cast backswing and an increased cast range.
+COSMETIC Has a cast backswing of 0.73 with  Davion of Dragon Hold equipped. Elder Dragon Form  Link▶️Link▶️Link▶️Link▶️Link▶️RR
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+DamageMagical  / Physical
+
+Dragon Knight takes the form of one of three powerful elder dragons, increasing his speed, and Dragon Tail's range, while granting him new powers.LEVEL 1 Green Dragon - Corrosive Breath: attacks deal 25 poison damage per second for 3 seconds. Works on structures.LEVEL 2 Red Dragon - Splash Attack: attacks damage all enemy units in a 350 radius for 0%/75%/75%/100%, with Corrosive Breath added to the targets.LEVEL 3 Blue Dragon - Frost Breath: slows movement speed by 30% and attack speed by 30 of enemy units in Splash Attack range for 3 seconds, with Corrosive Breath added to the targets.
+
+Cast Animation: 0+0.5Attack Range Bonus: 350 ( 500)Move Speed Bonus: 30/35/40/45Magic Resistance Bonus: 0%/0%/0%/20%Corrosive Breath Damage per Second: 25/25/25/35Corrosive Breath Debuff Duration: 3Splash Attack Radius:  350Splash Attack Damage: 0%/75%/75%/100%Frost Breath Radius:  350Frost Breath Move Speed Slow: 0%/0%/30%/45%Frost Breath Attack Speed Slow: 0/0/30/45Frost Breath Debuff Duration: 3Dragon Form Duration: 60
+
+
+ 100
+ 50
+Aghanim's Scepter Upgrade:
+Increases the level of Dragon Knight's ultimate. Adds a 4th level, Black Dragon. Black Dragon has bonus Corrosive Damage, Splash Damage and Slow amount, 20% increased Magic Resistance and free pathing.
+
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Fireball ability.
+
+Illusion Notes:Illusions created while the ability is active copy all modifiers. The main modifier uses matching duration, while the 3 attack modifiers last indefinitely.Does not bestow the magic resistance bonus.Modifiers [?]modifier_dragon_knight_dragon_formDeath
+modifier_dragon_knight_corrosive_breathDeath
+modifier_dragon_knight_splash_attackDeath
+modifier_dragon_knight_frost_breathDeath
+
+modifier_dragon_knight_corrosive_breath_dotAny
+modifier_dragon_knight_frost_breath_slowAnyAbility Draft Notes:
+Grants attack range bonus based on the same range type as the caster.
+The dormant dragon power springs forth from within Davion, combining the powers of a legendary knight with a legendary Eldwurm.
+
+ Corrosive Breath IconSplash Attack IconFrost Breath Icon
+Turns Dragon Knight into a  ranged unit and increases his attack range to 500 ( 650). His attack projectiles travel at a speed of 900.
+This causes items that use different values for melee and ranged heroes (e.g.  Manta Style) to now treat the caster as a ranged hero.
+Also increases Dragon Knight's movement speed to 345/350/355/360.
+SCEPTER Stacks multiplicatively with other  magic resistance sources.
+Increases Dragon Knight's magic resistance to 40%.
+With the magic resistance bonus from this source, every 10 points of  intelligence further increases the total magic resistance by 0.8%. [?]
+Transform Dragon Knight into the following Dragon Forms on each level:
+LEVEL 1 Green Dragon ➤ LEVEL 2 Red Dragon ➤ LEVEL 3 Blue Dragon ➤  LEVEL 4 Black Dragon.
+Elder Dragon Form is fully canceled on death.
+The Dragon Form buff is hidden, only the 3 attack modifier buffs are displayed.
+Successive casts of Elder Dragon Form refresh the duration and update the form, adapting to the current level of the ability.
+While in Elder Dragon Form, Dragon Knight gains the following attack modifiers through undispellable buffs:
+The debuffs and splash damage are not applied within the radius when the attack launched misses or is disjointed.
+Successive hits do not stack or update the ability values but refresh the debuff duration.
+ Breathe Fire applies the corresponding debuff from Corrosive Breath and Frost Breath when in those forms based on the current level.
+CORROSIVE BREATH (Available for Elder Dragon Form Level 1 and above)
+When on level 2 or higher, the debuff is applied to all enemies within the 350 splash radius.
+Deals magical damage in 1-second intervals, starting 1 second after the debuff is applied, resulting in 3 instances.
+Can deal up to 75 ( 105) damage to a unit (before reductions).
+The attacks first apply the debuff, then their own attack damage.
+However, on secondary targets, it first applies the splash damage, then the debuff.
+Corrosive Breath's debuff duration is not affected by status resistance.
+Fully affects buildings and allied units, but not wards.
+However, buildings and allied units are only affected when directly attacked.
+SPLASH ATTACK (Available for Elder Dragon Form Level 2 and above)
+Splash damage is physical damage, and is affected by damage block.
+Splash damage cannot be amplified with outgoing spell damage amplification and cannot spell lifesteal.
+Can be amplified by  incoming spell damage amplification.
+Neither can splash damage against wards nor buildings.
+FROST BREATH (Available for Elder Dragon Form Level 3 and above)
+The debuff is applied to all enemies within the 350 Frost Breath radius.
+The attacks first apply the debuff, then its attack damage. The splash damage is applied after the debuff as well.
+Does not work against wards, buildings, or allied units.
+SCEPTER The level of Elder Dragon Form is increased by 1.
+Elder Dragon Form has 4 levels by default, but the 4th level requires  Aghanim's Scepter to be unlocked.
+The Black Dragon is 30% larger than the other forms.
+It has unobstructed movement, allowing him to path over impassable terrain, units, buildings and trees. However, it neither grants phased nor flying movement.
+Does not update the current instance of Elder Dragon Form upon acquiring Aghanim's Scepter.
+Losing Aghanim's Scepter during Elder Dragon Form only removes the Corrosive Breath and Frost Breath bonuses, but keeps all other bonuses.
+SPELL STEAL Transform into a smaller dragon form. All ability effects are granted upon cast, except for the attack range bonus. Grants  Fireball in the  Second Stolen Ability slot. If  Dragon Knight doesn't have Aghanim's Shard, Fireball acquired will be at level 0. However,  Rubick can cast Fireball if he has  Aghanim's Shard.

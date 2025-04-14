@@ -1,0 +1,188 @@
+Viscous Nasal Goo   Link▶️Link▶️QG
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+
+
+Covers a target in snot, causing it to have reduced armor and movement speed. Multiple casts stack and refresh the duration.
+
+Cast Animation: 0.3+0Cast Range:  650 ( 900)Max Stacks: 4 ( 6)Base Armor Reduction: 2/2/3/3Armor Reduction per Stack: 1.5/2/2.5/3Base Move Speed Slow: 15%Move Speed Slow per Stack: 3%/6%/9%/12%Hero Duration: 5Creep Duration: 10
+
+
+ 1.75
+ 12/16/20/24
+Aghanim's Shard Upgrade:
+
+Increases stack limit by 2.
+
+Modifiers [?]
+modifier_bristleback_viscous_nasal_gooAnyHaving caught a cold while stuck in the snow, Bristleback turns it to his advantage.
+
+
+The goo travels at a speed of 1000.
+Places one debuff on the enemy. This debuff gets stronger when it gets refreshed with successive casts.
+A number on the icon shows how many times the debuff was refreshed, including the first cast.
+Grants 1  Warpath stack upon cast.
+For how much bonus armor and movement speed Viscous Nasal Goo reduces up to 4 ( 6) stacks on each level, please refer to the chart below.
+Reduces affected targets' armor by 8/10/13/15 ( 11/14/18/21) at max stacks.
+Reduces affected targets' movement speed by 27%/39%/51%/63% ( 33%/51%/69%/87%) at max stacks.
+Treats creep-heroes as heroes. Quill Spray Link▶️Link▶️WR
+
+
+
+AbilityNo Target
+AffectsEnemies
+DamageMagical
+
+Sprays enemy units with quills dealing damage in an area of effect around Bristleback. Deals bonus damage for every time a unit was hit by Quill Spray in the last 14 seconds.
+
+Cast Animation:  0+0Radius:  700Base Damage: 25/45/65/85Stack Damage: 28/30/32/34 ( 48/50/52/54)Damage Cap: 500Stack Duration: 14
+
+
+ 3
+ 35
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Hairball ability.
+
+Modifiers [?]modifier_bristleback_quillspray_thinkerUndispellable
+
+modifier_bristleback_quill_sprayDeath
+modifier_bristleback_quill_spray_stackDeathAbility Draft Notes:
+Toggling Autocast on swaps this ability out with  Hairball. Their cooldowns are separate.
+An enforcer's honor can be a prickly thing. So can his quills.
+
+
+Interrupts Bristleback's channeling abilities upon cast.
+Grants 1  Warpath stack upon cast.
+The quills spread at a speed of 2400 and take 0.29 seconds to reach maximum range.
+The quills do not form a ring. They affect every enemy within the expanding area of effect, so it cannot be avoided by blinking towards Bristleback.
+The effect is centered at the cast location, it does not follow Bristleback.
+Places one debuff on each hit enemy and a stack debuff on each cast on each hit enemy.
+The first debuff shows the number of stack debuffs on the status icon. The stack debuffs are hidden.
+The stacks' durations are independent of each other. Successive casts do not refresh previous stacks' durations.
+With the current cooldown and stack duration, it can be stacked up to 5 times. To reach the damage cap, additional passive procs from  Bristleback are required.
+The damage cap can be reached with 18/17/15/14 ( 11/11/10/9) stacks.
+To reach it, 13/12/10/9 ( 6/6/5/4) passive casts are required without considering cooldown reduction sources.
+SCEPTER The damage cap can be reached with 7/6/4/3 passive casts.
+TALENT With the stack damage increasing  talent and  Bristleback  Ability Upgrade, Quill Spray can reach its damage cap without any passive casts.
+Quill Spray checks how many stacks units have first and deals damage based on that, then increases the number of stacks.
+The first hit only deals the base damage.
+For how much damage Quill Spray deals with a certain amount of stack on each level (before reductions), please refer to the chart below.
+Fully affect  Couriers. Bristleback  Link▶️EK
+
+
+
+AbilityPassive ( Target Point)
+AffectsSelf ( Enemies)
+Damage Magical
+
+Bristleback takes less damage if hit on the sides or rear. If Bristleback takes 275/250/225/200 damage from the rear, he releases a Quill Spray of the current level.
+
+Passive ComponentRear Angle: 70°Side Angle: 110°Rear Damage Reduction: 16%/24%/32%/40% ( 24%/32%/40%/48%)Side Damage Reduction: 8%/12%/16%/20% ( 12%/16%/20%/24%)Damage Threshold: 275/250/225/200 Cast Animation:  0+0 Cast Range: Global Effect Delay: 0.5 Number of Quill Sprays: 6 Spray Interval: 0.35 Spray Angle: 45° Self Move Speed Slow: 40%
+
+
+   24
+  100
+Aghanim's Scepter Upgrade:
+Adds active ability to Bristleback. Bristleback rotates towards the targeted direction and, after 0.5s, forcefully ejects 6 sequential Quill Sprays in a tight conical pattern out of his back every 0.35s. Bristleback's facing is locked during this time, he is disarmed, and his speed is reduced by 40%.
+
+Break Notes:Does not disable the damage accumulation counter.
+Illusion Notes:The incoming damage reduction works for illusions.Does not proc passive Quill Sprays.Modifiers [?]modifier_bristleback_bristlebackUndispellable
+modifier_bristleback_active_conical_quill_sprayDeath
+Ability Draft Notes:
+ Quill Spray must be drafted as well for them to passively proc.
+Turning his back to a fight might be just the thing.
+
+      Bristleback's angles visualised.  
+A visual effect and sound play whenever his back receives damage if Bristleback has learned  Quill Spray.
+Taking damage from the sides shows no effect.
+Applies generic incoming damage reduction on Bristleback. Stacks additively with other sources of generic incoming damage manipulation.
+Reduces all damage types Bristleback receives, except from damage flagged as HP removal (e.g.  Sunder).
+When taking rear damage, his effective health increases by 19%/32%/47%/67% ( 32%/47%/67%/92%).
+When taking side damage, his effective health increases by 9%/14%/19%/25% ( 14%/19%/25%/32%).
+Checks the damage source's current position and compares it to Bristleback's facing angle on each damage instance.
+This means on damage over time effects (e.g.  Liquid Fire), damage of an instance is only reduced when within the reduction angle.
+Damage from  Death Ward,  Proximity Mines is reduced when facing away from them since they are their own source.
+Passive  Quill Sprays based on its current level proc when Bristleback's back (not sides) collectively receives 275/250/225/200 damage (after all reductions).
+Passive procs do not interrupt Bristleback's channeling abilities.
+If Quill Spray is not learned, no quills are procced.
+The damage counter accumulates damage from the 3 damage types, but not from HP Removal sources or from the no-reflection flag (e.g.  Blade Mail).
+The damage counter has no time limit and only resets once a passive spray occurs.
+Any exceeding damage is accumulated, a single damage instance can trigger multiple passive Quill Spray procs per damage threshold.
+These sprays are independent of the cooldown, they do not trigger the ability's cooldown and work while on cooldown.
+They do not cost mana or proc on-cast effects either.
+Grants 1  Warpath stack per passive proc.
+SCEPTER Adds an active component to Bristleback, with the passive effects still present.
+Upon cast, Bristleback is disarmed and rotates gradually with a turn rate of 5 until its back completely faces the targeted direction.
+0.5 seconds after cast, Bristleback launches 1  Quill Spray based on its current level per 0.35-second intervals up to 6 sprays, for a total duration of 3.5 seconds.
+Grants up to 6  Warpath stack per cast.
+Gets interrupted only when hexed. Other disables like stuns, taunts, cyclones or fear may change the direction sprays are fired at.
+Keeps spraying when hidden by any source.
+SCEPTER The following effects are applied on Bristleback while the spray is active:
+Reduces Bristleback's turn rate to 0.
+While active, all of Bristleback's abilities, including item abilities, do not require facing the target to cast, as long as the target is within the cast range.
+Quill Spray notes fully apply. If it is not learned, no sprays are launched.
+However, the other ability effects on Bristleback are still applied. Hairball  Link▶️Link▶️Link▶️Link▶️DB
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamageMagical
+
+Coughs a quill-packed hairball towards the target location. Erupts at the location, hitting enemies in with Viscous Nasal Goo and stacks of Quill Spray.
+
+Cast Animation: 0.1+0.6Cast Range:  1000Radius:  700Number of Viscous Nasal Goo: 2Number of Quill Sprays: 1
+
+
+ 13
+ 40Ability Disjoint Notes:Viscous Nasal Goo notes fully apply.Modifiers [?]modifier_bristleback_quillspray_thinkerUndispellable
+
+modifier_bristleback_quill_sprayDeath
+modifier_bristleback_quill_spray_stackDeath
+modifier_bristleback_viscous_nasal_gooAnyAbility Draft Notes:
+ Viscous Nasal Goo must be drafted as well for it to get applied.
+Requires drafting  Quill Spray to be unlocked.Toggling Autocast off swaps this ability out with Quill Spray. Their cooldowns are separate.
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+Grants 1  Warpath stack upon cast.
+The hairball travels at a speed of 1200.
+Upon reaching the targeted area, 1  Quill Sprays are released and all enemy units within 700 radius is targeted by  Viscous Nasal Goo based on its current level respectively.
+Enemies in the Fog of War are also hit by the Viscous Nasal Goo as well as the Quill Sprays.
+Viscous Nasal Goo does not target invisible units.
+Viscous Nasal Goo projectile will only hit once, but deal 2 stacks on target.
+Both Viscous Nasal Goo and Quill Spray notes fully apply.
+The Viscous Nasal Goo and Quill Spray released are based on the current level respectively.
+If neither is leveled, the ball does nothing upon reaching the targeted area.
+Since Quill Spray travels faster than Viscous Nasal Goo, the quills always hit enemies before the goo does, so the quills do not benefit from the armor reduction.
+SPELL STEAL The  Viscous Nasal Goo and  Quill Spray applied is based on  Bristleback's current ability level when acquired. Warpath  RW
+
+
+
+AbilityPassive
+AffectsSelf
+
+
+Bristleback works himself up into a fury every time he casts a spell, increasing his movement speed and damage.
+
+Max Stacks: 8/10/12Stack per Ability Cast: 1Attack Damage Bonus per Stack: 15/20/25 ( 33/38/43)Move Speed Bonus per Stack: 2%/3%/4%Stack Duration: 16/18/20Illusion Notes:Illusions gain a stack whenever Bristleback gains one.Does not benefit from the flat attack damage bonus.Modifiers [?]modifier_bristleback_warpathUndispellable
+modifier_bristleback_warpath_stackDeath
+'Temper, temper,' his mum always chided. But in a fight, a temper can come in handy.
+
+
+Does not trigger on active item abilities, on abilities with 0 cooldown, or on abilities which do not trigger on-cast effects.
+Grants Warpath stacks in the following conditions:
+Grants 1 stack per  Viscous Nasal Goo,  Quill Spray and  Hairball cast.
+Grants 1 stack per passive  Bristleback Quill Spray procs.
+SCEPTER Grants up to 6 stacks per upon  Bristleback cast.
+Bristleback's model size increases and more particles fly around him the more stacks he has.
+This has no impact on his collision size.
+Grants regular flat bonus attack damage.
+Grants at most 120/200/300 ( 264/380/516) attack damage and 16%/30%/48% movement speed bonus.
+Each stack places a new buff on Bristleback, with each buff duration independent of the other.
+The number of stacks can be seen on the status buff icon.

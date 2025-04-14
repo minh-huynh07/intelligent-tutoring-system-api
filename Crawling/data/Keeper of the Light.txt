@@ -1,0 +1,413 @@
+Illuminate Link▶️Link▶️QT
+
+
+
+AbilityTarget Point  / Channeled
+AffectsEnemies
+DamagePhysical
+
+Channels light energy, building power the longer it's channeled. Once released, a wave is sent forth that deals damage and gives vision in its path. The longer it is channeled, the more damage is dealt.
+
+Cast Animation: 0+0Cast Range:  1800Travel Distance:  1550Wave Radius:  400Vision Radius:  400Vision Spawn Distance: 150/180/210/240Max Channel Time: 3Max Damage: 185/290/395/500 ( 385/490/595/700)
+
+
+ 13 ( 11)
+ 100/125/150/175Modifiers [?]modifier_keeper_of_the_light_illuminateDeath
+Ezalor's hidden light reveals itself in marvelous fashion.
+
+
+The wave travels at a speed of 900, taking 1.72 seconds to travel the full distance.
+With the travel distance and radius, it can hit units up to 1950 range away.
+The damage increases by 2.06/3.22/4.39/5.56 ( 4.28/5.44/6.61/7.78) for every server tick spent channeling.
+While channeling, Illuminate creates vision fields in front of Keeper of the Light.
+The vision fields provide 400 range flying vision and last for 10.34 seconds each.
+The first vision field spawns 150/180/210/240 range in front of Ezalor. The following field spawn the same distance away from the previous vision field.
+The vision fields spawn in 0.5-second intervals, starting 0.5 seconds after channeling start, resulting in up to 5 fields.
+When the channeling is canceled, it stops spawning vision fields. This does not affect the travel distance of the wave.
+When fully channeled, all vision fields together reach up to 1150/1300/1450/1600 range away with their vision.
+The visual effect of Illuminate's shockwave gets stronger the longer it was channeled.
+Illuminate and  Illuminate (Spirit Form) are two separate abilities.
+Both of these abilities share the same cooldown, casting illuminate put its Spirit Form counterpart ability on cooldown as well.
+TALENT The damage increasing  talent instantly updates the current active channel, as well as already released waves. Release Illuminate QT
+
+
+
+AbilityNo Target
+
+
+
+Release the channel early.
+
+Cast Animation: 0+0
+
+
+ 0
+ 0
+
+
+Replaces  Illuminate until the channeling ends.
+Ezalor is unable to level Illuminate up while this sub-ability is active.
+Interrupts Ezalor's channeling abilities upon cast. Illuminate (Spirit Form) Link▶️Link▶️QT
+
+
+
+AbilityTarget Point
+AffectsEnemies  / Allies
+DamageMagical
+
+Channels light energy, building power the longer it's channeled. Once released, a wave is sent forth that deals damage and gives vision in its path. The longer it is channeled, the more damage is dealt.
+
+Cast Animation: 0+5.57Cast Range:  1800Travel Distance:  1550Wave Radius:  400Vision Radius:  400Vision Spawn Distance: 150/180/210/240Max Charge Time: 3Max Damage: 185/290/395/500 ( 385/490/595/700)
+
+
+ 13 ( 11)
+ 100/125/150/175Modifiers [?]modifier_keeper_of_the_light_spirit_form_illuminateDeath
+Ezalor's hidden light reveals itself in marvelous fashion.
+
+
+Replaces  Illuminate while having the spirit form buff on.
+For Ezalor, the total cast range and travel distance for this ability are 1925/2050/2175 and 1675/1800/1925 respectively.
+With the travel distance and radius, it can hit units up to 2075/2200/2325 range away.
+Upon cast, an image of Ezalor is spawned at his location, which channels the Illuminate for him. Ezalor can act freely during this.
+Illuminate notes fully apply.
+During  Spirit Form, Illuminate also heals allies for 50%/60%/70% of its damage values.
+Cannot heal invulnerable allies or  Couriers.
+The heal value is based on the damage dealt, amplifying or reducing the damage affects the healing value.
+Therefore, it can heal for the following values:
+LEVEL 1 1.03/1.61/2.19/2.78 ( 1.03/1.61/2.19/2.78) increase per interval, 93/145/198/250 ( 193/245/298/350) total heal.
+LEVEL 2 1.23/1.93/2.63/3.33 ( 1.23/1.93/2.63/3.33) increase per interval, 111/174/237/300 ( 231/294/357/420) total heal.
+LEVEL 3 1.44/2.26/3.07/3.89 ( 1.44/2.26/3.07/3.89) increase per interval, 130/203/277/350 ( 270/343/417/490) total heal.
+
+The heal value itself can still be subjected to heal manipulation.
+TALENT The damage increasing  talent instantly updates the current active channel, as well as already released waves. Release Illuminate (Spirit Form) QT
+
+
+
+AbilityNo Target
+
+
+
+Release the channel early.
+
+Cast Animation: 0+0.53
+
+
+ 0
+ 0
+
+
+Replaces  Illuminate (Spirit Form) while it is being channeled by the spirit.
+Keeper of the Light is unable to level Illuminate up while this sub-ability is active.
+ Release Illuminate notes fully apply. Blinding Light Link▶️WB
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamagePhysical
+
+A blinding light flashes over the targeted area, knocking back and blinding the units in the area, causing them to miss some attacks. Knockback is 400 range over 0.6 seconds.
+
+Cast Animation: 0.3+1.07Cast Range:  400/500/600/700Radius:  425/450/475/500Knockback Distance:  400Damage: 85/130/175/220Miss Chance: 40% ( 80%)Knockback Duration: 0.6Miss Duration: 4 
+
+
+ 25/22/19/16
+ 120/130/140/150Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]
+modifier_blinding_light_knockbackAny
+modifier_keeper_of_the_light_blinding_lightAny
+modifier_bashedStrongThe Primordial light turns the tides of battle in favor of Ezalor and his allies.
+
+
+Knocks units back at a speed of 666.67. Knockback distance is always 400, no matter how far the unit is from the center.
+Units are not disabled during the knockback. They can still turn, attack, cast abilities, and use items.
+The knockback does not interrupt channeling abilities.
+Can push units over impassable terrain.
+Destroys trees within 150 radius that enemies come in contact with during the knockback.
+Blinding Light first applies the knockback, the blind, the bash, then the damage.
+Blind uses pseudo-random distribution.
+Stacks additively with other blind sources and multiplicatively with evasion sources.
+During  Spirit Form, Blinding Light has a cast range of:
+LEVEL 1 525/625/725/825 cast range.
+LEVEL 2 650/750/850/950 cast range.
+LEVEL 3 775/875/975/1075 cast range.
+
+TALENT Stacks with other bash sources, with its duration following the regular rule of stuns — the longer one overrides the shorter one.
+The blind has a total duration of 4, but it is applied at the same time as the bash, therefore effectively lasting Expression error: Missing operand for -. seconds. Chakra Link▶️EC
+
+
+
+AbilityTarget Unit
+AffectsAllies
+
+
+Restores mana to the target unit and reduces cooldowns of all basic abilities currently on cooldown by a fixed amount. Is 25% more effective when used on himself.
+
+Cast Animation: 0.3+1Cast Range:  900Mana Restored: 75/150/225/300Current Cooldowns Reduction: 3/4/5/6Self Chakra Multiplier: 1.25
+
+
+ 18/16/14/12 ( 15/13/11/9)
+ 0In the same vein, Ezalor bestows his harmony among others.
+
+
+↓↓ Double-tapping automatically targets self.
+The following abilities' current cooldown are reduced:
+Basic abilities, including passive abilities.
+The replenish time of currently replenishing charge-based abilities.
+Abilities acquired via  Devour.
+Previously  Invoked abilities.
+Abilities acquired from the  Morphed targeted.
+Abilities acquired via  Spell Steal.
+The following abilities' current cooldown are not affected:
+Ultimate abilities.
+Acquired abilities that are not currently on the hero's ability slots.
+ Morphed basic abilities on-cooldown while reverting back to  Morphling's original form.
+Previous on-cooldown acquired abilities via  Spell Steal.
+It also does not affect abilities that are unaffected by cooldown manipulation.
+Grants the following bonuses when self-cast:
+93.75/187.5/281.25/375 mana restored.
+3.75/5/6.25/7.5 current cooldowns of basic abilities reduced.
+During  Spirit Form, Chakra has a cast range of 1025/1150/1275.
+Fully affects  Couriers.
+TALENT Chakra now also applies a basic dispel on the target upon cast. Solar Bind  Link▶️DD
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+
+
+Weakens an enemy's magical resistance, and applies a slow that increases in strength the more the target moves.
+
+Cast Animation: 0.2+1.24Cast Range:  850Magic Resistance Reduction: 35%Moved Distance Threshold: 100Moved Distance as Move Speed Slow: 10%Duration: 6
+
+   14
+N   2
+
+ 14 ( 0)
+ 120Modifiers [?]
+modifier_keeper_of_the_light_radiant_bindAny
+
+
+Only available during  Spirit Form.
+Stacks multiplicatively with other  magic resistance sources.
+Applies 3.5% magic resistance reduction on the affected target per 100 distance moved.
+Can reduce most heroes' magic resistance up to -1.25%.
+With the magic resistance reduction from this source, every 10 points of  intelligence further increases the total magic resistance by 1.35%. [?]
+Checks the target's current position once upon cast and then in 0.1-second intervals, resulting in 61 checks.
+On each check, it compares the target's current position with its position on the last check and updates the slow value if the accumulated distance exceeds 10.
+If the target moved a distance greater than 1200 between a check, the movement speed slow value is not increased.
+There is no cap to the slow value, it can continue to grow indefinitely. The status debuff's description shows how strong the slow currently is.
+The particle effects get stronger the higher the slow gets, capped at 100% slow. The volume of the sound effect on the target increases while moving.
+During  Spirit Form, Solar Bind has a cast range of 975/1100/1225.
+TALENT Acquiring the Solar Bind charges  talent instantly grants 1 extra charge. Will-O-Wisp Link▶️Link▶️FR
+
+
+
+AbilityTarget Area
+AffectsEnemies
+
+
+Summons Ignis Fatuus at the targeted area. Alternates on and off, drawing enemies closer with its mesmerising flicker.
+
+Cast Animation: 0.1+1.06Cast Range:  800Radius:  725Hero Attacks to Destroy: 7Enemy Pull Speed: 60Number of Flickers: 5Initial Delay: 1Off Duration: 1.85On Duration: 1Wisp Duration: 13.4
+
+
+ 60
+ 250Debuff Immunity Notes:Does not affect debuff immune units at all, not placing the debuff.Modifiers [?]modifier_keeper_of_the_light_will_o_wisp_auraUndispellable
+
+modifier_keeper_of_the_light_will_o_wispAnyAbility Draft Notes:
+Requires drafting  Spirit Form to be unlocked.
+Though he would not claim to 'know' them, Ezalor holds an uncanny influence over many powerful creatures always willing to come to his aid.
+
+
+
+
+Ignis Fatuus
+
+
+
+
+
+Summoned Ward
+
+
+
+
+
+
+Health
+7
++0
+
+
+
+
+
+
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+0
+
+
+Duration
+
+
+
+13.4
+
+
+Armor
+
+
+
+0
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Turn Rate
+
+
+
+0.5
+
+
+Collision Size
+
+
+
+27
+
+
+Bound Radius
+
+
+
+24
+
+
+Vision Range
+
+(G)
+
+1800 • 800
+
+
+Bounty
+
+
+
+100
+
+
+Experience
+
+
+
+0
+
+
+Notes
+
+Phased
+
+
+
+Requires  Aghanim's Scepter to be unlocked.
+The Ignis Fatuus starts flickering 1 second after cast, and then every 2.85 seconds, up to 5 times.
+While flickering, it moves enemies 60 units towards the wisp, and locks their facing angle on it.
+Does not disable enemies in any other way.
+Periodically checks enemies within the radius that are not affected by the debuff when the  Ignis Fatuus flickers on, and immediately applies the debuff to them.
+This means that although the debuff is dispellable, it is instantly reapplied to the unit as long as it stays within the radius.
+Only attacks from heroes and clones can damage the Ignis Fatuus.
+Although creeps can attack the Ignis Fatuus, their attacks do not damage the Ignis Fatuus. Treats attacks from illusions and creep-heroes as creeps.
+Towers ignore the Ignis Fatuus.
+Destroys trees within the radius upon cast, and within 150 radius around affected enemies at the end of the pull.
+Multiple casts work independently of each other.
+During  Spirit Form, Will-O-Wisp has a cast range of 925/1050/1175. Spirit Form Link▶️RF
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Ezalor temporarily turns his body luminescent, gaining bonus movement speed, cast range, grants the Blinding Light ability, and allows Illuminate to be channeled by a separate spirit and heal allies.
+
+Cast Animation: 0+1.43Move Speed Bonus: 15%/20%/25%Cast Range Bonus: 125/250/375Illuminate Damage as Heal: 50%/60%/70%Duration: 40 ( 55)
+
+
+ 85
+ 75/125/175
+Aghanim's Scepter Upgrade:New Ability
+Grants the Will-O-Wisp ability.
+
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Recall ability.
+
+Modifiers [?]modifier_keeper_of_the_light_spirit_formDeath
+In a flash of light, Ezalor reveals his true nature.
+
+
+Spirit Form interrupts Ezalor's channeling abilities upon cast.
+When Spirit Form expires while a spirit is channeling  Illuminate (Spirit Form), it is released instantly.
+Grants  Blinding Light upon cast.
+SHARD  Recall replaces Spirit Form for its duration.
+SPELL STEAL  Recall is a standalone ability, and is not granted while Spirit Form is active. Recall Link▶️Link▶️Link▶️RF
+
+
+
+AbilityTarget Point  / Target Unit
+AffectsAllied Heroes
+
+
+After a short delay, teleports the targeted friendly hero to your location. If the targeted friendly hero takes player based damage during this time, the ability is interrupted.
+
+Cast Animation: 0.3+1.17Cast Range: GlobalTeleport Delay: 4
+
+
+ 15
+ 150Modifiers [?]modifier_keeper_of_the_light_recallAny
+Ability Draft Notes:
+Requires drafting  Spirit Form to be unlocked.
+Walk towards the light.
+
+
+Requires  Aghanim's Shard to be unlocked.
+This ability is not an ultimate ability.
+Only available during  Spirit Form.
+Replaces Spirit Form for its duration. Ezalor is unable to level Spirit Form up while this ability replaces it.
+Targeting the ground chooses the closest ally hero to the targeted point.
+Cannot be cast on allies who have ☐ Disabled Help from Ezalor.
+Gives the target a stop command after teleporting it, effectively canceling channeling abilities.
+Can be cast on and teleport illusions and invulnerable allies.
+Cannot be cast on, but can teleport hidden allies.
+Cannot teleport creep-heroes.
+Disjoints projectiles upon teleporting.
+Recall is interrupted in the following conditions:
+Upon Ezalor's or the affected target's death.
+Any player-based and  Roshan-based damage instance (before reductions), including damage instance that deals 0 damage.
+Self-damage does not cancel the effect.

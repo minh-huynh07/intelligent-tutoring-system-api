@@ -1,0 +1,353 @@
+Stroke of Fate Link▶️Link▶️Link▶️QF
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamagePhysical
+
+Grimstroke paints a path of ink with his brush, damaging and slowing enemies. The damage is increased with each enemy the ink hits.
+
+Cast Animation: 0.6+0.5Cast Range:  1400 ( 2400)Wave Distance:  1400 ( 2400)Start Radius:  120End Radius:  160Base Damage: 100/160/220/280 ( 175/280/385/490)Damage Increment per Hit: 20/30/40/50 ( 35/52.5/70/87.5)Move Speed Slow: 50%/60%/70%/80%Slow Duration: 1.75
+
+
+ 11/9/7/5
+ 100/110/120/130Modifiers [?]modifier_projectile_visionUndispellable
+
+modifier_grimstroke_dark_artistry_slowAnyThe corruptive force of Grimstroke's ink, drawn from the reservoir of his fallen people, consumes any enemy caught in its path.
+
+
+The ink travels at a speed of 2000.
+With the travel distance and end radius, the ink takes 0.7 ( 1.2) seconds to reach max distance and can hit units up to 1560 ( 2560) range away.
+The ink trail starts 120 range towards Grimstroke's left side and travels towards the targeted point.
+This means the ink's travel direction is not based on the caster's facing direction, but instead on the angle between the aforementioned points.
+ Portrait-casting automatically launches Stroke of Fate to the right of Grimstroke's facing direction.
+Stroke of Fate first applies the damage, then the debuff.
+The damage increment has no cap and counts any valid units hit by the ink.
+Neither affects nor counts invulnerable or hidden units to the total damage.
+Plays an initial sound and particles upon start casting, visible and audible to everyone.
+The projectile provides ground vision within its effect radius around it as it travels. This vision does not last.
+Provides a 2-second 250 radius flying vision at every hit enemy's location and at the end location of the projectile. Phantom's Embrace   Link▶️Link▶️Link▶️Link▶️WE
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamagePhysical
+
+Summons a phantom that moves quickly towards the target, latching to it when she arrives. Once latched, the phantom damages and silences. If she survives the full latch duration she rends her victim for heavy damage and refreshes Phantom's Embrace's cooldown.Hero attacks against the phantom count as 3 attacks each.
+
+Cast Animation: 0+0Cast Range:  900Hero Attacks to Destroy: 2/2/3/3 ( 3/3/4/4)Creep Attacks to Destroy: 6/6/9/9 ( 9/9/12/12)Damage per Second: 10/20/30/40 ( 75/85/95/105)Rend Damage: 120/200/280/360Latch Duration: 5Cooldown Skip per Phantom Returned: 36/30/24/18
+
+
+ 36/30/24/18
+ 80/100/120/140Debuff Immunity Notes:Shared vision pierces debuff immunity.Spell Block / Reflection Notes:Blocked upon cast.Ability Disjoint Notes:Cannot be disjointed by enemies.Can be disjointed by the caster while returning, resulting in the cooldown not being reset.Modifiers [?]modifier_grimstroke_ink_creature_spawningUndispellable
+modifier_grimstroke_ink_creatureDeath
+modifier_grimstroke_ink_creature_latchedDeath
+
+modifier_provide_visionDeath
+modifier_grimstroke_ink_creature_debuffDeathGrimstroke holds no sorrow for the downfall of his people. Only for Yaovhi, she who was most dear to him, does he feel even a semblance of longing.
+
+
+
+
+Phantom
+
+
+
+
+
+Attached
+
+
+
+
+
+
+Health
+100
++0
+
+
+
+
+
+
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+2
+
+
+Duration
+
+
+
+5
+
+
+Armor
+
+
+
+0
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Turn Rate
+
+
+
+1
+
+
+Collision Size
+
+
+
+18
+
+
+Bound Radius
+
+
+
+8
+
+
+Vision Range
+
+(G)
+
+200
+
+
+Bounty
+
+
+
+10
+
+
+Experience
+
+
+
+10
+
+
+Notes
+
+UncontrollablePhased
+
+
+
+The  Phantom instantly spawns ≈150 distance in front of Grimstroke, and travels to the target at a speed of 1150 upon the next server tick.
+The Phantom is attackable as soon as it is spawned, so it can be killed before it reaches its target.
+Phantoms are attached-type units, and have the highest priority for auto-attack behaviors.
+Heroes and creeps deal 50/50/33.33/33.33 ( 33.33/33.33/25/25) and 16.67/16.67/11.11/11.11 ( 11.11/11.11/8.33/8.33) damage respectively to the Phantom.
+Treats attacks from clones and illusions as heroes, and attacks from creep-heroes as creeps.
+Towers ignore the Phantom.
+The Phantom latches onto the target when it comes within 130 range of it. Once latched, it always stays 130 range in front of the target.
+The Phantom is instantly killed in the following conditions:
+When its target dies while traveling.
+When its target turns invisible, including while the Phantom is still traveling towards it.
+When its target turns invulnerable or hidden, but not while traveling.
+If the Phantom is in traveling, it will be killed when arriving at the invulnerable or hidden unit.
+The Phantom returns to Grimstroke at a speed of 1150 upon expiring, when its target dies, or after 10 damage instances.
+Does not return when it is killed or instantly killed in the aforementioned conditions.
+ Chronosphere instantly causes already latched Phantoms to return to their caster, and freezes traveling Phantoms.
+While attached, the Phantom silences its target and deals damage to it.
+The damage per second and rend damage component on the affected target is sourced to Grimstroke, not the Phantom.
+Therefore, the damage is affected by outgoing damage manipulation and spell lifesteal.
+Deals 5/10/15/20 ( 37.5/42.5/47.5/52.5) damage in 0.5-second intervals, starting immediately upon reaching the target, resulting in 10 instances.
+Can deal up to 170/300/430/560 ( 495/625/755/885) damage to each latched enemy, including the final rend damage (before reductions).
+Successive casts on the target fully stack and share one debuff.
+The damage per second is increased for each stack. All Phantom instances on the same target share the same damage interval and are summed up into one instance per interval.
+The Phantom resets the cooldown of the Phantom's Embrace upon having fully returned to Grimstroke.
+With multiple Phantoms, each fully returned Phantom resets the cooldown of the ability independently.
+The ability itself provides no vision, but the Phantom provides 200 shared vision and ground vision over the target while flying towards it, and while latched.
+The granted vision instantly stops once the Phantom unlatches itself from the target and while traveling back to the caster.
+The Phantom is untargetable and uncontrollable while it returns to the caster.
+SOULBIND Only the  Phantom returned from the primary target refreshes the ability's cooldown. Ink Swell Link▶️Link▶️Link▶️EW
+
+
+
+AbilityTarget Unit
+AffectsAllies  / Enemies
+DamagePhysical
+
+Grimstroke shrouds an allied unit in ink, increasing its movement speed. Enemies in range of the allied unit are damaged with inky tendrils over time. After 5 seconds it triggers, applying damage and stun in an area around the unit in proportion to how long ink tendril was near any hero.
+
+Cast Animation: 0.15+0.73/0.86Cast Range:  500/600/700/800Radius:  375 ( 525)Move Speed Bonus: 20% ( 32%)Tendrils Damage per Second: 25/40/55/70 ( 32.5/52/71.5/91)Expire Max Damage: 90/180/270/360 ( 117/234/351/468)Max Stun Duration: 1.3/1.8/2.3/2.8Max Power Duration: 2.5Buff Duration: 5 Tendrils Heal Per Second: 9.75/15.6/21.45/27.3 Expire Max Heal: 35.1/70.2/105.3/140.4 Creep Spell Lifesteal Multiplier: 0.8
+
+
+ 27/24/21/18 ( 23/20/17/14)
+ 120/130/140/150
+Aghanim's Shard Upgrade:
+
+Causes Ink Swell to deal 30% more damage and heal the target for 30% of the damage Ink Swell deals. Upon expiration, the target will receive a strong dispel.
+
+Modifiers [?]modifier_grimstroke_spirit_walk_buffAny
+
+modifier_stunnedStrongNow that the rise of the ink tide no longer threatens to overwhelm Grimstroke, its tendrils of power are never far from his hand.
+
+
+Grimstroke has a different ability animation and longer cast backswing of 0.86 when self-casting.
+↓↓ Double-tapping automatically targets self.
+Ink Swell first applies the damage, then the debuff.
+The tendrils deal 5/8/11/14 ( 6.5/10.4/14.3/18.2) damage in 0.2-second intervals, starting immediately as the buff is placed, resulting in up to 25 instances.
+Can damage up to 125/200/275/350 ( 162.5/260/357.5/455) damage to a single unit (before reductions).
+SHARD Ink Swell also heals the affected ally based on the same damage intervals.
+The ability values are based on the number of damage instances the tendrils applied per enemy hero within the radius upon losing the buff or when the  Ink Explosion sub-ability is used, regardless of how much damage the target(s) actually receive.
+This means to reach the max power, at least one enemy hero must be damaged throughout the whole duration of Ink Swell.
+Treats clones as heroes, illusions and creep-heroes as creep.
+The ability values reaches max power after 13 instances.
+Each damage instance increases the max power as follows:
+Increases the stun duration by 0.1/0.14/0.18/0.22 seconds per damage instance applied.
+Increases the expire damage by 7.2/14.4/21.6/28.8 ( 9.36/18.72/28.08/37.44) per instance applied.
+Dispelling the debuff prematurely or casting the  Ink Explosion sub-ability still applies the expire damage and stun within 375 ( 525) radius, centered on the affected unit, based on the damage instances applied up to that point.
+However, if the affected unit dies, Ink Swell does not apply the expire damage and stun within the radius.
+The expire damage and stun only apply when there is at least one enemy hero within 375 ( 525) radius.
+SHARD Ink Swell now heals the affected ally based on the tendril instances per enemy hero hit, and also when the buff expires following the ability notes above.
+Both components always heal for the full amount per instance, regardless of how much damage the enemy target(s) actually takes.
+Can heal up to 48.75/78/107.25/136.5 of the affected ally's health per damaged enemy over its full duration.
+The tendrils' healing value on the affected ally can still be subjected to heal manipulation.
+However, the heal per enemy at the end of the stun accumulation time utilizes spell lifesteal.
+Stacks additively with other sources of spell lifesteal on the affected ally, and can still be subjected to spell lifesteal manipulation sourced to Grimstroke.
+SHARD Ink Swell first applies the tendrils heal instance per enemy hero hit, the spell lifesteal as expire max heal, then the strong dispel.
+The strong dispel at the end is applied no matter how the buff is removed. Ink Explosion WE
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Trigger an existing Ink Swell.
+
+Cast Animation: 0.2+0Max Duration: 5
+
+
+ 1
+ 0
+
+
+Replaces  Ink Swell until the sub-ability is used or the debuff disappears.
+Despite being a sub-ability, Ink Explosion procs all on-cast effects like a regular ability.
+SPELL STEAL Grants  Ink Swell if this sub-ability is the last cast ability. Dark Portrait Link▶️DD
+
+
+
+AbilityTarget Unit
+AffectsEnemy Heroes
+
+
+Creates an ink illusion of a target enemy hero. Illusion is spell immune, and has bonus movement speed and attack damage.
+
+Cast Animation: 0+0.54Cast Range:  1200Number of Illusions: 1       Dark Portrait IllusionDamage Dealt: 150%Damage Taken: 350%Move Speed Bonus: 30%Magic Resistance Bonus: 95%Duration: 25
+
+
+ 35
+ 200Modifiers [?]modifier_grimstroke_scepter_buffDeath
+modifier_illusionDeath
+modifier_invulnerableDeath
+Ability Draft Notes:
+Requires drafting both  Grimstroke and  Soulbind to be unlocked.
+No dark creation is beyond the skill of the master's hand.
+
+     Dark Portrait illusion as they appear to allies and enemies.  
+Requires  Aghanim's Scepter to be unlocked.
+The Dark Portrait illusion is a strong illusion, meaning it cannot be instantly killed by abilities that normally kill illusions instantly.
+The created illusion is visually distinguishable from the real hero for allies and enemies.
+The illusion spawns 58 range away randomly on the north, south, east, and west from the target, regardless of the target's collision size.
+The illusion gains its debuff immunity and movement speed bonus through a buff, so it is possible for enemies to check the buff and ‼ Ping the remaining duration of the illusion.
+The illusion has a expr 2 × IllusionLVL bounty.
+Successive casts do not replace existing Dark Portrait illusions.
+Treats illusions and clones as heroes, and the  Spirit Bear as creeps.
+Stacks multiplicatively with other  magic resistance sources.
+The illusion will have a base magic resistance to 96.25% and every 10 points of  intelligence the illusion have further increases the total magic resistance by 0.05%. [?] Soulbind  Link▶️Link▶️RB
+
+
+
+AbilityTarget Unit
+AffectsEnemy Heroes
+
+
+Binds a targeted enemy hero to its nearest allied hero within the bind radius, preventing both from moving away from each other. Any unit-targeted ability that either bound hero receives also gets cast on the other hero. If the bind is broken before the duration expires, the initial target will be bound to its nearest allied hero in the radius.
+
+Cast Animation: 0.15+0.5Cast Range:  700/800/900Max Bound Units: 2Latch Radius:  600Break Distance: 700Duration: 6/7/8 Bound Spell Damage Amp: 25%
+
+
+ 70/65/60
+ 150/200/250
+Aghanim's Scepter Upgrade:New Ability
+Grants the Dark Portrait ability.
+
+Debuff Immunity Notes:Does not connect to secondary debuff immune units. If the primary target is debuff immune, does not connect to other units at all. Shared vision, exposure and spell copying fully pierces debuff immunity.Spell Block / Reflection Notes:Blocked fully only when primary target.Cannot be reflected.Modifiers [?]modifier_grimstroke_soul_chain_channel_checkDeath
+
+modifier_grimstroke_soul_chainDeathThe Ascended were chosen sons of Ashkavor, granted immense power by the bonds forged between their own souls and those they were charged with protecting. In the years that followed the ruination of his kin, Grimstroke discovered much more sinister applications for the binding rituals…
+
+
+A list of unique interactions with Soulbind can be found here.
+The targeting reticule must be centered over an enemy unit.
+Only binds the primary target to heroes, clones and creep-heroes, excluding illusions. However, the primary target can be an illusion or the  Spirit Bear.
+Does not bind to nearby invisible or invulnerable heroes.
+Leashes the target and the ally it is bound to, preventing them from casting certain mobility abilities.
+Does not leash the target if it is not bound to an ally.
+Exposes and provides shared vision and True Sight over both targets.
+The more the chain gets stretched, the slower the affected heroes can walk away from each other, eventually coming to a full stop. It directly affects their movement speed.
+The chain is considered fully stretched at 600 range, but can be stretched up to 700 range before it breaks.
+In order to stretch it further than 600, forced movement sources or abilities with teleporting effects must be used.
+This means most forced movement sources can break the leash, except for the following abilities:
+ Skewer,  Leap,  Pounce,  Tree Dance,  Primal Spring,  Toggle Movement,  Force Staff and  Hurricane Pike.
+However,  Force and  Hurricane Thrust (Ally) can break the chain if the target hasn't moved after being bound.
+If either enemy manages to break the binding link, the debuff stays active on the primary target and immediately leashes the next valid enemy target within the latch radius to them.
+The ability animations are based on and are affected by status resistance. This affects the following things on both the primary and the secondary target:
+expr StatusResistance1 > StatusResistance2
+The chain disappears, and the primary target is no longer affected by Soulbind.
+However, the secondary target is still fully affected by Soulbind's effects.
+expr StatusResistance2 > StatusResistance1
+The chain disappears, and the secondary target is no longer affected by Soulbind.
+The primary target will still be fully affected by Soulbind, and leashes the next valid enemy target following the ability notes above.
+A valid unit may only be affected by one Soulbind at a time.
+Successive casts on the same primary target, or on the secondary target refreshes the duration on both targets.
+Successive casts on a third target within the range of the already linked two do not link the third valid target to any other two until the previous Soulbind expires.
+The following conditions do not duplicate the unit-targeted ability onto the secondary target:
+Abilities and item casts by creeps, including neutral creeps and Dominated units, and creep-heroes.
+Abilities that cannot be reflected by Spell Reflection.
+When an illusion is the primary target.
+When the primary target is affected by any other Spell Reflection sources.
+Soulbind has the lowest priority in the group of Spell Refection sources.
+The duplicated ability cast also ignores all sources of Spell Reflection on the secondary target, this means the duplicated cast cannot be reflected again.
+Most ability effects are first applied to the secondary target, then the primary target.
+Charge-based abilities only consume a single charge when the ability is also cast on the secondary target.
+The duplicated ability interacts with spell immunity as follows:
+Abilities that pierce debuff immunity when reflected are duplicated on the secondary target, which is stated in the ability's notes respectively.
+Certain abilities that do not pierce debuff immunity will still be cast on the bound debuff immune target, applying other of its ability effects, despite not affecting them.
+TALENT The spell damage amplification  talent applies generic incoming damage amplification on affected bound units. Stacks additively with other sources of generic incoming damage manipulation.
+Affects only spell damage the affected targets receive. Does not amplify the following damage sources:
+Damage flagged as HP removal.
+Despite utilizing incoming damage amplification, it does not affect the damage sources that ignore outgoing amplification (e.g. Cleave sources,  Damage Return and  Moon Glaives).

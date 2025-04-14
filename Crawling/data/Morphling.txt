@@ -1,0 +1,275 @@
+Waveform  Link▶️QW
+
+
+
+AbilityTarget Point
+AffectsEnemies  / Self
+DamageMagical ( Instant Attack)
+
+Morphling dissolves into liquid and surges forward, damaging enemy units in his path. Morphling is invulnerable during Waveform.
+
+Cast Animation: 0.25+0Cast Range:  700/800/900/1000 ( 950/1050/1150/1250)Max Travel Distance:  700/800/900/1000 ( 950/1050/1150/1250)Damage Radius:  200Damage: 75/150/225/300
+
+
+ 21/18/15/12 ( 12.6/10.8/9/7.2)
+ 130Modifiers [?]modifier_morphling_waveformDeath
+A torrential flood takes enemies by force.
+
+
+Surges with a speed of 1250 and disjoints projectiles upon cast.
+Morphling turns invulnerable, and his hero model cannot be directly selected during Waveform.
+However, Morphling can still be selected through the hero icon.
+Morphling can turn, attack, cast abilities, and use items during Waveform.
+With the travel distance and radius, Waveform can hit units up to 900/1000/1100/1200 ( 1150/1250/1350/1450) distance away.
+Fully affects invisible enemy units and units in the Fog of War.
+Does not travel the full distance, when targeting closer than the max distance.
+TALENT
+The Waveform attack targets  talent causes Morphling to perform instant attacks on every enemy hit by Waveform.
+These instant attacks can proc any attack modifiers and on-hit effects normally. They do not have True Strike, but completely ignore disarms.
+Waveform first deals its damage, then applies the instant attacks.
+Does not affect  Couriers.
+The Waveform cooldown reduction  talent stacks multiplicatively with other sources of percentage-based cooldown reduction sources, and is calculated after all flat cooldown reduction values. Adaptive Strike (Agility)   Link▶️Link▶️WE
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamageMagical
+
+Launches a surge of water toward an enemy unit, dealing base damage plus additional damage based on Morphling's agility times a multiplier. If Morphling's agility is 50% higher than strength, the maximum agility multiplier is used.Also puts Adaptive Strike (Strength) on a 3 second cooldown.
+
+Passive ComponentAgility Bonus: 3/5/7/9 ( 9/11/13/15)Cast Animation: 0.25+0.67Cast Range:  600/700/800/900Number of Targets: 1Base Damage: 55/65/75/85Min Bonus Damage Agility Multiplier: 0.5Max Bonus Damage Agility Multiplier: 1/1.5/2/2.5Adaptive Strike (Strength) Downtime: 3
+
+
+ 16/14/12/10
+ 40/50/60/70
+Aghanim's Shard Upgrade:
+
+Increases bonus Agility.
+
+Spell Block / Reflection Notes:Blocked upon impact.Ability Draft Notes:
+Both  Adaptive Strike abilities are separate, stand-alone abilities that can be drafted and leveled up independently.
+The Morphling calls upon his elements to crush his opponents with waves.
+
+
+Casting this puts the other Adaptive Strike (Strength) on a fixed 3-second cooldown.
+This cooldown can be reset with cooldown resetting abilities, but it is not affected by percentage-based cooldown reductions.
+The projectile travels at a speed of 1150.
+The damage multiplier values are not fixed. They adapt linearly in smooth intervals depending on the difference between Morphling's  agility and  strength.
+The values change with each percent difference between agility and strength, even when it is just a minimal change.
+It also checks Morphling's current attributes upon projectile impact.
+The multiplier counts both base and bonus attributes.
+expr
+Damage: 55/65/75/85 + ΣAgi × DamageMultipler
+Damage Multiplier: 0.5, 1/1.5/2/2.5 when CasterΣAgi × 0.5 > CasterΣStr
+The agility bonus is granted as bonus attributes, and it effectively grants 0.5/0.83/1.17/1.5 ( 1.5/1.83/2.17/2.5) main armor, and 3/5/7/9 ( 9/11/13/15) attack speed and main attack damage bonus. Adaptive Strike (Strength)   Link▶️Link▶️ET
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+
+
+Launches a surge of water toward an enemy unit, stunning and knocking back the target based on Morphling's strength. If his strength is 50% higher than his agility, the maximum stun/knockback is dealt.Also puts Adaptive Strike (Agility) on a 3 second cooldown.
+
+Passive ComponentStrength Bonus: 3/5/7/9 ( 9/11/13/15)Cast Animation: 0.25+0.67Cast Range:  600/700/800/900Number of Targets: 1Min Knockback Distance: 100Max Knockback Distance: 500Min Stun Duration: 0.5 ( 1.3)Max Stun Duration: 1.5/2/2.5/3 ( 2.3/2.8/3.3/3.8)Adaptive Strike (Agility) Downtime: 3
+
+
+ 16/14/12/10
+ 40/50/60/70
+Aghanim's Shard Upgrade:
+
+Increases bonus Strength.
+
+Debuff Immunity Notes:The forced movement is instantly canceled.Spell Block / Reflection Notes:Blocked upon impact.Modifiers [?]
+modifier_morphling_adaptive_strikeStrongAbility Draft Notes:
+Both  Adaptive Strike abilities are separate, stand-alone abilities that can be drafted and leveled up independently.
+The Morphling calls upon his elements to crush his opponents with waves.
+
+
+Casting this puts the other Adaptive Strike (Agility) on a fixed 3-second cooldown.
+This cooldown can be reset with cooldown resetting abilities, but it is not affected by percentage-based cooldown reductions.
+The projectile travels at a speed of 1150.
+The knockback and stun values are not fixed. They adapt linearly in smooth intervals depending on the difference between Morphling's  agility and  strength.
+Both values change with each percent difference between agility and strength, even when it is just a minimal change.
+It also checks Morphling's current attributes upon projectile impact.
+The knockback and stun values count both base and bonus attributes.
+When expr CasterΣStr × 0.5 > CasterΣAgi, the knockback and stun duration are at their maximum at 500 and 1.5/2/2.5/3 ( 2.3/2.8/3.3/3.8) seconds respectively, else the knockback distance and stun duration are at their minimum at 100 and 0.5 ( 1.3) seconds respectively.
+Knocks the target back at a speed of 1000, resulting in a knockback duration of 0.1 ‒ 0.5 seconds.
+The strength bonus is granted as bonus attributes, and it effectively grants 66/110/154/198 ( 198/242/286/330) health and 0.27/0.45/0.63/0.81 ( 0.81/0.99/1.17/1.35) health regeneration bonus. Attribute Shift (Agility Gain)  Link▶️DD
+
+
+
+AbilityToggle
+AffectsSelf
+
+
+Morphling shifts its form, pulling points from Strength and pouring them into Agility. The process is reversible. Additional points in Attribute Shift increase the rate of stat change.
+
+Cast Animation:  0+0Shift Rate: 5/10/15/20
+
+ 5/10/15/20/ second
+Aghanim's Shard Upgrade:
+
+Morphling can shift attributes while stunned.
+
+Illusion Notes:Illusions copy the shifted attributes.Modifiers [?]modifier_morphling_morphUndispellable
+modifier_morphling_morph_agiDeath
+Ability Draft Notes:
+This ability is not available in Ability Draft.
+Shifting water makes it difficult to discern the nature of Morphling.
+
+
+Does not interrupt Morphling's channeling abilities upon toggling.
+Costs 25/100/225/400 mana per shift interval, resulting in 5/10/15/20 mana per second.
+The mana cost per second is fixed and it is not affected by mana loss manipulation.
+Converts Lua error in Module:Calculate at line 35:  in expression "/5 round1".  strength to  agility points per second, resulting in the following bonuses per second:
+Lua error in Module:Calculate at line 35:  in expression "(0.16666666666667*(/5)) round1". main armor.
+Lua error in Module:Calculate at line 35:  in expression "(1*(/5)) round1". attack speed.
+Lua error in Module:Calculate at line 35:  in expression "1*(/5) round1". main attack damage.
+Can only convert Morphling's base agility and strength. Bonus attributes are not converted.
+Shifted attributes are permanent and not reverted on death.
+Attribute Shift continues to convert attributes even if Morphling is disabled, but cannot be toggled On / Off while disabled.
+SHARD This restriction is removed upon acquring  Aghanim's Shard, allowing Morphling to toggle Attribute Shift even while disabled. However, Morphling is now unable to ⇧ Shift-queue this ability.
+It can be toggled while stunned, cycloned, slept, taunted, hidden, or during forced movement, but not while silenced, hexed or prevented from acting.
+Toggling one Attribute Shift ability On automatically toggles the other Off.
+If Attribute Shift cannot convert anymore due to a lack of attribute points or mana, the toggle status remains the same, but the process is paused until it can continue. Attribute Shift (Strength Gain)  Link▶️FF
+
+
+
+AbilityToggle
+AffectsSelf
+
+
+Morphling shifts its form, pulling points from Agility and pouring them into Strength. The process is reversible. Additional points in Attribute Shift increase the rate of stat change.
+
+Cast Animation:  0+0Shift Rate: 5/10/15/20
+
+ 5/10/15/20/ second
+Aghanim's Shard Upgrade:
+
+Morphling can shift attributes while stunned.
+
+Illusion Notes:Illusions copy the shifted attributes.Modifiers [?]modifier_morphling_morphUndispellable
+modifier_morphling_morph_strDeath
+Ability Draft Notes:
+This ability is not available in Ability Draft.
+Shifting water makes it difficult to discern the nature of Morphling.
+
+     The custom HUD element for  Attribute Shift, showing the current agility-strength ratio.  
+Does not interrupt Morphling's channeling abilities upon toggling.
+Shifted attributes are permanent and not reverted on death.
+Same notes as for  Attribute Shift (Agility Gain) apply.
+Converts Lua error in Module:Calculate at line 35:  in expression "/5 round1".  agility to  strength points per second, resulting in the following bonuses per second:
+Lua error in Module:Calculate at line 35:  in expression "22*(/5) round0". base max health.
+Lua error in Module:Calculate at line 35:  in expression "0.09*(/5) round1". base health regeneration.
+The strength bonus/loss counts as setting health, it does not keep the current health percentage but instead adds/removes 22 health per strength to/from the current health pool.
+Health freeze sources keep the current health value the same, but do not stop the max health from increasing.
+However, for other health-based amplifications and reductions, only the part that exceeds the current health percentage is affected. This affects the following things:
+ Morphling's current health percentage is now 30% at 300/1000 health.
+It gained 22 bonus current and max health from attribute shifting. However, the new current/max health percentage values are not considered in the calculations.
+30% of the 22 bonus health granted (6 health) will not be affected by health-based amplifications and reductions, while the remaining bonus health (15 health) is affected. Morph  Link▶️RR
+
+
+
+AbilityTarget Unit
+AffectsEnemy Heroes  / Self
+
+
+Morphling changes his form to match the targeted enemy, gaining their basic abilities. Can be toggled for the duration of the ability.
+
+Cast Animation: 0.25+0.1Cast Range:  700/850/1000Duration: 24 ( 40) Number of Illusions: 1    Morph Illusion Damage Dealt:  100% Damage Taken:  300%
+
+
+ 140/100/60
+ 50
+Aghanim's Scepter Upgrade:
+Adds an alt-cast to Morph. When enabled, a strong illusion is created of the target hero that can cast all of the hero's basic abilities. If the illusion is alive when Morphling toggles the ability, he will take the place of the illusion, destroying it.Upgrades abilities acquired via Morph to their Scepter version.
+
+Aghanim's Shard Upgrade:
+
+Upgrades abilities acquired via Morph to their Shard level.
+
+Spell Block / Reflection Notes:Cannot be reflected.Triggers Spell Block on the primary hero when cast on illusions.Modifiers [?]modifier_morphling_replicateDeath
+
+modifier_morphling_replicate_managerDeathAbility Draft Notes:
+This ability is not available in Ability Draft.
+Staring into Morphling produces a reflection that mimics the beholder.
+
+Alt-Cast Icon
+Neither replaces Morphling with a clone nor an illusion of the target. Morph only copies the target's model, hitbox, including equipped cosmetic items.
+The combat log still registers the copied model as Morphling.
+Morphling can still be killed normally in the Morphed form.
+Morph neither acquires innate abilities nor other innate ability traits (e.g. freely moving in the  Chronosphere), except the following abilities:
+ Stone Remnant,  Mana Shield and  Stone Form.
+While active, Morphling is visually distinguishable from the original hero.
+Neither dispels buff and debuffs upon cast and casting the  Morph Replicate sub-ability.
+Keeps the current health and mana percentages upon cast. Morph does not copy the target's current health or mana.
+The affected target's hero icon is displayed as a debuff on the HUD.
+Changes Morphling's current base attribute values and primary attribute from  agility to the affected target's values.
+Bonus attributes from abilities and items are not copied.
+Changes Morphling's attack range type from  ranged to the affected target's attack range type.
+This causes items that use different values for melee and ranged heroes (e.g.  Manta Style) to now adapt to Morphling accordingly.
+Attack range-increasing sources are not overridden and still work normally.
+Fully copies the target's movement speed.
+This means when targeting a melee strength hero, Morphling becomes a  melee  strength hero for the duration.
+All other base stats of the affected target (e.g. attack damage values, armor, magic resistance, base attack time, collision size, etc.) are not copied.
+Does not copy the target's transformed state as well (e.g.  Elder Dragon Form).
+Items are not copied as well.
+Most channeling abilities are interrupted upon unmorphing, except for  Phase Shift,  Upheaval, and casting item abilities.
+Treat clones and illusions as heroes, creep-heroes and the  Spirit Bear as creeps.
+Casting on illusions is considered as casting Morph on the hero who owns the illusion.
+Therefore, Morph copies the hero who owns the illusion and not the hero the illusion is based on. Casting ability on an illusion based on a dead hero does nothing.
+For example, when targeting  Disruption illusions, Morphling turns into  Shadow Demon, and not the hero Disruption was cast on.
+However, it cannot target Morphling itself or illusions under Morphling's control.
+An  Enchanted Morphling illusion is still treated as its own illusion and can still not be targeted.
+SCEPTER Upon acquiring the  Ability Upgrade, it has Alt-cast activated by default.
+With Alt-Cast activated, Morph creates a strong illusion of the affected target that can cast all of the target's basic abilities, but not ultimate and item abilities.
+The Morph Illusion spawns with full health and faces the same angle as the affected target.
+The Morph Illusion neither has a gold nor an experience bounty.
+The distance between the Morphling and the Morph illusion is always one-fourth of the distance between Morphling and the target.
+SCEPTER The  Morphed Illusion acquire innate abilities and other innate ability traits.
+However, it cannot acquire  Invoked and  Devoured abilities.
+The ability cooldown of the acquired basic abilities is shared between Morphling and the Morph Illusion.
+However, it does not share the charges of Charge-based Abilities. Therefore, Morphling and the Morph Illusion both have independent charges for charged-based abilities.
+When losing the  Ability Upgrade, the Morph Illusion is not instantly killed, and the  Morph Replicate sub-ability can still teleport Morphling to its place.
+However, casting Morph no longer shifts Morphling back into the affected target.
+SPELL STEAL This ability is not acquirable.  Spell Steal cannot acquire any abilities from the  Morphed Illusion.
+SOULBIND Morph only affects the primary target. Morph Replicate Link▶️R?
+
+
+
+AbilityNo Target
+AffectsSelf
+Damage Instant Kill
+
+Toggles Morphling's form between his own and the replicated enemy.
+
+Cast Animation:  0+0
+
+
+ 1
+ 0
+Aghanim's Scepter Upgrade:
+If the illusion is alive when Morphling toggles the ability, he will take the place of the illusion, destroying it.
+
+
+
+
+Morph Replicate replaces  Morph until it expires.
+The Legacy Keys for Morph Replicate is the same as the target's ultimate ability's Legacy Keys.
+Interrupts Morphling's channeling abilities upon cast.
+Casting this does not end Morph. Instead, it shifts Morphling back to his original form. When used again, it shifts Morphling back into the target.
+Goes on cooldown whenever forms get shifted.
+SCEPTER Casting the sub-ability while the  Morphed Illusion is alive first shifts Morphling into the target, then teleports Morphling to the current position of the illusion and instantly kills it in the form of HP Removal.
+The damage dealt can be defined as expr 100% × CurrentHP
+Does not disjoint projectiles upon teleporting.
+Upon each  Morph and  Morph Replicate cast, it checks for Morphling and the affected target's basic abilities, then it removes Morphling's abilities and replaces them with the affected target's basic abilities, including their passive abilities and sub-abilities.
+Therefore, Morphling has to cast Morph Replicate twice to update all copied abilities and their values.
+This affects the following things:
+ Invoked abilities.
+New basic abilities acquired via  Spell Steal upon morphing into them.
+New  Devoured abilities.
+Non-ultimate abilities granted by  Aghanim's Scepter and  Aghanim's Shard are only copied if both Morphling and the affected target have the respective item as well. Does not copy  talent upgrades at all.
+SCEPTER When losing the  Ability Upgrade, the Morph Illusion is not instantly killed, and the  Morph Replicate sub-ability can still teleport Morphling to its place.
+However, casting Morph no longer shifts Morphling back into the affected target.

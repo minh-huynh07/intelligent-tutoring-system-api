@@ -1,0 +1,227 @@
+Frost Arrows   Link▶️QR
+
+
+
+AbilityActive Attack Modifier
+AffectsEnemies
+DamagePhysical ( Magical)
+
+Adds a freezing effect to Drow's attacks, slowing enemy movement and dealing bonus damage. Slow lasts 1.5 seconds.
+
+Cast Range:  625Base Damage: 6/12/18/24 ( 21/27/33/39)Move Speed Slow: 10%/25%/40%/55%Slow Duration: 1.5 Burst Radius:  650 Max Stacks: 9 Extra Damage per Stack: 18 Burst Damage per Stack: 60 Burst Move Speed Slow: 40% Health Restoration Reduction per Stack: 10% Burst Slow Duration: 2 Stacks Duration: 7 While On Glacier Cast Range:  825
+
+
+ 0
+ 9/10/11/12
+Aghanim's Scepter Upgrade:
+Frost Arrows now apply a Hypothermia stack to enemies, increasing damage from Frost Arrows and reducing their regeneration per stack. If an enemy dies with Hypothermia stacks, they burst and deal damage per stack and slow in an area around it.
+
+Ability Disjoint Notes:The hypothermia projectile can also be disjointed.Modifiers [?]modifier_drow_ranger_frost_arrowsUndispellable
+
+modifier_drow_ranger_frost_arrows_slowAny
+modifier_drow_ranger_frost_arrows_hypothermiaAny
+modifier_drow_ranger_frost_arrows_aghs_slowAnyIce-encased arrows pierce the silence, chilling their victims to the core.
+
+
+Frost Arrows' cast range can only be further increased by attack range bonuses of the same range type as the caster. However, it is not affected by cast range bonuses.
+Both Autocast and manually casting it uses Drow Ranger's current attack range.
+Frost Arrows' damage is considered as a conditional attack damage bonus.
+Although the attack damage bonus values are not displayed in the HUD, it is still considered and directly added to Drow Ranger's attack damage.
+The attack damage bonus values are not considered by critical strike.
+However, it is considered by lifesteal and cleave, and it can be reduced only by flat reductions (e.g. damage block).
+Since it is considered bonus attack damage, it is not affected by percentage-based attack damage bonuses or reductions.
+The attacks first apply the Hypothermia debuff, the slow debuff, then their own damage.
+Movement speed slow of successive casts do not stack but refresh the duration.
+Frost Arrows does not work against allied units, buildings or wards.
+SCEPTER Frost Arrows now place one hypothermia debuff on the enemy. This debuff gets stronger when it gets refreshed with successive casts.
+Works against every unit Frost Arrows can affect. Also works when applied with  Multishot or instant attacks.
+A number on the icon, as well as a number above the target shows the current amount of stacks on them.
+The debuff applies heal reduction, health regeneration reduction, lifesteal reduction and spell lifesteal reduction on the target.
+Can reduce health restoration by up to 10%/20%/30%/40%/50%/60%/70%/80%/90%, based on the amount of stacks.
+SCEPTER If the target dies, including Reincarnation, with the hypothermia debuff on them, they release projectile towards all enemies within a 650 radius around them.
+Can target invisible units and units in the Fog of War.
+These projectiles travel at a speed of 1300.
+The projectiles first apply the damage, then the debuff.
+The projectiles deal up to 60/120/180/240/300/360/420/480/540 damage, based on how many stacks the unit had.
+SCEPTER The bonus damage dealt (before reductions) increases to the following values with certain amount of hypothermia stacks on each level:
+LEVEL 1 24/42/60/78/96/114/132/150/168 ( 39/57/75/93/111/129/147/165/183) damage.
+LEVEL 2 30/48/66/84/102/120/138/156/174 ( 45/63/81/99/117/135/153/171/189) damage.
+LEVEL 3 36/54/72/90/108/126/144/162/180 ( 51/69/87/105/123/141/159/177/195) damage.
+LEVEL 4 42/60/78/96/114/132/150/168/186 ( 57/75/93/111/129/147/165/183/201) damage.
+
+TALENT The damage increasing  talent immediately upgrades all of Drow Ranger's currently flying arrows and  Multishot arrows. Gust Link▶️WE
+
+
+
+AbilityTarget Point
+AffectsSelf  / Enemies
+
+
+Releases a wave that silences and knocks back enemy units. Knockback distance is relative to how close they are to Drow. Drow gains Movement Speed for the same duration.
+
+Cast Animation: 0.25+0.6Cast Range:  900Travel Distance:  900Effect Radius: 250Max Knockback Distance: 450Knockback Duration: 0.6/0.7/0.8/0.9Self Move Speed Bonus: 10%/12%/14%/16% ( 25%/27%/29%/31%)Buff/Debuff Duration: 3/4/5/6
+
+
+ 19/17/15/13 ( 15/13/11/9)
+ 70Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]
+modifier_drowranger_wave_of_silence_knockbackAny
+modifier_drowranger_wave_of_silenceAnyTraxex is rather fond of the tranquility of physical combat, calling on her Drow heritage to end the incantations of opposing magi.
+
+
+With the travel distance and the effect radius, Gust reaches up to 1150 range away.
+The wave travels at a speed of 2000, reaching max distance in 0.45 seconds.
+The knockback distance is based on the distance between Drow Ranger and the affected enemies. The closer they are, the further they get knocked back.
+The knockback is strongest when the distance between Drow Ranger and the enemy is 1 range, pushing the enemy 450 range away.
+Each additional range of distance between them affects the knockback's distance, reducing it by 0.5.
+However, the knockback values are truncated, so that the knockback distance decreases by 1 for every 2 – 2 range between Drow and the enemy.
+Due to this, the minimum knockback distance is 1 range.
+When standing at the exact same location as Drow Ranger, the formula multiplies by 0, which results in no knockback.
+Since the knockback distances do not scale with higher ability levels, but the knockback duration does, the knockback speed gets lower on each level.
+This results in a maximum knockback speed is 750/642.86/562.5/500, while the minimum speed is 1.67/1.43/1.25/1.11.
+Can push units over impassable terrain. Destroys trees enemies come in contact with during the knockback.
+Units are not disabled during the knockback. They can still turn, attack, and use items. Does not interrupt channeling abilities.
+Successive debuffs do not stack but refresh the duration instead.
+The debuff also grants True Sight over affected units in the Fog of War and on invulnerable units, but not on hidden units or on wards.
+Cannot detect units under the effect of  Shadow Dance,  Depth Shroud and  Smoke of Deceit (although the debuff is still placed on them).
+Does not affect  Roshan.
+COSMETIC Has a cast backswing of 0.97 with  Dread Retribution equipped. Multishot Link▶️ET
+
+
+
+AbilityTarget Point  / Channeled
+AffectsEnemies
+DamagePhysical
+
+Drow releases a flurry of arrows in continuous salvos, hitting enemies for extra damage and applying longer duration Frost Arrows. Lasts up to 1.75 seconds.
+
+Cast Animation: 0+0Cast Range: GlobalAttack Range as Travel Distance:  175%Arrows Cone Angle: 50°Arrows Collision Radius: 90Max Channel Time: 1.75Number of Waves: 3 ( 4)Arrows per Wave: 4Main Attack Damage as Damage: 100%/120%/140%/160% ( 125%/145%/165%/185%)Arrows Slow Duration: 1.25/2/2.75/3.5 While On Glacier Arrows per Wave:  5
+
+
+ 24/21/18/15 ( 18/15/12/9)
+ 50/70/90/110
+Aghanim's Scepter Upgrade:
+Frost Arrows now apply a Hypothermia stack to enemies, increasing damage from Frost Arrows and reducing their regeneration per stack. If an enemy dies with Hypothermia stacks, they burst and deal damage per stack and slow in an area around it.
+
+Aghanim's Shard Upgrade:
+
+Additionally gets 1 bonus Multishot arrow per wave while on the Glacier.
+
+Modifiers [?]modifier_drow_ranger_multishotDeath
+modifier_projectile_visionDeath
+
+modifier_drow_ranger_frost_arrows_slowAnyAbility Draft Notes:
+ Frost Arrows must be drafted as well for it to get applied.
+In the ranger's youth, learning to fire multiple arrows at once was considered a distracting frivolity. In the war of the Ancients, such technique has become strange necessity.
+
+
+The arrows fly at a speed of 1200, and fly either the full distance or until hitting an enemy.
+The speed is not affected by projectile speed increasing effects.
+The first wave starts 0.1 seconds after the channel begins. Then it releases the waves in a 0.55 ( 0.4125)-second intervals.
+Within the waves, the arrows are released with a 0.033-second delay between them, so it takes 0.1 (  0.13) seconds for all arrows of one wave to be released.
+This results in a total duration of 1.3 ( 1.03) (  1.33,  1.06) seconds to release all arrows, making it safe to cancel the last 0.45 ( 0.72) ( 0.42,  0.69) seconds of the channeling without losing an arrow.
+TALENT The multishot waves increasing  talent does not reduce the max channel time, therefore it reduces the wave release intervals.
+The arrows are released in a cone centered in front of Drow Ranger. The first arrow in each wave always starts on Drow Ranger's right side.
+The cone's angle is calculated as if 6 arrows get released per wave. If 6 arrows would get released, the cone's angle would be 50°.
+However, since only 4 (  5) arrows get released, the cone's angle is 33.33° (  41.67°), with an angle of 8.33° between each arrow.
+Considering Drow Ranger's default attack range of 625 (  825), the cone has a length of 1094 (  1444), and an end radius of 358.5 (  586.82).
+The travel distance can be further increased by other attack range bonuses.
+SHARD While on the  Glacier, Multishot travels further and fires an extra arrow per cast.
+The arrows provide 100 radius flying vision around them as they travel.
+An enemy may only be hit one arrow per wave, so that up to 3 ( 4) arrows can hit the same enemy per cast.
+Each of Multishot's arrow deals spell damage based on Drow Ranger's current main attack damage, plus the current  Frost Arrows' damage values. Other attack damage bonuses are ignored.
+Checks Drow Ranger's main attack damage periodically and adapts the spell damage instantly.
+The arrows neither procs any attack modifier nor trigger any on-attack effects, but are affected by spell damage amplification and spell lifesteal.
+Does not affect attack immune units.
+The average damage dealt can be defined as:
+expr (MainAtk +  6/12/18/24 +  15 +  f(x)) × 100%/120%/140%/160% ( 125%/145%/165%/185%)
+The attack damage multiplier also affects  Frost Arrows damage, but not the damage dealt by the Hypothermia projectiles.
+The arrow's damage is then dealt in one instance together with all of its effects.
+The arrows also apply  Frost Arrows based on its current level while Drow Ranger is still channeling Multishot as the arrows are airborne.
+If Frost Arrows is not leveled, its damage and debuffs are not applied.
+Frost Arrows applied by Multishot do not cost any mana, are applied even if the ability itself is currently not castable, and regardless of its Autocast status.
+The arrows stop applying Frost Arrows if the channeling is interrupted, or when the arrows are still airborne while the channeling finishes.
+However, toggling on Autocast ensures that all Multishot arrows will apply Frost Arrows's debuff.
+Does not affect  Couriers.
+TALENT The Frost Arrows damage increasing  talent immediately upgrades all of Drow Ranger's currently flying  Multishot arrows. Glacier Link▶️Link▶️DD
+
+
+
+AbilityNo Target
+AffectsAllied Heroes  / Enemy Heroes
+
+
+Drow Ranger creates a hill of ice beneath her. While standing on the hill, attackers gain bonus attack range and high ground advantage - they cannot miss and gain flying vision. Drow Ranger additionally gets bonus Multishot arrows per wave while on the hill. The front of the hill obscures vision and cannot be moved through except by Drow Ranger.
+
+Cast Animation: 0.1+0.7Cast Range:  400Shards Spawn Radius: 180Shards Spawn Angle: 40°Number of Shards: 5Ramp Radius: 150Enemy Knockback Distance: 175Enemy Knockback Duration: 0.1Self Attack Range Bonus: 200Glacier Duration: 8
+
+
+ 20
+ 50Modifiers [?]modifier_drow_ranger_glacier_hilltopDeath
+modifier_drow_ranger_glacier_hilltop_removalDeath
+Ability Draft Notes:
+Requires drafting  Marksmanship to be unlocked.
+
+
+           Glacier formations and sizes. The small circles at the center are the aura sources (Point A in the formation picture).  
+Requires  Aghanim's Shard to be unlocked.
+Does not interrupt  Multishot channeling upon cast.
+The Glacier is always created in the same formation.
+The open side of the shards circle is always facing towards Drow Ranger's position upon cast.
+The shards' formation is a 180 radius circle with one open side.
+The first shard is created at the center of the circle, 180 range in one line with Drow Ranger's facing position upon cast.
+The next shards are placed 40° further and 125 distance to the left and the right respectively, up to 4 shards. [?]
+Upon cast, the Glacier moves Drow Ranger 50 distance upwards.
+The Glacier also knocks enemy units back at an arc of 50 and 175 distance over 0.1 seconds, or until touching the ground again.
+This means the knockback distance and duration can be reduced/increased by knocking the enemy up/down a ramp or impassable terrain.
+Although units with flying movement or unobstructed movement are not blocked, they can be either knocked back aside or inside by the Glacier.
+Non-player-controlled units (i.e. lane creeps) do not try to path around the Glacier, but simply walk against them as if they are not there.
+This effectively causes them to get stuck, until they change directions (e.g. when being aggroed), or until the shards dissipate.
+The Glacier artificially blocks the enemy's vision akin to vision being obstructed by higher elevations.
+Additionally, enemies also have a 25% uphill miss chance while attacking ally heroes on top of the Glacier
+Grants the following bonuses to all affected ally heroes within the ramp radius of the Glacier:
+Flying vision, but not other flying movement effects.
+200  ranged attack range bonus.
+Attacks have True Strike.
+Glacier grants the following bonuses to Drow Ranger:
+Unobstructed movement within the 180 shard spawn radius.
+ 1800 and  800 flying vision respectively.
+Increases Drow Ranger's attack range to 825.
+Fully affects  Frost Arrows cast range and  Multishot travel distance.
+The  Marksmanship enemy hero search radius no longer checks for nearby enemy heroes.
+Successive casts create another Glacier with each having its independent duration. Marksmanship   Link▶️RP
+
+
+
+AbilityPassive
+AffectsSelf  / Allied Heroes
+DamagePhysical ( Instant Attack)
+
+Drow's experiences in battle grant her a chance to launch arrows with incredible accuracy and effectiveness. Pierces through the enemy's defenses, ignoring their base armor. Grants Drow and nearby ranged heroes with bonus agility based on Drow's current agility. This ability is disabled if there is an enemy hero within 400 range.
+
+Enemy Hero Search Radius: 400Aura Radius: 1200Self Agility as Agility Bonus: 30%/40%/50%Self Agility as Ranged Ally Agility Bonus: 15%/20%/25%Proc Chance: 20%/30%/40% ( 32%/42%/52%)Proc Damage: 40/60/80Aura Linger Duration: 0.5 While On GlacierEnemy Hero Search Radius: 0
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Glacier ability.
+
+Break Notes:Disables Marksmanship procs and the agility aura.Does not disable particle effects on enemy proximity.
+Illusion Notes:Cannot proc Marksmanship. Particle effects still react on enemy proximity.Do not bestow the aura.Modifiers [?]modifier_drow_ranger_marksmanshipUndispellable
+modifier_drow_ranger_marksmanship_aura_bonusUndispellable
+The Drow Ranger is the epitome of archery prowess.
+
+
+An icy particle effect is visible on Drow Ranger while Marksmanship is active.
+The aura checks for nearby enemy heroes, including invulnerable or hidden enemies, in 0.1-second intervals and adapts the bonus accordingly.
+Neither reacts on the presence of illusions nor creep-heroes.
+Checks for Drow Ranger's current  agility within the same intervals and adapts the agility bonus instantly.
+Grants 15%/20%/25% of Drow Ranger's agility to  ranged ally heroes as agility bonus.
+The aura affects invulnerable, but not hidden  ranged ally heroes, and its buff lingers for 0.5 seconds.
+Marksmanship's damage is considered as a conditional attack damage bonus.
+Although the attack damage bonus values are not displayed in the HUD, it is still considered and directly added to Drow Ranger's attack damage.
+The attack damage bonus values are not considered by critical strike.
+However, it is considered by lifesteal and cleave, and it can be reduced only by flat reductions (e.g. damage block).
+Since it is considered bonus attack damage, it is not affected by percentage-based attack damage bonuses or reductions.
+Attacks proccing Marksmanship cannot miss and the attack's damage ignores main armor.
+Neither proc against attacking buildings nor while attacking allies.
+Marksmanship uses pseudo-random distribution.
+Visually alters Drow Ranger's attack projectile when proccing. All attack projectiles have the following visual priorities:
+ Corruption or  Greater Corruption ➤  Cold Attack ➤ Marksmanship procs.

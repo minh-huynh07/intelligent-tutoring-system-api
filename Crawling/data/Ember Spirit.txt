@@ -1,0 +1,195 @@
+Searing Chains  Link▶️Link▶️QC
+
+
+
+AbilityNo Target
+AffectsEnemies
+DamageMagical
+
+Ember Spirit unleashes fiery bolas that wrap around nearby enemies, anchoring them in place and dealing damage each second.
+
+Cast Animation: 0+0.5Search Radius:  400Max Targets: 3 ( 4)Damage per Second: 50/70/90/110Duration: 1.5/2/2.5/3 ( 2.5/3/3.5/4)
+
+
+ 13/12/11/10
+ 80/90/100/110Debuff Immunity Notes:True Sight pierces debuff immunity.Ability Disjoint Notes:Despite the visual effects, the ability effects are applied instantly.Modifiers [?]
+modifier_ember_spirit_searing_chainsAnyXin's harshest lessons often employed the use of red-hot chains.
+
+
+The search radius is centered around Ember Spirit, so when no other targets are nearby, nothing happens.
+The units are selected randomly within the search radius. There are no priorities.
+Roots the targets, preventing them from moving and casting certain mobility abilities.
+Provides True Sight over the targets.
+Does not target invisible units or units inside the Fog of War.
+Deals 25/35/45/55 damage in 0.5-second intervals, starting 0.5 seconds after cast, resulting in 3/4/5/6 ( 5/6/7/8) damage instances.
+Can deal up to 75/140/225/330 ( 125/210/315/440) damage to each unit.
+Successive casts do not update the current debuff instance but refresh the duration instead.
+The current debuff instance must expire first for the ability values to be updated. Sleight of Fist Link▶️WT
+
+
+
+AbilityTarget Area
+AffectsEnemies  / Self
+Damage Instant Attack
+
+Ember Spirit dashes around with blazing speed, attacking all enemies in the targeted area of effect, then returning to his start location. Deals bonus damage to heroes.
+
+Cast Animation: 0+0.7Cast Range:  650Effect Radius:  250/350/450/550Jump Interval: 0.25Hero Attack Damage Bonus: 45/85/125/165 ( 100/140/180/220)
+
+   15/12/9/6
+N   2
+
+ 15/12/9/6 ( 0)
+ 65Modifiers [?]modifier_ember_spirit_sleight_of_fist_in_progressDeath
+modifier_ember_spirit_sleight_of_fist_casterDeath
+modifier_ember_spirit_sleight_of_fist_caster_invulnerabilityDeath
+
+modifier_ember_spirit_sleight_of_fist_markerDeathThe studied warrior must whip and weave through its enemies, burning each without pause.
+
+
+Does not disjoint projectiles upon cast.
+Sleight of Fist has the following effects:
+Disarms and turns Ember Spirit invulnerable and unselectable.
+Other actions besides attacking can be performed normally during it.
+It neither has a target limit before marking nor a distance limit after marking all its targets.
+Ember Spirit cannot recast the ability until the current cast finishes.
+Upon cast, all targets within the area are marked at the same time. A flaming sword appears above them as an indicator, which lasts until they get hit.
+Units entering the effect radius afterward are neither marked nor attacked.
+Once a target is marked, it cannot escape regardless of distance.
+Does not mark invisible or attack immune units.
+A marked target is fully skipped, when they turn invisible, turn attack immune, or when they die.
+Fully affects units in the Fog of War, they are also marked upon the cast and get hit as well.
+Jumps on the first target instantly upon cast, then subsequently jumps in 0.25-second intervals. The jumps are random between all marked units, there are no priorities.
+On each jump, Sleight of Fist positions Ember Spirit 50 range away from his target, on a line between the target and the ability's cast location, then performs an instant attack on each jump against the targets.
+These instant attacks can proc any attack modifiers and on-hit effects normally. They do not have True Strike.
+If Ember Spirit is disarmed by other sources, no instant attack is performed on the jump.
+Fully ignores  Couriers.
+The instant attacks do not break  Disguise when attacking creeps.
+Grants unique flat conditional bonus attack damage against heroes.
+Although the attack damage bonus values are not displayed in the HUD, it is still considered and directly added to Ember Spirit's attack damage upon the instant attacks.
+The attack damage bonus is considered by critical strike, cleave, and lifesteal, and it can be reduced only by flat reductions (e.g. damage block).
+Treats illusions and clones as heroes, creep-heroes as creeps.
+After all marked targets have been slashed, Ember Spirit returns to the position he had upon casting Sleight of Fist.
+That position is marked by a fiery replica of Ember Spirit for the duration.
+Sleight of Fist can only be canceled under the following conditions:
+Casting  Activate Fire Remnant. However, other sources of forced movement do not.
+Upon Ember Spirit's death.
+TALENT Acquiring the Sleight of Fist charges  talent instantly grants 1 extra charge. Flame Guard  Link▶️EE
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+DamageMagical
+
+Ember Spirit surrounds himself with a ring of fire that consumes incoming magic damage, absorbing a percentage of the damage taken. Flame Guard deals damage per second in an area around Ember Spirit while Flame Guard is active. If the shield is broken, the damage is also lost.
+
+Cast Animation: 0+0.6Damage Radius:  500Damage per Second: 25/35/45/55 ( 75/85/95/105)Magical Damage Absorption: 70%Damage Barrier:  60/135/210/285 ( 260/335/410/485)Duration: 11/14/17/20
+
+
+ 35
+ 65/80/95/110Modifiers [?]modifier_ember_spirit_flame_guardAny
+An enemy should never be allowed to approach without difficulty.
+
+
+Deals 5/7/9/11 ( 15/17/19/21) damage in 0.2-second intervals, starting 0.2 seconds after cast.
+Can deal a total of 275/490/765/1100 ( 825/1190/1615/2100) damage to a single unit, if it lasts the full duration (before reductions).
+Grants Ember Spirit a  magical damage barrier that absorbs 70% of incoming magical damage values.
+Stacks additively with the same damage-type barrier sources, and independently with other damage-type barrier sources.
+Has a higher priority than universal damage barriers in the group of damage barriers.
+However, when combined with other damage-negating sources (e.g.  Refraction), Flame Guard does not absorb any damage until the damage-negation sources expire.
+The damage barrier is lost upon collectively taking 85/192/300/407 ( 371/478/585/692) magical damage.
+Therefore, a total of 25/57/90/122 ( 111/143/175/207) magical damage bypasses the damage barrier before depleting its capacity.
+Successive casts refresh the buff duration and reset the damage barrier capacity. Activate Fire Remnant   Link▶️DR
+
+
+
+AbilityTarget Point
+AffectsSelf  / Enemies
+DamageMagical
+
+Select the Fire Remnant to arrive at.
+
+Cast Animation: 0.2+0.4Cast Range: GlobalDamage Radius:  450Damage: 100/200/300
+
+
+ 0
+ 100/125/150Ability Disjoint Notes:Does not disjoint projectiles upon cast.Modifiers [?]modifier_ember_spirit_fire_remnantDeath
+With blazing speed does a spirit fly!
+
+
+Ember Spirit travels to a  Fire Remnant with a speed of 1300 if it can be reached within 1 second at that speed, or reaches it in 0.4 seconds.
+Therefore, Ember Spirit travels even faster when the distance between two Fire Remnants is greater than 520.
+Ember Spirit is invulnerable while traveling to a Fire Remnant.
+The mana cost of Activate Fire Remnant is always the same, regardless of how many remnants he is traveling to with a single cast.
+Always travels to the Fire Remnant furthest away from the targeted point first.
+While traveling, Ember Spirit cannot turn but can attack, cast abilities, and use items.
+Using items still requires Ember Spirit to face his targets.
+Therefore, while traveling,  Fire Remnant does not require facing the target to cast.
+Other forced movement sources cancel the movement of Activate Fire Remnant and remove its invulnerability.
+However, the remnants still get used up and Ember Spirit is teleported instantly to the last remnant's location once it explodes.
+Ember Spirit damages enemies within a 225 radius around him as he travels, and in a 450 radius around a remnant upon reaching it.
+Enemies may only be damaged once per remnant, either by Ember Spirit as he travels towards the remnant, or by him upon reaching the remnant.
+Destroys trees Ember Spirit come in contact with within 200 radius while traveling to a remnant.
+Though at high traveling speeds, some trees may be skipped and not destroyed.
+SPELL STEAL Upon losing this ability while traveling to a Rubick Remnant,  Rubick stops after reaching to the current remnant. Fire Remnant   Link▶️Link▶️RF
+
+
+
+AbilityTarget Point ( Passive)
+Affects Enemies
+Damage Magical
+
+Sends a Fire Remnant that runs to the target location at 250% Ember Spirit's speed. Using Activate Fire Remnant, Ember Spirit will dash out to all active Fire Remnants, destroying them and dealing damage in an area and then moving to the nearest Remnant. Ember Spirit will end at the Remnant closest to the targeted location.
+
+Passive Component Enemy Death Radius:  400 Charge Replenish per Kill:  1 Auto Fire Remnant Drop on Death:  1Cast Animation: 0.2+0.4Cast Range:  1400 ( 3000)Remnant Travel Speed: 250% ( 500%)Remnant Duration: 45 Damage Radius:  450 Damage per Second: 45 Aura Linger Duration: 0.5
+
+ 35 ( 23)
+N 3 ( 5)
+
+ 0.5
+ 0
+Aghanim's Scepter Upgrade:
+Increases cast range, initial remnant speed, and maximum charges.
+
+Aghanim's Shard Upgrade:
+
+Fire Remnants deal damage per second in an area around them. If an enemy hero dies near Ember Spirit, a Fire Remnant charge will be replenished.
+
+Break Notes:Prevents gaining a charge upon making a kill.
+Modifiers [?]modifier_ember_spirit_fire_remnant_remnant_trackerUndispellable
+modifier_ember_spirit_fire_remnant_thinkerDeath
+modifier_ember_spirit_fire_remnant_timerDeath
+modifier_killDeath
+modifier_ember_spirit_fire_remnant_shardUndispellable
+
+modifier_ember_spirit_fire_remnant_shard_debuffUndispellableBy the spirit's power are Xin's teachings spread anew.
+
+
+Ember Spirit gets all 3 charges immediately upon learning Fire Remnant.
+SCEPTER Acquiring  Aghanim's Scepter the first time instantly grants 2 charges as well. This only happens once, so re-acquiring it does not grant them again.
+Losing the item does not reduce the current number of available charges.
+Fire Remnants move to their targeted location at a speed based on Ember Spirit's current movement speed.
+With the movement speed limits, the remnant's min and max travel speed to their targeted location is 250 ‒ 1375 ( 500 ‒ 2750) respectively.
+The movement speed is set upon cast and does not adapt.
+Since Fire Remnants last for 45 seconds and the replenish time is 35 ( 23) seconds, it is possible to have 4 ( 4) ( 6,  6) remnants up at a time.
+Every time a Fire Remnant is placed, Ember Spirit gets a status buff, showing the duration of the remnant. The status buff disappears once the Remnant expires or is used.
+Fire Remnants are visible to everyone. They do not grant any vision and cannot be seen when sent into the Fog of War.
+Fire Remnants deal no damage when they expire.
+While traveling with  Activate Fire Remnant, Fire Remnant has an  instant cast time and does not require facing the target to cast.
+SHARD Fire Remnants now deal 22.5 damage in 0.5-second intervals, starting 0.5 seconds after receiving the debuff, resulting in 91 instances.
+The fire remnants start dealing damage as soon as they reach their destination.
+The damage from multiple remnants with overlapping areas does not stack.
+Can deal up to 2047.5 damage within 450 radius for the entire duration.
+The damage is sourced to Ember Spirit, and not to the remnants themselves.
+Therefore, the damage is affected by outgoing damage manipulation and spell lifesteal.
+The damage is provided by an aura and its debuff lingers for 0.5 seconds.
+SHARD Fire Remnant now also replenishes 1 charge in the following conditions:
+Any enemy hero kill, including clones, done by the Fire Remnant's owner.
+A charge is replenished even if the dying hero has Reincarnation.
+Whenever an enemy hero dies within 400 range.
+Does not replenish charges when enemies or allies are being denied, killing an illusion or creep-hero unit.
+SHARD When Ember Spirit dies, he also leaves behind 1 Fire Remnant at his death location.
+The Fire Remnant cast does not use up a charge, lasts its full duration, is not bound to Ember Spirit's death timer, and does not disappear when he respawns.
+It also triggers with Reincarnation sources.
+SPELL STEAL Creates a  Rubick remnant instead. Existing remnants from the previous cast cannot be used again despite re-acquiring the ability.

@@ -1,0 +1,309 @@
+Frost Blast  Link▶️QV
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamagePhysical
+
+Blasts the target enemy unit with damaging frost, dealing area damage and slowing movement and attack rates for 4 seconds. The primary target receives both base and area damage.
+
+Cast Animation: 0.3+0.93Cast Range:  575/600/625/650Effect Radius:  200 ( 325)Base Damage: 40/80/120/160Area Damage: 80/120/160/200 ( 205/245/285/325)Move Speed Slow: 25%Attack Speed Slow: 30/40/50/60Slow Duration: 4
+
+
+ 7 ( 3.5)
+ 110/120/130/140Spell Block / Reflection Notes:Blocked fully only when primary target.Particle effects still appear on the target.Modifiers [?]
+modifier_lich_frostnova_slowAnyFrost-mage Ethreain has not forgotten even the simplest of ice manipulation.
+
+
+The targeting reticule must be centered over an enemy unit.
+Deals the area damage onto the primary target as well for a total of 120/200/280/360 ( 245/325/405/485) damage (before reductions).
+The damage is not summed up into a single instance, meaning the primary target takes two damage instances.
+Frost Blast first applies the area damage, the debuff, then the base damage.
+SCEPTER While channeling   Sinister Gaze, Frost Blast has an  instant cast time and does not require facing the target to cast. Frost Shield Link▶️Link▶️WF
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Allies(Ice Spire)
+
+
+Applies a magical frost shield around the target, reducing damage from attacks against you. While the shield is active, ice magic will affect nearby enemy units every 1 second, dealing minor damage and slowing them.
+
+Cast Animation: 0.2+0.93Cast Range:  1000Damage Reduction: 30%/40%/50%/60% ( 40%/50%/60%/70%)Pulse Radius:  600Pulse Interval: 1Pulse Damage: 18/32/46/60Pulse Move Speed Slow: 20%/25%/30%/35%Pulse Slow Duration: 0.5Ice Spire Hero Hit Heal: 1Shield Duration: 5/6/7/8 ( 9/10/11/12) Health Regen Bonus: 50
+
+
+ 30/25/20/15
+ 100/110/120/130Modifiers [?]modifier_lich_frost_shieldAny
+
+modifier_lich_frost_shield_slowAnyFirst conceived of to protect him in his mortal years, the frost magic that Ethreain weaves around himself has only grown colder with time.
+
+
+Can be cast on any non-invulnerable ally unit. This includes others wards-type units (e.g  Phoenix Sun),  Couriers and buildings.
+Heals  Ice Spire for 1 hero hit (or 2 of the unit's health) per pulse.
+↓↓ Double-tapping automatically targets self.
+Applies generic incoming damage reduction on the affected target. Stacks additively with other sources of generic incoming damage manipulation.
+Affects only hero-based attack damage, including instant attack sources, regardless of damage type, the affected target recieves.
+Treats attack damage from clones, illusions and the  Spirit Bear as heroes, from buildings and other creep-heroes as creeps.
+Does not reduce the following damage sources:
+Spell damage.
+Damage flagged as HP removal.
+All Cleave sources.
+Pulses in 1-second intervals, starting 0.1 seconds after cast, resulting in 5/6/7/8 ( 9/10/11/12) pulses.
+All pulses together deal up to 90/192/322/480 ( 162/320/506/720) damage per enemy (before reductions).
+Can heal up to 5/6/7/8 ( 9/10/11/12) of the Ice Spire's health for the entire duration.
+The pulses first apply their damage, then the movement speed slow debuff.
+Frost Shield does not hit invisible units or units in the Fog of War.
+Successive casts on the same target do not stack but refresh the duration, and reset the pulse interval.
+Both leveling up Frost Shield and the health regeneration  talent do not update the current active instance.
+SCEPTER While channeling   Sinister Gaze, Frost Shield has an  instant cast time, does not require facing the target to cast and can be cast on untargetable allies.
+TALENT The health regeneration  talent fully works for ward-type units and buildings as well, except for Ice Spires.
+Can regenerate up to 250/300/350/400 ( 450/500/550/600) health over its full duration.
+However, it does not update the currently active instance of Frost Shield.
+The health regeneration bonus applied fully heals ward-type units that require a fixed amount of hero attacks to destroy.
+Other aspects of the ability fully affects the  Phoenix Sun, but the health regeneration bonus is not applied despite visually regenerating health. Sinister Gaze  Link▶️ER
+
+
+
+AbilityTarget Unit ( Target Area) / Channeled
+AffectsEnemies ( Self)
+DamagePhysical
+
+Hypnotizes an enemy unit, causing it to move towards a point between the two of you and drains a percentage of its current mana.
+
+Cast Animation: 0+0Cast Range:  600Distance Moved: 32%/38%/44%/50%Current Mana Drained per Second: 12%Max Channel Time: 1.1/1.4/1.7/2 ( 1.5/1.8/2.1/2.4)Creep Damage per Second: 250Creep Duration Multiplier: 2 Radius:  400
+
+
+ 24/22/20/18
+ 50/60/70/80
+Aghanim's Scepter Upgrade:
+Sinister Gaze becomes an Area of Effect ability, affecting units within a radius of 400 in the target area. Sinister Gaze allows Lich to cast other abilities while channeling it.
+
+Debuff Immunity Notes:True Sight pierces debuff immunity.Spell Block / Reflection Notes:Blocked as a unit-targeted ability.Not blocked when turned into an area-targeted ability.Modifiers [?]
+modifier_lich_sinister_gazeAnyAbility Draft Notes:
+Allows casting any non-channeled abilities and items during  Sinister Gaze without interrupting it.
+Mind the cold...
+
+
+Applies a hypnotizing fear and provides True Sight over the target, forcing it to face and move towards the Lich, and preventing it from acting.
+Does not provide any form of other visions over the target(s).
+Certain status effects on the affected target that might cancel other channeling abilities do not cancel Sinister Gaze. This includes the following status effects:
+The target turning invisible, invulnerable or hidden.
+The target being affected by the Fog of War.
+The target being dispelled in any way.
+In short, Sinister Gaze can only be canceled if Lich's channeling is interrupted.
+Applies the following effects on the affected target(s) while Sinister Gaze is channeling:
+Grants the affected target unobstructed movement and does not destroy trees while moving.
+Unlocks the target's minimum and maximum movement speed limits, then sets the target's movement speed to 32%/38%/44%/50% of the distance between Lich and the target.
+The set movement speed does not adapt even if target is moved or teleported.
+When cast at max cast range, this results in a speed of 174.55 ( 128).
+Drains 12% of target's current mana in 0.1-second intervals, resulting in 11/14/17/20 ( 15/18/21/24) instances.
+Can drain up to ≈12.44%/15.55%/18.55%/21.45% ( 13.99%/16.55%/19.03%/21.43%) of the target(s)' current mana.
+The mana gained is based on how much the target actually lose on each interval, enemy targets with higher current mana will restore more mana than using the ability on a target with lesser current mana. If they have no mana left, no mana is gained either.
+However, if Lich is at full mana, the target still continues to lose mana.
+Deals 25 damage to creeps based on the same intervals, starting immediately upon cast, resulting in 22/28/34/40 ( 30/36/42/48) instances.
+Can deal up to 550/700/850/1000 ( 750/900/1050/1200) damage to creeps (before reductions).
+Treats illusions, creep-heroes and ancient creeps as heroes.
+Destroys trees within a 200 radius around the target at the end of the channeling.
+All aspects of Sinister Gaze are not affected by status resistance sources.
+SCEPTER Sinister Gaze now turns into an area-targeted ability, so that it cannot directly target units anymore.
+Fully affects untargetable, invisible units and units under Fog of War.
+The  Ability Upgrade now allows Lich to cast his other abilities (e.g.  Frost Blast,  Frost Shield,  Ice Spire and  Chain Frost) while channeling Sinister Gaze without interrupting it, as long as the target is within cast range.
+This means during Sinister Gaze, all of Lich's abilities have an  instant cast time and do not require facing the target to cast.
+Does not apply to item abilities.
+SPELL STEAL / MORPH NOTES  Sinister Gaze's ability upgrade is only limited to  Lich's basic abilities. Ice Spire   Link▶️Link▶️Link▶️DE
+
+
+
+AbilityTarget Point  / Passive
+AffectsEnemies
+
+
+Creates an Ice Spire at the target spot, slowing enemies around it. Can take 5 hero hits or 10 creep hits and when destroyed it will create a Frost Blast around it.Chain Frost can bounce to the Spire if there are no other enemies in range.Lich can cast Frost Shield on the Spire. Each Frost Shield tick will heal the spire by 1 hero attack.
+
+Passive ComponentDamage Radius: 200 ( 325)Damage on Death: 80/120/160/200 ( 205/245/285/325)Cast Animation: 0.3+0Cast Range:  750Radius:  750Hero Attacks to Destroy: 5Non-Hero Attacks to Destroy: 10Move Speed Slow: 25%Duration: 15Aura Linger Duration: 0.5
+
+
+ 25
+ 150Cast Event Notes:Frost Blast released upon destruction does not proc any on-cast effects.Modifiers [?]modifier_killDeath
+modifier_magic_immuneDeath
+modifier_lich_ice_spireDeath
+
+modifier_lich_ice_spire_debuffUndispellable
+modifier_lich_frostnova_slowAnyAbility Draft Notes:
+ Frost Blast must be drafted as well for it to get applied.
+Requires drafting  Chain Frost to be unlocked.
+
+
+
+
+
+Ice Spire
+
+
+
+
+
+Summoned Ward
+
+
+
+
+
+
+Health
+10
++0
+
+
+
+
+
+
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+4
+
+
+Duration
+
+
+
+30%
+
+
+Armor
+
+
+
+0
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Collision Size
+
+
+
+36
+
+
+Bound Radius
+
+
+
+16
+
+
+Vision Range
+
+(G)
+
+800
+
+
+Bounty
+
+
+
+20
+
+
+Experience
+
+
+
+20
+
+
+Abilities
+
+
+
+ Spell Immunity
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+Deals 80/120/160/200 ( 205/245/285/325) damage (before reductions) within the damage radius, sourced to Lich, based on the current level of  Frost Blast centered on the Ice Spire's location upon its destruction.
+The Frost Blast applied is independent of the ability and does not cost any mana.
+Frost Blast notes fully apply. If it is not learned, it is not applied.
+ Frost Shield applies all its ability effects and heals the Ice Spire for 2 health.
+Always heals for the full amount per instance, regardless of how much damage the targets actually take.
+Treats attacks from clones as heroes, and attacks from creep-heroes and illusions as creeps.
+ Chain Frost can bounce on, and be directly targeted on  Ice Spires.
+It may only bounce to the spire if no other valid targets are within its bounce distance.
+The bounces still fully count toward the bounce limit.
+Can only bounce on ally Ice Spires, enemy spires are ignored.
+If multiple spires are within range, it chooses one at random.
+Can bounce back and forth between multiple spires if no enemies are within range.
+Ice Spire gains its spell immunity through a buff, so it is possible for enemies to check the buff and ‼ Ping the remaining duration of the ward.
+SCEPTER While channeling   Sinister Gaze, Ice Spire has an  instant cast time and does not require facing the target to cast. Chain Frost    Link▶️Link▶️Link▶️RC
+
+
+
+AbilityTarget Unit ( Passive)
+AffectsEnemies (Ice Spire)
+DamagePhysical
+
+Releases an orb of frost that bounces between nearby enemy units up to 10 times, slowing and damaging each time it hits. Each bounce increases the damage for the subsequent bounces.
+
+Passive Component Number of Casts on Death:  1 Search Radius:  750Cast Animation: 0.3+1.03Cast Range:  750Bounce Distance:  600Number of Bounces: 10 ( Infinite)Bounce Delay: 0.2Initial Damage: 250/400/550Damage Increment per Bounce: 15/20/25Move Speed Slow: 65%Attack Speed Slow: 65Slow Duration: 2.5Flying Vision Radius:  800
+
+
+ 100/80/60
+ 180/300/420
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Ice Spire ability.
+
+Spell Block / Reflection Notes:Only the first instance of the cast is blocked.Blocked upon impact.Does not stop bouncing or increase in damage when blocked. The blocked instance still counts toward the number of bounces.The passive cast can be fully reflected.Modifiers [?]modifier_lich_chain_frost_thinkerUndispellable
+modifier_projectile_visionUndispellable
+modifier_lich_chain_frost_ondeathUndispellable
+
+modifier_lich_chainfrost_slowAnyAlmost universally considered the ultimate in frost magic, Ethreain's orb of frozen death strikes fear into those who dare stand against him.
+
+
+Chain Frost initially travels at a speed of 1050, and continues traveling at a speed of 850 after bouncing off the primary target.
+The projectile bounces with a 0.2-second delay.
+The projectile stops providing vision and stops playing a sound upon hitting non-hero units when bouncing more than 60 times.
+Can bounce on the same unit multiple times, but only when another target was hit between the bounces.
+Can bounce on invulnerable units only when the projectile is currently airborne.
+For  Undying Zombies and  Couriers, Chain Frost can be cast on them, but not bounce on them.
+Does not bounce on hidden and invisible units, and already invulnerable units.
+However, it can bounce on untargetable units from  Shadows and  Shadow Realm.
+Chain Frost fully affects  Roshan only when the first instance is cast on him.
+Otherwise, the projectile can bounce on, but neither damages nor applies its debuff.
+Chain Frost first applies the debuff, then the damage.
+Leveling up the ability immediately updates all currently active Chain Frost projectiles.
+For how much damage (before reductions) Chain Frost deals up to the 10th stack, please refer to the chart below.
+Can potentially deal up to 3575/5500/7425 damage total if all bounces hit.
+The projectile has an 800 range flying vision. The vision is provided after the 0.2-second bounce delay.
+SCEPTER While channeling   Sinister Gaze, Chain Frost has an  instant cast time and does not require facing the target to cast.
+TALENT The Chain Frost on Death  talent cast Chain Frost based on its current level passively and instantly from Lich's death location whenever he dies, prioritizing the nearest unit.
+The search range can be increased by cast range bonuses.
+The passive cast on death does not trigger the ability cooldown and work while on cooldown, and does not cost mana. It is also displayed on the HUD as a buff.
+They do not proc on-cast effects either.
+Does not trigger with Reincarnation sources.

@@ -1,0 +1,175 @@
+Shockwave Link▶️Link▶️Link▶️QW
+
+
+
+AbilityTarget Point  / Target Unit
+AffectsEnemies
+DamagePhysical
+
+Magnus sends out a wave of force, damaging enemy units in a line, pulling them towards him and slowing them for a brief period.
+
+Cast Animation: 0.3+1.2Cast Range:  1200 ( 1600)Wave Distance:  1200 ( 1600)Wave Radius:  200Damage: 90/160/230/300 ( 215/285/355/425)Move Speed Slow: 75%Pull Distance: 150Pull Duration: 0.2Slow Duration: 0.9 ( 1.4) Returning Damage Multiplier: 0.75
+
+
+ 13/12/11/10
+ 75
+Aghanim's Shard Upgrade:
+
+Increases range, and causes Shockwave to return towards the caster's original cast location after reaching max length, hitting enemies a second time for 75% of the damage.
+
+Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]
+modifier_magnataur_shockwaveAny
+modifier_magnataur_shockwave_pullAnyMt. Joerlak was a somewhat unstable mass, and Magnus has learned to channel its reverberations.
+
+
+The Shockwaves travel at a speed of 900 ( 1200), taking 1.333 ( 1.333) seconds to reach the maximum distance.
+With the travel distance and radius, it can hit units up to 1400  1800) range away.
+Hit enemies are pulled towards the center of the Shockwave and towards the cast location.
+The further enemies are from the center of the shockwave, the stronger the pull force is towards its center than towards the cast location.
+Pulls hit enemies 150 range over 0.2 seconds, resulting in a speed of 750.
+Pulled enemies destroy trees in their path.
+Shockwave first applies the pull debuff, the movement speed slow debuff, and then the damage.
+Applies the slow and damage to  Roshan, but does not pull him.
+The particle effects and a sound effect start playing at the beginning of the cast.
+The slow of multiple casts does not stack, it only refreshes the duration.
+SHARD After reaching the max distance, the Shockwave returns, dealing 67.5/120/172.5/225 ( 161.25/213.75/266.25/318.75) damage (before reductions) and applying all of its effects.
+An enemy may only be hit by one of the shockwaves upon traveling outwards, and once again upon returning.
+Can deal up to 157.5/280/402.5/525 ( 376.25/498.75/621.25/743.75) damage to a single target with both Shockwave hits. Empower Link▶️WE
+
+
+
+AbilityTarget Unit
+AffectsAllies
+DamagePhysical
+
+Gives an allied unit bonus damage and cleave on attack. Magnus receives 50% larger bonus.
+
+Cast Animation: 0.3+1.07Cast Range:  800Cleave Starting Radius:  150Cleave Distance:  650Cleave End Radius:  360Cleave Damage: 16%/24%/32%/40% ( 26%/34%/42%/50%)Attack Damage Bonus: 16%/24%/32%/40% ( 26%/34%/42%/50%)Self Empower Multiplier: 0.5Duration: 35 ( 45)
+
+
+ 8
+ 45/55/65/75Modifiers [?]modifier_magnataur_empowerAny
+With a deep bellow, Magnus displays his true power.
+
+
+↓↓ Double-tapping automatically targets self.
+Can be cast on  Couriers but does nothing.
+Grants regular flat bonus attack damage based on the affected unit's main attack damage. Does not further increase bonus attack damage.
+The unit's current main attack damage is periodically checked and the bonuses are adapted instantly.
+TALENT The damage and cleave increasing  talent instantly upgrade the current active instance as well.
+Grants cleave if the affected hero's range type is  melee.
+Grants the following bonuses when self-cast:
+24%/36%/48%/60% ( 39%/51%/63%/75%) cleave damage.
+24%/36%/48%/60% ( 39%/51%/63%/75%) attack damage bonus.
+Cleave damage has the following properties:
+It counts as spell damage. However, it has the following flags:
+No-spell-lifesteal flag, preventing its damage from utilizing spell lifesteal.
+No-spell-amplification flag, preventing its damage from being amplified with spell damage amplification.
+Cleave damage depends on the attack damage value of the cleaving unit, not on how much their primary attack target took. It is reduced by damage block.
+The complete cleave area is shaped like an isocseles trapezoid in front of the attacking unit.
+Multiple sources of cleave fully stack and work independently.
+Does not cleave upon attacking wards, buildings or allied units.  Couriers, wards and buildings are unaffected by cleave.
+Despite the visual effect, the cleave damage is applied instantly in the whole area. Skewer  Link▶️Link▶️ED
+
+
+
+AbilityTarget Point
+AffectsEnemy Heroes  / Self
+DamagePhysical
+
+Magnus rushes forward, goring enemy units on his massive tusk. Heroes hit on the way will be dragged to the destination, then damaged and affected by slowed movement and attack speed.
+
+Cast Animation: 0.3+0.33Cast Range: GlobalMax Skewer Distance:  900/975/1050/1125 ( 1175/1250/1325/1400)Skewer Radius:  145Base Damage: 70/140/210/280Moved Distance As Damage: 6%/9%/12%/15%Move Speed Slow: 20%/30%/40%/50%Attack Speed Slow: 10/20/30/40Slow Duration: 3.25Tree Destruction Radius:  200
+
+
+ 22/20/18/16 ( 17/15/13/11)
+ 80Debuff Immunity Notes:The forced movement is instantly canceled.Root Notes:Getting rooted while already charging does not cancel the charge.Modifiers [?]modifier_magnataur_skewer_movementDeath
+
+modifier_magnataur_skewer_impactDeath
+modifier_magnataur_skewer_slowAnyMagnoceros horns are valuable in direct proportion to their danger to prospective merchants.
+
+
+Magnus charges forward at a speed of 900.
+While charging, he is fully disabled and prevented from acting.
+When targeting beyond the max skewer distance, Magnus charges for the max distance towards the targeted point.
+Moves Magnus in 30 range instances. Targeting any distance which is not a multiplier of that number rounds down the distance.
+Therefore, the min possible distance is 30, and the actual max distance is 900/960/1050/1110 ( 1170/1230/1320/1380).
+Enemy heroes within 145 radius around Magnus get moved in front of him, are stunned and dragged along.
+Enemy heroes then land 200 range away in front of Magnus at the end of the charge.
+Skewer does not affect the same enemy hero again per cast.
+Treat illusions, clones and creep-heroes as heroes.
+Skewer can only be interrupted by death or by other forced movement sources.
+Only when Magnus' charge is interrupted, the enemy heroes are no longer dragged.
+When interrupted, the slow and damage are applied prematurely at the unit's current location.
+Can charge through and drag enemy heroes over impassable terrain.
+Skewer first applies the movement speed slow debuff, then the damage.
+Destroys trees within 200 radius while charging, and within 400 radius upon reaching the destination. Horn Toss Link▶️Link▶️DT
+
+
+
+AbilityNo Target
+AffectsEnemies
+DamagePhysical
+
+Magnus tosses any enemies in front of him, launching them to his rear. Enemies take damage, spend 0.6 seconds in the air, and then are stunned upon landing.
+
+Cast Animation: 0.2+0.79Search Radius:  325Facing Angle: 115°Search Area Offset: 75Damage: 275Toss Duration: 0.6Landing Stun Duration: 0.75
+
+
+ 30
+ 125Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]
+modifier_magnataur_horn_tossDeath
+modifier_stunnedStrongAbility Draft Notes:
+Requires drafting  Reverse Polarity to be unlocked.
+
+
+     Horn Toss angle visualised.Teal dot marks the center.Red dot marks the landing location.  
+Requires  Aghanim's Scepter to be unlocked.
+Horn Toss' search radius is a circular segment with a radius of 325, and cutting off and at a total angle of 230°.
+This means it affects units in front of Magnus, and to his left and right up to a certain degree.
+The center of the search area is located 75 range in front of Magnus, which approximately aligns with the position of his horn.
+This means Horn Toss can hit units up to 400 range in front of Magnus.
+Enemies are always tossed at a location between 180 ‒ 210 range behind Magnus, varying based on where they were in front of him.
+Enemies are moved over Magnus' head, in an arc with a height of 300, and varying lengths. The toss always takes 0.6 seconds.
+Stun affected enemies for both the toss duration and landing duration, with a total duration of 1.35 seconds.
+Affected enemies destroy trees within 200 radius upon landing.
+The damage is applied upon cast, while the movement speed slow is applied upon landing. However, the toss modifier itself applies the slow as well.
+Applies the damage and debuff to  Roshan, but does not toss him. Reverse Polarity Link▶️Link▶️RV
+
+
+
+AbilityNo Target
+AffectsEnemies ( Self)
+DamagePhysical
+
+Magnus changes properties of matter, sucking all nearby enemies in front of him and stunning them with a powerful slam and dealing damage.
+
+Cast Animation: 0.3+1.3Radius:  430Damage: 75/150/225Stun Duration: 2.5/3/3.5 ( 3.3/3.8/4.3) All Attribute Bonus per Hero Hit: 10 Buff Duration: 15
+
+
+ 120
+ 150/225/300
+Aghanim's Scepter Upgrade:New Ability
+Grants the Horn Toss ability.
+
+Modifiers [?]modifier_magnataur_reverse_polarity_statsAny
+
+modifier_magnataur_reverse_polarityStrong
+modifier_stunnedStrongMagnus fights with the fury of the erupting Mt. Joerlak.
+
+
+Instantly pulls all affected units 150 range in front of Magnus.
+The particle effects and a sound effect start playing at the beginning of the cast.
+Reverse Polarity first applies the all attributes buff, the debuff, then the damage.
+There is no limit to how many units can be affected within the radius.
+Fully affect  Couriers.
+Applies the stun and damage to  Roshan, but does not pull him.
+TALENT
+The  /  /  all attribute bonus per hero hit  grants the following bonuses per hero hit:
+220 health and 0.9 health regeneration bonus.
+10 attack speed and 1.67 main armor bonus.
+120 mana and 0.5 mana regeneration bonus.
+1% flat base magic resistance bonus.
+21 main attack damage bonus.
+Treat clones as heroes, illusions and creep-heroes as creeps.
+Each hit enemy hero increases its stack count and refreshes the duration of the entire stack.

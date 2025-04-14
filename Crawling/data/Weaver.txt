@@ -1,0 +1,273 @@
+The Swarm Link▶️Link▶️QR
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamagePhysical
+
+Weaver launches a swarm of 12 young Weavers that latch on any enemy unit in their path, attacking and reducing armor until it is killed.
+
+Cast Animation: 0.3+0Cast Range:  3000Max Travel Distance:  3000Beetles Spawn Radius:  300Beetles Latch Radius:  100Number of Beetles: 12Non-Hero Attacks to Destroy: 6/6/8/8 ( 10/10/12/12)Hero Attacks to Destroy: 3/3/4/4 ( 5/5/6/6)Tick Interval: 1.15/1.0/0.85/0.7Damage per Tick: 18/22/26/30Armor Reduction per Tick: 1 ( 1.5)Beetle Duration: 16
+
+
+ 44/36/28/20
+ 110Spell Immunity Notes:Exposure pierces debuff immunity.Modifiers [?]modifier_projectile_visionUndispellable
+modifier_weaver_swarmUndispellable
+
+modifier_weaver_swarm_debuffDeathSkitskurr opens a gap in the space time fabric, allowing young Weavers to slip through and aid him in combat.
+
+
+
+
+Beetle
+
+
+
+
+
+Attached
+
+
+
+
+
+
+Health
+100
++0
+
+
+
+
+
+
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+2
+
+
+Duration
+
+
+
+16
+
+
+Armor
+
+
+
+0
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Collision Size
+
+
+
+18
+
+
+Bound Radius
+
+
+
+8
+
+
+Vision Range
+
+(F)
+
+321
+
+
+Bounty
+
+
+
+32–34
+
+
+Experience
+
+
+
+20
+
+
+Notes
+
+UncontrollablePhasedSpell Immune
+
+
+
+The Swarm spawn within a 300 radius randomly around Weaver and moves forward at a speed of 750, taking 4 seconds to reach the maximum distance.
+The  Beetles are not attackable when traveling as a swarm. They are only attackable after latching onto targets.
+They provide flying vision while traveling forwards, and while latched onto their targets.
+They are attached type units, and have the highest priority for auto-attack behaviors, together with  Phantoms.
+With the maximum travel distance, spawn radius, and latch radius, the Beetles can latch on units 3400 range away.
+The Beetle latches 64 range in front of any enemy unit that comes within 100 radius, unless another Beetle has already latched onto it.
+This means that multiple casts do not affect the same unit more than once, and its duration cannot be refreshed.
+Can latch on invulnerable units, but not invisible or hidden units.
+Does not latch on enemy  Couriers.
+The Beetle and its latched target have the following interactions:
+When the latched target turns invisible, while not under True Sight, the Beetle dies instantly.
+When the latched target is hidden, the Beetle is still latched onto the target and not removed.
+When the latched target is affected by the following abilities, the Beetle disappears:  Infest,   Dismember,  Gobble Up and  Voodoo Switcheroo.
+When the latched target is now untargetable, the Beetle applies its first damage instance and the armor reduction debuff then dies after 0.13 seconds.
+The Beetle dies instantly while entering  Chronosphere.
+Beetles that disappear or die instantly in the aforementioned situations are not credited to anyone.
+The Swarm deals damage in 1.15/1.0/0.85/0.7-second intervals, starting immediately when it is latched on a unit, this results in 14/17/19/23 possible attacks.
+Although the Beetles are latched to their targets, the damage is sourced to Weaver, not the Beetles.
+Therefore, the damage is affected by outgoing damage manipulation and spell lifesteal.
+Can deal up to 252/374/494/690 damage to each latched enemy (before reductions).
+The armor reduction is bound to the Beetle and independent from the damage per tick.
+The armor reduction fully affects ethereal units, but not invulnerable units.
+Can reduce up to 14/17/19/23 ( 21/25.5/28.5/34.5) armor per unit.
+On each interval, The Swarm first applies the armor reduction, then the damage. Shukuchi Link▶️WC
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+DamageMagical
+
+Weaver shifts out of visibility, gaining max movement speed --doing harm to any enemies it passes through.
+
+Cast Animation:  0+0Fade Time: 0.25Damage Radius:  175Damage: 100/130/160/190 ( 155/185/215/245)Haste Speed: 550Buff Duration: 4 Debuff Duration: 4.6
+
+
+ 15/12/9/6 ( 12.5/9.5/6.5/3.5)
+ 60
+Aghanim's Shard Upgrade:
+
+Shukuchi puts a mark on enemies it damages that last 4.6 seconds.
+
+Modifiers [?]modifier_weaver_shukuchiDeath
+
+modifier_weaver_geminate_attack_markAnyAbility Draft Notes:
+ Geminate Attack must be drafted as well for it to get applied.
+As the Weavers worked in the fabric of creation, small wormholes allowed them to slip through time to better work their craft.
+
+
+Does not interrupt Weaver's channeling abilities upon cast.
+Disjoints projectiles upon cast, if the enemy has no True Sight on Weaver.
+Shukuchi can only damage the same unit once per cast.
+Leveling up the ability while fully invisible does not update the current Shukuchi damage instance.
+During the fade time, Weaver can cast abilities, use items and perform attacks without breaking the invisibility.
+The invisibility is broken upon reaching the cast point of abilities or items, or upon landing an attack. Missed attacks do not break it.
+Weaver can pick up, drop, or attack items without breaking the invisibility.
+Grants haste and phased movement while fully invisible, meaning Weaver cannot be slowed below the hasted value.
+Unlike other phased movement sources, Shukuchi turns Weaver phased instantly upon cast, instead of after the fade time.
+Shukuchi still grants 200/230/260/290 movement speed bonus on top of the haste movement, but this will not be reflected in the HUD unless the caster unlocks maximum movement speed.
+SHARD Shukuchi now applies a 4.6-second debuff on all affected enemies.
+0.25 seconds after breaking invisibility,   Geminate Attack triggers on all enemies within 1200 radius with the Shukuchi debuff.
+Weaver has to be alive for Geminate Attack to proc. Geminate Attack    Link▶️EE
+
+
+
+AbilityActive Attack Modifier
+AffectsEnemies
+Damage Instant Attack
+
+Allows Weaver to dispatch two attacks at once.
+
+Cast Range:  425Effect Delay: 0.25Number of Extra Attacks: 1 ( 2)Attack Damage Bonus: 20/35/50/65 ( 110/125/140/155)Buff Duration: 0.03  After Shukuchi Invisibility Effect Delay:  0.2 Target Search Radius:  1200
+
+
+ 8.5/6.5/4.5/2.5
+
+Aghanim's Shard Upgrade:
+
+0.2s after Weaver exits Shukuchi, enemies with a mark within 1200 range will also be attacked with a secondary Geminate attack.
+
+Break Notes:Disabled, despite being an active ability.
+Illusion Notes:The ability is always toggled on, but illusions cannot trigger it.Modifiers [?]modifier_weaver_geminate_attackUndispellable
+modifier_weaver_geminate_attack_bonusUndispellable
+Ability Draft Notes:
+ Geminate Attack triggers for allied  Shukuchi marks as well.
+Skitskurr's relationship with time is somewhat variable, causing his actions to be witnessed — and felt — more than once.
+
+
+Upon leveling Geminate Attack the first time, it has Autocast on by default.
+Despite being an active ability, Geminate Attack can trigger while silenced, if set to Autocast.
+Geminate Attack's cast range can only be further increased by attack range bonuses of the same range as the caster. However, it is not affected by cast range bonuses.
+Both Autocast and manually casting it use Weaver's current attack range.
+Causes Weaver to perform 1 ( 2) instant attack(s) on the attacked target 0.25 seconds after releasing the leading attack.
+These instant attacks can proc any attack modifiers and on-hit effects normally. They do not have True Strike, but completely ignore disarms.
+They do not break  Disguise as well.
+Grants unique flat bonus attack damage upon Weaver's attack point to the extra attacks.
+After the attack point, Weaver first attacks, triggers both the Geminate Attack buff and attack damage bonus buff, then releases the extra attack.
+Weaver has to be alive for these extra attacks to happen.
+There is no range limit for these extra attacks, they launch regardless of how far away the target is currently at.
+Even if the initial attack damage kills the target before Geminate Attack triggers, the extra attacks are still released, hitting the dead target.
+For  melee units, if the enemy target is farther than 350 range more than the attacker's range, the attack will always miss.
+Works against enemy buildings,  Couriers and wards.
+Neither work against allies nor  Observer and Sentry Wards.
+SHARD Breaking the  Shukuchi invisibility in any way now procs Geminate Attack 0.2 seconds after on every enemy affected by the Shukuchi debuff within 1200 radius.
+Weaver still has to be alive for these extra attacks to happen.
+These Geminate Attacks applied upon breaking invisibility are applied even if the ability itself is currently not castable, and regardless of its cooldown status.
+Geminate Attack procs fully work against all targets with the Shukuchi debuff regardless of source.
+TALENT The Geminate Attack count increasing  talent fully applies to this  Ability Upgrade. Time Lapse Link▶️RT
+
+
+
+AbilityNo Target ( Target Unit)
+AffectsSelf ( Allied Heroes)
+
+
+Weaver warps backward to whatever position it was in five seconds earlier--regaining the HP and mana from that time. No effect on cooldown, gold or experience.
+
+Cast Animation: 0.3+0.53Lapsed Time: 5 Cast Range:  500
+
+
+ 70/55/40 ( 40)
+ 150/75/0
+Aghanim's Scepter Upgrade:
+Time Lapse may target allied Heroes with 500 cast range.
+
+Modifiers [?]modifier_weaver_timelapseUndispellable
+If Skitskurr does not deem the current reality of the world to fit his desires, he simply crawls back in time to right what was wronged.
+
+
+Weaver is ordered to stop right after getting moved back, this automatically cancels the cast backswing of Time Lapse.
+However, ⇧ Shift-queue commands are not canceled.
+SCEPTER Therefore, the cast backswing is only used when cast on allies.
+Time Lapse disjoints projectiles and applies a strong dispel upon cast.
+Only affects Weaver's position (or coordinates), health, mana, and status debuffs. Buffs are not removed.
+Sets Weaver's or the target ally's health and mana back to what it was 5 seconds ago.
+Time Lapse neither deals damage nor heals. Therefore, it does not interact with any on-damage effects.
+When cast right after respawning, the caster's health, mana, and position are set to what they were before death.
+This means that it does not kill the caster when cast immediately after respawning.
+SCEPTER Time Lapse now turns into a unit-targeted ability, applying all the effects on the target.
+↓↓ Double-tapping automatically targets self.
+Cannot be cast on allies who have ☐ Disabled Help from Weaver.
+Treats clones and illusions as heroes, and creep-heroes as creeps.
+SCEPTER Unit-targeting does not order the ally target to stop. Therefore, channeling abilities are not canceled.
+When cast on allies right after respawning, their health, mana, and position are not set back to what they were before the death.
+This means allies cannot be sent back to their death location after respawning, unlike how Weaver can when self-casting.

@@ -1,0 +1,165 @@
+Shackleshot   Link▶️Link▶️Link▶️QE
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+
+
+Shackles the target to an enemy unit or tree in a line directly behind it. If no unit or tree is present, the stun duration is reduced to 0.6.
+
+Cast Animation: 0.15+0.45Cast Range:  800Shackle Search Range: 575Shackle Search Angle: 46°Max Shackle Targets: 2Success Stun Duration: 1.6/2.1/2.6/3.1 ( 2.35/2.85/3.35/3.85)Fail Stun Duration: 0.6
+
+
+ 16/14/12/10 ( 14/12/10/8)
+ 70/80/90/100Spell Block / Reflection Notes:Blocked fully only when primary target.Blocked upon impact.Modifiers [?]
+modifier_windrunner_shackle_shotStrong
+modifier_stunnedStrongWindranger's variety of bow skills includes an arrow with thick ropes attached to encumber any escaping target.
+
+
+The projectile travels at a speed of 1650 and searches for enemies or trees within 46° at the opposite side of the target from where Shackleshot was cast.
+This means when Windranger teleports away after cast, it latches on targets based on the cast location, not her new location.
+The complete search area is shaped like a triangle, with 575 being the triangle's height.
+Therefore, the triangle has two sides with a length of 624.66, and the third side has a length of 488.15.
+Shackleshot always prioritizes units over trees as its secondary target, and picks the furthest suitable unit or tree.
+If the primary target dies before Shackleshot reaches it, the projectile can still latch to a secondary unit and stun it.
+It can also latch on invisible units and units in the Fog of War.
+If the target is not shackled, it is stunned for 0.6 seconds using the default stunned debuff.
+If the target is shackled to a unit, both of them are stunned for 1.6/2.1/2.6/3.1 ( 2.35/2.85/3.35/3.85) seconds using the shackleshot debuff.
+The stun persists, even when the primary or the secondary unit dies, or if the tree is destroyed earlier.
+The stun also persists when one of the targets is freed from the stun earlier.
+TALENT The stun duration increasing  talent only increases the success stun duration. Powershot Link▶️Link▶️WR
+
+
+
+AbilityTarget Point  / Channeled
+AffectsEnemies
+DamagePhysical
+
+Windranger charges her bow for up to 1 second for a single powerful shot, which slows and deals more damage the longer it is charged. The arrow damages enemies along its path. For each enemy that Powershot hits, its damage  and slow power is reduced.
+
+Cast Animation: 0+0Cast Range:  2600Travel Distance:  3000Damage Radius:  125Max Channel Time: 1Max Damage: 170/270/370/470Damage Multiplier per Unit Hit: 0.85 ( 1)Tree Destruction Radius:  50Flying Vision Radius:  400Move Slow %: 20/25/30/35 ( 40/45/50/55)Slow Duration: 4
+
+
+ 12/11/10/9
+ 90/100/110/120Modifiers [?]modifier_projectile_visionUndispellable
+During her early years of training, Lyralei learned to fire powerful arrows that cleaved even trees to reach their targets on the other side.
+
+
+Powershot travels at a speed of 3000, taking 1 seconds to reach the max distance.
+The arrow provides 400 radius flying vision while traveling forward, and the vision sticks at its final location for 3.34 seconds.
+With the travel distance and damage radius, the arrow can damage units up to 3125 range away.
+Powershot destroys trees within 50 radius around it while traveling. Trees destroyed do not reduce the arrow's damage.
+The max damage is done after the fully channeling for 1 second. Each channeled server tick increase its damage by 5.67/9/12.33/15.67.
+The sound of a bow getting stretched during channeling time is audible to allies only.
+Every time Powershot hits an enemy, its current damage is reduced by 15%.
+For how much damage a fully channeled arrow deals (before reductions), please refer to the chart below.
+To reach 1 damage, the arrow needs to hit 32/35/37/38 targets.
+TALENT The Powershot damage reduction reducing  talent no longer reduces its current damage per hit unit, and causes Powershot to deal 100% damage to all hit targets. Windrun Link▶️EW
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+
+
+Increases movement speed and adds evasion from all physical attacks.
+
+Cast Animation:  0+0Evasion: 100%Move Speed Bonus: 60%Move Speed Duration: 3/4/5/6Duration: 3/4/5/6 Fade Time: 0.2 Damage Reduction: 0.45 
+
+
+ 15/14/13/12 ( 12.5/11.5/10.5/9.5)
+ 50
+Aghanim's Scepter Upgrade:
+Reduces physical damage taken by 0.45, and grants invisibility that is not broken by attacking or casting spells.
+
+Modifiers [?]modifier_windrunner_windrun_passiveUndispellable
+modifier_windrunner_windrunAny
+modifier_windrunner_windrun ()Death
+modifier_windrunner_windrun_invisDeath
+
+modifier_windrunner_windrun_slowAnyLyralei enchants gusts of winds to flight incoming attacks.
+
+
+Interrupts Windranger's channeling abilities upon cast.
+Grants 100% evasion for its duration.
+SCEPTER Now grants phased movement for its duration. Its invisibility is also not broken upon casting her own abilities, using items or attacking.
+A visual effect will indicate Windranger's attacks and ability casting, showing the source of the projectile.
+Acquiring  Aghanim's Scepter does not update the current active instance.
+The invisibility is provided by a second buff, independent of the Windrun buff, so breaking it prevents Windranger from going invisible again.
+Windranger can pick up or drop items without breaking the invisibility.
+SCEPTER Also applies generic incoming damage reduction on Windranger that only reduces physical attack damage for its duration. Stacks additively with other sources of generic incoming damage manipulation.
+Neither reduces nor reflects damage flagged as HP removal.
+TALENT With the undispellable windrun  talent, Windrun is only dispellable by death. Gale Force Link▶️DG
+
+
+
+AbilityTarget Point  / Vector Targeting
+AffectsEnemies
+
+
+Summons a strong wind that pushes all enemies in the target area towards the target direction. Vector Targeted.
+
+Cast Animation: 0.2+0.47Cast Range:  1500Radius:  1000Push Speed: 240Duration: 3.5Aura Linger Duration: 0.5
+
+
+ 30
+ 100Modifiers [?]modifier_windrunner_gale_force_auraUndispellable
+
+modifier_windrunner_gale_forceUndispellableAbility Draft Notes:
+Requires drafting  Focus Fire to be unlocked.
+At last Lyralei has learned to call upon the might of her true birthright.
+
+
+Requires  Aghanim's Shard to be unlocked.
+Recasting Gale Force while a previous cast is still active immediately ends the previous cast.
+Pulls enemies within the radius at a speed of 240 towards the selected direction.
+The pulling effect is provided by an aura, its debuff lingers for 0.5 seconds.
+With the duration and aura linger duration, Gale Force can push enemies for a total distance of 960.
+Affects the  Tree Dance unit, but does not unperch it.
+Does not pull affected enemies over impassable terrain.
+Does not pull affected enemies when they are affected by other disabling forced movement sources.
+Does not impede affected enemies at all and they can still turn, attack, and cast abilities. Focus Fire Link▶️RF
+
+
+
+AbilityTarget Unit
+AffectsSelf
+
+
+Windranger channels the wind to gain 350/425/500 additional attack speed against a single enemy unit or structure, though with a reduction to her attack damage. Extra damage from secondary item effects is not reduced.
+
+Cast Animation: 0+0Cast Range:  600Attack Speed Bonus: 350/425/500Attack Damage Multiplier: 0.70 ( 0.82)Duration: 20 Cooldown Skip on Target Death: 18
+
+
+ 70/50/30
+ 75/100/125
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Gale Force ability.
+
+Modifiers [?]modifier_windrunner_focusfireDeath
+Lyralei's ability to bombard opponents with a flurry of arrows is unparalleled - even at the expense of accuracy.
+
+
+The cast range of Focus Fire is based on the attack range of the caster.
+It can only be further increased by attack range bonuses of the same range type as the caster. However, it is not affected by cast range bonuses.
+However, this does not include the unlimited range while  Hurricane Pike is active.
+Upon cast, Focus Fire orders Windranger to attack the target and allows her to move while attacking the target.
+Windranger automatically attacks the Focus Fire target whenever she is in attack range unless she is given an order that is not a move or attack order.
+The automatic attacking can be paused by ordering her to stop (S) or hold position (H) once. When paused, she no longer attacks the target while moving.
+To resume the automatic attacking, a new attack order ( Right Click) on target or (A) must be given to her.
+Reduces the Windranger's main and bonus attack damage when attacking the affected target. This can be defined as:
+expr (MainAtk + BonusAtk) × 0.70 ( 0.82)
+Does not reduce conditional attack damage bonuses (e.g.  Pierce or  Shadow Walk).
+Stacks additively with other total attack damage reduction sources.
+Windranger can switch attack targets without losing the buff against the Focus Fire target.
+When switching attack targets, the attack speed and damage adapt as soon as the attack begins.
+Casting Focus Fire on multiple targets only grants the attack speed and damage reduction against the most recent target.
+Focus Fire ends prematurely when Windranger dies but persists through the target's death.
+Can be cast on any enemy unit, including buildings and  Couriers, excluding wards, invulnerable or hidden units.
+TALENT The Focus Fire cooldown advance  talent cause Focus Fire to skip 18 seconds of its current cooldown if the targeted enemy hero dies.
+Treats clones as heroes, illusions and creep-heroes as creeps.
+The cooldown skip always triggers and it does not matter how the enemy target dies or to whom the death is credited.
+This effect can be triggered multiple times per cast, with Reincarnation sources, BUYBACK, or against a resummoned  Tempest Double.
+SOULBIND Does not affect the secondary target at all.

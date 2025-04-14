@@ -1,0 +1,291 @@
+Blade Fury Link▶️Link▶️QF
+
+
+
+AbilityNo Target
+AffectsEnemies  / Self
+DamageMagical ( Instant Attack)
+
+Causes a bladestorm of destructive force around Juggernaut, rendering him immune to magic and dealing damage to nearby enemy units.
+
+Cast Animation:  0+0Radius:  260 ( 410)Damage per Second: 90/115/140/165 ( 120/145/170/195)Magic Resistance Bonus: 80%Duration: 5 Move Speed Bonus: 75 Instant Attack Damage: 75% Instant Attack Interval: 1.4
+
+
+ 42/34/26/18 ( 39/31/23/15)
+ 120/110/100/90
+Aghanim's Shard Upgrade:
+
+Increases movement speed during Blade Fury, and attacks random nearby enemy units with reduced damage.
+
+Modifiers [?]modifier_juggernaut_blade_furyDeath
+modifier_jugg_casterUndispellable
+Yurnero's renowned katana techniques are feared by warriors and sorcerers alike.
+
+
+Blade Fury cannot be cast during  Omnislash and  Swiftslash, vice versa.
+However, Juggernaut can perform attacks, cast abilities, and use items during Blade Fury.
+Does not interrupt Juggernaut's channeling abilities upon cast.
+Grants debuff immunity, magic resistance bonus for the duration and applies a basic dispel upon cast.
+Stacks multiplicatively with other  magic resistance sources.
+Increases Juggernaut's magic resistance to 85%.
+With the magic resistance bonus from this source, every 10 points of  intelligence further increases the total magic resistance by 0.2%. [?]
+Blade Fury directly negates Juggernaut's attack damage while active.
+However, it does not reduce conditional attack damage bonuses (e.g.  Pierce or  Shadow Walk).
+Despite the ability's visual effects, this effectively causes critical strike, lifesteal, and cleave to have no effect, since these mechanics rely on attack damage values.
+Although the reduction values are not displayed in the HUD, it is still considered and directly subtracted from Juggernaut's attack damage.
+Stacks additively with other total attack damage reduction sources.
+Deals 18/23/28/33 ( 24/29/34/39) spell damage in 0.2-second intervals, starting 0.2 seconds after cast, resulting in 25 damage instances.
+Can deal up to 450/575/700/825 damage to a single unit (before reductions).
+Does not affect  Couriers.
+SHARD Increases Juggernaut's movement speed to 375 and performs instant attacks on random enemies within the radius in 1.4-second intervals, starting 0.2 seconds after cast, resulting in up to 4 attacks.
+These instant attacks can proc any attack modifiers and on-hit effects normally. They do not have True Strike, but completely ignore disarms and stuns.
+The instant attack targets are chosen randomly, there are no priorities.
+The instant attack from the  Ability Upgrade is independent of Blade Fury damage negation component, and neither affects buildings nor wards.
+It is considered as attack damage and is affected by damage block.
+SHARD The instant attacks' damage can be defined as expr (MainAtk + BonusAtk) × 75%.
+Does not reduce conditional attack damage bonuses.
+Stacks additively with other total attack damage reduction sources.
+For  ranged heroes, since instant attacks use their regular attack projectiles, conditional attack damage reduction still applies to their attacks, causing each of their instant attacks to deal an instance of 0 damage.
+Still does not affect  Couriers.
+TALENT With the damage increasing  talent, it can deal up to 600/725/850/975 damage. Healing Ward Link▶️WG
+
+
+
+AbilityTarget Area  / Aura
+AffectsAllies
+
+
+Summons a Healing Ward which heals all nearby allied units, based on their max health. The Healing Ward moves at 325 movement speed after being summoned. Lasts 2.5 seconds.
+
+Cast Animation: 0.3+0.47Cast Range:  350Radius:  400Attacks to Destroy: 1 ( 2)Max Health as Health Regen Bonus: 2%/3%/4%/5%Aura Linger Duration: 2.5Duration: 25
+
+
+ 60 ( 40)
+ 140/130/120/110Modifiers [?]modifier_juggernaut_healing_ward_auraDeath
+modifier_juggernaut_healing_ward_healDeath
+Of the rituals learned at the Isle of Masks, tending wounds with a bit of voodoo magic has proven to be quite useful.
+
+
+
+
+Healing Ward
+
+
+
+
+
+Summoned Ward
+
+
+
+
+
+
+Health
+1
++0
+
+
+
+
+⤷ 
+
+
+ 2HP
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+0
+
+
+Duration
+
+
+
+2.5
+
+
+Armor
+
+
+
+0
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Move Speed
+
+
+
+325 (250)
+
+
+Turn Rate
+
+
+
+0.5
+
+
+Collision Size
+
+
+
+18
+
+
+Bound Radius
+
+
+
+8
+
+
+Vision Range
+
+(G)
+
+600
+
+
+Bounty
+
+
+
+75
+
+
+Experience
+
+
+
+75
+
+
+Notes
+
+Phased
+
+
+
+Upon cast, Healing Ward automatically follows Juggernaut 250 distance behind him, if no other order is given.
+The heal is provided by an aura and lingers for 2.5 seconds.
+The auras of multiple Healing Wards do not stack.
+Can regenerate up to 55%/82.5%/110%/137.5% of a unit's max health over its full duration.
+Can fully regenerate a unit's health within 50/33.33/25/20 seconds.
+Does not affect wards, buildings, invulnerable or hidden units.
+Fully affect  Couriers.
+Attacks from all unit types deal 1 damage to the  Healing Ward. Blade Dance  Link▶️EC
+
+
+
+AbilityPassive
+AffectsEnemies ( Self)
+
+
+Gives Juggernaut a chance to deal critical damage on each attack.
+
+Proc Chance: 20%/25%/30%/35%Critical Damage: 190% Lifesteal: 60%Break Notes:The critical strike component is disabled.The lifesteal component is effectively disabled.
+Illusion Notes:Critical strike values shown are before illusion outgoing damage and armor reduction.Modifiers [?]modifier_juggernaut_blade_danceUndispellable
+The last remnant of his heritage's commitment to bladework, Yurnero ensures that the style is remembered.
+
+
+Increases attack damage by an average of 18%/22.5%/27%/31.5%.
+A critical strike proc is determined during Juggernaut's attack point.
+When a critical strike procs, Juggernaut uses a specific crit attack animation, and particle effects appear on his weapon.
+The proc chances of multiple critical strike sources stack.
+If two sources of critical strike proc at the same time, the higher crit multiplier has priority.
+Does not proc against wards, buildings and allies.
+Blade Dance uses pseudo-random distribution.
+TALENT Stacks additively with other lifesteal sources. Swiftslash  Link▶️DW
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Self
+Damage Instant Attack
+
+Performs a short Omnislash for 1 seconds.
+
+Cast Animation: 0.3+0.5Cast Range:  550Duration: 1
+
+
+ 20
+ 125Spell Block / Reflection Notes:Only the first slash of the cast is blocked.Modifiers [?]modifier_juggernaut_omnislashDeath
+modifier_juggernaut_omnislash_invulnerabilityDeath
+Ability Draft Notes:
+Requires drafting  Omnislash to be unlocked.
+
+
+
+Requires  Aghanim's Scepter to be unlocked.
+Swiftslash cannot be cast during  Blade Fury.
+Does not require  Omnislash to be leveled to be unlocked, once Aghanim's Scepter is acquired.
+However, it relies on Omnislash to work, since it directly uses its values. This means when Omnislash is not learned, Swiftslash does nothing upon cast.
+Omnislash notes fully apply.
+Swiftslash is distinguished by blue particles, as opposed to the orange particles of Omnislash. Omnislash  Link▶️RE
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Self
+Damage Instant Attack
+
+Juggernaut leaps towards the target enemy units, and then slashes the target and other nearby enemy units at an increased attack rate. Juggernaut is invulnerable for the duration.
+
+Cast Animation: 0.3+0.5Cast Range:  350Search Radius:  425Attack Rate Divisor: 1.5Attack Damage Bonus: 40/45/50Attack Speed Bonus: 40Duration: 3/3.25/3.5 ( 4/4.25/4.5)
+
+
+ 120
+ 200/275/350
+Aghanim's Scepter Upgrade:New Ability
+Grants the Swiftslash ability.
+
+Spell Block / Reflection Notes:Only the first slash of the cast is blocked.Modifiers [?]modifier_juggernaut_omnislashDeath
+modifier_juggernaut_omnislash_invulnerabilityDeath
+‘The fruits of discipline; with practice comes strength.’
+
+
+Turns Juggernaut spell immune, invulnerable, unselectable, rooted for the whole duration, and applies a basic dispel on cast.
+Juggernaut can cast abilities and use items during Omnislash.
+However,  Blade Fury is inactive for the duration and cannot be cast.
+During Omnislash, Juggernaut does not need to turn in order to cast targeted abilities or items.
+The slash interval can be defined as expr (100 × 1.4) / (ΣAS × 1.5)
+With the attack speed limits, the min and max possible slash intervals are 0.133 ‒ 4.667 seconds plus a server tick per slash respectively.
+The interval is not set upon cast. On each slash, the interval updates based on his current attack rate.
+Causes Juggernaut to perform instant attacks on enemies he slashes.
+Grants flat bonus attack damage while Omnislash or  Swiftslash is active.
+These instant attacks can proc any attack modifiers and on-hit effects normally. They do not have True Strike, but completely ignore disarms.
+Can neither be cast on nor jump on wards, and buildings.
+Can be cast on  Couriers, but not jump on them.
+Can jump on invulnerable, attack immune and ethereal units. However, the instant attacks do not trigger.
+Cannot jump on units in the Fog of War, invisible or hidden units and  Undying Zombies.
+If no valid targets can be found within range and within 0.15 seconds after the previous jump, Omnislash ends prematurely.
+On each slash, Juggernaut is positioned at the opposite side of the target from Juggernaut's position, facing the target.
+The slash radius is centered around Juggernaut, not around the current target.
+Provides a 1-second 200 radius flying vision lasting on each slash around the current target.
+Recasting Omnislash while the previous cast is still active cancels the previous cast and starts a new instance.
+This also applies when  Swiftslash is cast during Omnislash, the former canceling the latter and vice versa.
+Centers the player's camera perspective on Juggernaut upon cast, following his position during Omnislash.

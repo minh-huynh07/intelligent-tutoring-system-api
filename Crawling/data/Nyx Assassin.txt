@@ -1,0 +1,212 @@
+Impale Link▶️QE
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamageMagical
+
+Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall.
+
+Cast Animation: 0.3+0Cast Range:  750Spikes Travel Distance:  750Spikes Radius:  140Damage: 100/160/220/280 ( 220/280/340/400)Stun Duration: 1.1/1.4/1.7/2 ( 1.3/1.6/1.9/2.2)  While Burrowed Cast Range:  1275 Spikes Travel Distance:  1275 Burrowed Cooldown:  10/9/8/7
+
+
+ 17/16/15/14
+ 100/110/120/130Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]
+modifier_nyx_assassin_impaleStrongAll zealot scarabs possess intimate knowledge of underground pathways, using them to their advantage.
+
+
+The spikes travel at a speed of 1600.
+With the travel distance and radius, Impale can hit units up to 890 range away.
+Hit units are knocked up 350 range for the initial 0.5 seconds of the stun.
+While in the air, other units may pass below hit airborne units.
+The spike that hits the target releases some dust particles. This visual effect can also be seen in the Fog of War.
+When Impale hits invisible units, the visual effects below the hit unit are still visible.
+Impale first applies the damage, then the debuff.
+SCEPTER While  Burrowed, Impale can be cast without having to face the targeted point or unit.
+With the travel distance increase, Impale can now hit units up to 1415 range away.
+Does not reset the ability's cooldown if cast before Burrowed.
+SHARD Can deal up to 117/187.2/257.4/327.6 ( 257.4/327.6/397.8/468) damage with the  Vendetta debuff (before reductions). Mind Flare Link▶️WR
+
+
+
+AbilityTarget Unit
+AffectsEnemy Heroes
+DamageMagical
+
+Deals damages to the enemy equal to a multiplier of its Intelligence. Additionally deals damage equal to a percentage of damage the target received from Nyx in the past 15s.
+
+Cast Animation: 0.4+0Cast Range:  800Intelligence as Damage Multiplier: 3.5/4/4.5/5 ( 6.5/7/7.5/8)Damage Dealt as Damage Bonus: 25%Damage Timer: 15 Radius: 600 While Burrowed Cast Range:  1200
+
+
+ 13/10/7/4
+ 100Spell Block / Reflection Notes:Blocked upon cast.Blocked fully only when primary target.Modifiers [?]
+modifier_nyx_assassin_jolt_damage_trackerUndispellableThe tome in Ultimyr describes one scarab with the ability to eat away at the minds of lesser beings.
+
+
+Places a damage counter on all heroes upon learning the ability, including Nyx itself.
+The damage counter accumulates all damage instances from all damage types the target received within the last 15 seconds, then it is dealt as another single spell damage instance to the Mind Flare target.
+Does not accumulate damage from the following sources:
+Damage flagged as HP Removal.
+Damage sources with the no-reflection flag (e.g.  Blade Mail).
+The damage counter resets once the ability is cast.
+Therefore, subsequent casts only count damage dealt since the last time the ability was cast, including the bonus damage instance from Mind Flare.
+Can be cast on units without  intelligence points (e.g. creep-heroes and  Ogre Magi), dealing just the damage bonus.
+SCEPTER While  Burrowed, Mind Flare can be cast without having to face the targeted point or unit.
+SHARD Increases the  intelligence as damage multiplier to 4.1/4.68/5.27/5.85 ( 7.61/8.19/8.78/9.36) + 29.25% damage bonus with the  Vendetta debuff (before reductions).
+TALENT The area of effect  talent adds a radius to this ability. The ability must be centered over a unit still.
+Also targets invisible units and units inside the Fog of War.
+SOULBIND Since the ability must be centered over a unit, the area of effect  talent fully affects all units within radius around both targets. Spiked Carapace Link▶️Link▶️ED
+
+
+
+AbilityNo Target
+AffectsEnemies
+DamageSource Type(No-reflection)
+
+When activated while above ground, Spiked Carapace reflects and negates damage dealt to Nyx Assassin (max once from each source), as well as stunning the source of the damage. Activating Spiked Carapace will not break Vendetta invisibility.While Burrowed, Spiked Carapace instantly stuns nearby enemies when cast.
+
+Cast Animation:  0+0Damage Reflected: 125%Carapace Duration: 2 ( 2.5)Stun Duration: 0.4/0.8/1.2/1.6 ( 0.9/1.3/1.7/2.1)  While Burrowed Effect Radius:  300
+
+
+ 23/18/13/8
+ 40Modifiers [?]modifier_item_blade_mailUndispellable
+modifier_nyx_assassin_spiked_carapaceDeath
+
+modifier_stunnedStrongWhile their carapaces are relatively thin, they're guarded by a retractable field of razor-sharp spikes.
+
+
+Interrupts Nyx Assassin's channeling abilities upon cast.
+Can be cast without breaking the invisibility of  Vendetta, but not other invisibility sources.
+Successive casts do not stack but refresh its duration.
+Only reflects player-based damage directly toward the damage dealer. A unit can only be affected once per buff.
+Reflects incoming damage before all manipulations. However, damage manipulation on the enemy still affects the damage normally.
+Reflects the same damage type as received.
+Reflected Magical damage is affected by damage block as well.
+The reflected damage has the following flags:
+No-reflection flag, preventing its damage from interacting with other sources of damage with the same flag.
+Uses the same modifier as  Blade Mail, damage returned from the item's active and passive ability deal instances of 0 damage while Spiked Carapace is active.
+Fully procs on-damage effects on enemies, except those which have a minimum damage threshold (e.g.  Gravekeeper's Cloak).
+No-spell-lifesteal flag, preventing its damage from utilizing spell lifesteal.
+No-spell-amplification flag, preventing its damage from being amplified with spell damage amplification.
+Returns one instance of the same damage type as received to the source.
+Has a Global reflect range and affects units through both Fog of War and invisibility.
+Does not return self-inflicted damage and damage flagged as HP Removal.
+Spiked Carapace first applies the debuff, then the reflected damage.
+For Nyx, Spiked Carapace fully negates and reflects the damage instance after all reductions, causing several on-damage effects to not trigger.
+However, it neither prevents death nor instant kill sources from triggering.
+Spiked Carapace has priority over damage barriers, negating the damage before it gets absorbed by the barriers.
+Although the damage reflected to enemies is equal to the amount of damage blocked, the effects work independently from each other.
+This means Spiked Carapace always blocks one damage instance, even when the source is invulnerable.
+Does not work against wards, buildings, creeps and ally units.
+SCEPTER While  Burrowed, casting Spiked Carapace immediately stuns all enemies within  radius.
+Since Spiked Carapace has no base damage, hit units are not damaged upon cast.
+Fully affects lane creeps and neutral creeps.
+Nyx Assassin still receives the cast buff normally, which can still reflect damage and stun enemies.
+Enemy units stunned by Spiked Carapace this way do not trigger and cannot be affected by the damage-reflected component again. Burrow  Link▶️DF
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Nyx Assassin buries himself beneath the battlefield over a short duration. Once burrowed, Spiked Carapace instantly stuns nearby enemies when cast, the range of Mind Flare and Impale is increased, and Impale's cooldown is decreased. While burrowed, Nyx Assassin is stationary, unable to attack, and invisible. Nyx gains damage reduction from all damage sources.
+
+Cast Animation: 1.5+0Fade Time: 0Max Health Regen Bonus: 1%Max Mana Regen Bonus: 1%Damage Reduction: 40%Impale Cast Range Increase: 525Impale Travel Distance Increase: 525Impale Cooldown Reduction: 7Mind Flare Cast Range Increase: 400Spiked Carapace Stun Radius:  300
+
+
+ 0
+ 0Modifiers [?]modifier_nyx_assassin_burrowDeath
+Ability Draft Notes:
+Requires drafting  Vendetta to be unlocked.
+Some castes of Zealot scarab are known to create small burrows to lie in wait, ready to ambush their prey.
+
+
+Requires  Aghanim's Scepter to be unlocked.
+Turns Nyx Assassin invisible and phased while burrowed.
+Fully disables, silences, mutes, roots, and disarms Nyx Assassin, making it unable to do anything.
+However, Nyx can still be affected by forced movement sources while burrowed, without getting unburrowed.
+While burrowed,  Impale and  Mind Flare can be cast without having to face the targeted point or unit.
+Other targeted abilities and items still require facing toward the target, without breaking the invisibility of Burrow.
+Burrow neither changes Nyx Assasin's facing direction, nor reduces its turn rate.
+Applies generic incoming damage reduction on Nyx Assassin while burrowed. Stacks additively with other sources of generic incoming damage manipulation.
+Affects all damage types Nyx receives. Does not reduce damage flagged as HP removal.
+Can regenerate up to 60% of Nyx Assassin's max health and mana in one minute.
+The following conditions unburrows Nyx Assassin:
+Upon  Unburrow sub-ability or  Vendetta cast.
+Until its death.
+Upon losing  Aghanim's Scepter.
+SPELL STEAL Instantly unburrows  Rubick upon losing ability. Unburrow Link▶️Link▶️DF
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Emerge from the burrow.
+
+Cast Animation: 0+0
+
+
+ 0
+ 0Some castes of Zealot scarab are known to create small burrows to lie in wait, ready to ambush their prey.
+
+
+Replaces  Burrow until the sub-ability is used,  Vendetta is used or Nyx's death.
+Interrupts Nyx Assassin's channeling abilities upon cast.
+Instantly reverts all bonuses provided by Burrow.
+Uses a different sound when unburrowing inside the river. Vendetta Link▶️Link▶️RV
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+DamagePure
+
+Allows Nyx Assassin to become invisible and gain a speed bonus. If Nyx Assassin attacks to break the invisibility, massive bonus damage is dealt with the attack. Nyx Assassin has 75 additional attack range and a 70% faster attack animation for this attack.
+
+Cast Animation:  0+0Fade Time: 0Self Attack Range Bonus: 75Self Move Speed Bonus: 16%/18%/20% ( 41%/43%/45%)Self Attack Animation Bonus: 70%Max Mana Drain: 50%Damage: 300/400/500Vendetta Duration: 60 Spell Damage Amp: 17% Debuff Duration: 4
+
+
+ 80/70/60
+ 180/240/300
+Aghanim's Scepter Upgrade:New Ability
+Grants the Burrow ability.
+
+Aghanim's Shard Upgrade:
+
+Vendetta now moves faster, and a successful Vendetta attack now increases the target's spell damage taken.
+
+Modifiers [?]modifier_nyx_assassin_vendettaDeath
+
+modifier_nyx_assassin_vendetta_armor_reductionAnyThe scarab kills for the glory of his queen.
+
+
+Does not interrupt Nyx Assassin's channeling abilities upon cast.
+The attack out of Vendetta has the following properties:
+Has True Strike.
+With both the attack range bonus and the bound radius buffer, the attack has a total of expr 249 + TargetBoundRadius attack range.
+The attack first applies the debuff, the bonus spell damage and the max mana drain, the attack damage, then the self attack animation bonus.
+Grants the following bonuses while active:
+Attack range bonus based on the caster's attack range type.
+Reduces the attack point of the next attack to 0.138+0.54.
+Does not reduce the attack backswing of the next attack.
+TALENT Grants unobstructed movement, allowing to path through impassible terrain and trees.
+The unobstructed pathing  talent does not upgrade the current instance of Vendetta.
+The bonus damage is applied as spell damage in a separate damage instance, it is affected by spell damage amplification and works with spell lifesteal.
+The bonus spell damage and the debuff are not applied when attacking wards or buildings.
+The invisibility is lost upon reaching the attack point, or the cast point of abilities or items.
+Does not break invisibility in the following conditions:
+Casting  Spiked Carapace.
+Nyx can pick up, drop or attack items and runes without breaking the invisibility.
+For  ranged heroes, this is upon projectile hit. Therefore, the bonus damage will not be applied if another action was queued before the projectile hit.
+Successive casts update the ability values to the current level and refresh the invisibility duration.
+Grants phased movement to Nyx, may phase through wards, but not through buildings.
+SHARD Vendetta now applies generic incoming damage amplification on the affected enemy target upon breaking invisibility. Stacks additively with other sources of generic incoming damage manipulation.
+Affects only spell damage the affected target receive. Does not amplify the following damage sources:
+Attack damage.
+Damage flagged as HP removal.
+Despite utilizing incoming damage amplification, it does not affect the damage sources that ignore outgoing amplification (e.g. Cleave sources,  Damage Return and  Moon Glaives).
+Effectively increases Vendetta's own damage to 351/468/585 damage (before reductions).

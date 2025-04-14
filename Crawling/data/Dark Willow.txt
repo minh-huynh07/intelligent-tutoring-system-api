@@ -1,0 +1,293 @@
+Bramble Maze Link▶️Link▶️QB
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamagePhysical
+
+Dark Willow creates a maze of brambles that grow in the target area after 0.3 seconds. Enemies that walk into a bramble are rooted and take damage over time.
+
+Cast Animation: 0.3+0.8Cast Range:  1000/1100/1200/1300Bramble Spawn Radius: 500Root Search Radius: 90Bramble Spawn Delay: 0.3Bramble Spawn Interval: 0.075Bramble Activation Delay: 0.1Number of Brambles: 8Damage per Tick: 50/55/60/65Root Duration: 1/1.5/2/2.5Bramble Duration: 15
+
+
+ 22 ( 15)
+ 100/120/140/160Modifiers [?]modifier_dark_willow_bramble_maze_creation_thinkerUndispellable
+modifier_dark_willow_bramble_maze_thinkerUndispellable
+
+modifier_dark_willow_bramble_mazeAnyThe fae realm exists all around you, merely waiting to draw you in…
+
+     The brambles' formation.  
+     Bramble Maze's custom targeting indicator.  
+The visual effects and the sound during the 0.3-second bramble spawn delay is only visible and audible to allies.
+The projectile launched upon cast has only cosmetic purposes and does not affect the delay.
+The brambles are always placed in the same formation.
+4 brambles are placed 200 range away from the center of the target area, towards north, east, south, and west.
+4 brambles are placed 500 range away from the center of the target area, towards northeast, southeast, southwest, and northwest.
+The brambles spawn in 0.075-second intervals, starting 0.3 seconds after cast, so it takes 0.825 seconds for all brambles to spawn.
+The inner circle spawns first, starting with the east bramble, going counter-clockwise. The outer circle starts with the northeast bramble.
+Brambles have to go through a 0.1-second activation delay after spawning.
+A bramble roots the first enemy unit which comes within 90 range of it, after which it then disappears.
+The brambles require no vision and can hit invisible enemies, or enemies in the Fog of War.
+Provides True Sight over rooted enemies.
+Deals 50/55/60/65 damage in 0.5-second intervals, starting 0.5 seconds after the buff is applied, resulting in 2/3/4/5 instances.
+Can deal a total of 100/165/240/325 damage to the target (before reductions).
+The brambles' duration starts after the initial creation delay. This means the last bramble disappears 15.825 seconds after cast.
+Multiple instances of the debuff fully stack. Each bramble places its own independent debuff.
+Leveling the ability up while there are other active brambles does not update the root duration. Shadow Realm  Link▶️Link▶️Link▶️WR
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+DamagePhysical
+
+Dark Willow recedes into the shadows, becoming untargetable. Her next attack has increased attack range and deals bonus magic damage, and will end Shadow Realm. Damage scales based on how long she remains under the effects of Shadow Realm, the maximum being reached after 3 seconds.
+
+Cast Animation:  0+0Effect Delay: 0.3Attack Range Bonus: 600Max Damage: 120/200/280/360Max Damage Duration: 3Duration: 5 ( 6.5)
+
+
+ 22/20/18/16 ( 20/18/16/14)
+ 70/80/90/100
+Aghanim's Scepter Upgrade:
+Attacking no longer takes you out of Shadow Realm. Each attack still has bonus damage based on the duration of the buff.
+
+Modifiers [?]modifier_dark_willow_shadow_realm_fade_timeDeath
+modifier_dark_willow_shadow_realm_buffUnknown
+modifier_dark_willow_shadow_realm_buff_attack_logicDeath
+What you can't see will most definitely hurt you.
+
+
+Does not interrupt Dark Willow's channeling abilities upon cast.
+Shadow Realm's effect delay does not work like the fade time of invisibility.
+The ability's buff is placed after the 0.3-second delay, so that all of the ability's effects are delayed.
+Successive casts do not remove the buff from a previous cast but refresh its duration after the effect delay.
+Disjoint projectiles after the effect delay.
+Increases Dark Willow's total attack range to 1075.
+The attack range bonus works for  ranged heroes only.
+During Shadow Realm, Dark Willow is phased, attack immune and untargetable by her enemies.
+For enemies, any attacks or abilities targeting Dark Willow, which are already in its attack or cast animation get canceled.
+Does not prevent Spell Reflection from reflecting abilities back at her.
+Certain abilities can bypass unselectability conditionally, while almost every other ability treats the affected target as if it were invisible.
+When cast while attacking an enemy, Dark Willow is ordered to stop, so that the attack out of Shadow Realm is not wasted.
+However, when she is given an attack order (A) while outside attack range, casting Shadow Realm while she moves does not stop her from attacking immediately.
+Casting abilities or items during Shadow Realm does not end it, only attacking does.
+The Shadow Realm buff is lost upon launching an attack. Upon launch, Dark Willow gets the attack logic buff, which is responsible for the damage.
+This buff disappears upon hitting the target, or within 3 seconds, whichever is shorter. Therefore, if the projectile flies for more than 3 seconds before reaching its target, the spell damage is not applied.
+The buff only works for the attack that created it. Any other projectiles launched afterward do not apply the spell damage bonus.
+SCEPTER Attacking now no longer ends Shadow Realm, and each attack launched applies the Shadow Realm spell damage bonus based on its accumulated time.
+The damage increases by 1.33/2.22/3.11/4 per server tick, reaching its maximum in 3 seconds.
+The damage stops accumulating as soon as the attack is launched and does not continue to increase while flying toward the target.
+Shadow Realm first applies the spell damage, then the attack damage.
+The bonus damage is applied as spell damage in a separate damage instance, it is affected by spell damage amplification and works with spell lifesteal.
+The bonus damage does not work against buildings and wards, but works on allies. Cursed Crown  Link▶️Link▶️Link▶️EC
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+Damage Physical
+
+Dark Willow casts an ancient fae curse on the target. After a delay, the target and nearby enemies are stunned.
+
+Cast Animation: 0.2+0.83Cast Range:  600/625/650/675Stun Radius:  360 ( 520)Effect Delay: 4Stun Duration: 1.2/1.6/2/2.4 ( 1.7/2.1/2.5/2.9) Bramble Spawn Radius: 175 Number of Brambles: 4
+
+
+ 18/16/14/12
+ 80/90/100/110
+Aghanim's Shard Upgrade:
+
+Cursed Crown creates 4 brambles in a 175 radius around the target after the counter ends. Triggers even upon dispel. Reduces stun delay by Expression error: Missing operand for -. second.
+
+Modifiers [?]
+modifier_dark_willow_cursed_crownAny
+modifier_stunnedStrongAbility Draft Notes:
+ Bramble Maze must be drafted as well for them to be created.
+Didn't anyone ever tell you? Never strike a deal with a fairy…
+
+
+The sound and visual effect during the delay on the target is audible and visible to everyone.
+The visual effect indicates the area to be affected each second.
+Turning invulnerable or hidden does not prevent the debuff from affecting the area around the target.
+SHARD Losing the initial debuff in any way now causes 4  Brambles based on the current level to spawn around the target.
+Bramble Maze's notes fully apply. If it is not leveled, no brambles spawn.
+The brambles are always placed 175 range away from the target, towards north, east, south, and west.
+Unlike the brambles from a regular cast, these brambles spawn simultaneously. Bedlam  Link▶️Link▶️DD
+
+
+
+AbilityTarget Unit
+AffectsAllies  / Enemies
+DamagePhysical
+
+Dark Willow sends her pet wisp to roam around an ally for the duration, rapidly attacking nearby enemies. Bedlam cannot be used while Terrorize is active.
+
+Cast Animation:  0+0Cast Range:  900Max Wisp per Ally: 1Roam Radius:  200Search Radius:  300Max Enemy Targets: 1 ( 3)Strike Interval: 0.25Damage per Strike: 70/120/170 ( 100/150/200)Seconds per Revolution: 1.5Duration: 5.5
+
+
+ 30
+ 100/150/200Modifiers [?]modifier_dark_willow_bedlamDeath
+modifier_dark_willow_creature_invulnerableDeath
+You'll have to excuse my friend Jex. He's really into murder.
+
+
+
+
+Jex
+
+
+
+
+
+Ward
+
+
+
+
+
+
+Health
+100
++0
+
+
+
+
+
+
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+1
+
+
+Armor
+
+
+
+0
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Move Speed
+
+
+
+0
+
+
+Collision Size
+
+
+
+18
+
+
+Bound Radius
+
+
+
+8
+
+
+Vision Range
+
+(G)
+
+600
+
+
+Bounty
+
+
+
+150
+
+
+Experience
+
+
+
+0
+
+
+Notes
+
+Uncontrollable.
+
+
+
+Interrupts Dark Willow's channeling abilities upon cast.
+Bedlam can be cast without having to face toward the targeted unit, as long as the targeted unit is within the cast range, regardless of Dark Willow's animations.
+While active,  Terrorize is inactive and cannot be cast.
+Bedlam is inactive during Terrorize's cast time and stays inactive until  Jex fully returns to Dark Willow after terrorizing enemies.
+Upon cast, Jex travels at a speed of 1800 from Dark Willow to the west side of the targeted ally and rotates clockwise.
+↓↓ Double-tapping automatically targets self.
+When cast on self, Jex does not travel and appears on the west side and rotates clockwise around Dark Willow.
+While traveling to the target, Jex can attack valid enemy units.
+Jex rotates around the affected ally at a speed of 837.76, taking 1.5 seconds to finish a revolution.
+This results in 3.67 revolutions over the whole duration.
+On each strike, Jex chooses a visible random enemy target within range. There are no priorities. Does not strike buildings or wards.
+The strike radius is centered on Jex. A light pink glow surrounds it, indicating the strike area.
+Jex continues striking even when the affected ally target or Dark Willow is disabled. It stops only when the affected ally or when she dies, or upon the ability duration expiring.
+The projectiles travel at a speed of 1400, are applied as spell damage, and do not interact with any on-attack effects, it is affected by spell damage amplification and works with spell lifesteal.
+Although visually Jex is striking its target, the damage is still sourced to Dark Willow.
+With its 0.25-second strike interval, it can deal up to 22 damage instances.
+Can deal up to 1540/2640/3740 ( 2200/3300/4400) damage to a single unit (before reductions).
+Successive casts on the same targeted ally do not resummon Jex but refresh its duration independently.
+The ability itself provides no vision, but Jex has 600 ground vision which it provides for the duration.
+TALENT Both the damage increasing and max targets increasing  talents immediately update the current active instance.
+SPELL STEAL Does not grant  Terrorize upon acquiring  Bedlam, and vice versa. Bedlam can be cast right away even when  Jex has not returned from the previous Terrorize cast. However, when both abilities are acquired via   Spell Steal, they get turned inactive as normal. Terrorize Link▶️Link▶️RF
+
+
+
+AbilityTarget Area
+AffectsEnemies
+
+
+Dark Willow releases her pet wisp to terrorize her enemies. After a short delay, all enemies in the target area become fearful and run toward their home fountain. Terrorize cannot be used while Bedlam is active.
+
+Cast Animation: 1+2.57Cast Range:  1200Radius:  400Duration: 3.5/3.75/4
+
+
+ 100/90/80
+ 150Debuff Immunity Notes:Exposure pierces debuff immunity.Modifiers [?]modifier_dark_willow_terrorize_thinkerDeath
+modifier_dark_willow_creature_invulnerableDeath
+
+modifier_dark_willow_debuff_fearAnyAbility Draft Notes:
+Terrorize is granted to the player that drafted  Bedlam.
+You think you know the first thing about fear? Jex'll show you what that word truly means…
+
+
+Terrorize is inactive during  Bedlam.
+Terrorize is also inactive during its cast time and stays inactive until  Jex fully returns to Dark Willow after terrorizing enemies.
+This means Terrorize cannot be cast again until Jex returns from a previous cast.
+During the cast time, Jex appears 300 range above Dark Willow and then travels to the target point at a speed of 2000, and returns at a speed of 600.
+The visual effect at the target area during the cast time/effect delay is visible to allies only. The sound is audible to everyone.
+Applies fear on all hit enemies within the radius, making them run towards their fountain and preventing them from acting.
+When hitting neutral creeps, they retreat to their camps instead.
+Exposes all affected targets, but does not provide True Sight over them.
+The ability itself provides no vision, but Jex has 600 ground vision which it provides during the duration.
+SPELL STEAL This ability's cast point is not modified when acquired. Terrorize can still be cast while  Bedlam is active. However, when both abilities are acquired via   Spell Steal, they get turned inactive as normal.

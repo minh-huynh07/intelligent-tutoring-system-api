@@ -1,0 +1,196 @@
+Arcane Bolt   Link▶️Link▶️QC
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Self
+DamagePhysical
+
+Skywrath Mage launches a slow-moving bolt of arcane magic, dealing damage to an enemy unit based on Skywrath Mage's intelligence.
+
+Cast Animation: 0.1+0.9Cast Range:  875Number of Targets: 1 ( 3)Base Damage: 75/95/115/135Intelligence as Damage Multiplier: 1.5Self Spell Lifesteal Bonus: 20%/30%/40%/50% ( 45%/55%/65%/75%)Debuff Duration: 5 Secondary Targets Search Radius:  700 ( 700)
+
+
+ 5/4/3/2
+ 95
+Aghanim's Scepter Upgrade:
+When Skywrath Mage casts Arcane Bolt, 3 bolts are created, one aimed at the original target, and the rest - at random enemies within 700 range of the original target. Heroes will take priority.
+
+Debuff Immunity Notes:Does not pierce debuff immunity.Fully pierces debuff immunity.Spell Block / Reflection Notes:Blocked upon impact.Blocked upon impact as primary or secondary target.Modifiers [?]modifier_projectile_visionUndispellable
+
+modifier_skywrath_mage_arcane_bolt_spell_lifestealAnyWithin the Ghastly Eyrie's endless intrigue, only the clever and calm can hope to survive.
+
+
+The bolt travels at a speed of 500.
+The projectile has a 325 radius flying vision. This vision does not linger.
+Also provides the same vision at the target's location for 3.34 seconds upon successfully hitting it.
+Checks Skywrath Mage's  intelligence upon releasing the projectile.
+This means that the projectile's damage is set upon launch and does not adapt when losing or gaining intelligence.
+This is how much damage Arcane Bolt deals with a certain amount of intelligence (before reductions):
+LEVEL 1 (23 ): 110/130/150/170 damage
+LEVEL 5 (39 ): 134/154/174/194 damage
+LEVEL 10 (59 ): 165/185/205/225 damage
+LEVEL 15 (80 ): 196/216/236/256 damage
+LEVEL 20 (100 ): 226/246/266/286 damage
+LEVEL 25 (121 ): 257/277/297/317 damage
+LEVEL 30 (141 ): 288/308/328/348 damage
+
+Arcane Bolt first deals the damage, then applies the debuff.
+The spell lifesteal value of successive casts on the same target does not stack but refreshes the duration.
+SCEPTER Whenever Arcane Bolt is cast, 3 different random targets within the search radius, prioritizing heroes, are also targeted by other Arcane Bolts.
+The search radius is centered around the primary target, not around Skywrath Mage.
+Since it uses a defined radius and is not based on the cast range, it is not affected by cast range modifying abilities (e.g.  Aether Lens).
+Treats clones and illusions as heroes and creep-heroes as creeps.
+The other Arcane Bolts are released only if valid targets are found within the search radius.
+TALENT Fully affects  Couriers upon learning the Arcane Bolt pierces spell immunity  talent.
+SOULBIND Considers the extra Arcane Bolt casts of the  Ability Upgrade as being unit-targeted directly by Skywrath Mage. This means that if both bounded heroes are targeted by the first set of bolts, a total of 3 sets of bolts will be cast. Concussive Shot  Link▶️Link▶️WT
+
+
+
+AbilityNo Target
+AffectsEnemies
+DamagePhysical
+
+Skywrath Mage sets off a long range shot that hits the closest hero within a long range. Upon impact, it deals damage and slows in an area of effect. Deals 75% damage to creeps.
+
+Cast Animation: 0+1.03Search Radius:  1600 ( Global)Effect Radius:  250Number of Targets: 1 ( 2)Damage: 120/180/240/300Creep Damage Multiplier: 0.75Move Speed Slow: 40%Slow Duration: 4Flying Vision Radius:  300
+
+
+ 15/14/13/12
+ 80/85/90/95
+Aghanim's Scepter Upgrade:
+When Skywrath Mage casts Concussive Shot, a different random target within cast range will be hit with the same ability. Heroes will take priority.
+
+Ability Disjoint Notes:Area damage and slow are not applied when disjointed.Modifiers [?]modifier_projectile_visionUndispellable
+
+modifier_skywrath_mage_concussive_shot_slowAnyThose who serve the court of the Ghastly Eyrie are ever locked in covert war. One must always know where danger lurks nearest.
+
+
+Concussive Shot interrupts Skywrath Mage's channeling abilities upon cast.
+Concussive Shot travels at a speed of 800.
+The projectile has 300 radius flying vision. This vision does not linger.
+Also provides the same vision at the target's location for 3.34 seconds upon successfully hitting it.
+Concussive Shot targets the closest enemy unit, prioritizing heroes.
+Treats illusions as creeps.
+Does not target wards, buildings or creep-heroes.
+Does not target invisible or hidden units or units in the Fog of War.
+The area damage deals 90/135/180/225 damage to creeps.
+The area damage treats illusions and creep-heroes as creeps.
+Concussive Shot first applies the damage, then the debuff.
+Movement speed slow of successive shots neither stack nor update its ability values but refresh the duration.
+SCEPTER Whenever Concussive Shot is cast, a different random target, prioritizing heroes, within the search radius is also targeted by a second Concussive Shot.
+Uses the same search radius as the primary projectile, but slightly different targeting behaviors.
+The  Ability Upgrade now treats illusions and creep-heroes as heroes.
+Still neither target wards nor buildings.
+Does not target invisible, invulnerable, hidden, or spell immune units or units in the Fog of War.
+If no other valid targets are found within the search radius, the second Concussive Shot is not released.
+TALENT The Global Concussive Shot  talent does not consider enemy  Couriers as valid targets or secondary targets. Ancient Seal  Link▶️ER
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+
+
+Skywrath Mage seals the targeted unit with an ancient rune, silencing it and causing it to take additional damage from spells.
+
+Cast Animation: 0.1+0.97Cast Range:  700/750/800/850Number of Targets: 1 ( 2)Magic Resistance Reduction: 20%/25%/30%/35% ( 30%/35%/40%/45%)Duration: 3/4/5/6 Secondary Target Search Radius:  700
+
+
+ 14 ( 7)
+ 80/90/100/110
+Aghanim's Scepter Upgrade:
+Anytime Skywrath Mage casts Ancient Seal, a different random target within 700 range will be affected by the same ability. Heroes will take priority.
+
+Spell Block / Reflection Notes:Blocked upon cast.Not blocked by secondary targets.Modifiers [?]
+modifier_skywrath_mage_ancient_sealAnyA holy incantation, whosoever finds themselves touched by Avilliva's sigil must suffer in penitent silence.
+
+
+Stacks multiplicatively with other  magic resistance sources.
+Reduces most heroes' magic resistance to 10%/6.25%/2.5%/-1.25% ( 2.5%/-1.25%/-5%/-8.75%).
+With the magic resistance reduction from this source, every 10 points of  intelligence further increases the total magic resistance by 1.2%/1.25%/1.3%/1.35% ( 1.3%/1.35%/1.4%/1.45%). [?]
+The magic resistance reduction does not affect creeps.
+Treats illusions and creep-heroes as creeps.
+Successive casts on the same target do not stack but refresh the duration.
+SCEPTER Whenever Ancient Seal is cast, a different random target, prioritizing heroes, within the search radius is also targeted.
+The search radius is centered around the primary target, not around Skywrath Mage.
+Treats illusions and clones as heroes and creep-heroes as creeps.
+Does not target invisible, invulnerable, hidden, or spell immune units or units in the Fog of War.
+If no other valid targets are found within the search radius, the second Ancient Seal is not applied. Shield of the Scion  
+
+
+
+AbilityPassive
+AffectsSelf
+
+
+Every time Skywrath Mage deals magic damage to an enemy hero with an ability, he gains a buff that grants bonus Intelligence and Armor. Each charge stacks independently.
+
+Intelligence Bonus per Stack: 2Armor Bonus per Stack: 0.5Duration: 35Modifiers [?]modifier_skywrath_mage_shardUndispellable
+modifier_skywrath_mage_shard_bonusUndispellable
+modifier_skywrath_mage_shard_bonus_counterUndispellable
+Ability Draft Notes:
+Gaining stacks is not limited to Skywrath Mage's abilities, however, restrictions listed in the notes still apply.
+Requires drafting  Mystic Flare to be unlocked.
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+Gains a stack whenever one of Skywrath Mage's abilities deals damage to enemies (before reductions).
+Fully procs on-damage effects, abilities dealing 0 damage or negative damage to units also grant a stack.
+Fully procs on abilities reflected as well.
+Does not trigger on active item abilities, on abilities with 0 cooldown, or on abilities that do not trigger on-cast effects.
+Does not trigger on HP Removal flagged damage sources.
+Shield of the Scion's first grants its bonuses before the triggering abilities are cast.
+Each stack places a new hidden modifier buff on Skywrath Mage. This means their durations are independent of each other.
+The counter modifiers on Skywrath Mage shows how much intelligence and armor he gained.
+The number of stacks can be seen on the status buff icon.
+Each stack effectively grants 24 mana and 0.1 mana regeneration bonus, a flat 0.1% magic resistance bonus and 2 main attack damage bonus per hero hit.
+For  Arcane Bolt and  Concussive Shot: The ability grants a stack per hero hit.
+For  Mystic Flare:
+The ability grants a stack per hero hit and per damage interval.
+Can grant up to a total of 44  intelligence bonus and 11 armor bonus per hero hit. Mystic Flare Link▶️Link▶️RE
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamagePhysical
+
+Skywrath Mage uses his ultimate physical ability to conjure a precise and violent mystical field that lays waste to his adversaries. Deals massive damage distributed evenly among any Heroes in the area over  seconds.
+
+Cast Animation: 0.1+0Cast Range:  1200Flare Radius:  170Number of Flares: 1 ( 2)Damage Interval: 0.1Total Damage: 800/1200/1600 ( 1200/1600/2000)Flare Duration: 2.2 Secondary Target Search Radius:  700
+
+
+ 60/40/20
+ 300/550/800
+Aghanim's Scepter Upgrade:
+When Skywrath Mage casts Mystic Flare, another Mystic Flare will be created on the position of a different random target enemy within 700 range. Heroes will take priority.
+
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Shield of the Scion ability.
+
+Modifiers [?]modifier_skywrath_mage_mystic_flareUndispellable
+
+modifier_skywrath_mystic_flare_aura_effectUndispellableOnly the most practiced of Skywrath sorcerers could hope to shape the skies into such a storm.
+
+
+If enemy heroes are within the radius (including illusions, clones and creep-heroes), only the heroes are affected.
+Non-hero units only get damaged if no enemy heroes are within the area.
+Does not affect spell immune, invulnerable and hidden units.
+Deals damage in 0.1-second intervals, starting 0.1 seconds after cast, resulting in 22 damage instances.
+This is how much damage Mystic Flare deals when hitting a certain amount of units for the full duration (before reductions):
+1x Unit: 36.36/54.55/72.73 ( 54.55/72.73/90.91) per interval, and 800/1200/1600 ( 1200/1600/2000) total damage.
+2x Unit: 18.18/27.27/36.36 ( 27.27/36.36/45.45) per interval, and 400/600/800 ( 600/800/1000) total damage.
+3x Unit: 12.12/18.18/24.24 ( 18.18/24.24/30.3) per interval, and 266.67/400/533.33 ( 400/533.33/666.67) total damage.
+4x Unit: 9.09/13.64/18.18 ( 13.64/18.18/22.73) per interval, and 200/300/400 ( 300/400/500) total damage.
+5x Unit: 7.27/10.91/14.55 ( 10.91/14.55/18.18) per interval, and 160/240/320 ( 240/320/400) total damage.
+
+A hidden debuff is responsible for the particle effects on hit enemies. It has only visual purposes.
+The debuff is placed by an aura and lingers for 0.5 seconds.
+SCEPTER Casting Mystic Flare now automatically casts another instance centered on a random enemy, prioritizing heroes, within the search radius but outside the 170 effect radius.
+The search radius is centered around the targeted area, not around Skywrath Mage.
+Treats illusions and clones as heroes, and creep-heroes as creeps.
+Ignores invisible, invulnerable, hidden, or spell immune units within the search radius.
+If no other valid targets are found within the search radius, the second Mystic Flare is not released.

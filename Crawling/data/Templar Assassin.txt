@@ -1,0 +1,356 @@
+Refraction Link▶️Link▶️Link▶️QR
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Templar Assassin becomes highly elusive, avoiding damage and gaining a bonus to her damage. The damage and avoidance effects are separate, and have a limited number of instances.
+
+Cast Animation:  0+0Number of Instances: 3/4/5/6 ( 10/11/12/13)Attack Damage Bonus: 25/45/65/85 ( 50/70/90/110)Min Trigger Damage Threshold: 5Duration: 17
+
+
+ 16
+ 85Modifiers [?]modifier_templar_assassin_refraction_damageDeath
+modifier_templar_assassin_refraction_absorbDeath
+Manipulating her psionic veil, Lanaya bends nature's law to her will.
+
+
+Interrupts Templar Assassin's channeling abilities upon cast.
+Places two buffs on Templar Assassin:
+ Granting instances of damage negation.
+ Granting instances of bonus attack damage.
+The number of remaining instances is visible on both buff icons. The buffs and the visual effects of the ability are visible to everyone.
+Fully negates damage (after all reductions), causing several on-damage effects to not trigger.
+Refracts the 3 damage types, including self-damage and damage from allies, but not heals and HP Removal effects (e.g.  Sunder,  Soul Ring etc.).
+Has a lower priority than  False Promise. However, it still loses a charge when combined with the latter.
+Damage below 5 (after reductions) is completely ignored. It is neither blocked nor consumes any block instances.
+Does not negate any instant kill effects.
+Grants unique flat bonus attack damage.
+Although the bonus attack damage is displayed on the HUD, Refraction only grants the attack damage bonus when the attack projectile successfully lands on the target, then it reduces 1 attack damage bonus instance.
+Missed or disjointed attacks do not reduce the attack damage bonus count.
+Neither loses instances upon attacking allies nor applies the bonus damage to them.
+Does not provide bonus damage when cast while an attack projectile is traveling, but still uses up one instance upon projectile hit.
+TALENT Refraction now can be cast while stunned, cycloned, slept, taunted, hidden or while being affected by forced movement sources.
+It still cannot be cast while silenced, hexed or prevented from acting.
+Templar Assassin is unable to ⇧ Shift-queue this ability upon learning the talent. Meld  Link▶️Link▶️Link▶️Link▶️WD
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+DamagePhysical
+
+Templar Assassin conceals herself, becoming invisible as long as she remains still. If Meld's invisibility is broken by attacking an enemy, Lanaya will deal bonus damage to the enemy and reduce their armor for 12 seconds.
+
+Cast Animation: 0+0.53Fade Time: 0Damage: 80/130/180/230Armor Reduction: 5/6/7/8 ( 8/9/10/11)Debuff Duration: 12Invisibility Duration: Indefinite Bash Duration: 1
+
+
+ 11/9/7/5
+ 35/40/45/50Ability Disjoint Notes:The attack projectile out of Meld is disjointable.Modifiers [?]modifier_templar_assassin_meldDeath
+modifier_templar_assassin_meld_animationDeath
+
+modifier_templar_assassin_meld_armorAny
+modifier_bashedStrongLanaya is as elusive as her covenant with the Hidden Temple.
+
+
+Meld first applies a basic dispel, instantly turns Templar Assassin invisible and phased, then a stop order is issued.
+She can turn, pick up, drop, or attack items without breaking the invisibility, considering she does not move while doing so.
+The invisibility is lost upon reaching the cast point of abilities, upon landing an attack, or upon moving.
+Forced movement sources also cancel Meld if moved horizontally.
+After an attack projectile has been launched, Templar Assassin can perform any action without losing invisibility.
+However, if the projectile misses or is disjointed, the invisibility is lost at the moment it misses.
+Does not break invisibility in the following conditions:
+Upon a  Psionic Projection cast.
+Upward movement sources and teleporting effects (e.g.  Reverse Polarity).
+Templar Assassin's next attack which connects with a unit applies the Meld effects.
+Meld first applies the armor debuff, the Meld damage, the bash, then the attack damage.
+TALENT Stacks with other bash sources, with its duration following the regular rule of stuns — the longer one overrides the shorter one.
+The Meld damage is dealt in a separate damage instance and counts as attack damage.
+Since it is applied separately, it does not trigger attack modifiers (e.g. crit or lifesteal) or  Psi Blades.
+Killing a unit with the Meld damage also does not trigger Psi Blades as well.
+Neither the bonus damage nor the armor reduction from Meld affects buildings.
+Multiple instances of the armor reduction debuff fully stack.
+However, successive casts before the previous Meld attack projectile landed does not apply its effects on the next attack.
+SPELL STEAL / MORPH NOTES Invisibility persists upon losing ability. Psi Blades   Link▶️EB
+
+
+
+AbilityPassive
+AffectsEnemies
+DamagePure
+
+Templar Assassin's psi blades slice through the attacked unit, splitting and damaging enemy units directly behind it, while gaining bonus attack range. For each unit it damages, the spill damage is reduced by a percentage.
+
+Attack Range Bonus: 80/130/180/230 ( 200/250/300/350)Spill Area Width: 90Spill Area Length:  600/650/700/750 ( 720/770/820/870)Attack Damage Spilled: 100%Damage Loss per Target: 5%Modifiers [?]modifier_templar_assassin_psi_bladesUndispellable
+Her blades pierce the skin as much as the mind, furthering her understanding of the mystery that is reality.
+
+     Psi Blades' damage area  
+Increases Templar Assassin's total attack range to 280/330/380/430 ( 400/450/500/550).
+The spill area has a rectangular shape, with a width of 90 and a length of 600/650/700/750 ( 720/770/820/870).
+The spill area starts at the attack target's location and extends beyond them.
+With her default attack range and Psi Blade's attack range bonus, Psi Blades can hit units up to 880/980/1080/1180 ( 1120/1220/1320/1420) range away.
+Does not perform instant attacks. The projectiles deal regular spell damage.
+Attack modifiers are only applied to the primary target.
+The initial spill damage equals the amount of damage the primary attack target took from the attack (after reductions). The attack's damage value is determined during Templar Assassin's attack point.
+This also means that the initial spill damage can be increased by critical strike, quell, and bash sources.
+Conditional attack damage bonuses (e.g.  Javelin damage proc) are not applied.
+Psi Blade's damage has the following flags:
+No-spell-lifesteal flag, preventing its damage from utilizing spell lifesteal.
+No-spell-amplification flag, preventing its damage from being amplified with spell damage amplification.
+The 5% damage loss per target stacks additively, and is always based on the initial damage, not on the damage the previous target took.
+This means Psi Blades' damage reaches 0 after the 20th target.
+However, it still affects all enemies within its area, applying a 0 damage instance to further targets.
+Fully procs on damage effects, such as  Corrosive Skin, except for abilities which have a minimum damage threshold (e.g.  Gravekeeper's Cloak).
+Templar Assassin's position is checked as the projectile hits the target, not upon launching.
+Psi Blades spill damage when attacking allies or wards which use flat health (e.g.  Plague Ward).
+Spill damage can hit  Courier and invisible units.
+It spills an instance of 0 damage when attacking wards that require a fixed amount of attacks to be destroyed.
+Despite the visual effects, Psi Blades do not spill damage when attacking buildings. Trap  Link▶️DT
+
+
+
+AbilityNo Target
+AffectsEnemies (Psionic Trap)
+DamageMagical
+
+Springs the nearest trap, slowing nearby enemies.
+
+Cast Animation:  0+0Trap Search Radius: GlobalSlow Radius:  400Total Damage: 275/325/375 ( 385/435/485)Min Move Speed Slow: 30%Max Move Speed Slow: 60%Trap Charge Time: 3.5Slow Duration: 5 Min Silence Duration: 1.5 Max Silence Duration: 3.5
+
+
+ 0.5
+ 0
+Aghanim's Shard Upgrade:
+
+When activated, traps now silence affected enemies.
+
+Modifiers [?]
+modifier_templar_assassin_trap_slowAny
+modifier_silenceAny
+
+Alt-Cast Icon
+This ability is unlocked when  Psionic Trap is learned.
+Upon leveling Psionic Trap for the first time, it has Alt-cast disabled by default.
+With Alt-Cast activated, this ability activates the  Psionic Trap nearest to the  Mouse cursor rather than the one closest to Templar Assassin.
+Does not interrupt Templar Assassin's channeling abilities upon cast.
+Cannot be cast when there are no Psionic Traps present.
+The movement speed slow starts at 30% and increases by 0.29% in each server tick, reaching its maximum values at 3.5 seconds.
+SHARD The silence duration starts at 1.5 and increases by 0.01 in the same intervals.
+On each second after placement, the movement speed slow values and silence durations are:
+0s: 30% slow, 1.5s silence.
+1s: 38.57% slow, 2.07s silence.
+2s: 47.14% slow, 2.64s silence.
+3s: 55.71% slow, 3.21s silence.
+
+The damage is only applied when the trap is fully charged.
+The trap visually changes once fully charged. Its outer ring starts black and turns white once fully charged.
+The damage values are always based on the current level and  talent upgrades upon triggering the trap, and are not set upon spawning the trap.
+The damage is sourced to Templar Assassin and not the trap itself.
+Therefore, the damage is affected by outgoing damage manipulation and spell lifesteal.
+Deals 27.5/32.5/37.5 ( 38.5/43.5/48.5) damage in 0.5-second intervals, starting 0.5 seconds after the debuff is placed, resulting in 10 damage instances.
+Multiple instances of the debuff do not stack but get refreshed instead.
+When refreshed, the movement speed slow and damage values get updated based on the trap charge time.
+Traps can always be denied regardless of its max health values. Psionic Projection   Link▶️FW
+
+
+
+AbilityTarget Point  / Channeled
+AffectsSelf / Enemies(Psionic Trap)
+DamageMagical
+
+Allows Templar Assassin to teleport to any Psionic Trap after channeling for 1.5 seconds, detonating it upon arrival. Channeling Psionic Projection does not break Meld.
+
+Cast Animation: 0.2+0Cast Range: GlobalSlow Radius: 400Channel Time: 1.5Damage: 200 ( 310)Move Speed Slow: 60%Slow Duration: 5 
+
+
+ 10
+ 50
+Aghanim's Shard Upgrade:
+
+When activated, traps now silence affected enemies.
+
+Root Notes:Can be cast while rooted or leashed, but immediately gets stopped without going on cooldown or using mana.Does not interrupt the channeling if already channeling, but prevents the teleport from happening if the channeling finishes while rooted or leashed.Modifiers [?]
+modifier_templar_assassin_trap_slowAny
+modifier_silenceAnyAbility Draft Notes:
+Requires drafting  Psionic Trap to be unlocked.
+In reward for her service, Lanaya has been granted access to secrets that unlock new techniques for her psionic gifts.
+
+
+Requires  Aghanim's Scepter to be unlocked.
+After the channeling time, Psionic Projection moves Templar Assassin to the closest  Psionic Trap's coordinates from the targeted point, then the trap is detonated.
+Therefore, it does not disjoint projectiles upon teleporting.
+Unlike  Teleport, Templar Assassin may purchase items from shops if she is within the shop trigger range.
+If the channeling is interrupted, the ability does nothing, and goes into cooldown while consuming mana.
+ Trap notes fully apply.
+Casting this while traps are not present does nothing, the ability also goes into cooldown while consuming mana.
+Does not break  Meld's invisiblity upon cast. Psionic Trap Link▶️RC
+
+
+
+AbilityTarget Point
+
+
+
+Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of 30% in the area. Traps charge up to slow 60% after 3.5 seconds. Deals bonus damage when fully charged.
+
+Cast Animation: 0.3+0Cast Range:  1800Max Traps: 5/8/11 ( 9/12/15)Trap Fade Time: 2Trap Duration: PermanentTrap Vision:  400 ( 525)
+
+
+ 11/8/5
+ 15
+Aghanim's Scepter Upgrade:New Ability
+Grants the Psionic Projection ability.
+
+Aghanim's Shard Upgrade:
+
+Increases max trap count and trap vision range. When activated, traps now silence affected enemies.
+
+Modifiers [?]modifier_templar_assassin_psionic_trap_counterDeath
+modifier_templar_assassin_trapUndispellable
+Calling upon the reach of the Hidden Temple, none escape the eye of the Templar.
+
+
+
+
+Psionic Trap
+
+
+
+
+
+Summoned Ward
+
+
+
+
+
+
+Health
+100
++0.5
+
+
+
+
+
+
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+1
+
+
+Duration
+
+
+
+Permanent
+
+
+Armor
+
+
+
+0
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Collision Size
+
+
+
+18
+
+
+Bound Radius
+
+
+
+8
+
+
+Vision Range
+
+(G)
+
+400 ( 525)
+
+
+Bounty
+
+
+
+25
+
+
+Experience
+
+
+
+0
+
+
+Abilities
+
+
+
+ Trap Invisibility
+
+
+
+The  Psionic Trap can always be denied regardless of its max health.
+ Psi Blades notes fully apply, it treats the denied Psionic Trap as the attack target's location, and the spill area extends beyond.
+Psionic Traps apply their effects on enemies when they are triggered by either  Trap,  Psionic Projection or the ability from the trap itself.
+The traps do not apply their effects when they are destroyed by attacks, or by detonating when exceeding the maximum allowed trap count.
+Psionic Traps do not block neutral creep camps.
+SPELL STEAL Traps do not disappear upon losing ability. Despite being fully functional, Traps only deal Level 1 damage values. Trap  Link▶️QT
+
+
+
+AbilityNo Target
+AffectsEnemies
+DamageMagical
+
+Springs the trap, slowing nearby enemies.
+
+Cast Animation:  0+0Slow Radius: 400Total Damage: 250/300/350 ( 360/410/460)Min Move Speed Slow: 30%Max Move Speed Slow: 60%Trap Charge Time: 3.5Slow Duration: 5 Min Silence Duration: 1.5 Max Silence Duration: 3.5
+
+
+ 0.5
+ 0
+Aghanim's Shard Upgrade:
+
+When activated, traps now silence affected enemies.
+
+Modifiers [?]
+modifier_templar_assassin_trap_slowAny
+modifier_silenceAny
+
+
+This ability is cast from the trap itself, allowing Templar Assassin to trigger traps from afar without having to trigger nearby traps first.
+ Trap notes fully apply.
+SPELL STEAL The total damage dealt is not affected by  Rubick's spell damage amplification  talent.

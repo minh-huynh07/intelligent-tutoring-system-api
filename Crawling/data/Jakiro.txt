@@ -1,0 +1,183 @@
+Dual Breath Link▶️Link▶️QD
+
+
+
+AbilityTarget Point  / Target Unit
+AffectsEnemies
+DamageMagical
+
+An icy blast followed by a wave of fire launches out in a path in front of Jakiro. The ice slows enemies, while the fire delivers damage over time.
+
+Cast Animation: 0.35+1.2Cast Range:  750 ( 1500)Starting Radius:  150Travel Distance:  750 ( 1500)End Radius:  275Move Speed Slow: 25%/30%/35%/40% ( 35%/40%/45%/50%)Attack Speed Slow: 25/30/35/40 ( 35/40/45/50)Damage per Second: 20/40/60/80 ( 40/80/120/160)Duration: 5
+
+
+ 10
+ 125/140/155/170Modifiers [?]modifier_jakiro_dual_breathUndispellable
+
+modifier_jakiro_dual_breath_slowAny
+modifier_jakiro_dual_breath_burnAnyPyrexae dragons have tremendously dangerous breath for each branch of the species; combining them is unimaginable.
+
+
+Targeting a unit causes the breaths to be released toward the unit's position.
+Both the icy and fiery wave travel at a speed of 1050, taking 0.71 ( 1.43) seconds to travel the full distance.
+With the travel distance and end radius, Dual Breath can hit units up to 1025 ( 1775) range away.
+The complete area of both breaths is shaped like a cone.
+The icy breath first deals 0 damage to affected units, then applies its movement speed and attack speed slow.
+Successive casts reapplies the icy breath and update the slow values based on its current values.
+The fiery breath is released 0.2 seconds after the icy breath is released.
+This means it is possible for enemies to be hit by only one of the breaths, by getting in or out of range of the second breath.
+Jakiro cannot move until both waves are released but can use items and abilities, and turn a little bit between the first and the second breath.
+The first damage instance of the fiery breath deals 0 damage.
+Deals 10/20/30/40 ( 20/40/60/80) damage in 0.5-second intervals, starting immediately after the fire debuff is placed, the second interval is 0.1 seconds, the rest are 0.5 seconds, resulting in 11 instances.
+Can deal up to 100/200/300/400 ( 200/400/600/800) damage (before reductions) to a single unit.
+Successive casts neither stack nor update the damage values of the current instance but refreshes its duration. It also continues ticking with the same intervals as the first cast.
+The 0-damage instance from both the icy and the fiery breath fully proc on-damage effects, such as  Corrosive Skin, except those which have a minimum damage threshold (e.g.  Gravekeeper's Cloak). Ice Path Link▶️WT
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamageMagical
+
+Creates a path of ice that stuns and damages enemies that touch it.
+
+Cast Animation: 0.65+0.8Cast Range:  1200Path Distance:  1200Path Radius:  150Effect Delay: 0.5Damage: 50Stun Duration: 1.25/1.5/1.75/2 ( 1.65/1.9/2.15/2.4)Path Duration: 3/3.5/4/4.5 ( 3.5/4/4.5/5)
+
+
+ 18/15/12/9 ( 15.5/12.5/9.5/6.5)
+ 100Modifiers [?]modifier_jakiro_ice_pathUndispellable
+
+modifier_jakiro_ice_path_stunStrongJakiro's cunning right head calls upon its frozen heritage, glazing the earth with blistering cold.
+
+
+Despite the visual effects, Ice Path's effects are instantly applied after the 0.5-second delay.
+The Ice Path starts 12 range in front of Jakiro and has a length of 1200.
+With the starting distance, path length, and path radius, Ice Patch can hit units up to 1362 range away.
+It can also hit units 138 range behind Jakiro, due to its radius and starting position.
+Enemy units that come within 150 radius of the path while it is up get stunned and damaged by it.
+The stun duration is independent of the path duration. However, the stun duration expires as soon as the path disappears.
+The path grants 150 range flying vision along the path based on the path duration.
+Enemies may only be stunned once per cast, so if dispelled, they cannot get stunned by it again.
+Ice Path first applies the debuff, then the damage.
+TALENT The duration increasing  talent increases the stun duration by 0.5 seconds instead. Liquid Fire   Link▶️Link▶️EQ
+
+
+
+AbilityActive Attack Modifier
+AffectsEnemies
+DamageMagical
+
+Jakiro burns his enemies in an area of effect with fire added to his attack, while slowing their attacks.
+
+Cast Range:  600 ( 800)Radius:  300Attack Speed Slow: 30/40/50/60 ( 80/90/100/110)Damage per Second: 20/30/40/50Building Damage Multiplier: 0.75Duration: 5
+
+
+ 16/12/8/4
+ 0Ability Disjoint Notes:The area effects are instantly applied at the target's current location upon disjointing projectile.Illusion Notes:Illusions continuously emit the fiery particle effects.Modifiers [?]modifier_jakiro_liquidfireUndispellable
+
+modifier_jakiro_liquid_fire_burnAnyAbility Draft Notes:
+Uses the caster's current attack range when Autocast.Manually casting it uses the cast range.
+The left maw of Jakiro opens, laying waste to any in its path.
+
+
+Liquid Fire's cast range can only be further increased by attack range bonuses of the same range as the caster. However, it is not affected by cast range bonus.
+Uses Jakiro's 400 ( 600) attack range when Autocast is active. Manually casting it uses the 600 ( 800) cast range.
+Applies Liquid Fire around and on the target regardless of whether the attack missed or is disjointed.
+However, when the target turns invisible, invulnerable, or hidden before impact, Liquid Fire is not applied at all.
+Successive casts do not stack but refresh its debuff duration. It also continues ticking with the same intervals as the first cast.
+However, the attack speed slow values are updated upon successive casts, but not the damage values.
+The attack first applies the debuff, then its own attack damage.
+Fully affects buildings. Does not affect allied units or wards.
+Deals 10/15/20/25 ( 7.5/11.25/15/18.75) damage in 0.5-second intervals, starting 0.5 seconds after the debuff is applied, resulting in 10 damage instances.
+Can deal up to 100/150/200/250 ( 75/112.5/150/187.5) damage (before reductions) to a single target.
+When off cooldown, the fire head's mouth drools fire, visible to everyone.
+SHARD Liquid Frost has a higher priority than Liquid Fire in the group of active attack modifiers, and it will be cast instead of Liquid Fire in the following situations:
+With both Autocast on, Jakiro's auto-attack applies Liquid Frost.
+ Manual cast with  Autocast on.
+SHARD Jakiro may cast both  Liquid Fire and  Liquid Frost when fulfilling the following conditions:
+ Autocast on with  Manual cast.
+When Jakiro has ≤ 8 modifiers, including ability and item modifiers in total, exceeding this number of modifiers will result in Jakiro always casting Liquid Frost regardless. Liquid Frost   Link▶️Link▶️DF
+
+
+
+AbilityActive Attack Modifier
+AffectsEnemies
+DamageMagical
+
+Jakiro adds a frost effect to his attack. Enemies hit are slowed and receive a percent their max health per second plus a base amount as damage every 1 second for 4 seconds.
+
+Cast Range: 600 ( 800)Radius:  300Move Speed Slow: 20%Base Damage per Second: 20Max Health as Damage per Second: 2%Debuff Duration: 4
+
+
+ 12
+ 0Ability Disjoint Notes:The area effects are instantly applied at the target's current location upon disjointing projectile.Illusion Notes:Illusions continuously emit the icy particle effects.Modifiers [?]modifier_jakiro_liquidiceUndispellable
+
+modifier_jakiro_liquid_ice_debuffAny
+modifier_stunnedStrongAbility Draft Notes:
+Requires drafting  Liquid Fire to be unlocked.Uses the caster's current attack range when Autocast.Manually casting it uses the cast range.
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+Liquid Frost's cast range can only be further increased by attack range bonuses of the same range as the caster. However, it is not affected by cast range bonus.
+Uses Jakiro's 400 ( 600) attack range when Autocast is active. Manually casting it uses the 600 ( 800) cast range.
+Applies Liquid Frost around and on the target regardless of whether the attack misses or is disjointed or not.
+However, when the target turns spell immune or invulnerable before impact, Liquid Frost is not applied at all.
+Successive casts do not stack but refresh the debuff.
+The attack first applies the debuff, then its own attack damage.
+Fully affects buildings. Does not affect allied units or wards.
+Deals damage in 1-second intervals, starting 1 second after the debuff is applied, resulting in 4 damage instances.
+Can deal up to 80 + 8% of max health as damage to a single target (before reductions).
+When off cooldown, the ice head's mouth glows and releases light blue smoke, visible to everyone.
+Has a higher priority than Liquid Fire in the group of active attack modifiers, and it will be cast instead of Liquid Fire in the following situations:
+With both Autocast on, Jakiro's auto-attack applies Liquid Frost.
+ Manual cast with  Autocast on.
+Jakiro may cast both  Liquid Fire and  Liquid Frost when fulfilling the following conditions:
+ Autocast on with  Manual cast.
+When Jakiro has ≤ 8 modifiers, including ability and item modifiers in total, exceeding this number of modifiers will result in Jakiro always casting Liquid Frost regardless. Macropyre Link▶️Link▶️RR
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamageMagical ( Pure)
+
+Jakiro exhales a wide line of lasting flames, which deals damage per second to any enemy units caught in the fire.
+
+Cast Animation: 0.4+0.76Cast Range:  1400Path Width:  520 ( 590)Path Distance:  1660 ( 1695)Damage per Second: 100/150/200 ( 125/175/225)Damage Linger Duration: 2Path Duration: 10 ( 15)      Ice Wall Edges Number of Walls:  2 Ice Edge Path Radius:  50 Move Speed Slow:  60% Slow Linger Duration:  0.4
+
+
+ 80/70/60
+ 230/340/450
+Aghanim's Scepter Upgrade:
+Increases Macropyre duration, width and causes it to deal Pure damage. Jakiro emits two walls of ice along the edges of the Macropyre that slow any enemies trying to cross them by 60%.
+
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Liquid Frost ability.
+
+Debuff Immunity Notes:Damage does not pierce debuff immunity.Fully pierces debuff immunity.Modifiers [?]modifier_jakiro_macropyreUndispellable
+
+modifier_jakiro_macropyre_burnAny
+modifier_jakiro_ice_edge_slowAnyIce and fire combine to rip the battlefield to shreds with extreme temperatures.
+
+     Macropyre and its  Ability Upgrade Formations.  
+Macropyre instantly applies a debuff on enemies within the area and over the whole distance in 0.5-second intervals immediately upon cast.
+Successive debuffs do not stack but refresh its debuff duration and continue damaging with the same intervals and damage values as the first cast.
+TALENT Therefore, the damage increasing  talent does not update the current active instance.
+The actual flame path distance is ⪆1660 ( 1695).
+The debuff deals 50/75/100 ( 62.5/87.5/112.5) damage in 0.5-second intervals, starting immediately upon cast, resulting in 5 damage instances.
+This results in a maximum of 24 ( 34) damage instances when standing within the area the full duration.
+One instance of the debuff can deal up to 200/300/400 ( 250/350/450) damage (before reductions).
+Can deal up to 1200/1800/2400 ( 1500/2100/2700) damage to a single unit for the entire duration.
+Both the damage per second and movement speed slow components are provided by two independent auras.
+SCEPTER Macropyre now creates 2 ice walls on both sides of the Macropyre parallel to each other with the flames in between. The distance between two parellel ice walls are 490.
+Each ice wall has a total length of 1450.
+The ice walls are always created in the same formation, on top of the increased path width, and applies movement speed slow to affected units.
+The ice wall consists of 28 wall segments based on the total length.
+Each wall segment affects a 50 radius around itself.
+The movement speed slow lingers for 0.4 seconds.
+SCEPTER The piercing debuff immunity upgrade is determined if Jakiro has  Aghanim's Scepter equipped, and not upon cast. Therefore, it instantly updates the current damage instances' damage type.
+Fully affect  Couriers.
+The ability upgrade also changes Macropyre's sound effect and it is now audible through the Fog of War.
+Can deal up to 1700/2550/3400 ( 2125/2975/3825) damage to a single unit for the entire duration.

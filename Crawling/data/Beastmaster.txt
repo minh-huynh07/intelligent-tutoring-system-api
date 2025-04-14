@@ -1,0 +1,406 @@
+Wild Axes Link▶️Link▶️QW
+
+
+
+AbilityTarget Point
+AffectsEnemies  / Self
+DamagePhysical
+
+Beastmaster sends his axes flying and calls them home again, slicing through enemy units and trees along their path. Each axe can hit an enemy once, and amplifies subsequent damage from Beastmaster and his units.
+
+Cast Animation: 0.3+0.47Cast Range:  1500Axes Radius:  175Axes Travel Distance:  1500Axes Spread Distance:  450Damage per Axe: 35/65/95/125Damage Amp per Stack: 6%/8%/10%/12% ( 8.5%/10.5%/12.5%/14.5%)Stack Duration: 12
+
+
+ 8 ( 3)
+ 50Modifiers [?]modifier_beastmaster_wild_axesUndispellable
+
+modifier_beastmaster_axe_stack_counterAnyWhile learning to maneuver in nature alone, the Beastmaster also mastered the use of a pair of tomahawks, adept at cutting down trees as well as adversaries.
+
+
+The axes either travel at a speed of 1200 or reach the target point in 1 second, whichever is faster. The same applies upon returning.
+Upon returning, their speed periodically adapts based on their distance to Beastmaster and the remaining travel time.
+This means the axes fly a maximum of up to 2 seconds, up to 1 second towards the point and up to 1 second back.
+Both axes spread up to 450 distance away from each other, before moving back together while traveling towards the targeted point.
+Their minimum travel distance is 450 as well, so when targeting a point closer than 450 range, they still intersect 450 range away.
+The axes fly in arcs, so that the axe coming from Beastmaster's left hand travels back toward his right hand, and vice versa.
+They destroy trees within 175 radius they come in contact with, while providing 350 radius flying vision as they travel. This vision does not last.
+The axes first apply the debuff, then the damage. This means they effectively amplify their own damage as well.
+Uses one debuff on hit targets for all stacks. The debuff has a number on it, showing the number of stacks.
+Since the axes work separately, one of the axes always benefits from 2 stacks of the debuff, if both hit.
+Successive hits on the same unit fully refresh the whole stack's duration.
+Applies generic incoming damage amplification on affected enemy units. Stacks additively with other sources of generic incoming damage manipulation.
+Affects all damage types the targets receive from Beastmaster, including from all his abilities, and damage from all of his player-controlled units.
+Does not amplify the following damage sources:
+Damage flagged as HP removal.
+Damage sources from allies.
+Each axe can hit the same unit only once per cast, so the maximum possible damage per axe is 37.1/70.2/104.5/140 ( 37.98/71.83/106.88/143.13) before reductions. Call of the Wild Boar Link▶️WD
+
+
+
+AbilityNo Target
+AffectsBoar
+DamageInstant Kill
+
+Beastmaster calls forth a Boar to aid in the battlefield. The Boar has a passive poison attack that slows attack and movement speeds.
+
+Cast Animation: 0.3+0.67Number of Boars: 1Boar Duration: 60
+
+
+ 42/38/34/30
+ 60Modifiers [?]modifier_killDeath
+Ability Draft Notes:
+Toggling Autocast off swaps this ability out with  Call of the Wild Hawk. Their cooldowns are separate.
+After befriending the strange beast of his childhood, Beastmaster has learned to call to animals in times of need.
+
+
+Does not instantly kill the previous summons if this ability is used again before the previous  Boar expires.
+The Boar spawns facing the same angle as Beastmaster at a random location within 100 radius. Call of the Wild Hawk Link▶️EE
+
+
+
+AbilityNo Target
+AffectsEnemies (Hawk)
+DamagePhysical  /  Instant Kill
+
+Beastmaster summons a hawk that circles around Beastmaster and dive-bombs at enemies with a base attack rate of every s, damaging and rooting them. Attack rate increases with the Hawk's attack speed. Prioritizes heroes.
+
+Cast Animation: 0.3+0.67Number of Hawks: 1 ( 2)Orbital Radius: 280Attack Radius: 500   Seconds per Revolution: 4Hawk Duration: 25 Hawk Dive BombBase Attack Interval: 4Dive Damage: 60/90/120/150Root Duration: 0.25/0.5/0.75/1
+
+
+ 45/40/35/30 ( 35/30/25/20)
+ 50
+Aghanim's Shard Upgrade:
+
+Reduces Hawk cooldown by 10s and summons an additional Hawk.
+
+Modifiers [?]modifier_killDeath
+modifier_beastmaster_call_of_the_wild_hawkDeath
+Ability Draft Notes:
+Toggling Autocast on swaps this ability out with  Call of the Wild Boar. Their cooldowns are separate.
+After befriending the strange beast of his childhood, Beastmaster has learned to call to animals in times of need.
+
+
+
+
+Hawk
+
+
+
+
+
+Summoned   Creep
+
+
+
+
+
+
+Health
+200/325/450/625
++1.5
+
+
+
+
+⤷ 
+
+
+ 450/575/700/875HP
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+1
+
+
+Armor
+
+
+
+5
+
+
+Magic Resistance
+
+
+
+30%/40%/50%/60%
+
+
+Status Resistance
+
+
+
+0
+
+
+Attack Speed
+
+
+
+100 • 4s BAT
+
+
+Move Speed
+
+
+
+460 (100) ( 480)
+
+
+Turn Rate
+
+
+
+0.6
+
+
+Collision Size
+
+
+
+27
+
+
+Bound Radius
+
+
+
+24
+
+
+Vision Range
+
+(F)
+
+600/650/700/750
+
+
+Bounty
+
+
+
+30/40/50/60
+
+
+Experience
+
+
+
+40/50/60/70
+
+
+Abilities
+
+
+
+ Dive Bomb
+
+
+Notes
+
+Uncontrollable
+
+
+
+Upon cast, 1  Hawk is summoned at a random position around Beastmaster within 280 radius and flies clockwise.
+Based on the first cast Hawk's position, additional casts may accelerate gradually to its position, so that the Hawks always fly symmetrically apart from each other, within the same range from the Beastmaster.
+SHARD Therefore, the  Ability Upgrade places both Hawks 180° apart each other immediately upon cast.
+The summoned Hawk(s) orbits around Beastmaster based on its current movement speed.
+It cannot be controlled and does not instantly kill previous summons if this ability is used again before the previous summon expires.
+While Beastmaster is moving, the summoned Hawk(s) may spiral and accelerate to keep their position symmetrically apart, with each Hawk making 6.25 revolutions over the summon's total duration.
+Grants the Hawk movement speed bonus based on the distance between it and Beastmaster, with its movement speed still capped at .
+When the Hawk is within 280 ‒ ≈1500 range away from Beastmaster, it has  movement speed and gradually decreases until reaching the orbital radius.
+When the Hawk is more than ≈1500 range away from Beastmaster, it is moved along with Beastmaster coordinates.
+Therefore, it does not disjoint projectiles upon teleporting.
+Movement speed increasing sources neither affect the orbit radius nor the revolution time.
+However, movement speed slow sources reduce the Hawk orbit radius but do not affect the revolution time.
+Hawk(s) do not block neutral creep camps.
+Hawk(s) casts  Dive Bomb on valid enemy units automatically, prioritizing heroes, within 500 radius.
+Treat clones, illusions and the  Spirit Bear as heroes, and creep-heroes as creeps.
+With the orbital radius and the attack radius, Hawks can dive on enemy units up to 530 range away.
+The dive interval is based on the Hawk(s)' current attack speed and base attack time.
+It can be defined as expr (100 × 4) / (ΣAS × 1)
+The first dive interval starts upon the first Dive Bomb cast of the Hawk. Each Hawk has its own dive interval depending on the enemy units within the orbital radius.
+Dive Bomb notes fully apply.
+Hawk(s) dies upon Beastmaster's death. Inner Beast  DB
+
+
+
+AbilityAura
+AffectsAllies
+
+
+Untaps the inner fury of nearby allies, passively increasing their attack speed.
+
+Radius: 1200Attack Speed Bonus: 10/22/34/46 ( 20/32/44/56)Aura Linger Duration: 0.5Illusion Notes:Bestows and benefits from the aura.Modifiers [?]modifier_beastmaster_inner_beast_auraUndispellable
+modifier_beastmaster_inner_beastUndispellable
+Beastmaster's ability to incite the innate strength of animals was seen in the mauling of the king of Slom.
+
+
+Affects invulnerable, but not hidden units.
+The aura's buff lingers for 0.5 seconds. Drums of Slom Link▶️DV
+
+
+
+AbilityPassive
+AffectsEnemies  / Allies
+DamagePhysical
+
+Attacks from Beastmaster or a nearby unit he controls will cause him bang his drum, dealing damage to nearby units and healing Beastmaster and units under his control for a portion of the damage dealt. Every attack decreases the interval between drum hits down to a minimum of 0.4s between hits after 20 attacks. If no attacks are made, the intervals gradually increase.Using Primal Roar counts as 10/15/20 attacks, based on the current level of Primal Roar.
+
+Effect Radius: 600Max Stacks: 20Stack per Attack: 1Primar Roar Cast Stack Bonus: 10/15/20Min Interval: 0.4Max Interval: 3Stack Decay Time: 1Damage per Interval: 90Hero Damage as Heal: 25%Creep Damage as Heal: 5%Modifiers [?]modifier_beastmaster_drums_of_slomDeath
+Ability Draft Notes:
+Requires drafting  Primal Roar to be unlocked.
+Nature's rage is timeless, and for those who know the secrets, it's easy to stir the echoes of ire that rejoiced in the downfall of Slom.
+
+
+Requires  Aghanim's Scepter to be unlocked.
+Grants stacks in the following conditions:
+Beastmaster's attacks, including instant attack sources.
+Beastmaster's player-controlled unit(s)' attacks within 1200 radius, except ward-type units.
+ Primal Roar
+Does not grant stacks from other spell damage sources of Beastmaster.
+Deals damage and heals in the same interval upon proc.
+The procced pulse(s) do not stop even when Beastmaster is disabled.
+The intervals passively start at 3-second intervals at 1 stack and reduce to 0.4 seconds between intervals at 20 stacks.
+The healing value is based on the damage dealt, damage manipulation sources (e.g. amplifying damage with  Wild Axes) fully affects the healing value.
+However, the damage applied to illusions are not amplified by the illusion's  incoming damage manipulation values.
+The healing value itself can still be subjected to heal manipulation despite the floating values shown.
+Treats illusions and clones as heroes.
+Does not affect ancient creeps. Primal Roar  Link▶️RR
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamageMagical
+
+Beastmaster lets loose a deafening roar that stuns, and shoves open a path to its target. All units in the path of the roar are damaged, while units shoved aside by the roar have their movement and attack speed slowed. Additionally, Beastmaster and his units gain 40% movement speed for 2.75/3.25/3.75 seconds.
+
+Cast Animation: 0.5+0.63Cast Range:  600Move Speed Bonus Radius: 900Area Width:  300Knockback Distance:  450Knockback Duration: 1Damage: 150/225/300Enemy Move Speed Slow: 60%Enemy Attack Speed Slow: 60Slow Duration: 3/3.5/4Ally Move Speed Bonus: 40%Move Speed Buff Duration: 3/3.5/4Stun Duration: 2.75/3.25/3.75
+
+
+ 100/80/60 ( 70/50/30)
+ 100/125/150
+Aghanim's Scepter Upgrade:New Ability
+Grants the Drums of Slom ability.
+
+Spell Block / Reflection Notes:Blocked fully only when primary target.Modifiers [?]modifier_beastmaster_primal_roar_speedAny
+
+modifier_stunnedStrong
+modifier_beastmaster_prima_roar_pushAny
+modifier_beastmaster_primal_roar_slowAnyThe Beastmaster has learned to channel his primal instincts into an animalistic roar, causing devastation in the ranks of enemies.
+
+
+Only enemy units are shoved aside from the path of Primal Roar.  Roshan is not affected by the knockback.
+Affected units are fully disabled during the knockback.
+Can be cast on  Couriers to stun and damage them.
+They are also affected by the knockback as secondary targets.
+Knocks units aside at a speed of 450, up to 450 range away, resulting in a knockback duration of 1 second.
+Units hit by the knockback destroy trees within 100 radius and are made to face toward the direction they are getting pushed.
+The knockback and slow have a dynamic range, based on the distance between Beastmaster and the primary target.
+For every 2 distance between Beastmaster and the target upon cast, the knockback range increases by 1.
+For example, when the target is 600 range away, the knockback hits units up to 300 range behind the target and behind Beastmaster.
+The width of the knockback area is fixed at 300, so the affected area is always stadium-shaped.
+Considering the dynamic range, the knockback and slow can hit units up to 900 range away.
+When an enemy is perfectly aligned with Beastmaster and his Primal Roar target, it does not get knocked aside.
+However, the slow and damage are still applied, and the target is still disabled for the knockback duration.
+On the primary target, the roar first applies the debuff, then the damage.
+On secondary targets, the roar first applies the damage, then the debuff.
+The movement speed bonus only affects Beastmaster and his units. Other nearby allies are not buffed. Movespeed Aura  
+
+
+
+AbilityAura
+AffectsSelf
+
+
+There is no description for this ability.
+
+Radius: GlobalMove Speed Bonus: 20Aura Linger Duration: 0.5Illusion Notes:Bestows and benefits from the aura.Modifiers [?]modifier_special_bonus_unique_beastmaster_5_auraUndispellable
+modifier_special_bonus_unique_beastmaster_5Undispellable
+Ability Draft Notes:
+This  talent is bound to  Call of the Wild Hawk.
+
+
+
+Affects Beastmaster and all of his player-controlled units immediately, including invulnerable or hidden units, upon learning the  talent.
+Does not affect  Couriers and wards.
+The aura is even while Beastmaster is dead.
+Increases Beastmaster's movement speed to 325. Max Health Aura  
+
+
+
+AbilityAura
+AffectsSelf
+
+
+There is no description for this ability.
+
+Radius: GlobalHealth Bonus: 250Aura Linger Duration: 0.5Illusion Notes:Bestows and benefits from the aura.Modifiers [?]modifier_special_bonus_unique_beastmaster_6_auraUndispellable
+modifier_special_bonus_unique_beastmaster_6Undispellable
+Ability Draft Notes:
+This  talent is bound to  Call of the Wild Boar.
+
+
+
+Affects Beastmaster and all of his player-controlled units immediately, including invulnerable, but not hidden units, upon learning the  talent.
+Does not affect  Couriers.
+The aura is even while Beastmaster is dead.
+Increases the max health capacity while keeping the current health percentage. Poison  
+
+
+
+AbilityPassive
+AffectsEnemies
+
+
+Inflicts a poison that slows attack and movement speeds.
+
+Move Speed Slow: 10%/18%/26%/34%Attack Speed Slow: 10/20/30/40Slow Duration: 3Modifiers [?]modifier_beastmaster_boar_poisonUndispellable
+
+modifier_beastmaster_boar_poison_effectAny
+
+
+The attacks first apply their damage, then the debuff.
+Successive attacks do not increase the slow value but refresh the duration. Dive Bomb     Link▶️Link▶️QD
+
+
+
+AbilityTarget Unit  / Passive
+AffectsEnemies
+DamageMagical
+
+Flies towards the target enemy, dealing damage and rooting it.
+
+Cast Animation: 0.4+0Cast Range: GlobalDamage: 60/90/120/150 ( 90/120/150/180)Root Duration: 0.25/0.5/0.75/1Attack Rate Divisor as Interval: 1Spell Block / Reflection Notes:Cannot be reflected.Modifiers [?]modifier_beastmaster_hawk_revealDeath
+modifier_beastmaster_hawk_diveDeath
+
+modifier_rootAny
+
+
+The Hawk casts Dive Bomb on valid targets within 280 radius upon summoning, prioritizing heroes.
+Does not target  Couriers.
+Despite being an active ability, Beastmaster cannot cast this ability because the Hawk is uncontrollable.
+The Hawk automatically casts Dive Bomb every 4 seconds.
+The cast interval is based on the Hawk's current attack speed and base attack time.
+It can be defined as EXPR (100 × 4) / (ΣAS × 1)
+With the attack speed limits, the min and max possible cast intervals are 0.571 ‒ 20 seconds plus a server tick per dive respectively.
+The interval is not set upon cast. After each cast, the interval updates based on its current attack rate.
+The reveal modifier is placed on the Hawk as soon as it begins casting.
+The hawk dives in an arc for 0.4 seconds, so the speed varies based on the distance.
+The speed does not instantly adapt if the distance changes, but rather accelerates or decelerates at a very slow rate.
+Uses forced movement to move the Hawk. This means it can be interrupted by applying other sources of forced movement to it.
+The dive cannot be interrupted by anything else. Fully ignores all disables.
+Although taunt, fear and hypnotize sources do not affect the Hawk's movement path, it prevents casting.
+Dive Bomb first applies the damage, the root.
+Treat clones, illusions and the  Spirit Bear as heroes, and creep-heroes as creeps.

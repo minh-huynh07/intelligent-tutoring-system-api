@@ -1,0 +1,207 @@
+Bloodrage Link▶️QD
+
+
+
+AbilityTarget Unit
+AffectsAllied Heroes ( Self / Enemies)
+DamagePure (HP Removal)
+
+Drives Bloodseeker into a bloodthirsty rage which causes him to attack faster and deal more spell damage at the cost of a percentage of his health per second. Provides half attack speed to allied heroes.
+
+Cast Animation:  0.2+0.4Cast Range:  800Max Health as Self Damage per Second: 1.5%Self Attack Speed Bonus: 60/90/120/150 ( 85/115/145/175)Ally Attack Speed Bonus: 30/45/60/75 ( 42.5/57.5/72.5/87.5)Spell Damage Amp: 15%/20%/25%/30% ( 25%/30%/35%/40%)Duration: 8 Additional Pure Damage/Heal: 30
+
+
+ 14/12/10/8
+ 25
+Aghanim's Shard Upgrade:
+
+Bloodrage attacks now deal 30 of the target's max health as pure damage and heals Bloodseeker for that amount. Only works for Bloodseeker.
+
+Modifiers [?]modifier_bloodseeker_bloodrageAny
+Strygwyr shares his animalistic thirst for bloodshed.
+
+
+Can be cast without having to face the targeted unit.
+↓↓ Double-tapping automatically targets self.
+Bloodrage has an  instant cast time, regardless of the ability's cast animations.
+Deals 1.125% of max health as damage in 0.75-second intervals, starting 0.75 seconds after cast, resulting in 10 instances. 0.5 seconds after the last self-damage instance, the duration ends.
+The total health cost for the entire duration is 11.25% of max health.
+The damage is flagged as HP Removal, so it does not trigger any on-damage effects.
+Does not drain health while invulnerable. Health drain cannot bring the target's health below 1.
+Applies generic outgoing damage amplification on the ally target. Stacks additively with other sources of generic outgoing damage manipulation.
+Affects spell damage the affected target deals. Does not amplify damage flagged as HP removal.
+Successive casts on the same target neither update the attack speed nor spell damage amplification value but refresh the duration.
+Treats illusions and creep-heroes as heroes.
+SHARD Bloodseeker's attacks now deal additional pure damage in a separate damage instance, based on the target's max health when self-casting Bloodrage.
+The attack damage bonus is applied as spell damage in a separate damage instance, it is affected by spell damage amplification and works with spell lifesteal.
+The  Ability Upgrade also heals Bloodseeker based on the attacked target's max health per hit for its duration.
+Always heal for the full amount per instance, regardless of how much damage the target actually receives (before reductions).
+Therefore, the healing value is not affected by the following:
+Damage-negating sources (e.g.  Refraction).
+Damage block sources.
+ Incoming damage manipulation on the affected target.
+Bloodrage now first self-heals, then apply its attack damage.
+The percentage-based heal per hit is affected by lifesteal manipulation but not heal manipulation
+Does not heal from attacking ward-type units,  Roshan and buildings. Blood Rite Link▶️Link▶️WB
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamageMagical
+
+Bloodseeker baptizes an area in sacred blood. After 2.9 seconds the ritual completes, causing any enemies caught in the area to take damage and become silenced.
+
+Cast Animation: 0.3+0.57Cast Range:  1500Effect Radius:  600Effect Delay: 2.6Damage: 110/180/250/320 ( 230/300/370/440)Silence Duration: 3/4/5/6
+
+
+ 15/14/13/12
+ 90/100/110/120Modifiers [?]modifier_bloodseeker_bloodbath_thinkerUndispellable
+
+modifier_silenceAnyThe Flayed Twins are ever willing to aid those who spill blood upon the field of battle.
+
+
+The affected area is visible to enemies.
+Applies a silence within the targeted area after the 2.6-second delay.
+Blood Rite first applies the damage, then the debuff.
+Both leveling up ability and learning the damage upgrading  talent immediately upgrades all of Bloodseeker's currently active Blood Rite casts during effect delay.
+The effect delay in the ability description includes the cast point as well.
+With LEVEL 4  Bloodrage on Bloodseeker, Blood Rite deals 143/234/325/416 ( 299/390/481/572) damage (before reductions).
+TALENT The spell damage amplification increasing  talent further increases the damage to 154/252/350/448 ( 322/420/518/616).
+Provides a 6-second 600 radius ground vision at the center of the affected area upon cast. Thirst   ET
+
+
+
+AbilityPassive
+AffectsSelf  / Enemies
+
+
+Bloodseeker is invigorated by the wounds of his enemies, restoring some life when he kills a unit. Restores for half values when denying, or if an ally kills a nearby enemy hero. Also gains bonus movement speed when an enemy hero's health falls below 80%, with the bonuses increasing as their health falls further. If an enemy hero's health falls below 25%, he will also gain vision and True Sight of that hero. Bonuses stack per hero. Unlocks max movement speed for Bloodseeker.
+
+Detection Radius: GlobalEnemy Hero Death Heal Radius: 300Thirst Health Threshold: 80%Visibility Health Threshold: 25%Max Move Speed Bonus per Hero: 16%/24%/32%/40% ( 34%/42%/50%/58%)Hero Max Health as Heal: 10%/15%/20%/25%Creep Max Health as Heal: 8%/12%/16%/20%Deny Heal Multiplier: 0.5Speed Linger Duration: 4 Active Blood Mist Heal Multiplier: 1.5
+Aghanim's Scepter Upgrade:New Ability
+Grants the Blood Mist ability.
+
+Break Notes:Disables the health threshold detection and movement speed bonus.Does not disable the max movement speed cap removal.Does not disable max health as heal on kill or nearby death.
+Illusion Notes:The max health as heal and max movement speed cap removal is fully functional.The movement speed bonus and health threshold detection does not work.Modifiers [?]modifier_bloodseeker_thirstUndispellable
+modifier_bloodseeker_thirst_speedDeath
+
+modifier_bloodseeker_thirst_visionDeathStrygwyr becomes frenzied when blood is spilled.
+
+
+Learning Thirst unlocks the maximum movement speed for Bloodseeker, removing the 550 movement speed cap.
+When an enemy hero drops below 25% health, Thirst exposes the target and provides True Sight over them.
+When enemies are revealed by Thirst, a debuff and particle effects are placed on them, which is visible to everyone.
+Bloodseeker himself also gets a status buff and particle effects and speaks certain lines, making it clear that an enemy is currently being revealed by Thirst.
+Thirst is not triggered by enemy illusions, but is triggered by hero clones.
+It is not triggered by hidden enemy heroes but does react on invulnerable ones.
+The first stack is applied when an enemy hero is below 80% health and the last when below 26%.
+Grants 0.29%/0.44%/0.58%/0.73% ( 0.62%/0.76%/0.91%/1.05%) movement speed for each percent of missing health between 80% and 25%.
+However, since the HUD does not show decimals, movement speed increases by 1% for every missing 3.44%/2.29%/1.72%/1.38% ( 1.62%/1.31%/1.1%/0.95%) health.
+Grants all bonuses at the maximum values, and the bonuses linger for 4 seconds.
+The bonuses are also granted if the enemy dies, regardless of the health percentage the enemy had right before the killing blow.
+However, the bonuses do not linger and disappear immediately in the following conditions:
+If the enemy regains health above the 80% max health threshold.
+If the enemy has Reincarnation.
+Upon  Buyback.
+This is how much movement speed bonus Bloodseeker gains from Thirst with a certain amount of heroes being below 25% of their max health:
+2x Hero: 32%/48%/64%/80% ( 68%/84%/100%/116%) movement speed.
+3x Hero: 48%/72%/96%/120% ( 102%/126%/150%/174%) movement speed.
+4x Hero: 64%/96%/128%/160% ( 136%/168%/200%/232%) movement speed.
+5x Hero: 80%/120%/160%/200% ( 170%/210%/250%/290%) movement speed.
+
+The healing value is based on the max health of the killed unit(s).
+Despite the ability's description, enemy heroes killed by allies self-heal Bloodseeker for the full amount.
+Self-heals for the following values, and while  Blood Mist is active:
+Denied creeps self-heals for 4%/6%/8%/10% ( 6%/9%/12%/15%) of their max health.
+Denied ally heroes and killed enemy heroes self-heals for 10%/15%/20%/25% ( 15%/22.5%/30%/37.5%) of their max health.
+Killed enemy and neutral creeps self-heals for 8%/12%/16%/20% ( 12%/18%/24%/30%) of their max health.
+Does not self-heal when killing the following units:
+Illusions regardless of factions.
+Wards and buildings.
+The  Tempest Double and  Roshan.
+When  Meepo or its  Meepo Clones is instantly killed due to either the Prime or any one of its clones dying, including being denied. Blood Mist   Link▶️DF
+
+
+
+AbilityToggle  / Passive
+AffectsSelf  / Enemies
+DamageMagical
+
+Bloodseeker sprays his blood continuously in the area around him, losing health to damage and slow his enemies. While active, Thirst's healing is increased. Cannot be turned off while on cooldown. Additionally, passively turns all your overheal from your own abilities into an all damage barrier up to 50% of Bloodseeker's Max Health. Barrier amount decays by 0.5% per second.
+
+Passive ComponentMax Health as Max Barrier Capacity:  50%Overheal as Barrier Capacity:  100%Max Capacity Decay per Second:  0.5%Cast Animation:  0+0Effect Radius:  450Thirst Heal Multiplier: 1.5Max Health as Damage per Second: 7%Move Speed Slow: 30%Slow Linger Duration: 0.5
+
+
+ 3
+ 0Break Notes:Does not disable the pure damage barrier component.
+Modifiers [?]modifier_bloodseeker_blood_mistDeath
+
+modifier_bloodseeker_blood_mist_slowAnyAbility Draft Notes:
+Requires drafting  Rupture to be unlocked.
+
+
+
+Requires  Aghanim's Scepter to be unlocked.
+The active component has an  instant cast time, regardless of the ability's cast animations.
+Does not interrupt Bloodseeker's channeling abilities upon toggling On / Off.
+Toggling On activates the cooldown, and Bloodseeker is unable to toggle the ability Off until the cooldown finishes.
+This means Blood Mist drains at least 21% of max health before it can be toggled off.
+If toggled On, Blood Mist continues working even when silenced, disabled, or hidden.
+Deals 0.7% of max health as damage to self and enemies in 0.1-second intervals, starting immediately when toggled.
+Does not drain Bloodseeker's health when he is either invulnerable or has a damage barrier active. Health drain cannot bring the target's health below 1.
+The magical area damage and self-damage are independent of each other, so when the self-damage is blocked, the area damage is still applied.
+The movement speed slow is applied on each interval as well. Blood Mist first applies the damage, then the slow.
+With LEVEL 4  Bloodrage on Bloodseeker, Blood Mist deals 9.1% ( 9.8%) of max health as damage per second (before reductions).
+Does not affect  Roshan.
+Passively grants Bloodseeker a  universal damage barrier based on 100% of the overheal values from all sources of healing (e.g.  Thirst), including lifesteal (e.g.   Bloodrage) and spell lifesteal sources.
+The max capacity can be defined as expr 0.5 × SelfMaxHealth and decays at rate of 0.5% capacity per second.
+Fully absorbs damage values of all damage types, causing several on-damage effects to not trigger within its capacity.
+Stacks additively with the same damage-type barrier sources, and independently with other damage-type barrier sources.
+Universal damage barrier has the lowest priority in the group of damage barriers, its capacity is depleted last when combined with other damage-type barriers.
+However, when combined with other higher-priority damage-negating sources (e.g.  Borrowed Time or  Refraction), Blood Mist does not absorb any damage until the damage-negation sources expire. Rupture  Link▶️Link▶️RR
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamagePure
+
+Causes an enemy unit's skin to rupture, dealing initial damage based on its current health. If the unit moves, it takes damage based on the distance moved.
+
+Cast Animation: 0.4+0.53Cast Range:  800 ( 1225)Initial Current Health as Damage: 10% ( 18%)Moved Distance as Damage: 35%/45%/55%Duration: 9/10/11
+
+   75/70/65
+N   2
+
+ 75/70/65 ( 0.25)
+ 100/150/200Modifiers [?]
+modifier_bloodseeker_ruptureDeathWhen the Bloodseeker hunts you, injuries become fatalities.
+
+
+Checks the distance the affected unit moved every 0.25 seconds, starting immediately upon cast, resulting in 37/41/45 checks.
+If the unit's position changes between checks, it takes damage based on the distance.
+If the unit did not move, or moved a distance greater than 1300 between a check, no damage is applied.
+If the unit is invulnerable as a check occurs, the value is set to nil, so that it does not take damage on the next check, regardless of distance.
+Despite the ability sound effects, affected units take no damage from abilities with upward movement (e.g.  Torrent), except  Pulverize.
+Rupture deals the following amount of damage (before reductions) when the affected unit travels certain distances:
+300 Distance: 105/135/165 damage.
+600 Distance: 210/270/330 damage.
+900 Distance: 315/405/495 damage.
+1200 Distance: 420/540/660 damage.
+1500 Distance: 525/675/825 damage.
+
+With LEVEL 4  Bloodrage on Bloodseeker, Rupture deals 13% ( 23.4%) current health as damage to the target.
+TALENT With the spell damage amplification increasing  talent it deals 14% ( 25.2%) current health as damage upon cast.
+This is how much damage it deals for certain distances traveled with LEVEL 4 Bloodrage (and with the spell damage amplification increasing  talent).
+300 Distance: 136.5/175.5/214.5 ( 147/189/231) damage.
+600 Distance: 273/351/429 ( 294/378/462) damage.
+900 Distance: 409.5/526.5/643.5 ( 441/567/693) damage.
+1200 Distance: 546/702/858 ( 588/756/924) damage.
+1500 Distance: 682.5/877.5/1072.5 ( 735/945/1155) damage.
+
+Successive casts on the same target deal the initial damage again, however, the debuff does not stack but refreshes the duration instead.
+Can be cast on  Couriers, dealing only its initial damage.
+Cannot be cast on  Roshan.
+TALENT Acquiring the Rupture charges  talent instantly grants 1 extra charge.
+With the talent, Rupture goes on a 0.25-second cooldown when cast, to prevent accidental double-casts on the same target.

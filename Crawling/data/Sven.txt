@@ -1,0 +1,123 @@
+Storm Hammer    Link▶️Link▶️QT
+
+
+
+AbilityTarget Unit ( Autocast)
+AffectsEnemies ( Self)
+DamageMagical
+
+Sven unleashes his magical gauntlet that deals damage and stuns enemy units in a small area around the target.
+
+Cast Animation: 0.2+0Cast Range:  600 ( 950)Effect Radius:  270Damage: 80/160/240/320 ( 260/340/420/500)Stun Duration: 1/1.2/1.4/1.6 ( 2/2.2/2.4/2.6)Flying Vision Radius:  225
+
+
+ 21/18/15/12
+ 110/115/120/125
+Aghanim's Scepter Upgrade:
+Increases cast range and applies a basic dispel on the target. Can be cast on invulnerable targets. If alt-cast on the ability is enabled, it deals an additional 180 damage and Sven travels with the Storm Hammer.
+
+Spell Block / Reflection Notes:Blocked fully only when primary target.Blocked upon impact.Ability Disjoint Notes:Area effects are still applied if disjointed.Sven immediately stops traveling along with the projectile when disjointed.Root Notes:Root sources do not disable the self forced movement.Modifiers [?]modifier_projectile_visionUndispellable
+modifier_sven_stormbolt_hideDeath
+
+modifier_stunnedStrongThe Rogue Knight's iron gauntlet, taken from the school of his father, strikes his foes to their core.
+
+Alt-Cast Icon
+The targeting reticule must be centered over an enemy unit.
+The projectile travels at a speed of 1000 and has 225 radius flying vision. This vision does not last.
+With the cast range and effect radius, Storm Hammer can hit units up to 870 ( 1220) range away.
+Turning invulnerable or hidden does not prevent it from affecting the area around the target.
+Storm Hammer first applies the dispel, then the damage, then the debuff.
+Sven's sword emits some particles during the cast time, visible to everyone.
+SCEPTER Upon acquiring the  Ability Upgrade, it has Alt-cast disabled by default.
+With Alt-Cast activated, Sven is moved along with the projectile at 1000 speed.
+While being moved, Sven is untargetable, invulnerable, hidden and is prevented from acting.
+Does not disjoints projectiles.
+The ability upgrade is determined if Sven has  Aghanim's Scepter equipped during its cast point. Therefore, losing Aghanim's Scepter while being moved does not stop Sven from being moved along with the projectile.
+Sven stops moving along with the projectile in the following conditions:
+When Storm Hammer is disjointed.
+Upon Sven's death.
+If the distance between Sven and the target exceeds 2200.
+If the movement is interrupted (e.g. with teleport), Sven is also no longer disabled, untargetable and invulnerable.
+SCEPTER Storm Hammer can now also be cast on invulnerable enemies.
+Although the damage and stun do not affect invulnerable units, the basic dispel does.
+This means if the source of invulnerability is dispellable, Storm Hammer may fully affect the target, since the dispel is applied first.
+The dispel is applied on all hit enemies within 270 radius along with the primary target.
+SOULBIND  With Alt-cast on, Sven is moved along with the projectile to the secondary target while both targets are stunned. Great Cleave  Link▶️WC
+
+
+
+AbilityPassive
+AffectsEnemies
+DamagePhysical
+
+Sven strikes with great force, cleaving all nearby enemy units with his attack.
+
+Starting Radius:  150Distance:  700End Radius:  360Cleave Damage: 40%/60%/80%/100% ( 65%/85%/105%/125%)Strength Bonus: 3/6/9/12Modifiers [?]modifier_sven_great_cleaveUndispellable
+The Vigil Knights still seek to reclaim the stolen Outcast Blade from Sven, a weapon capable of cutting wide swaths through lesser warriors.
+
+
+Cleave damage has the following properties:
+It counts as spell damage. However, it has the following flags:
+No-spell-lifesteal flag, preventing its damage from utilizing spell lifesteal.
+No-spell-amplification flag, preventing its damage from being amplified with spell damage amplification.
+Cleave damage depends on the attack damage value of the cleaving unit, not on how much their primary attack target took. It is reduced by damage block.
+The complete cleave area is shaped like an isocseles trapezoid in front of the attacking unit.
+Multiple sources of cleave fully stack and work independently.
+Does not cleave upon attacking wards, buildings or allied units.  Couriers, wards and buildings are unaffected by cleave.
+Despite the visual effect, the cleave damage is applied instantly in the whole area.
+The  strength bonus is granted bonus attributes, and it effectively grants 66/132/198/264 health, 0.27/0.54/0.81/1.08 health regeneration and 3/6/9/12 main attack damage bonus. Warcry  Link▶️EW
+
+
+
+AbilityNo Target ( Aura)
+AffectsAllied Heroes ( Allies)
+
+
+Sven's Warcry heartens his allied heroes for battle, increasing their armor and movement speed. Lasts 10 seconds.
+
+Passive Component Aura Radius:  1200 Move Speed Bonus:  3% Aura Armor Bonus:  6 Aura Linger Duration:  0.5Cast Animation:  0+0Effect Radius:  700Move Speed Bonus: 10%/14%/18%/22%Armor Bonus: 6/9/12/15 ( 16/19/22/25)Duration: 10 ( 14)
+
+
+ 35/30/25/20
+ 30/35/40/45
+Aghanim's Shard Upgrade:
+
+Warcry is now undispellable and passively grants armor and movement speed to all allies near Sven.
+
+Break Notes:The Warcry aura is not disabled.
+Illusion Notes:Illusions bestow the Warcry Aura.Modifiers [?]modifier_sven_warcryAny
+modifier_sven_warcry ()Death
+modifier_sven_warcry_auraUndispellable
+modifier_sven_warcry_passiveUndispellable
+Calling a few lines from the Vigil Codex fortifies Sven's obedience to his rogue code. So poetic!
+
+
+Interrupts Sven's channeling abilities upon cast.
+Only affects ally heroes, including clones, illusions and creep-heroes.
+Leveling up the ability or the armor bonus increasing or movement speed bonus increasing  talents do not update already existing Warcry buffs.
+SHARD Adds a passive component to Warcry, with the active effects still present.
+Warcry now passively affects all allies, including creeps, within 1200 radius and the aura buff lingers for 0.5 seconds.
+Does not affect buildings and wards. Neither affects invulnerable nor hidden allies as well.
+However, it fully affects ally  Couriers.
+While active, Warcry grants Sven and his ally heroes a total of 12/15/18/21 bonus armor. God's Strength Link▶️Link▶️RR
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Sven channels his rogue strength, granting bonus damage and slow resistance for 35 seconds.
+
+Cast Animation: 0.3+0Attack Damage Bonus: 100%/140%/180% ( 150%/190%/230%)Slow Resistance Bonus: 30% ( 50%)Duration: 35
+
+
+ 110/105/100 ( 95/90/85)
+ 100/150/200Modifiers [?]modifier_sven_gods_strengthDeath
+With the strength that shattered the Sacred Helm, the Rogue Knight stands unopposed in melee combat.
+
+
+Grants flat bonus attack damage based on Sven's main attack damage. Does not further increase bonus attack damage.
+Sven's current main attack damage is periodically checked and the bonuses are adapted instantly.
+Stacks multiplicatively with other slow resistance sources.
+Leveling up the ability and the damage increasing  talent do not update an already existing God's Strength buff.

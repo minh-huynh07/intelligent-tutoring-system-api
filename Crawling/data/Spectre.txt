@@ -1,0 +1,213 @@
+Spectral Dagger     Link▶️Link▶️QD
+
+
+
+AbilityTarget Point  / Target Unit
+AffectsSelf  / Enemies
+DamageMagical  / Pure
+
+Spectre flings a dagger to draw a Shadow Path, dealing damage and slowing the movement speed of any enemies along the trail. Units hit by the dagger also trail a Shadow Path. While treading the path, Spectre phases through otherwise impassable terrain. Spectral Dagger applies an instance of Desolate to targets with no allied units within 400 radius of them.
+
+Cast Animation: 0.3+0.37Cast Range:  1800Effect Radius:  125Damage: 70/120/170/220 ( 150/200/250/300)Move Speed Change: 10%/14%/18%/22% ( 22%/26%/30%/34%)Path Duration: 12Path Creator Duration: 7Move Speed Change Linger Duration: 4Free Pathing Linger Duration: 1Path Radius:  175Flying Vision Radius:  200
+
+
+ 22/20/18/16 ( 18/16/14/12)
+ 130/140/150/160Debuff Immunity Notes:Shared vision pierces debuff immunity.Spell Block / Reflection Notes:Cannot be reflected.Does not interact with the primary target at all.Does not proc when hit while ground-targeted.Procs only on secondary targets while a hero is the primary target.However, Spectral Dagger instantly attempts to reapply the debuff, putting the Spell Block source on cooldown.Break Notes:Does not prevent Spectral Dagger from applying Desolate.
+Illusion Notes:Illusions do not benefit from the Shadow Path bonuses.Modifiers [?]modifier_spectre_spectral_dagger_pathUndispellable
+modifier_spectre_spectral_dagger_in_pathAny
+modifier_spectre_spectral_dagger_path_phasedDeath
+
+modifier_spectre_spectral_daggerAnyAbility Draft Notes:
+ Desolate must be drafted as well for it to get applied.
+Mercurial's dagger eclipses the physical plane in shadow, a state in which mortals cower, but spectres thrive.
+
+
+The Spectral Dagger travels at a speed of 800.
+Treat clones, illusions and the  Spirit Bear as heroes, other creep-heroes as creeps.
+When unit-targeted, the Spectral Dagger homes in on the target unit until it reaches it.
+Only heroes can be unit-targeted.
+Targeting other units other than heroes causes the Spectral Dagger to be ground-targeted.
+When ground-targeted, the Spectral Dagger travels 1800 range in a straight line and does not home in on any target.
+Spectral Dagger damages every enemy unit that comes within 125 range of the travelling dagger and applies movement speed slow with the path modifier.
+The dagger also applies one instance of  Desolate based on its current level if the target is a lone target within 400 radius.
+Only units damaged by Spectral Dagger are considered valid targets for this Desolate application.
+Desolate notes fully apply. If it is not learned, or if the caster does not have Desolate, no bonus damage is applied.
+Spectral Dagger first deals its damage, applies Desolate, then applies the Spectral Dagger debuff.
+Applies the Dagger Path Creator debuff on hit enemy heroes, making them trail a Shadow Path like the Spectral Dagger.
+This debuff also grants shared vision over the enemy heroes, revealing their silhouette when they become invisible.
+Grants Spectre the following bonuses while on the Shadow Path:
+Movement speed bonus from the path modifier, and its buff lingers for 4 seconds after leaving the path.
+Successive movement speed buff refreshes its duration from the same source.
+An enemy Spectral Dagger does not apply the movement speed slow on Spectre when she has the buff modifier.
+Although the path modifier is applied on illusions, it does not increase their movement speed.
+Unobstructed movement from a hidden buff, and its buff lingers for 1 second after leaving the path.
+The hidden buff is not applied to Spectre's illusions.
+The Shadow Path's segments last 12 seconds from the moment they were created, not as the ability was cast.
+The Shadow Path grants 200 radius flying vision around itself.
+Both the path modifier on Spectre and on enemies while being on the path is dispellable.
+However, as long as Spectre stays on the path, it is immediately reapplied to her again.
+For enemies, the movement speed slow debuff is not reapplied immediately but is applied again if they leave the path and enter it again.
+Dispelling the path creating debuff on enemy heroes stops them from creating or extending the path, but does not remove already created paths.
+The number of debuff reapplication attempts is affected by the following conditions:
+When Spectre, the primary target and the secondary target are in a straight line, the debuff will be reapplied 11 and 10 times on the secondary target with a 24-bound radius and an 8-bound radius respectively.
+The debuff will reapplied 8 times, when the secondary target touches, but does not intersect with the Spectral Dagger path.
+Spectral Dagger of different sources are independent of each other.
+Does not affect  Couriers.
+SPELL STEAL / MORPH NOTES All bonuses are lost upon losing ability despite the path still being visible. Desolate   Link▶️WL
+
+
+
+AbilityPassive
+AffectsEnemies
+DamagePure
+
+Deals bonus damage whenever Spectre attacks an enemy that does not have any allied units within a 400 radius around them.
+
+Radius: 400 ( 396)Damage: 21/34/47/60 ( 33/46/59/72)Break Notes:Does not affect illusions created after being affected by Break.
+Modifiers [?]modifier_spectre_desolateUndispellable
+Often times, warriors find themselves alone with a vision of Mercurial - the fated question is if it is the true Spectre.
+
+
+Applies Desolate's effects in the following conditions:
+Upon Spectre's attack hitting the target.
+Upon a lone target being damaged by  Spectral Dagger or  Reality within 400 radius.
+The bonus damage is dealt in a separate damage instance and counts as spell damage.
+This means it is not affected or considered by anything that works with attack damage.
+This also means that it fully works with spell damage amplification and spell lifesteal.
+Works against any enemy unit, except for wards and buildings.
+Desolate completely ignores nearby wards, buildings, ally  Couriers, invulnerable and hidden units.
+This means that Desolate still deals its damage when the target only has any of the above as allies nearby.
+Only checks for allies of the target, meaning nearby neutral creeps do not prevent it from dealing damage to units of the enemy team, and vice versa. Dispersion   EI
+
+
+
+AbilityPassive ( No Target)
+AffectsSelf  / Enemies
+DamageSource Type(No-reflection) (HP Removal)
+
+Damage done to Spectre is reflected on her enemies, leaving her unharmed. The effect lessens with distance.
+
+Passive ComponentMin Radius: 300Max Radius: 800Damage Reflected: 8%/12%/16%/20% ( 13%/17%/21%/25%)Damage Reduction: 8%/12%/16%/20% ( 13%/17%/21%/25%) Cast Animation:  0+0 Damage Reflected Multiplier: 1 Duration: 5
+
+
+   25
+  50
+Aghanim's Shard Upgrade:
+
+Dispersion can be activated to increase the amount absorbed and reflected by Dispersion by 50% of its base values for 5s.
+
+Break Notes:Since it fully disables all aspects of the ability, the multiplier does nothing.
+Modifiers [?]modifier_spectre_dispersionUndispellable
+modifier_spectre_hauntDeath
+modifier_illusionDeath
+modifier_invulnerableDeath
+A daunting task lies before enemies of Mercurial - killing a shadow with blade and magic.
+
+
+Dispersion reflects damage before all damage manipulations (including damage from allies), the damage received can only be affected by incoming damage manipulation applied on Spectre by enemies.
+This effectively reflects overkill damage dealt to Spectre. If a damage source exceeded Spectre's current health and killed her, the damage reflected will be the same damage value.
+If both Spectre and an enemy would die to the damage simultaneously, the enemy is always killed first.
+Applies generic incoming damage reduction on Spectre. Stacks additively with other sources of generic incoming damage manipulation.
+Neither reduces nor reflects damage flagged as HP removal.
+Effectively increases Spectre's survivability against all damage types by 9%/14%/19%/25% ( 15%/20%/27%/33%).
+Affects and reflects all damage types Spectre receives, the reflected damage is returned as the same damage type as it was received.
+Damage reflected is flagged as HP Removal, it does not trigger any on-damage effects.
+Reflected damage is not shared between enemies within the radius, all of them take the full amount of damage based on their distance with Spectre.
+Reflects the full 8%/12%/16%/20% ( 13%/17%/21%/25%) within a 300 radius from Spectre. Then the reflected damage decreases linearly up to a 800 radius from Spectre.
+This is how much damage Dispersion reflects back to enemies at certain distances:
+300 Distance: 8%/12%/16%/20% ( 13%/17%/21%/25%) ×  1.5 of dealt damage.
+425 Distance: 6%/9%/12%/15% ( 9.75%/12.75%/15.75%/18.75%) ×  1.5 of dealt damage.
+550 Distance: 4%/6%/8%/10% ( 6.5%/8.5%/10.5%/12.5%) ×  1.5 of dealt damage.
+675 Distance: 2%/3%/4%/5% ( 3.25%/4.25%/5.25%/6.25%) ×  1.5 of dealt damage.
+
+SHARD Adds an active component to Dispersion that increases damage reflected to 8%/12%/16%/20% ( 13%/17%/21%/25%) while active, with the passive effects still present. Reality  Link▶️DR
+
+
+
+AbilityTarget Point  / Target Unit
+AffectsSelf
+DamageMagical  / Pure
+
+Spectre exchanges places with a chosen Haunt and casts the current level of Spectral Dagger on the haunt's Target.
+
+Cast Animation: 0+0.7Cast Range: Global
+
+
+ 3
+ 0Modifiers [?]modifier_spectre_spectral_dagger_pathUndispellable
+modifier_spectre_spectral_dagger_in_pathDeath
+modifier_spectre_spectral_dagger_path_phasedDeath
+
+modifier_spectre_spectral_daggerDeathAbility Draft Notes:
+ Spectral Dagger and  Desolate must be drafted as well for them to get applied respectively.
+The scattered shadows unite into the one true Spectre.
+
+
+Reality is unlocked upon learning  Haunt and always stays active.
+Does not disjoint projectiles upon cast.
+When ground-targeted, Spectre exchanges places with the closest  Shadow Step-based illusion from the targeted point.
+Spectre still plays the full ability cast animation when casting this sub-ability when there are no currently active Shadow Step-based illusions.
+Instantly applies  Spectral Dagger modifier without using a projectile, based on its current level on the target. This can only happen once per illusion.
+Also apply one instance of  Desolate based on its current level if the target is a lone target within 400 radius.
+Spectral Dagger applied by Reality does not cost any mana and is applied even if the ability itself is currently not castable.
+Spectral Dagger notes fully apply. If it is not leveled, no buffs or debuffs are applied.
+SCEPTER Can be cast multiple times until  Haunt ends or all Shadow Step-based illusions are dead.
+After swapping positions, the Shadow Step illusion still walks towards its target and attacks it. Haunt Link▶️Link▶️FE
+
+
+
+AbilityNo Target
+AffectsEnemy Heroes
+
+
+Creates a spectral nemesis to attack each enemy hero. At any moment during the duration, Spectre can use Reality to exchange places of a given haunt.
+
+Cast Animation: 0.3+0.5Radius: Global     Shadow Step IllusionsDamage Dealt: 80% ( 110%)Damage Taken: 200%Duration: 7
+
+
+ 160
+ 150Modifiers [?]modifier_spectre_hauntDeath
+modifier_illusionDeath
+modifier_invulnerableDeath
+Ability Draft Notes:
+Requires drafting  Shadow Step to be unlocked.
+At the height of combat, Mercurial's physical manifestation shatters, and the shadowy pieces haunt those who still cling to life.
+
+
+Requires  Aghanim's Scepter to be unlocked.
+Haunt illusions are selectable and have unobstructed pathing, but uncontrollable.
+The illusion spawns 87-distance from the affected enemy hero if the target's collision size is 27, and 58-distance if its collision size is 18, at a random spot around the target.
+All Haunt-based illusions have a expr 2 × IllusionLVL bounty.
+They do not attack but still follow invisible heroes. They also spawn on and follow invulnerable and hidden heroes.
+Treats  Meepo Clones and the  Spirit Bear as heroes, and other clones and illusions as creeps.
+The illusions disappear once their target dies.
+COSMETIC Has a cast backswing of 0.85 with the  Phantom Advent equipped. Shadow Step Link▶️Link▶️RT
+
+
+
+AbilityTarget Unit
+AffectsEnemy Heroes
+
+
+Creates a spectral nemesis to haunt a single visible enemy hero. At any moment during the duration, Spectre can use Reality to exchange places of a given haunt.Haunt illusions are uncontrollable, take extra damage, and deal less damage than Spectre herself. They ignore terrain.
+
+Cast Animation: 0.3+0.5Cast Range: GlobalNumber of Illusions: 1     Shadow Step IllusionsDamage Dealt: 40%/60%/80% ( 70%/90%/110%)Damage Taken: 200%Duration: 5/6/7
+
+
+ 60/50/40
+ 150
+Aghanim's Scepter Upgrade:New Ability
+Grants the Haunt ability.
+
+Modifiers [?]modifier_spectre_hauntDeath
+modifier_illusionDeath
+modifier_invulnerableDeath
+With great focus of will, Mercurial can sometimes limit the extent of her division.
+
+
+The Shadow Step illusion are selectable and has unobstructed pathing.
+The illusion spawns 87-distance from the affected enemy hero if the target's collision size is 27, and 58-distance if its collision size is 18, at a random spot around the target.
+All Shadow Step-based illusions have a expr 2 × IllusionLVL bounty.
+Cannot be cast on creep-heroes.
+The illusions disappear once their target dies.
+SPELL STEAL Grants the  Reality sub-ability upon acquiring ability.

@@ -1,0 +1,232 @@
+Dead Shot   Link▶️Link▶️Link▶️Link▶️Link▶️QD
+
+
+
+AbilityTarget Unit  / Vector Targeting
+AffectsEnemies  (Trees)
+DamageMagical
+
+Muerta fires a ghostly trickshot at an enemy unit or tree. When the bullet strikes, it damages and briefly slows, then ricochets in the targeted direction.The ricochet damages all units that it passes through, stopping when it hits a hero. Heroes hit by the ricochet are feared away from the impact.
+
+Cast Animation: 0.15+0.9Cast Range:  1000 ( 1350)Initial Projectile Distance: 1000 ( 1350)Ricochet Distance Multiplier: 1.5Effect Radius:  100Impact Move Speed Slow: 100%Slow Duration: 0.5Ricochet Fear Duration: 0.8/0.95/1.1/1.25Damage: 100/175/250/325 ( 180/255/330/405)
+
+   16/14/12/10
+N   2
+
+ 16/14/12/10 ( 0)
+ 100/120/140/160Spell Block / Reflection Notes:Blocked fully on the initial target only.Ability Disjoint Notes:Destroying the target tree disjoints the initial project.Modifiers [?]
+modifier_muerta_dead_shot_slowAny
+modifier_muerta_dead_shot_fearAnyA steady gunhand and an eternity of practice produce trickshots that defy the mortal mind.
+
+
+Both the initial and ricochet projectiles have a speed of 2000, taking up to a maximum 0.5 ( 0.675) and 0.75 ( 1.013) seconds respectively to reach its maximum distance.
+The ricochet projectile leaves behind a trail of flying vision, with a radius of 115. The vision does not linger.
+With the impact distance, ricochet distance, and effect radius, it can hit units 2600 ( 3475) range away in a straight line.
+The default ricochet distance has a 1500 ( 2025) range.
+The ricochet distance multiplier stacks additively with other sources of percentage-based cast range manipulations, and is calculated after all flat cast range bonuses.
+The projectile travels forward by default if a direction is not vector-targeted when unit-targeted.
+Does not apply when targeting trees.
+Upon projectile impact, Dead Shot first applies the damage, the slow, then the projectile ricochets.
+The targeted tree is destroyed upon projectile impact.
+The projectile still ricochets if the initial impact kills the target.
+The ricocheted projectile stops in the following conditions:
+Upon hitting the first enemy hero within the projectile's effect radius.
+Upon reaching the maximum distance.
+The ricochet projectile first applies the fear, then the damage.
+Dead Shot's fear makes the affected enemy hero run away in the same direction as the incoming hit projectile while granting phased movement.
+Successive fear debuffs do not stack but refresh its duration.
+The damage fully affects creeps within its effect radius while the ricochet projectile is traveling forward, but not the fear.
+Sets the fear-affected hero's current movement speed as its base movement speed.
+Fully overrides any flat or percentage-based movement speed bonuses and reductions on the affected target, from items and abilities alike.
+Treat creep-heroes as heroes, and illusions as creeps.
+Has a cast backswing of 1.03 while  Pierce the Veil is active.
+TALENT Acquiring the Dead Shot charges  talent instantly grants 1 extra charge.
+SOULBIND Launches two projectiles simultaneously at both the primary and secondary target, the ricochet projectile bounces in the opposite direction and parallel to the vector-targeted direction. The Calling  Link▶️Link▶️Link▶️WC
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamageMagical
+
+Summons a group of 4 revenants that slowly circle the targeted location. Enemies within the area are slowed and have reduced attack speed. Revenants deal damage and silence enemies as they pass through them.Enemy heroes killed inside the Calling refresh its duration and create another Revenant.
+
+Passive ComponentRevenant Increase per Hero Kill: 1Cast Animation: 0.1+1.23Cast Range:  580Aura Radius:  340Revenant Spawn Distance: 320Revenant Search Radius:  120Number of Revenants: 4 ( 6)Damage: 45/90/135/180Move Speed Slow: 15%/20%/25%/30%Attack Speed Slow: 30/40/50/60Silence Duration: 1.5/2/2.5/3Aura Duration: 5/6/7/8Aura Linger Duration: 0.5
+
+
+ 30
+ 145/160/175/190Modifiers [?]
+modifier_muerta_the_calling_silenceAny
+modifier_muerta_the_calling_aura_slowUndispellableMuerta's family are forever beyond the spirit veil, but her deal with Death allows her to briefly call on them in times of want or need.
+
+
+↓↓ Double-tapping ground-targets the ability and centers the radius around Muerta.
+The movement speed and attack speed slow is provided by an aura, and its debuff lingers for 0.5 seconds.
+The damage and silence are independent of the aura.
+The revenants are always placed in the same formation, moving 0.2 seconds after cast.
+4 revenants are placed symmetrically 90° apart each other, 320 range away from the center of the target area, towards north, south, east, and west.
+TALENT With the number of revenants increasing  talent, 6 revenants are placed 60° symmetrically apart each other, the first revenant starting from the north, within the same range from the center of the target area, forming a hexagon within a circle.
+Upon cast, the revenants start rotating counterclockwise at a speed of 11.46° per second. [?]
+0.75 seconds after, they accelerate gradually up to a speed 57.3° per second for its remaining duration. Therefore, in the first second, the revenants move a total of 22.92° of a rotation.
+Therefore, this results in each revenant making 1.5 revolutions over the whole duration.
+Since the revenants are placed on the edge of the effect radius, units at 60 range of the aura may only be damaged and silenced, but not slowed.
+Only dying enemy heroes affected by the slow debuff within 120 radius refreshes the current aura duration and adds 1 additional revenant to the rotation, regardless how the kill was made. This includes the following:
+The enemy hero being denied or denying oneself.
+Reincarnation sources.
+Being killed by neutral creeps.
+However, Forced Kill sources neither refresh the aura duration nor increase the number of revenants within the aura radius.
+Treat clones and the  Spirit Bear as heroes, illusions and other creep-heroes as creeps.
+When the aura duration is refreshed, the additional revenant is always placed in the north, while other revenants move their position to keep all revenants symmetrically apart of each other, following the same ability notes as above.
+With the cast range, effect radius, and the revenant search radius, The Calling can hit units up to 1040 range away.
+Upon impact, the revenants first apply the debuff, then the damage.
+Both leveling up the ability and the revenant increasing  talent do not update the ability values of the currently running instance.
+Successive silence debuffs do not stack but refresh its duration.
+Has a cast backswing of 1.13 while  Pierce the Veil is active. Gunslinger  Link▶️Link▶️EG
+
+
+
+AbilityToggle  / Passive
+AffectsEnemies
+Damage Instant Attack
+
+Toggleable. When toggled on, Muerta's attacks have a chance to fire a second shot at another target.
+
+Proc Chance: 20%/30%/40%/50% ( 40%/50%/60%/70%)Instant Attack Radius:  750Bonus Attack Targets: 1Modifiers [?]modifier_muerta_gunslingerUndispellable
+Muerta offers all of her victims Mercy. Some are fortunate enough to also earn Grace.
+
+
+Does not interrupt Muerta's channeling abilities upon toggling On / Off.
+Gunslinger can proc on and attack the same target if the primary target is the lone target within the search radius, regardless of factions.
+The search radius can be further increased by other attack range bonuses.
+Does not proc on instant attacks.
+A Gunslinger proc is determined during Muerta's attack point.
+Attacks missed or disjointed on the primary target do not affect Gunslinger from hitting the secondary target.
+When  Pierce the Veil is active, ethereal targets are also valid secondary targets.
+Causes Muerta to perform an instant attack on a visible secondary target within the radius.
+The instant attack can proc any attack modifiers and on-hit effects normally, with cleave being an exception. They do not have True Strike.
+Conditional attack damage bonus (e.g.  Shadow Walk) are also applied to the secondary target on proc.
+Works with both lifesteal and spell lifesteal sources.
+Fully affect enemy  Couriers.
+For  melee units, if the enemy target is 350 range farther than the attacker's range, the attack will always miss.
+Does not consider the following units as valid secondary targets, unless they are the primary target without other valid units within the search radius:
+Wards,  Beetles and  Phantoms.
+Buildings while  Pierce the Veil is active.
+Increases attack damage by an average of 20%/30%/40%/50% ( 40%/50%/60%/70%).
+The proc chance uses pseudo-random distribution, while the secondary targets are chosen randomly.
+Upon proc, Muerta shoots the primary target with her right pistol and the secondary target with her left.
+She will still occasionally shoot the primary target with her left pistol on normal attacks.
+If Gunslinger is not learned, she randomly alternates between left and right pistols when shooting her target. Parting Shot Link▶️Link▶️DR
+
+
+
+AbilityTarget Unit
+AffectsAllied Heroes  / Enemy Heroes
+DamageMagical  /  Instant Kill
+
+Muerta precisely shoots a hero in their soul, separating it from their physical body and knocking it 150 units away.The soul is untargetable, muted, disarmed, and invulnerable for 4 seconds.The body is stunned and has 35% damage reduction for this duration.After the effect ends the hero's soul is forcefully returned to their body applying a strong dispel. The soul will survive until the end of the effect even if the hero is killed.
+
+Cast Animation: 0.3+0.33Cast Range:  750Damage: 300Soul Distance: 150Damage Reduction: 35%Soul Duration: 4
+
+
+ 45
+ 250Debuff Immunity Notes:Does not place the debuff on debuff immune units at all, only applying the damage. If the unit turns debuff immune while already affected by Parting Shot, the unit is not stunned and can act freely, but the incoming damage reduction and the clone remain.Modifiers [?]modifier_muerta_parting_shot_soul_cloneUndispellable
+modifier_muerta_parting_shot_soul_projectile_returnUndispellable
+
+modifier_muerta_parting_shot_physical_body_debuffDeath
+modifier_muerta_parting_shot_soul_debuffUndispellableAbility Draft Notes:
+Requires drafting  Pierce the Veil to be unlocked.
+
+
+
+Requires  Aghanim's Scepter to be unlocked.
+The projectile travels at a speed of 2500.
+Does not affect creeps or invulnerable targets.
+Treats strong illusions and clones as heroes, creep-heroes as creeps.
+Parting Shot instantly destroy illusions.
+0.2 seconds upon the projectile hit, the parted soul is created 150 distance from the affected target.
+The parted soul has phased movement, is untargetable, muted, disarmed, and invulnerable, making them immune to almost every ability.
+On the first cast of Parting Shot, the parted soul of the hit target is actually summoned. On every following cast, it is just revived.
+Upon getting re-summoned the soul's ability cooldowns are set to the same values as the target's ability cooldowns.
+The parted soul is a clone of the affected target, copying  all attributes and abilities of the affected target, with some special exceptions. They are not illusions.
+Its base stats and attributes adapt whenever summoned (e.g. permanent attribute loss from  Glaives of Wisdom or  Essence Shift).
+The parted soul visually has a link to the target, and it is distinguishable from the original hero for everyone.
+It can cast all abilities, but not item abilities.
+The buffs of a consumed  Moon Shard,  Aghanim's Blessing and  Aghanim's Shard are copied as well.
+However, other permanent modifiers (e.g.  Duel,  Intelligence Steal) are not.
+The parted soul does not passively gain any experience like heroes usually do, so it does not leech experience from its allies.
+Applies a generic 35% incoming damage reduction on the affected target.
+Fully procs on-damage effects, such as  Corrosive Skin, except those which have a minimum damage threshold (e.g.  Gravekeeper's Cloak).
+Does not reduce the following damage sources:
+Damage flagged as HP removal.
+Damage sources from allies.
+Parting Shot first applies the damage, the debuff, then the strong dispel upon the parted soul returning.
+Unlike a regular offensive dispel, Parting Shot dispels all debuffs off of enemies instead of buffs.
+The parted soul returns to the affected target with a speed of 500, or reaches the affected target in 0.75 seconds, whichever is faster.
+At the end of the parted soul duration, all ability cooldowns are transferred to the affected unit.
+Successive cast on the same target reapplies the damage but does not create another parted soul.
+Has a cast backswing of 1.8 while  Pierce the Veil is active. Pierce the Veil  Link▶️Link▶️RV
+
+
+
+AbilityNo Target ( Passive)
+AffectsSelf
+DamageMagical
+
+Muerta transforms, becoming immune to physical damage. All of her attack damage is dealt as magical damage. Muerta gains bonus attack damage and phased movement.Muerta can attack ethereal units, but deals no damage to Magic Immune targets.
+
+Passive Component Enemy Death Radius:  925 Spell Amp Bonus per Kill:  2%Cast Animation: 0+0Transformation Time: 0.35Attack Damage Bonus: 70/100/130Duration: 6/7/8 Spell Lifesteal Bonus: 30%
+
+
+ 75/60/45
+ 150/250/350
+Aghanim's Scepter Upgrade:New Ability
+Grants the Parting Shot ability.
+
+Aghanim's Shard Upgrade:
+
+Muerta gains 30% Spell Lifesteal during Pierce the Veil. While Pierce the Veil is active Muerta permanently gains 2% spell amplification each time she kills an enemy Hero or they die in her vicinity.
+
+Illusion Notes:Bestows all ability effects, except the flat attack damage bonus upon creation.Modifiers [?]modifier_muerta_pierce_the_veilUndispellable
+modifier_muerta_pierce_the_veil_transformDeath
+modifier_muerta_pierce_the_veil_buffDeath
+
+modifier_muerta_pierce_the_veil_magic_immunity_damage_UndispellableMuerta sheds her corporeal form, crossing the spirit veil and striking her enemies with the fury of the damned.
+
+
+Pierce the Veil disjoints projectiles and applies a basic dispel on self upon cast.
+During the transformation, Muerta is prevented from acting and it cannot be interrupted.
+The transformation time and buff duration are applied at the same time, so overall, the duration lasts for 6.35/7.35/8.35 seconds.
+Causes the caster's model size to increase by 30% for its duration. This has no impact on its collision size.
+The following effects are applied to Muerta while Pierce the Veil is active:
+Grants regular flat bonus attack damage and phased movement.
+Grants 100% physical damage resistance and turns Muerta ethereal.
+Does not disarm her. However, she cannot attack buildings.
+Can attack units with attack immunity normally, but not untargetable units (e.g.  Shadow Realm).
+Changes all attack damage dealt of different damage types from Muerta to magical spell damage.
+This includes all attack damage bonuses, including conditional attack damage sources, but not Mana Break sources.
+Muerta's attack damage now works with spell lifesteal and spell damage amplification, but not lifesteal.
+Changes Muerta's gib type to Ethereal, but not when used by other heroes.
+A hidden modifier is placed on all attacked enemy units while the ability is active.
+Applies a generic 100% incoming damage reduction from Muerta on the attacked enemy units if they are spell immune.
+It is also responsible for the damage-block-like sound and ability effects.
+Hence, Pierce the Veil deals 0 physical damage to spell immune units.
+Fully procs on-damage effects, such as  Corrosive Skin, except those which have a minimum damage threshold (e.g.  Gravekeeper's Cloak).
+Does not reduce the following damage sources:
+Damage flagged as HP removal.
+Damage sources from allies.
+Neither changes nor affects damage sources that are dealt in a separate instance.
+Pierce the Veil has the highest priority in the group of ethereal sources.
+It neither reduces Muerta's magic resistance, nor stack with other ethereal sources.
+Does not prevent splash sources from dealing damage to Muerta.
+Does not affect attacking wards that require a fixed amount of attacks to destroy.
+Can attack  Couriers but does not deal damage them.
+SHARD Grants a stack in the following conditions as long as Muerta or the owner of the ability is alive:
+The enemy hero(es) dying within the 925 radius, including denied enemy heroes.
+To permanently gain spell damage amplification bonus outside the kill radius, Muerta has to be credited for the kill. Other player-controlled units do not count.
+When  Meepo or its  Meepo Clones is instantly killed due to either the Prime or any one of its clones dying.
+A +2% appears above Muerta's head, indicating that she gained a stack of spell damage amplification bonus.
+The number of spell damage amplification gained can be seen on the status buff icon.
+Does not permanently gain spell damage amplification bonus if the enemy hero has Reincarnation, is an illusion or from the  Tempest Double.
+Stacks are gained retroactively when the  Aghanim's Shard is acquired.
+SHARD Acquiring  Aghanim's Shard immediately grants the spell amplification bonus per kill component, but does not grant the spell lifesteal bonus for the current active instance.
+SPELL STEAL  Rubick does not have his own model for Pierce the Veil, so he turns into a miniature Muerta. Pierce the Veil is not canceled upon losing the ability. The attack damage dealt immediately changes back to physical.

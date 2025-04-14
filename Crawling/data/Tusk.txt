@@ -1,0 +1,231 @@
+Ice Shards Link▶️Link▶️QE
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamageMagical
+
+Tusk compresses shards of ice into a ball of frozen energy that damages all enemies it comes in contact with. When the ball reaches its target destination the shards are released, creating a barrier that lasts for 4/5/6/7 seconds.
+
+Cast Animation: 0.1+0Cast Range:  1400Damage Radius:  200Shards Spawn Radius: 200Shards Spawn Angle: 40°Number of Shards: 7 ( 11)Damage: 75/150/225/300Shards Duration: 4/5/6/7 Damage per Second: 60 Move Speed Slow: 40% Aura Linger Duration: 0.5
+
+
+ 23/20/17/14 ( 17/14/11/8)
+ 100
+Aghanim's Shard Upgrade:
+
+Increases depth of Ice Shards, and enemies trapped within an ice shard are slowed and take damage per second.
+
+Modifiers [?]modifier_projectile_visionUndispellable
+modifier_tusk_ice_shardUndispellable
+modifier_tusk_ice_shard_slow_auraUndispellable
+
+modifier_tusk_frozen_sigilUndispellableIn the frozen tundra near the Barrier, after the last sun of autumn has set, ice can form with alarming speed.
+
+           Ice Shards' formations and sizes. The small circles at the center are the aura sources.  
+The projectile has ≈100 radius flying vision, and travels at a speed of 1200 until reaching the targeted point.
+This vision last for 2 seconds at the targeted point upon reaching it.
+Ice Shards are always created in the same formation.
+The open side of the shards circle is always facing towards Tusk's position upon cast.
+The shards' formation is a 200 radius circle with one open side. The center of the circle is 200 range before the targeted point.
+The first shard is always created at the targeted point, in one line with Tusk's position upon cast.
+The next shards are placed 40° further to the left and the right respectively, up to 6 shards (9 shards would form a full circle).
+Each shard's radius is approximately 61, and the distance between them is about 14.8, which is too small for most units to move through, except  Wraith King Skeletons and  Undying Zombies.
+SHARD 4 additional shards are placed to the left and right side of the last shards at the semi-circle's opening, forming a U-shape.
+The shape has a width of 200, and has a length of 480.
+This effectively increases the length of Ice Shards' formation by 280 from the tails of the open circle.
+Non-player-controlled units (i.e. lane creeps) do not try to path around Ice Shards, but simply walk against them as if they are not there.
+This effectively causes them to get stuck, until they change directions (e.g. when being aggroed), or until the shards dissipate.
+Units with flying movement (e.g.  Arctic Burn) or unobstructed movement (e.g.  Spectral Dagger) are not blocked by Ice Shards.
+They still are fully affected by it otherwise when hit. They will be either pushed aside or inside and damaged.
+SHARD Two 200 radius auras are now created at the centerline of the formation.
+The first source is placed at the center of the default shards formation, 200 range before the targeted point.
+The second source is placed 200 range behind the first source, between the additional 4 shards.
+Since both sources overlap, the auras cover a total length of 600.
+The damage per second and movement speed slow effects are provided by the auras and its debuff lingers for 0.5 seconds.
+Deals damage in 1-second intervals, starting 1 second after the debuff is placed, resulting in up to 4/5/6/7 instances.
+Can deal up to 240/300/360/420 damage (before reductions) to a single unit within the area for the entire duration. Snowball    Link▶️Link▶️Link▶️WW
+
+
+
+AbilityTarget Unit
+AffectsAllies  / Enemies
+DamageMagical
+
+Tusk begins rolling into a snowball. Allies within a 350 radius can also be added to the snowball by right-clicking on them, even while the snowball is moving. Once launched, any enemies caught in the snowball's path will be stunned and take damage. Each allied Hero in the snowball will add to its damage.
+
+Cast Animation: 0.1+0.5Cast Range:  1150Damage/Stun Radius:  200Radius Increase per Second:  40Gather Radius:  350Max Stationary Time: 3Max Chase Duration: 3Base Damage: 80/140/200/260 ( 200/260/320/380)Damage Bonus per Gathered Hero: 40/65/90/115Snowball Speed: 575/600/625/650Stun Duration: 0.6/0.8/1/1.2
+
+
+ 21/19/17/15 ( 13/11/9/7)
+ 75Debuff Immunity Notes:Shared vision pierces debuff immunity.Spell Block / Reflection Notes:Ability is reflected, regardless of when Tusk or target is invulnerable, hidden, or spell immune, upon the Snowball reaching its target.Modifiers [?]modifier_tusk_snowball_movementDeath
+modifier_tusk_snowball_movement_friendlyDeath
+
+modifier_tusk_snowball_targetUndispellable
+modifier_tusk_snowball_visibleAny
+modifier_stunnedStrongTales are still told of the wild feat that ended the grand brawl at White Fields.
+
+     Hero icons indicate allies gathered in Snowball, and a visual indicator above the enemy target.  
+The Snowball chases the target for up to 3 seconds and travels at a speed of 575/600/625/650.
+It can travel for up to 1725/1800/1875/1950 range.
+Upon cast, a Snowball target indicator appears only visible for allies, and exposes the affected target, but does not provide True Sight over it.
+Reveal units affected by  Shadow Dance despite not providing True Sight.
+The target indicator lasts for 6 seconds until Tusk's death, the Snowball disappears, or when the Snowball misses its target.
+Only heroes, illusions, and clones will display hero icons, other units gathered display a black-circled question mark.
+Snowball destroys trees, and increases its radius by 40 per second up to 240/280/320 as it rolls forward.
+Tusk can  Right Click on ally heroes and clones to gather them into the Snowball at any point, even if they are invisible or invulnerable.
+Vice versa, allies can also  Right Click the Snowball, within ≈100 range, to jump inside as well.
+Can gather invulnerable allies but not hidden ones.
+Cannot gather allies who have ☐ Disabled Help from Tusk.
+Allies affected by  Flaming Lasso,  Black Hole or  Chronosphere cannot be gathered.
+However, attempting to gather in any ally affected by the aforementioned abilities still adds the gathered damage to Snowball.
+Only gathered ally heroes and clones increase its damage.
+Can gather summoned units, Tusk's  Courier, illusions and creep-heroes, but it does not increase its damage. Cannot gather wards.
+Does not disjoint projectiles for gathered targets.
+Units inside Snowball are invulnerable, hidden and spell immune. Allies inside the Snowball are fully disabled and are prevented from acting.
+Tusk is rooted, muted and disarmed during Snowball. He can cast his abilities, but cannot use items or attack.
+Tusk cannot be forced out of the Snowball, while other units within can still be forced out by teleporting abilities, without reducing the gathered damage.
+When Snowball connects with its target, Tusk is given an attack order on the target, regardless of auto-attack settings.
+Snowball first applies the debuff, then the damage.
+Tusk is not counted, so if no ally heroes are gathered, only the base damage is applied.
+Can deal up to the following amount of damage (before reductions) with a certain amount of heroes including Tusk:
+1x Ally Hero: 120/205/290/375 ( 240/325/410/495) damage.
+2x Ally Hero: 160/270/380/490 ( 280/390/500/610) damage.
+3x Ally Hero: 200/335/470/605 ( 320/455/590/725) damage.
+4x Ally Hero: 240/400/560/720 ( 360/520/680/840) damage.
+
+A hidden debuff provides shared vision over the target until the Snowball stops. Does not provide True Sight.
+SPELL STEAL Snowball disappears upon losing ability.
+SOULBIND Only affects the primary target. Launch Snowball WW
+
+
+
+AbilityNo Target
+AffectsSelf  / Allies
+
+
+Launch the snowball toward the target.
+
+Cast Animation:  0+0
+
+
+ 0
+ 0Into the great wide white!
+
+
+Replaces  Snowball until the sub-ability is used, or Snowball reaches its target or expires.
+Tusk is unable to ⇧ Shift-queue this ability.
+Tusk is unable to level Snowball up while this sub-ability is active. Tag Team  Link▶️Link▶️ET
+
+
+
+AbilityAura  / No Target
+AffectsAllies  / Enemies
+
+
+Passively slows the attack speed of all enemies within 350 radius. Activate to temporarily apply a negative debuff aura around you, causing enemies that are attacked under it to take bonus physical damage and reduced movement speed. Lasts 5 seconds.
+
+Passive ComponentAura Radius: 350Attack Speed Slow: 20/30/40/50Aura Linger Duration: 0.5Cast Animation:  0+0Attack Damage Bonus: 20/45/70/95 ( 45/70/95/120)Move Speed Slow: 75%Slow Duration: 0.5Active Duration: 5Radius:  350
+
+
+ 24/21/18/15
+ 70Break Notes:Disables the attack speed slow component.
+Modifiers [?]modifier_tusk_tag_team_auraUndispellable
+modifier_tusk_tag_team_attack_slow_auraUndispellable
+
+modifier_tusk_tag_teamDeath
+modifier_tusk_tag_team_slowAny
+modifier_tusk_tag_team_attack_slowDeathEven far from Cobalt, Tusk carries the 'Barrier Chill' in his very bones.
+
+
+Interrupts Tusk's channeling abilities upon cast.
+The debuff placed on enemies is provided by another aura and lingers for 350 seconds.
+Tag Team only triggers on attacks of ally heroes, including illusions and clones, but excluding creep-heroes.
+Also triggers on attacks of any non-hero unit controlled by Tusk.
+Although illusions trigger it, they cannot make use of the attack damage bonus, effectively only applying the slow.
+Attacks triggering Tag Team first place the slow debuff, then the attack damage.
+Tag Team's damage is considered as incoming conditional attack damage bonus.
+Although the attack damage bonus values are not displayed in the HUD, it is still considered and directly added to the attacking unit's attack damage.
+The attack damage bonus is considered by critical strike, lifesteal, cleave and flat reductions (e.g. damage block).
+Unlike outgoing conditional attack damage sources, it is also affected by percentage-based total attack damage bonuses or reductions.
+The movement speed slow from multiple attacks and/or attack sources fully stacks, with each attack placing a separate debuff. Walrus Kick  Link▶️DD
+
+
+
+AbilityTarget Unit  / Vector Targeting
+AffectsEnemies
+DamageMagical
+
+Kicks the closest enemy unit in a targeted direction, stunning, damaging, and slowing them. Also deals damage to all heroes within 250 radius of its landing area. Cooldown is reduced by 6 if kicking a creep.
+
+Cast Animation: 0.2+1.3Cast Range:  250Damage Radius:  250Knockback Distance: 1400Damage: 350Move Speed Slow: 40%Slow Duration: 4Stun Duration: 1Creep Cast Cooldown: 6
+
+
+ 12
+ 100Modifiers [?]
+modifier_tusk_walrus_kick_air_timeDeath
+modifier_tusk_walrus_kick_slowAnyAbility Draft Notes:
+Requires drafting  Walrus PUNCH! to be unlocked.
+Tusk may have made his name with his fists, but the wise enemy is wary of any and all limbs.
+
+
+Requires  Aghanim's Scepter to be unlocked.
+Can be cast on any enemy unit, including enemy  Couriers, excluding buildings and wards.
+However, when cast on  Roshan, he does not get moved, but all other effects still apply, including the area damage.
+Walrus Kick has a 6-second cooldown when cast on creeps.
+The target is kicked away from Tusk in an arc 1400 range far and 360 range high, while rotating 180° on the x-axis.
+Walrus Kick cannot be overridden by any other forced movement.
+While in the air, other units may pass below the kicked unit.
+The slow has a total duration of 5, but it is applied at the same time as the stun, therefore effectively lasting 4 seconds.
+For the primary target, Walrus Kick first applies the slow debuff, then the knockback debuff, then the damage.
+Upon the primary target landing, Walrus Kick first applies the damage, then the slow debuff to secondary affected units within the damage radius.
+Destroys trees within a 100 radius around the affected unit during the knockback.
+SOULBIND The secondary target is kicked in the opposite direction of the primary target. Walrus PUNCH!    Link▶️RR
+
+
+
+AbilityActive Attack Modifier ( Passive)
+AffectsSelf  / Enemies
+
+
+Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing.
+
+Passive Component Proc Chance:  12%Cast Range:  150Self Attack Animation Speed Bonus: 40%Critical Damage: 250%/325%/400% ( 325%/400%/475%)Enemy Move Speed Slow: 40%Slow Duration: 2/3/4Stun Duration: 1 ( 1.5)
+
+
+ 20/15/10
+ 75
+Aghanim's Scepter Upgrade:New Ability
+Grants the Walrus Kick ability.
+
+Break Notes:Does not disable the passive proc chance.
+Illusion Notes:Illusions cannot passievly proc Walrus Punch.Modifiers [?]modifier_tusk_walrus_punchUndispellable
+
+modifier_tusk_walrus_punch_air_timeUndispellable
+modifier_tusk_walrus_punch_slowAnyIt never matters who throws the first punch, only who throws the last.
+
+
+Walrus PUNCH!'s cast range can only be further increased by attack range bonuses of the same range type as the caster. However, it is not affected by cast range bonuses.
+Both Autocast and manually casting it uses Tusk's current attack range.
+Grants Tusk's next attack True Strike when not on cooldown. The cooldown triggers upon successfully landing an attack on an enemy.
+Despite being an active attack modifier, manually casting Walrus PUNCH! procs all on-cast effects like a regular ability.
+Can be cast  on every enemy unit, including enemy  Couriers, except wards, buildings, and allied units.
+However, when cast on  Roshan, only the stun and movement speed slow are applied.
+The affected target is hurled 650 range (or 1200 range if lethal) into the air during the stun duration, while rotating 180° on the x-axis. The speed adapts to changed stun duration.
+Can be cast while the enemy target(s) are affected by  Flaming Lasso, but not  Pulverize.
+Walrus PUNCH! cannot be overridden by any other upward movement sources.
+While in the air, other units may pass below the hurled unit.
+The slow has a total duration of 3/4/5 ( 3.5/4.5/5.5), but it is applied at the same time as the stun, therefore effectively lasting 2/3/4 seconds.
+The punch first applies the knockback debuff, the movement speed slow debuff, the damage, then the self attack animation bonus.
+Plays a sound as soon as the attack starts. The sound only stops playing upon landing the punch.
+The attack animation bonus is only granted on manual casts.
+Reduces the attack point of the next attack to 0.216+0.64.
+Does not reduce the attack backswing of the next attack.
+TALENT Walrus Punch now gains a 12% chance to passively proc on regular attacks.
+These procs do not trigger the cooldown, work while on cooldown, and do not cost mana.
+They do not proc on-cast effects either.
+The procs use pseudo-random distribution.
+When Walrus PUNCH! procs during a manual cast or Autocast order, the proc takes priority, and it does not go on cooldown or consume mana.
+Adds an average of 18%/27%/36% ( 27%/36%/45%) damage to every attack.
+SPELL STEAL  Rubick throws a projectile that uses his model and spins toward the target. When used on  Tusk, it would read "Sucker Punch!" in green; On other targets, it read "Stolen Punch". This only has cosmetic purposes and has no impact on gameplay.

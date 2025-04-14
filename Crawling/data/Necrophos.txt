@@ -1,0 +1,171 @@
+Death Pulse  Link▶️QD
+
+
+
+AbilityNo Target
+AffectsUnits
+DamageMagical
+
+Necrophos releases a wave of death around him, dealing damage to enemy units and healing allied units.
+
+Cast Animation: 0+0.77Search Radius:  500Projectile Speed: 400Damage: 100/160/220/280Heal: 55/80/105/130 ( 95/120/145/170)
+
+
+ 8/7/6/5 ( 5.5/4.5/3.5/2.5)
+ 115/130/145/160
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Death Seeker ability.
+
+Ability Draft Notes:
+Toggling Autocast on swaps this ability out with  Death Seeker. Their cooldowns are separate.
+Poor souls who succumb to Rotund'jere's plagues are recycled for future use.
+
+
+The pulses travel at a speed of 400.
+Affects invisible units and units in Fog of War.
+Does not affect invulnerable and hidden units.
+Fully affects allied  Couriers.
+Death Pulse heals Necrophos and his allies for the following values while  Ghost Shroud is active on each level:
+LEVEL 1 79.75/116/152.25/188.5 ( 137.75/174/210.25/246.5)
+LEVEL 2 85.25/124/162.75/201.5 ( 147.25/186/224.75/263.5)
+LEVEL 3 90.75/132/173.25/214.5 ( 156.75/198/239.25/280.5)
+LEVEL 4 96.25/140/183.75/227.5 ( 166.25/210/253.75/297.5) Ghost Shroud Link▶️WT
+
+
+
+AbilityNo Target  / Aura
+AffectsSelf  / Enemies
+
+
+Necrophos slips into the realm that separates the living from the dead. Unable to attack or be attacked, he emits an aura that slows enemies around him. He takes additional magic damage in this form, but his restorative powers are amplified.
+
+Cast Animation:  0+0Slow Radius:  750Enemy Move Speed Slow: 12%/16%/20%/24% ( 32%/36%/40%/44%)Heal Multiplier: 1.45/1.55/1.65/1.75 ( 1.6/1.7/1.8/1.9)Mana Restore Multiplier: 1.45/1.55/1.65/1.75 ( 1.6/1.7/1.8/1.9)Self Magic Resistance Reduction: 25%Aura Linger Duration: 0.5Duration: 3/3.5/4/4.5
+
+
+ 28/24/20/16
+ 75Modifiers [?]modifier_necrolyte_sadist_activeAny
+
+modifier_necrolyte_sadist_aura_effectDeathRotund'jere uses the souls of his victims as bridge from life to afterlife.
+
+
+Interrupts Necrophos' channeling abilities upon cast.
+Turns Necrophos ethereal, disarming him, rendering him attack immune and granting 100% physical damage resistance.
+Magic resistance reduction of multiple ethereal sources does not stack, the one with higher value takes priority.
+Stacks multiplicatively with other  magic resistance sources.
+Reduces Necrophos' magic resistance to 6.25%.
+With the magic resistance reduction from this source, every 10 points of  intelligence further increases the total magic resistance by 1.25%. [?]
+Grants the following effects while active:
+Heal amplification and mana restore amplification for incoming healing and mana restoration received by Necrophos.
+Self health and mana regen amplification.
+Stacks diminishingly with restoration manipulation sources of the same type.
+The movement speed slow is provided by an aura and its debuff lingers for 0.5 seconds. Heartstopper Aura   EI
+
+
+
+AbilityAura
+AffectsEnemies  / Self
+DamageMagical (HP Removal)
+
+Necrophos stills the hearts of his opponents, causing nearby enemy units to lose a percentage of their max health over time. Passively provides regen for 7 seconds for each unit Necrophos kills.
+
+Radius: 800Enemy Max Health Lost per Second: 0.6%/1.2%/1.8%/2.4% ( 1.1%/1.7%/2.3%/2.9%)Stacks per Hero Kill: 6Stacks per Creep Kill: 1Health Regen Bonus per Stack: 4/5/6/7Mana Regen Bonus per Stack: 4/5/6/7Stack Duration: 7 ( 9)Aura Linger Duration: 0.5 Health Regen as Damage Multiplier Bonus: 0.5 Enemy Health Regen Reduction: 25%
+Aghanim's Scepter Upgrade:
+Health Decay is increased by 50% of Necrophos's current health regeneration
+
+Break Notes:Disables the aura.Prevents gaining new stacks.Existing stacks still provide bonus health and mana regeneration.
+Illusion Notes:Illusions bestow the aura.Illusions can gain stacks independently.Modifiers [?]modifier_necrolyte_heartstopper_auraUndispellable
+modifier_necrolyte_heartstopper_aura_counterDeath
+
+modifier_necrolyte_heartstopper_aura_effectDeathThose who come within a short distance of the Necrophos can feel pestilence and plague in the air.
+
+
+The aura's debuff lingers for 0.5 seconds and does not affect ancient creeps.
+The health loss from Heartstopper Aura is direct HP Removal, so it does not trigger any on-damage effects.
+The damage has the no-spell-amplification flag, preventing its damage from being amplified with spell damage amplification.
+However, its damage can be further increased by magic resistance reduction instead.
+Deals damage in 0.2-second intervals, starting 0.2 seconds upon learning ability.
+The damage per interval can be defined as expr (0.12%/0.24%/0.36%/0.48% ( 0.22%/0.34%/0.46%/0.58%) × MaxHP) +  CurrentHealthRegen × 0.1
+The status debuff icon on enemies only shows up when the affected unit has vision over Necrophos.
+However, the floating damage numbers are always visible.
+Grants regeneration stack(s) per last hit or kill credit to Necrophos, including denies.
+All stacks work fully independently from each other. They do not refresh each other but share a status buff. The number of current stacks is visible on the buff.
+Can regenerate up to 28/35/42/49 ( 36/45/54/63) health and mana per stack for its entire duration.
+Hero kills credited to Necrophos grant 6 stacks at once, which can regenerate up to 168/210/252/294 (216/270/324/378) health and mana for its entire duration.
+Treats destroying buildings, killing wards, ancient creeps and creep-heroes as creep kills.
+Does not grant stacks from killing illusions and the  Tempest Double.
+With both LEVEL 4  Ghost Shroud and Heartstopper Aura, one stack can regenerate up to 72.63 (  77.35) health and mana for its entire duration.
+With both the  stack duration increasing and  self restoration amplification increasing  talents, the regeneration value is further increased to 91.35 per stack.
+For the total health and mana regenerated per level, please refer to the chart below.
+Leveling up Heartstopper Aura and max health lost per second increasing  talent can upgrade the damage for already affected units instantly.
+SCEPTER Adds 50% of Necrophos' current total health regeneration values as damage per second.
+The value is based on the current total health regeneration values on Necrophos, instead of the actual regeneration health value shown on the HUD. This includes the following sources:
+Flat and percentage-based health regeneration sources.
+Health Regeneration Manipulation sources.
+The ability values immediately update upon acquiring or dropping  Aghanim's Scepter.
+Health Freeze applied on Necrophos, and neither healing nor healing over time sources increases the damage per second component.
+TALENT The regen reduction  talent only adds health regeneration reduction to Heartstopper Aura, but not other types of restoration manipulation. Death Seeker   Link▶️Link▶️DC
+
+
+
+AbilityTarget Unit
+AffectsUnits  / Self
+DamageMagical
+
+Necrophos turns into a large Death Pulse towards the target unit's position. Once it arrives to the location, the Death Pulse spreads towards nearby enemies and allies.
+
+Cast Animation: 0.2+0.6Cast Range:  900Projectile Speed: 900
+
+
+ 19
+ 125Spell Block / Reflection Notes:Blocked upon impact.Ability Disjoint Notes:Releases a Death Pulse at the target's previous location.Modifiers [?]modifier_necrophos_out_of_worldUndispellable
+Ability Draft Notes:
+Toggling Autocast off swaps this ability out with  Death Pulse. Their cooldowns are separate.
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+Turns Necrophos into a hidden and invulnerable projectile, and periodically drags him along with it at a speed of 900 upon cast.
+Can travel over impassable terrain and through trees.
+Upon reaching the targeted unit's location at the time of casting, Death Seeker releases a  Death Pulse based on its current level centered around the primary target within 500 radius.
+The primary affected target releasing the projectiles is also affected by Death Pulse, and the secondary projectiles travel at a speed of 400.
+Other Death Pulse notes fully apply.
+If Death Pulse is not learned, no projectile is released upon cast.
+If the target is invulnerable or hidden on impact, the Death Pulse is not released.
+SPELL STEAL  Death Pulse released is based on  Necrophos' current ability level when acquired.
+SOULBIND Launches two projectiles simultaneously to both targets,  Necrophos appears next to the secondary target. Reaper's Scythe  Link▶️RR
+
+
+
+AbilityTarget Unit
+AffectsEnemy Heroes  / Self
+DamageMagical
+
+Stuns the target enemy hero, then deals damage based on how much life it is missing. If Necrophos kills an enemy this way, he'll permanently gain Health and Mana Regen. Any kill under this effect is credited to Necrophos.
+
+Cast Animation: 0.45+1.5Cast Range:  600 ( 700)Damage per Missing Health: 0.7/0.8/0.9Health Regen Bonus per Kill: 2/4/6Mana Regen Bonus per Kill: 1/2/3Stun Duration: 1.5
+
+
+ 110
+ 250/375/500Modifiers [?]modifier_necrolyte_reapers_scythe_respawn_timeUndispellable
+
+modifier_necrolyte_reapers_scytheDeathThe amount of death and suffering in the air increases the power of the Necrophos's plague magic.
+
+
+The damage is calculated and dealt to the target at the end of the stun duration.
+The stun duration is unaffected by status resistance.
+Deals enough damage (before reductions) to kill the target when it is at 41%/44%/47% of max health.
+Shares one instance of 0 damage when triggering damage shared sources (e.g.  Fatal Bonds).
+Reaper's Scythe has the highest priority in the group of kill credit manipulation effects.
+All damage dealt to the affected target, including from allies, during the stun duration is sourced to Reaper's Scythe, and credited to Necrophos.
+This means when combined with other kill credit manipulation effects (e.g.  Winter's Curse), the kill credit is still given to Necrophos.
+However, the following conditions do not credit Necrophos with the kill credit:
+When  Spirit Bear is instantly killed due to its owner dying while affected by Reaper's Scythe, without the   Return upgrade.
+When the affected target is brought into   Supernova during the stun duration.
+When the affected target is swallowed by   Dismember during the stun duration and is not  Ejected when the damage is dealt.
+When the affected target is affected by a reflected  Omnislash or  Swiftslash. In the case of Swiftslash, it must still be occuring when the damage is dealt.
+Forced Kill sources applied to the affected target during the stun duration.
+Grants Necrophos a stack as long as he was credited for the kill.
+Grants a stack even if the dying hero has Reincarnation, or killing illusions and creep-heroes, but not from the  Tempest Double or the  Spirit Bear.
+The number of stacks gained can be seen on the status buff icon. The current health and mana regeneration bonus can be seen in its description.
+The health and mana regeneration bonuses granted are not retroactive. All stacks retain their values from when it was first acquired.

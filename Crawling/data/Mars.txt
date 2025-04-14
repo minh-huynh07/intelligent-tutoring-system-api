@@ -1,0 +1,348 @@
+Spear of Mars Link▶️Link▶️Link▶️Link▶️Link▶️QE
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamagePhysical
+
+Mars throws his legendary Spear with deadly precision, damaging each enemy unit it strikes. The first enemy hero it hits is skewered on the spear, pushing it back. If a skewered hero hits a tree, building, or cliff, they will be impaled to it and stunned.
+
+Cast Animation: 0.25+0.15Cast Range: GlobalMax Travel Distance:  900/1000/1100/1200Spear Collision Size:  125Spear Damage: 100/175/250/325 ( 200/275/350/425)Knockback Distance: 75Knockback Duration: 0.25Number of Impaled Units: 1 ( 2)Impale Stun Duration: 1.3/1.6/1.9/2.2 ( 1.9/2.2/2.5/2.8)Flying Vision Radius:  300 Fire Trail Radius:  200 Fire Damage per Second: 40 Fire Move Speed Slow: 20% Fire Trail Duration: 10 Fire Trail Debuff Duration: 2
+
+
+ 14/13/12/11
+ 100/110/120/130
+Aghanim's Shard Upgrade:
+
+Spear of Mars impales up to two units and leaves a fire trail behind that deals damage over time and slows movement speed.
+
+Debuff Immunity Notes:The forced movement is instantly canceled. However, if the spear connects with an obstactle, the debuff is still placed as if the unit was dragged along. The debuff is still subjected to debuff immunity. True Sight pierces debuff immunity.Modifiers [?]modifier_projectile_visionUndispellable
+modifier_special_mars_spear_burning_trail_thinkerUnknown
+
+modifier_mars_spear_impaleDeath
+modifier_mars_spear_stunStrong
+modifier_knockbackAny
+modifier_special_mars_spear_burning_trail_burnAnyThe legendary Spear of Mars still glows with the heat of the forge god's fires.
+
+     Fire Trail  Ability Upgrade Formations.  
+The spear travels at a speed of 1400, taking 0.64/0.71/0.79/0.86 seconds to reach max distance when no hero(es) are impaled.
+The spear starts traveling exactly on Mars' location and forwards up to 900/1000/1100/1200 range.
+Although within the spear's search radius, it does not hit enemies behind Mars upon cast.
+With the travel distance and search radius, it can hit units up to 1025/1125/1225/1325 range away.
+A spear may only damage and drag 1 ( 2) hero(es) along with it, and are stunned during the drag.
+Treat creep-heroes as creeps.
+Dragged hero(es) are made to face toward the direction the spear came from.
+If the hero dies or gets freed from the spear, it cannot impale a new hero.
+SHARD This number of impaled units restriction is still limited to 2 heroes upon the upgrade.
+The affected hero(es) are stunned when impaled onto the following objects:
+ Arena Of Blood
+All types of trees.
+All buildings of different factions, except item shops.
+All cliffs, including the edge of the map, and pathing blockers.
+Does not impale affected hero(es) onto terrain decorations (e.g. The walls at the borders of both faction's bases, the random statues on the map, and the arches at stairs).
+Provides True Sight over the impaled target(s). True Sight is not applied while dragging the affected target(s) along with the spear.
+Upon losing the impale stun debuff, trees within a 100 radius around the affected hero(es) are destroyed.
+Other units, as well as secondary heroes, are damaged and knocked back instead.
+The knockback direction is based on the angle between the hit unit and the spear.
+The knockback does not disable units. They can still turn, attack and use items. Does not interrupt the affected enemies' channeling abilities.
+Destroys trees enemies come in contact with during the knockback.
+The spear flies through and cannot collide with invulnerable or hidden units.
+The spear provides 300 radius flying vision as it travels.
+When not impaling a hero to an object, the vision lingers at the final location for 1 second.
+When impaling a hero to an object, the vision lingers based on the default stun duration.
+SHARD Spear of Mars' now leaves behind a fire trail as it travels.
+The fire lasts 10 seconds from the moment it is created, with the fire created at the starting location disappearing earlier than the fire created at the ending location.
+The fire places a debuff on enemies within the area in 0.5-second intervals, starting 0.5 seconds after the fire was created.
+The debuff deals 20 damage in 0.5-second intervals, starting 0.5 seconds after being placed, resulting in 4 damage instances.
+This results in a maximum of 24 damage instances when standing within the area for the full duration.
+One instance of the debuff can deal up to 80 damage (before reductions).
+The entire fire trail can deal up to 480 damage to a single unit.
+Multiple overlapping fire trails do not stack but refresh the same debuff on enemies. God's Rebuke Link▶️Link▶️WR
+
+
+
+AbilityTarget Point
+AffectsEnemies
+Damage Instant Attack
+
+Mars smashes enemies in front of him with his shield, knocking them back and damaging them with a critical hit based on his attack. Bonus damage is added when hitting heroes. Has True Strike.
+
+Cast Animation: 0.2+1.07Cast Range:  500 ( 600)Effect Radius:  500 ( 600)Circle Sector Angle: 140°Critical Damage: 150%/200%/250%/300% ( 215%/265%/315%/365%)Hero Attack Damage Bonus: 10/15/20/25Knockback Distance: 150Knockback Duration: 0.3Move Speed Slow: 40%Slow Duration: 2.5
+
+
+ 16/14/12/10 ( 12/10/8/6)
+ 90Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]modifier_mars_gods_rebuke_critUndispellable
+
+modifier_knockbackAny
+modifier_mars_gods_rebuke_slowAnyThere isn't a warrior alive who can stand unmoved by the sting of Mars' rebuke.
+
+     God's Rebuke's effect area.  
+God's Rebuke's effects are instantly applied within its whole area. There is no travel time.
+The area is shaped like a circular sector, with a radius of 500 ( 600) and an angle of 140°.
+God's Rebuke affects an area based on Mars's current facing angle, not where the ability was targeted.
+When  Bulwark is toggled On, it always launches towards the locked facing direction, since Mars cannot turn towards the targeted point.
+Causes Mars to perform an instant attack on all hit enemies.
+These instant attacks can proc any attack modifiers and on-hit effects normally, with cleave being an exception. They have True Strike, but completely ignore disarms.
+God's Rebuke has an ensured critical strike, crits with a lower value have no effect if they proc since the higher crit value takes priority.
+Fully affect enemy  Couriers.
+God's Rebuke hero attack damage bonus is considered a conditional attack damage bonus.
+Although the attack damage bonus values are not displayed in the HUD, it is still considered and directly added to Mars's attack damage for the instant attack.
+It can be reduced only by flat reductions (e.g. damage block).
+Since it is considered bonus attack damage, it is not affected by percentage-based attack damage bonuses or reductions.
+If the affected enemies are not killed, they are knocked back and slowed. The direction is based on the angle between the hit unit and the caster.
+Units are not disabled during the knockback. They can still turn, attack, cast abilities, and use items. Does not interrupt the enemies' channeling abilities.
+Does not push heroes affected by the impaling stun of  Spear of Mars.
+Destroys trees enemies come in contact with during the knockback.
+God's Rebuke first applies the knockback, the movement speed slow, then the instant attack.
+Both the knockback and movement speed slow debuffs are applied at the same time, so the movement speed slow effectively lasts for 2.2 seconds.
+TALENT The distance increasing  talent increases both the cast range and the effect radius. However, other cast range bonuses only increase the ability's cast range.
+SPELL STEAL This ability's cast point is not modified when acquired. Bulwark    Link▶️Link▶️Link▶️EW
+
+
+
+AbilityToggle  / Passive
+AffectsSelf ( Enemies)
+Damage Instant Attack
+
+Mars wields his massive shield to block a portion of each physical attack when hit from the front or sides.Can be toggled, removing Mars's ability to attack, and locking the direction he is facing. When active, reduces movement speed and re-directs 70% of the attack projectiles aimed at Mars's allies towards Mars instead.
+
+Passive ComponentFront Angle: 140°Side Angle: 240°Front Damage Reduction: 40%/50%/60%/70% ( 52%/62%/72%/82%)Side Damage Reduction: 20%/25%/30%/35% ( 26%/31%/36%/41%)Cast Animation:  0+0Projectile Redirect Chance: 70% ( 100%)Back Projectile Redirect Range: 900Front Projectile Redirect Range:  200Self Move Speed Slow: 18% Instant Attack Interval: 1 Instant Attack Damage Bonus: 75 Number of Soldiers: 4 Soldiers Distance: 100 Soldiers Attack Range: 275 Enemy Move Speed Slow: 30% Slow Duration: 1
+
+
+ 0.2
+ 0
+Aghanim's Scepter Upgrade:
+Creates 75 invulnerable soldiers on both sides of Mars front while Bulwark is toggled on. Soldiers move alongside Mars, dealing his attacks that have bonus damage, knock back and slow approaching enemies. An enemy can only be attacked by one soldier at a time.
+
+Break Notes:Disables the passive damage reduction.Does not disable the active projectile redirect.Disables the active instant attacks.
+Modifiers [?]modifier_mars_bulwarkUndispellable
+modifier_mars_bulwark_activeDeath
+modifier_mars_bulwark_soldier_bonusUndispellable
+modifier_mars_bulwark_soldier_thinkerDeath
+modifier_mars_scepter_damageUndispellable
+
+modifier_mars_scepter_damage_trackerAny
+modifier_mars_scepter_damage_slowAnyOnly the very foolish dare to fight fair with the god of war.
+
+     Bulwark's angles visualized  
+
+
+Mars Soldier
+
+
+
+
+
+Summoned Creep-Hero
+
+
+
+
+
+
+Health
+15000
++10
+
+
+
+
+
+
+
+
+
+
+
+
+Mana
+150
++10
+
+
+Level
+
+
+
+1
+
+
+Armor
+
+
+
+3
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Attack Range
+
+
+
+275
+
+
+Move Speed
+
+
+
+0
+
+
+Collision Size
+
+
+
+27
+
+
+Bound Radius
+
+
+
+24
+
+
+Vision Range
+
+(G)
+
+800
+
+
+Bounty
+
+
+
+0
+
+
+Experience
+
+
+
+0
+
+
+Notes
+
+InvulnerableUncontrollableUnselectable
+
+
+
+Does not interrupt Mars' channeling abilities upon toggling On / Off.
+Applies generic incoming damage reduction on Mars. Stacks additively with other sources of generic incoming damage manipulation.
+Bulwark's damage reduction follows same targeting rules as damage block does, reacting mainly on attack damage from any units.
+It also reacts on certain abilities that react on damage block and is bypassed by certain instant attacks sources.
+Increases Mars' effective health by 67%/100%/150%/233% ( 108%/163%/257%/456%) and 25%/33%/43%/54% ( 35%/45%/56%/69%) when taking front damage and side damage respectively.
+Checks the damage source's current position and Mars' facing angle when the attack connects, not when the attack is released.
+Bulwark damage reduction occurs after damage block.
+Although both Bulwark and damage block use the same visuals when showing how much damage was blocked, the damage reduced is independent of each other.
+Plays a visual effect and a sound whenever damage is blocked. The default hit sound does not play.
+When blocking hero damage from the front, a bigger visual effect and the default sound are played.
+When blocking hero damage from the sides, or creep damage from the front, a smaller visual effect and a smaller sound are played.
+When blocking creep damage from the sides, no effects or sounds are played.
+While toggled On, Mars is disarmed and Bulwark applies a self movement speed slow and a 100% turn rate slow, effectively locking his facing direction.
+He can still cast abilities and items and move normally, but he no longer requires facing the target to do so.
+Automatically toggles Off when  Spear of Mars is cast.
+Any attack projectile within 900 range of Mars, and within the front and side angles of Bulwark has a 70% chance to get redirected to him.
+The ally being attacked has to be 900 range behind Mars.
+The redirect happens immediately upon projectile launch. Instead of targeting the intended attack target, it targets Mars instead.
+Does not redirect projectiles when Mars turns invulnerable, hidden and ethereal.
+Goes on a 0.2-second cooldown upon toggling Off.
+SCEPTER Toggling On now spawns 4  Mars Soldiers, with the 2 soldiers located parallelly 150-distance apart from each other on Mars' left and right side, with Mars in the middle, forming a line.
+All 4 soldiers are always spawned in the same formation and facing the same direction as Mars, no matter how.
+Each soldier attacks any valid enemy targets randomly, including buildings, within 275 range around them, there are no priorities.
+However, they do not attack enemies within 150 range of Mars.
+The soldiers attack together, synchronized in 1-second attack intervals, even if not all of them have a target.
+For example, if Bulwark is toggled Off 0.4 seconds after the soldiers' last attack, the next time it is toggled On, they still have to wait 0.6 seconds before they can attack again.
+ Mars Soldiers are invulnerable, phased and have unobstructed pathing.
+Although invulnerable, they are considered as units, and can still interact with the following abilities/mechanics:  Hookshot,  Shadow Wave damage/heal count, blocking neutral creeps from spawning, etc.
+Soldiers provides 800 ground vision upon toggling On.
+Plays a different ability sound effect while toggling On.
+SCEPTER Although the soldiers are performing the instant attacks, the damage is sourced to Mars.
+Grants unique flat bonus attack damage upon the soldiers' attack interval.
+These instant attacks can proc any attack modifiers and on-hit effects normally. They do not have True Strike.
+For  melee units, if the enemy target is 350 range farther than the attacker's range, the attack will always miss.
+Instant attacks are not performed when Mars is stunned, disarmed, cycloned, slept, feared or while prevented from acting. Other disables do not disable the instant attacks.
+Acquiring  Aghanim's Scepter while Bulwark is toggled On does not update the current instance.
+Fully affect enemy  Couriers.
+SCEPTER Knocks approaching enemies back in a slight arc for a knockback duration of 0.2 seconds.
+The knockback distance and speed have a dynamic range based on the distance between the soldier and the affected target.
+However, after being knocked back, the distance between the solider and the knocked back target is always 325 apart.
+Does not disable affected units, so they still can cast abilities, attack, and turn during the knockback.
+Does not interrupt channeling abilities of the affected target.
+Can knock units back over impassable terrain.
+Destroys trees within 100 radius of the affected units come in contact with upon landing.
+The soldiers' attacks first apply the damage, the knockback, then the movement speed slow. Arena Of Blood Link▶️Link▶️Link▶️Link▶️RB
+
+
+
+AbilityTarget Area
+AffectsEnemies ( Allies)
+DamagePhysical
+
+After a short formation time, Mars summons an arena lined with the undead warriors of the Ash Legion, who block enemy attacks and movement. Enemy heroes near the inside edge of the arena will be attacked by spears, dealing damage and knocking them back.
+
+Cast Animation: 0.2+0.97Cast Range:  400Arena Radius:  550Wall Width: 100Effect Delay: 0.1Spear Trigger Distance: 160Spear Damage: 80/160/240Spear Attack Interval: 1Spear Knockback Distance: 160Spear Knockback Duration: 0.2Arena Duration: 5/6/7Aura Linger Duration: 0.5 Ally Health Regen Bonus: 180
+
+
+ 90
+ 150/200/250Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]modifier_mars_arena_of_blood_thinkerUndispellable
+modifier_mars_arena_of_blood_markerUndispellable
+modifier_mars_arena_of_bloodUndispellable
+modifier_mars_arena_of_blood_animation_auraUndispellable
+modifier_mars_arena_of_blood_animationUndispellable
+modifier_mars_arena_of_blood_buff_auraUndispellable
+modifier_mars_arena_of_blood_buffUndispellable
+
+modifier_mars_arena_of_blood_leashUndispellable
+modifier_mars_arena_of_blood_spearAnyThe long-dead members of the Ash Legion, assembled from the finest warriors to ever test the might of Mars, still revel in the thrill of combat, gladly beholden to the hand that fell them for as long as he so commands.
+
+
+The effect delay is not included in the arena's duration. The actual duration starts right after the -second effect delay.
+Inside the arena, enemies without flying movement coming within 160 range of the wall get damaged.
+If not killed by the damage, the enemy is knocked back towards the arena center.
+Units are not disabled during the knockback. They can still turn, attack, cast abilities, and use items. Does not interrupt the affected enemy's channeling abilities.
+Hero(es) impaled by  Spear of Mars are stunned and not knocked back.
+Destroys trees within 100 radius that enemies come in contact with during the knockback.
+A unit may only be damaged and knocked back once every 1 second.
+Arena kockback has a higher priority on most Forced Movement sources, causing it can override almost all position changing effects except  Pulverize.
+Stops enemies without flying movement by slowing them with a movement speed slow aura. The aura has a radius of 750 and is centered on the field.
+This means units with flying movement can enter and leave the arena freely at any time.
+The slow gets exponentially stronger towards the walls, which has a 550 radius.
+This effectively causes enemy units touching the walls to come to halt.
+The slow is only present when facing toward the walls. Units at the walls facing away from it are not slowed.
+The slow aura's effect lingers for 0.5 seconds, resulting in an effective duration of 5.5/6.5/7.5 seconds.
+Since the slow is fluctuating a lot, it is not displayed in the HUD.
+Besides preventing enemies from walking in or out of the area, the following movement abilities are unable to pass the walls either:
+ Skewer,  Sun Ray Movement,  God's Rebuke,  Force Staff and  Hurricane Pike.
+Other horizontal movement sources can move units through the walls freely.
+However, the knockback from inside the arena still triggers and can cancel forced movement.
+Any attack projectile from an enemy gets blocked upon coming within 100 range of the walls.
+This includes all attack-based projectiles, including those coming from instant attacks.
+However, it does not block spell-based projectiles (e.g.  Death Ward).
+These blocked projectiles count as completely negated so that no on-attack effects can trigger (e.g.  Retaliate).
+This means  ranged enemies outside the arena cannot attack units inside of it and vice versa.
+ Melee units can attack freely, if they have enough attack range. Projectiles from abilities are completely unaffected as well.
+Provides 550 range flying vision at the center of the area for 5/6/7 seconds upon cast.
+After the effect delay, trees within 550 range of the wall gets destroyed.
+This means it effectively destroys trees within a 1100 radius.
+TALENT The ally health regeneration  talent is provided by an aura within the arena, which lingers for 0.5 seconds.
+With the arena's duration and its aura linger duration, it can regenerate up to 990/1170/1350 health over its full duration.
+Neither affects buildings nor wards, and neither invulnerable nor hidden units.
+The health regeneration bonus fully affect  Couriers.

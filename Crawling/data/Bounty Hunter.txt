@@ -1,0 +1,180 @@
+Shuriken Toss   Link▶️Link▶️QT
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamageMagical
+
+Hurls a deadly shuriken at an enemy unit, dealing damage and slowing the target. The shuriken will bounce to any Tracked units who are within a 1200 radius of each other. Deals bonus damage to Tracked targets.
+
+Cast Animation: 0.3+0.43Cast Range:  375/425/475/525 ( 700)Bounce Search Radius: 1200Damage: 100/150/200/250Move Speed Slow: 100%Attack Speed Slow: 100Debuff Duration: 0.35 ( 1)
+
+   5
+N   2
+
+ 5 ( 0)
+ 50/60/70/80
+Aghanim's Scepter Upgrade:
+Increases cast range and applies Jinada on hit.
+
+Spell Block / Reflection Notes:Blocked upon impact as primary or secondary target.When blocked, it continues to bounce.Ability Disjoint Notes:Disjointable by primary and secondary targets.Once disjointed, it stops bouncing.Modifiers [?]
+modifier_slowedAnyAbility Draft Notes:
+ Jinada has to be drafted as well for it to get applied.
+While the shuriken may be small, Gondar's precise aim can cause critical damage.
+
+
+The shuriken travels at a speed of 1000.
+The shuriken first applies the damage, then the debuff, then Jinada's spell damage.
+The initial target does not have to be  Tracked for the shuriken to bounce.
+Can only bounce to each Tracked unit once.
+Can also bounce to different Track debuff sources as long as the debuff is applied by an ally.
+Cannot bounce to, but can bounce off of invulnerable or hidden units.
+Can deal up to the following amount of damage (before reductions) to Tracked targets per Track level:
+LEVEL 1 140/210/280/350 damage.
+LEVEL 2 170/255/340/425 damage.
+LEVEL 3 200/300/400/500 damage.
+
+Both leveling up the ability and the slow duration  talent immediately upgrades all of Bounty Hunter's currently flying shurikens.
+SCEPTER Shuriken Toss now applies the current level of  Jinada on its target upon projectile impact.
+Jinada notes fully apply. If it is not leveled, it is not applied.
+Does not use instant attacks to apply the Jinada. The effects are applied by Shuriken Toss itself.
+Shuriken Toss' Jinada is independent of the Jinada applied by attacks, regardless of cooldown, and works even when dead.
+The 60/100/140/180 ( 90/130/170/210) damage is applied as spell damage in a separate damage instance, it is affected by spell damage amplification and works with spell lifesteal.
+However, it is still affected by damage block sources and  Bulwark, but not  Resonant Pulse.
+TALENT Acquiring the Shuriken Toss charges  talent instantly grants 1 extra charge.
+SPELL STEAL   Jinada applied is based on  Bounty Hunter's current ability level when acquired. Jinada   Link▶️WJ
+
+
+
+AbilityActive Attack Modifier
+AffectsEnemies  / Self
+
+
+Bounty Hunter plans his next hit, dealing bonus damage and stealing some unreliable gold.
+
+Cast Range:  150Attack Damage Bonus: 60/100/140/180 ( 90/130/170/210)Gold Stolen: 12/20/28/36 ( 62/70/78/86)
+
+
+ 9/7/5/3
+Break Notes:Does not prevent Shuriken Toss from triggering Jinada.Disabled, despite being an active ability.
+Illusion Notes:The ability is always toggled on, but illusions cannot trigger it.Modifiers [?]modifier_bounty_hunter_jinadaUndispellable
+Ability Draft Notes:
+Uses the caster's current attack range when Autocast.Manually casting it uses the cast range.
+Gondar's vast experience ensures he never walks away from a transaction empty-handed.
+
+
+Upon leveling Jinada the first time, it has Autocast on by default.
+Despite being an active ability, Jinada can trigger while silenced, if set to Autocast.
+Jinada's cast range can only be further increased by attack range bonuses of the same range type as the caster. However, it is not affected by cast range bonuses.
+Both Autocast and manually casting it uses Bounty Hunter's current attack range.
+When off cooldown, Bounty Hunter's weapons emit particle effects.
+Checks its cooldown on attack begin, not on attack hit.
+This means Jinada does not apply when its cooldown finishes during the attack animation.
+Grants regular flat bonus attack damage whenever the ability goes off cooldown, and the bonus is removed when going on cooldown.
+When attacking any other units, including buildings and wards, only the attack damage bonus is applied, triggering the cooldown.
+Reduces the target's unreliable gold while granting the same amount of Bounty Hunter unreliable gold.
+Steals gold only when attacking enemy heroes and clones.
+Does not affect illusions and creep-heroes.
+Jinada does not work against allies. Shadow Walk Link▶️EW
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+
+
+Bounty Hunter becomes invisible and gains the ability to move through other units until he attacks or uses an ability. If he breaks the invisibility with an attack, that attack will stun the target for a short duration.
+
+Cast Animation:  0+0Fade Time: 1/0.75/0.5/0.25Invisibility Duration: 20/25/30/35Enemy Stun Duration: 0.8/1/1.2/1.4 Damage Reduction: 30%
+
+
+ 18/17/16/15 ( 13/12/11/10)
+ 55
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Friendly Shadow ability.Lowers cooldown.
+
+Modifiers [?]modifier_bounty_hunter_wind_walkDeath
+
+modifier_stunnedStrongThe court jesters present during King Goff's assassination can recount no other image than a dancing shadow.
+
+
+Does not interrupt Bounty Hunter's channeling abilities upon cast.
+The attack first applies the debuff and then the attack damage.
+The Shadow Walk buff is lost upon reaching the cast point of abilities or items, or upon landing an attack. Missed attacks do not break it.
+Casting  Track or  Friendly Shadow does not break the invisibility of Shadow Walk.
+Bounty Hunter can pick up, drop or attack items without breaking the invisibility.
+Successive casts refresh the invisibility duration.
+Grants phased movement while fully invisible, and allows Bounty Hunter to path through other units, including wards, but not through buildings.
+Upon breaking invisibility, Shadow Walk applies the debuff, then the attack damage.
+TALENT The incoming damage reduction  talent instantly updates the current active instance.
+Applies generic incoming damage reduction on Bounty Hunter. Stacks additively with other sources of generic incoming damage manipulation.
+Reduces all damage types received, except from damage flagged as HP removal (e.g.  Sunder). Friendly Shadow Link▶️DD
+
+
+
+AbilityTarget Unit
+AffectsAllied Heroes  / Enemies
+
+
+Applies Shadow Walk and all of its bonuses to the target ally. Allied fade time is 1. Casting this ability does not break Bounty Hunter's invisibility when cast.
+
+Cast Animation:  0+0Cast Range:  650Fade Time: 1Invisibility Duration: 20/25/30/35Enemy Stun Duration: 0.8/1/1.2/1.4 Damage Reduction: 30%
+
+
+ 13/12/11/10
+ 55Modifiers [?]modifier_bounty_hunter_wind_walkDeath
+Ability Draft Notes:
+Requires drafting  Shadow Walk to be unlocked.
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+Does not interrupt the ally's channeling abilities upon cast.
+Friendly Shadow can be cast without having to face toward the targeted unit, as long as the targeted unit is within the cast range.
+Can be cast on untargetable ally heroes.
+Casting Friendly Shadow does not break the invisibility of  Shadow Walk.
+Can only be cast on ally heroes, including clones and illusions, except creep-heroes.
+Does not require Shadow Walk to be leveled to be unlocked, once Aghanim's Shard is acquired.
+However, it relies on Shadow Walk to work, since it directly uses its values , except mana cost and fade time. This means when Shadow Walk is not learned, Friendly Shadow does nothing upon cast and does not cooldown but waste mana.
+Shadow Walk notes fully apply.
+TALENT The incoming damage reduction  talent instantly updates the current active instance.
+Applies generic incoming damage reduction on Bounty Hunter. Stacks additively with other sources of generic incoming damage manipulation.
+Reduces all damage types received, except from damage flagged as HP removal (e.g.  Sunder). Track   Link▶️RR
+
+
+
+AbilityTarget Unit
+AffectsHeroes
+
+
+Tracks an enemy hero, granting True Sight of the target, and information on how much gold it is carrying. Bounty Hunter moves fast when near the tracked unit and deals critical strikes when attacking it. If the target dies, Bounty Hunter and nearby heroes collect a bonus bounty of gold. Casting Track does not take you out of invisibility.
+
+Cast Animation: 0.3+0.43Cast Range:  1000Radius:  1200Self Move Speed Bonus: 16%/20%/24%Target Critical Damage: 140%/170%/200%Self Bonus Gold: 130/225/320 ( 175/270/365)Ally Bonus Gold: 40/80/120 ( 85/125/165)Shuriken Toss Damage Multiplier: 1.4/1.7/2Duration: 30Aura Linger Duration: 0.5 Enemy Shared Vision Duration: 30
+
+
+ 6/5/4
+ 60Illusion Notes:Critical strike values shown are before illusion outgoing damage and armor reduction.Modifiers [?]modifier_bounty_hunter_track_effectUndispellable
+
+modifier_bounty_hunter_trackAnyUsing his elevated senses of sight and smell, Gondar's hits have quite a good chance of success.
+
+     Alt+ Left Click message of Track debuff.  
+Despite the visual effect, the Track debuff is applied instantly on the target.
+Exposes the target, provides True Sight and shared vision over it.
+TALENT The affected target's vision is shared with Bounty Hunter and his team.
+Grants unreliable gold to Bounty Hunter and his allies around the target when the target dies, no matter how it dies.
+Allies only get the bonus gold if they are within 1200 range of the tracked hero while alive. Bounty Hunter himself gets the gold regardless of distance, even while dead.
+Can be cast on illusions and the  Tempest Double, but does not grant any gold when they die.
+When multiple  Meepo Clones are tracked and one of them dies, each clone grants the Track gold around them.
+The movement speed bonus is provided by an aura on the target and its buff lingers for 0.5 seconds. Multiple instances of the aura do not stack.
+The aura does not affect invulnerable or hidden units.
+The critical strike only applies to the caster's attacks against the tracked enemy, other units under their control do not crit.
+If the caster is a  ranged hero, already launched attacks do not crit if the target gets tracked before projectile impact.
+Vice versa, already launched attacks do crit if the track debuff expires before the projectiles land.
+If another source of critical strike procs on the same attack, the higher multiplier has priority.
+The visual and sound effects of Track are only visible and audible to Bounty Hunter and his allies. However, the debuff is visible to everyone.
+The visual effects from the movement speed buff are visible to everyone as well.
+The debuff icon on the target shows how much Gold  it currently has.
+Alt+ Left Click on the debuff announces the tracked hero's current gold in the chat.
+TALENT The shared vision granting  talent immediately updates all existing Track debuffs.

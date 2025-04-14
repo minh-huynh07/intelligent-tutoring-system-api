@@ -1,0 +1,174 @@
+Aether Remnant Link▶️Link▶️Link▶️QR
+
+
+
+AbilityTarget Point  / Vector Targeting
+AffectsEnemies
+DamageMagical
+
+Vector targeted. Void Spirit dispatches a remnant to the target location. The remnant stands watch over the region, facing the direction of his vector. When a unit crosses its gaze, the remnant pulls it in and damages it.
+
+Cast Animation: 0+0.53Cast Range:  850Remnant Search Range:  450 ( 600)Remnant Watch Width:  130Watch Path Vision Radius:  200Activation Delay: 0.4Damage: 70/120/170/220 ( 120/170/220/270)Distance Moved: 44%/50%/56%/62%Pull Duration: 1/1.2/1.4/1.6Remnant Duration: 20 Creep Damage per Second: 21/36/51/66 ( 36/51/66/81) Debuff Duration: 1 True Sight Radius: 475
+
+
+ 17/15/13/11 ( 15/13/11/9)
+ 75/80/85/90
+Aghanim's Shard Upgrade:
+
+Increases Aether Remnant watch range and only pulls enemy hero units. Other units take 30% damage every 1s that they are in the remnant's path, but the remnant is not destroyed. Decreases cooldown by 2.
+
+Debuff Immunity Notes:True Sight pierces debuff immunity.Latches onto the affected target visually but does not damage them.Modifiers [?]modifier_projectile_visionUndispellable
+modifier_void_spirit_aether_remnant_thinkerUndispellable
+modifier_void_spirit_aether_remnant_unitUndispellable
+modifier_void_spirit_aether_remnant_watch_thinkerUndispellable
+modifier_void_spirit_aether_remnant_unit_truesightUndispellable
+
+modifier_void_spirit_aether_remnant_pullAny
+modifier_truesightUndispellable
+modifier_void_spirit_aether_remnant_creep_damageAnyInai exists far beyond the scope of a single point in space and time.
+
+     Aether Remnant's search area (red) and vision area (yellow).  
+The remnant moves towards the targeted point at a speed of 900.
+Upon reaching the targeted point, the remnant faces towards the targeted direction, and then remains inactive for 0.4 seconds.
+After the activation delay, the remnant provides flying vision in front of it.
+The vision is provided by 2 vision cells, each with a radius of 200.
+The first vision cell is positioned 225 range in front of the remnant, the second one 450 range in front of it.
+The remnant itself also has 250 radius ground vision and 475 radius True Sight. This is the dummy's vision, provided at all times around the remnant.
+Together with the remnant's own vision, the total vision area has a length of 925, and a width of 450.
+TALENT The Remnant True Sight  talent does not update exisiting Aether Remnants.
+After the activation delay, the remnant searches for enemies within a path in front of it.
+The search path has a length of 450 ( 600) and width of 130.
+When multiple enemies are within the area, it grabs the one furthest away closest to the center line.
+Treats illusions, clones, summons and creep-heroes as heroes.
+Applies a hypnotizing fear and provides True Sight over the target, pulling it towards the remnant, and prevents it from acting.
+Sets the target's movement speed to 44%/50%/56%/62% of the distance between Remnant and the target.
+If the target is too close, it stops moving once within 100 range of the remnant.
+When cast at maximum cast range, this results in a speed of 330/312.5/300/290.63.
+Grants the target unobstructed pathing, so they can move through cliffs, trees, and other units while walking towards the remnant.
+For creeps, the remnant applies the damage right after the activation delay. Although the fear is applied, it is not noticeable.
+SHARD The remnant now does not disappear when affecting creeps but still disappears once affecting enemy heroes.
+The speed is set once upon cast. If the target gets moved or teleported, the speed does not adapt.
+Aether Remnant first applies the damage, the pull debuff, then the damage debuff on creeps.
+Destroys trees within a 200 radius around the target at the end of the fear.
+SHARD For creeps, the remnant now also applies a 1-second debuff on enemy creeps within the area.
+The debuff deals one damage instance immediately upon application on enemy creeps without the debuff.
+The debuff neither stacks nor refreshes itself, it is reapplied on valid enemy creeps once its previous debuff duration ends.
+This results in a maximum of 20 damage instances when standing within the area for the full duration.
+One instance of the debuff can deal up to 21/36/51/66 ( 36/51/66/81) damage (before reductions).
+Can deal up to a total of 420/720/1020/1320 ( 720/1020/1320/1620) damage to a single unit for the entire duration (before reductions). Dissimilate  Link▶️Link▶️WD
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+DamageMagical
+
+Void Spirit temporarily fades into the aether, creating a number of portals through which he can reassemble himself. Upon exiting a portal, he damages all enemies in the area.
+
+Cast Animation: 0.3+0Portals Radius:  275First Ring Radius:  520Number of First Ring Portals: 6Damage: 100/180/260/340Hidden Duration: 1.1 Second Ring Radius: 1040 Number of Second Ring Portals: 6 Root Duration: 2
+
+
+ 20/17/14/11
+ 130Modifiers [?]modifier_void_spirit_dissimilate_phaseDeath
+
+modifier_rootedAnyInai much prefers to observe our plane free from the confines of corporeal form.
+
+            Dissimilate's portal formation.  
+Creates 7 ( 13) portals, with one of them being at the cast location.
+The following 6 portals form a ring around the center portal, with their center being 520 range far away from it.
+One portal is created in front of Void Spirit, while the other 6 are adapted to it, with 60° angles between them, forming a hexagon.
+TALENT With the outer ring  talent, the last 6 portals are placed in line behind the portals of the first ring.
+These last portals are 1040 range away from the center portal and are placed using the same angles as the portals of the first ring.
+Turns Void Spirit invulnerable and hidden for its duration.
+Fully disables, silences, mutes, roots, and disarms Void Spirit, making him unable to do anything.
+However, Void Spirit can still pick up items or activate runes at the cast location.
+Void Spirit can decide at which portal to reappear, by issuing a move order ( Right Click or M).
+Directly clicking on the portals is not required, a directional order is enough. The closest portal to the right-clicked location gets selected.
+Attack orders behave like move orders during disarms, so right-clicking an enemy also selects the nearest portal to the enemy.
+Void Spirit can change the selected portals as many times as he wants while hidden.
+A selected portal is highlighted for Void Spirit and his allies. For enemies, all portals look the same.
+Does not grant phased movement, Void Spirit can still block other units during Dissimilate.
+Does not disjoint projectiles upon teleporting.
+TALENT With the Dissimlate roots  talent, the damage and the 2-second root is dealt around the selected portal upon re-appearing.
+Dissimilate first apply the damage, then the root. Resonant Pulse Link▶️Link▶️Link▶️EE
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+DamageMagical
+
+Void Spirit wraps himself in a protective shield that absorbs physical damage and emits a single damaging pulse around him. The shield gains increased damage absorption for each enemy hero the pulse hits.
+
+Cast Animation: 0+0Radius:  500Damage: 60/105/150/195 ( 130/175/220/265)Damage Barrier:  40/80/120/160Capacity Bonus per Hit Hero:  40/60/80/100Barrier Duration: 10 Silence Duration: 2
+
+   15
+N   2
+
+ 18 ( 0.25)
+ 115/120/125/130
+Aghanim's Scepter Upgrade:
+Causes Resonant Pulse to silence and gain  charges.
+
+Modifiers [?]modifier_void_spirit_resonant_pulse_ringDeath
+modifier_void_spirit_resonant_pulse_physical_buffAny
+
+modifier_silenceAnyInai never hesitates to shroud himself in the essence of his true self when forced to interact with the mortal plane.
+
+
+Interrupts Void Spirit's channeling abilities upon cast.
+Resonant Pulse is a thin ring expanding outwards at a speed of 1200, taking 0.42 seconds to reach maximum range and dissipate.
+It can be avoided by teleporting towards Void Spirit over the ring shortly after cast.
+Enemy units hit by the ring are damaged and release a projectile toward Void Spirit.
+These projectiles travel at a speed of 900 and cannot be disjointed.
+Once the projectiles reach Void Spirit, they increase the  physical damage barrier by 40/60/80/100.
+While active, if the base value is depleted before these projectiles reach, they create a new shield, with their own capacity.
+The pulse is bound to a modifier. Multiple instances of the modifier stack, so that each cast releases a ring.
+The modifier is lost upon dying, therefore upon death stops the ring.
+Grants Void Spirit a  physical damage barrier that absorbs physical attack damage values, causing several on-damage effects to not trigger within its capacity.
+Does not absorb spell damage of any damage types.
+Stacks additively with the same damage-type barrier sources, and independently with other damage-type barrier sources.
+Has a higher priority than universal damage barriers in the group of damage barriers.
+However, when combined with other higher-priority damage-negating sources (e.g.  Refraction), Resonant Pulse does not absorb any damage until the damage-negation sources expire.
+Can grant up the following damage barrier capacity per hit hero:
+1x Hero: 80/140/200/260
+2x Hero: 120/200/280/360
+3x Hero: 160/260/360/460
+4x Hero: 200/320/440/560
+5x Hero: 240/380/520/660
+
+Treats clones as heroes, illusions and creep-heroes as creeps.
+SCEPTER Resonance Pulse first applies the damage, then the silence debuff.
+Goes on a 0.25-second cooldown when cast to prevent accidental double-casts.
+Acquiring  Aghanim's Scepter instantly grants 1 extra charges. This only happens once, re-acquiring it does not grant another 1 charge. Astral Step  Link▶️RT
+
+
+
+AbilityTarget Point
+AffectsEnemies  / Self
+Damage Instant Attack  / Magical
+
+Void Spirit tears a rift through the astral plane to appear at the target location, attacking all enemies along the path. This attack inflicts a void mark that slows for  seconds and then detonates.
+
+Cast Animation: 0.2+0Cast Range: GlobalMin Distance: 200Max Distance:  800/900/1000Path Width:  170Move Speed Slow: 40%/60%/80%Debuff Damage: 130/230/330Debuff Duration: 1.25 Critical Damage: 140%
+
+ 25/20/15 ( 21/16/11)
+N 2
+
+ 0
+ 90Modifiers [?]modifier_void_spirit_astral_step_casterDeath
+
+modifier_void_spirit_astral_step_debuffAnyA small step for Inai creates great devastation on the mortal plane.
+
+
+Void Spirit is teleported instantly towards the targeted point upon cast.
+Does not disjoint projectiles upon teleporting.
+Astral Step first applies the instant attack, the debuff, then the debuff damage.
+Causes Void Spirit to perform an instant attack on every enemy unit along the path.
+Fully affect  Couriers.
+These instant attacks can proc any attack modifiers and on-hit effects normally, except for cleave. They have True Strike, and completely ignore disarms.
+TALENT The critical strike  talent adds an ensured 140% critical strike to the instant attack as well.
+If two sources of critical strike proc at the same time, the higher crit multiplier has priority.
+All hit enemies also receive the movement speed slow debuff. This debuff deals damage upon losing it.
+This means dispelling it causes the damage to happen earlier.
+Multiple instances of the debuff fully stack and work independently from each other.

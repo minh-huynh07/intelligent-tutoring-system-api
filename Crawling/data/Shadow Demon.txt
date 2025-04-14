@@ -1,0 +1,230 @@
+Disruption  Link▶️QD
+
+
+
+AbilityTarget Unit
+AffectsHeroes
+
+
+Banishes the targeted unit from the battlefield for a short duration. Upon returning, two illusions of the banished unit are created under Shadow Demon's control.
+
+Cast Animation: 0.3+0.6Cast Range:  650Number of Illusions: 2    Disruption Duration: 2.75  Disruption IllusionsBase Attack Damage Bonus: 40/50/60/70Damage Dealt: 20%/30%/40%/50%Damage Taken: 300%Duration: 11/12/13/14
+
+   26/24/22/20
+N   2
+
+ 26/24/22/20 ( 0)
+ 120Debuff Immunity Notes:Still creates illusion of the affected target after the Disruption duration.Modifiers [?]modifier_shadow_demon_disruptionDeath
+modifier_illusionDeath
+modifier_invulnerableDeath
+The pain of deception comes not while it happens, but when it is revealed.
+
+     Disruption illusion as they appear to allies.  
+Disruption fully disables the target and turns it invulnerable and hidden for its duration.
+Does not disjoint projectiles.
+↓↓ Double-tapping automatically targets self.
+Cannot be cast on allies who have ☐ Disabled Help from Shadow Demon.
+The following abilities fully affect the target under the effect of the most recent Disruption cast by Shadow Demon, regardless of its source:
+ Shadow Poison adding new stack or increasing its stacks.
+Casting  Shadow Poison Release or losing the Shadow Poison debuff in any way still causes the damage to be dealt.
+ Demonic Purge and  Demonic Cleanse's damage and heal respectively.
+Always creates the illusions, even when cast on allies or self.
+Can be cast on illusions, creating illusions based on the original hero.
+Does not create illusions if the affected target dies while affected by Disruption.
+When the target turns invisible during Disruption, the visual effects turn invisible as well.
+The illusions are created at the end of the duration. When the target dies during Disruption, no illusions are created.
+The current health of the illusions is determined upon casting Disruption, not upon creating the illusions at the end of the duration.
+This means any health loss caused by Shadow Demon's abilities during Disruption does not affect the health of the illusions that are about to spawn.
+All other stats like hero level or current mana are determined upon creating the illusions.
+The illusions have a expr 2 × IllusionLVL bounty.
+The targeted unit's position is not shuffled with the possible illusion's position. It always reappears between the 2 illusions, at the right vertex of an isosceles right triangle.
+The illusion spawns 108-distance from the affected enemy hero if the target's collision size is 27, and 72-distance if its collision size is 18.
+Each illusion appears either north, east, south, or west from the hero and faces the same direction as the affected hero does.
+The illusions carry the caster's name, not the targeted unit's player name, revealing that they are illusions when not cast on self.
+TALENT Acquiring the Disruption Charges  talent instantly grants 1 extra charge. Disseminate  Link▶️Link▶️WC
+
+
+
+AbilityTarget Unit
+AffectsUnits
+DamagePhysical (HP Removal)
+
+Whenever the target takes damage, all enemies, including the target itself if it is an enemy, within 675 range of the target also receive a portion of that damage. Can target enemy and allied units. Effect is paused if the target is hidden by Disruption.
+
+Cast Animation: 0.3+0.6Cast Range:  700/800/900/1000Radius:  675Damage Shared: 20%/25%/30%/35% ( 35%/40%/45%/50%)Enemy Damage Amp: 20%/25%/30%/35% ( 35%/40%/45%/50%)Duration: 6
+
+
+ 30/25/20/15
+ 100Modifiers [?]modifier_shadow_demon_disseminateAny
+
+
+
+Disseminate has no damage delay, so all targets within the radius are damaged at the same time.
+Can be cast on any units, except wards and hidden units.
+Can only be cast on ally  Couriers.
+↓↓ Double-tapping automatically targets self.
+The shared damage is always sourced to Shadow Demon.
+Therefore, if a unit dies to the damage done by Disseminate, Shadow Demon gets credited for the kill.
+Disseminate spreads damage before all damage manipulations within the radius before the affected target actually receives the damage. The primary target is also affected by the spreading damage.
+Effectively amplifies all damage done to the primary target by 20%/25%/30%/35% ( 35%/40%/45%/50%).
+The damage received by the affected target can be affected by the following sources:
+ Incoming damage manipulation the affected target has.
+ Outgoing damage manipulation sourced to Shadow Demon.
+Since it can be affected by incoming damage manipulation sources of the affected target, Disseminate shares the overkill damage value, if the damage source exceeds the affected target's current health and killed them.
+Damage shared is the same type as the source damage.
+Damage shared has the HP Removal flag, therefore do not interact with every on-damage effects (i.e. disabling  Blink Dagger).
+Shares all damage types except HP Removal.
+Shared physical damage is still affected by magic resistance. However, shared physical damage is not affected by the damage block.
+Instant kill effects in the form of HP Removal (e.g.  Culling Blade) share an instance of 0 damage within its radius.
+Fully procs on-damage effects such as  Corrosive Skin, except those which have a minimum damage threshold (e.g.  Gravekeeper's Cloak).
+Disseminate's damage has the no-reflection flag, preventing its damage from interacting with other sources of damage with the same flag.
+Non-player-controlled units are not aggro'd by the damage.
+Neutral creeps do not react to the damage.
+Successive casts update the ability values and refresh its duration.
+Despite the ability's description,  Disruption neither pauses the duration nor dispel Disseminate.
+The Disseminate buff or debuff is reapplied based on the remaining Disseminate duration once Disruption ends based on whether either ability is applied as a buff or debuff. This affects the following things:
+If both   abilities are applied as a buff (or debuff) on the affected target, the reapplied duration will result as a buff (or debuff respectively), regardless of the remaining Disseminate duration.
+If the   abilities are applied as a buff and the other as a debuff on the affected target, the buff type of the resulting reapplied remaining duration depends on the difference of the remaining duration.
+For other situations with Disruption and Disseminate applying either a buff or debuff, please refer to the chart below. Shadow Poison Link▶️Link▶️Link▶️EW
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamagePhysical
+
+Deals damage in a line, and afflicts enemy units with a poison effect. The poison deals 1/2/4/8/16 times the stack damage based on the number of stacks on the target, up to 5 stacks. Additional stacks cause 50 damage each. This deferred damage is dealt when Shadow Poison's duration is expired, or the Release sub-ability is used.
+
+Cast Animation: 0.25+0Cast Range:  1500Travel Distance:  1500Effect Radius:  200Base Damage: 30/40/50/60 ( 34.5/46/57.5/69)Stacks to Multiply: 5Multiplied Stack Damage: 24/36/48/60 ( 27.6/41.4/55.2/69)Non-Multiplied Stack Damage: 50 ( 57.5)Stack Duration: 10
+
+
+ 2.5 ( 1.5)
+ 45Modifiers [?]modifier_projectile_visionUndispellable
+
+modifier_shadow_demon_shadow_poisonDeathAbility Draft Notes:
+This ability has Autocast toggled on if enemies are debuffed by Shadow Poison.When toggled off, the poison is released, triggering the damage.
+The ever growing influence of the Shadow Demon can pollute the most valiant and pure of heroes.
+
+
+Shadow Poison travels at a speed of 1200 and always travels the full distance, which takes 1.25 seconds.
+The projectile provides 350 radius non-lingering flying vision around the poison cloud as it travels.
+Provides 300 radius flying vision around each enemy unit it hits, and also upon reaching the maximum travel distance. This vision lingers for 3.5 seconds.
+With the travel distance and effect radius, it can hit units up to 1700 range away.
+Fully affects invisible units and units under the effect of the most recent  Disruption cast by Shadow Demon.
+Does not affect invulnerable units or units affected other hidden sources.
+Shadow Poison first applies the initial damage, then adds 1 stack to all enemy units within 200 radius of it on each cast.
+The poison first applies the debuff or adds 1 stack to an existing debuff, then deals the initial damage.
+Successive hits on the same unit fully refresh the whole stack's duration.
+The first 5 stacks get their damage multiplied by 1/2/4/8/16 depending on the amount of stacks.
+Every following stack adds 50 ( 57.5) damage on top of that, so the damage starts growing linearly after the 5th stack.
+Therefore, the poison's max potency is reached at the 5th stack.
+The damage difference between applying 2 separate stacks of five and 1 stack of ten (excluding the initial damage) is 134/326/518/710 ( 154.1/374.9/595.7/816.5).
+For how much damage each stack of Shadow Poison deals on each level up to the 10th stack, with the damage increasing  talent (before reductions), please refer to the chart below.
+Casting  Shadow Poison Release or losing the Shadow Poison debuff in any way causes the damage to be dealt.
+From the same source, successive casts update the ability values and refresh the whole stack's duration.
+From different sources, successive casts increase the stack count of the first applied stack. The damage values are not updated, and therefore the stack damage value is based on the first applied stack.
+The current number of stacks is visible to Shadow Demon and his allies above the affected units. Enemies cannot see it.
+This number is visually capped at 19, however, the poison has no stack limit and can be stacked infinitely.
+The current number of stacks is also shown on the debuff icon, which is visible to everyone.
+SPELL STEAL / MORPH NOTES Successive casts of different ability levels increase the stack count of the first applied stack. However, the damage values are not updated, the stack damage value is based on the first applied stack. Shadow Poison Release DE
+
+
+
+AbilityNo Target
+
+
+
+Releases the poison to do damage on all affected enemies. Units under the effect of Disruption can still be affected by Shadow Poison.
+
+Cast Animation: 0.3+0
+
+
+ 1
+ 0Ability Draft Notes:
+This ability is not available in Ability Draft.
+
+
+
+Shadow Poison Release is unlocked upon learning  Shadow Poison and stays always active.
+Shadow Demon still plays the full ability cast animation when casting this sub-ability while there are no units affected by Shadow Poison.
+SPELL STEAL Does not grant  Shadow Poison if this sub-ability is the last cast ability. Demonic Cleanse Link▶️Link▶️FF
+
+
+
+AbilityTarget Unit
+AffectsAllies
+
+
+Cleanses the target allied unit, removing negative buffs for the duration. At the end of the duration, the unit is healed. Units under the effect of Disruption can still be affected by Demonic Cleanse.
+
+Cast Animation: 0.3+0.6Cast Range:  800Min Heal: 0Max Heal: 300/450/600 ( 500/650/800)Duration: 6
+
+   60 ( 30)
+N   2
+
+ 60 ( 30) ( 0)
+ 150/175/200
+Aghanim's Scepter Upgrade:
+Cooldown is removed, replaced with 2 charges that replenish every 60 seconds.
+
+Modifiers [?]
+modifier_shadow_demon_purge_slowDeathAbility Draft Notes:
+This ability is not available in Ability Draft.
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+↓↓ Double-tapping automatically targets self.
+Applies a basic dispel on the target upon cast and over its entire duration. The heal is applied after the end of the duration.
+A unit can only be affected by either  Demonic Purge or Demonic Cleanse, but not both.
+Can be cast on invulnerable allies, fully affecting them.
+Fully affects the target under the effect of the most recent  Disruption cast by Shadow Demon, regardless of its source.
+Cannot be cast on allies affected by other hidden sources.
+Can only be cast on ally  Couriers.
+The heal is bound to the modifier. Therefore, successive casts remove the modifier from a previous cast, triggering the heal, then applying a new instance.
+It starts at 0 and increases by 1.67/2.5/3.33 ( 2.78/3.61/4.44) for each server tick affected, reaching the max values in 6 seconds.
+Acquiring  Aghanim's Scepter instantly grants 1 extra charges. This only happens once, re-acquiring it does not grant another 1 charges.
+TALENT Both of  Demonic Purge's damage increasing and cooldown reducing  talent also affects Demonic Cleanse.
+The damage increasing  talent increases Demonic Cleanse's heal value instead. Demonic Purge  Link▶️Link▶️RG
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamagePhysical
+
+Purges the target enemy unit, removing positive buffs, and slowing the target for the duration. The unit slowly regains its movement speed until the end of the duration, upon which damage is dealt. Units under the effect of Disruption can still be affected by Demonic Purge.
+
+Cast Animation: 0.3+0.6Cast Range:  800Min Damage: 0Max Damage: 300/450/600 ( 500/650/800)Min Move Speed Slow: 20%Max Move Speed Slow: 100%Duration: 6
+
+   60 ( 30)
+N   2
+
+ 60 ( 30) ( 0)
+ 150/175/200
+Aghanim's Scepter Upgrade:
+Cooldown is removed, replaced with 2 charges that replenish every 60 seconds. Also causes Demonic Purge to break its target's passive abilities while active.
+
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Demonic Cleanse ability.
+
+Modifiers [?]
+modifier_shadow_demon_purge_slowDeathOnce Shadow Demon no longer has any need for his collected cultist, he releases it from its subservience - and its life.
+
+
+Applies a basic dispel on the target upon cast and over its entire duration. The damage is applied after the end of the duration.
+A unit can only be affected by either Demonic Purge or  Demonic Cleanse, but not both.
+Can be cast on invulnerable units, applying the initial dispel and the debuff if the invulnerability can be dispelled.
+However, if the target is an enemy and if the invulnerability cannot be dispelled, only the initial dispel is applied, and the debuff is not.
+Fully affects the target under the effect of the most recent  Disruption cast by Shadow Demon, regardless of its source.
+Cannot be cast on enemies affected by other hidden sources.
+Can only be cast on enemy  Couriers.
+The movement speed slow starts at 100% decreases over time to 20%. Hit units regain 0.444% of their movement speed on each server tick.
+This translates to 13.33% movement speed regained per second.
+The damage is bound to the modifier. Therefore, successive casts remove the modifier from a previous cast, triggering the damage, then applying a new instance.
+It starts at 0 and increases by 1.67/2.5/3.33 ( 2.78/3.61/4.44) for each server tick affected, reaching the max values in 6 seconds.
+With LEVEL 4  Disseminate on the affected target, Demonic Purge can deal up to 405/607.5/810 ( 675/877.5/1080) damage (before reductions).
+SCEPTER Demonic Purge now applies Break on the target as well.
+The break stops affecting the target before it deals its damage.
+Acquiring  Aghanim's Scepter instantly grants 1 extra charges. This only happens once, re-acquiring it does not grant another 1 charges.

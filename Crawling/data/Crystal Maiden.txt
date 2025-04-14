@@ -1,0 +1,181 @@
+Crystal Nova Link▶️QV
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamageMagical
+
+A burst of damaging frost slows enemy movement and attack rate in the targeted area.
+
+Cast Animation: 0.3+0.6Cast Range:  700Effect Radius:  425 ( 550)Damage: 110/160/210/260 ( 410/460/510/560)Move Speed Slow: 20%/30%/40%/50%Attack Speed Slow: 30/45/60/75Slow Duration: 5
+
+
+ 11/10/9/8 ( 7/6/5/4)
+ 115/135/155/175
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Crystal Clone ability.
+
+Modifiers [?]
+modifier_crystal_maiden_crystal_novaAnyThe air temperature around Rylai drops rapidly, chilling all around her to the core.
+
+
+Provides a 6-second 900 radius ground vision at the target area upon cast.
+Crystal Nova first applies the damage, then the debuff.
+Plays a sound effect during the cast time which is audible to everyone.
+Successive casts do not update the movement speed and attack speed slow values but refresh the slow duration.
+COSMETIC Has a cast backswing of 0.8 with the  Frost Avalanche equipped. Frostbite  Link▶️WE
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamageMagical
+
+Encases an enemy unit in ice, prohibiting movement and attack, while dealing damage over time. Lasts 10 seconds on creeps level 6 or lower.
+
+Cast Animation: 0.3+0.6Cast Range:  600 ( 725)Damage Interval: 0.2Damage per Second: 100Hero Duration: 1.5/2/2.5/3 ( 2.75/3.25/3.75/4.25)Creep Duration: 10 ( 11.25)
+
+
+ 9/8/7/6
+ 125/135/145/155Debuff Immunity Notes:The True Sight pierces debuff immunity.Spell Block / Reflection Notes:Not blocked when passively applied by Freezing Field.Not blocked when passively applied by Crystal Clone.Modifiers [?]
+modifier_crystal_maiden_frostbiteAnyRylai channels winds from the Blueheart Glacier, imprisoning attackers in thick blocks of ice.
+
+
+Despite the visual effects, Frostbite applies its effects immediately and cannot be disjointed.
+Roots and disarms the target, preventing it from moving, attacking, and casting certain mobility abilities.
+Provides True Sight over the target.
+Deals 20 damage in 0.2-second intervals, starting 0.2 seconds after cast, resulting in 7.5/10/12.5/15 ( 13.75/16.25/18.75/21.25) damage instances to heroes and 50 ( 56.25) to creeps.
+Can deal up to 150/200/250/300 ( 275/325/375/425) damage to heroes and 1000 ( 1125) damage to creeps (before reductions).
+Treats illusions, creep-heroes, ancient creeps and  Roshan as heroes.
+Successive casts do not stack but refresh the duration.
+COSMETIC Has a cast backswing of 0.8 with the  Frost Avalanche equipped.
+Has a cast backswing of 1 with the  Conduit of the Blueheart equipped. Arcane Aura  ER
+
+
+
+AbilityAura
+AffectsAllies
+
+
+Gives additional mana regeneration to all friendly units on the map. Allies within a 1200 radius of Crystal Maiden receive 3x the mana regeneration. Crystal Maiden herself receives 7x the bonus.
+
+Aura Radius: GlobalProximity Aura Radius: 1200Base Mana Regen Bonus: 0.4/0.6/0.8/1Proximity Bonus Factor: 3Self Bonus Factor: 7Aura Linger Duration: 0.5Illusion Notes:Bestows and benefits from the aura.Modifiers [?]modifier_crystal_maiden_brilliance_auraUndispellable
+modifier_crystal_maiden_brilliance_aura_effectUndispellable
+Cold temperatures promote the essence of magic, causing Rylai's presence to allow spell usage in abundance.
+
+
+Arcane Aura provide two auras, and its buff lingers for 0.5 seconds.
+The first aura has a Global radius.
+The second proximity aura grants her allies 1.2/1.8/2.4/3 mana regeneration bonus per ability level within 1200 radius.
+Crystal Maiden receives 7 times of the base mana regeneration value, regenerating 2.8/4.2/5.6/7 mana per second per ability level.
+The base mana regeneration aura can regenerate up to 24/36/48/60 mana per minute for allies.
+Within the proximity aura radius, allies can regenerate up to 72/108/144/180 mana per minute.
+Can regenerate up to 168/252/336/420 mana per minute for Crystal Maiden.
+Does not affect invulnerable or hidden units. Crystal Clone  DT
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemies
+DamageMagical
+
+Slides backward, creating a crystal clone of herself in her place. If the clone takes enough damage or times out, it shatters, Frostbiting enemies in a 450 AoE around its place.
+
+Cast Animation:  0+0Split Time: 0.1Move Distance: 275Move Duration: 0.3Frostbite Radius:  450      Crystal Clone IllusionDamage Threshold: 150Damage Dealt: 100%Damage Taken: 100%Illusion Duration: 5
+
+
+ 10
+ 150Debuff Immunity Notes:The True Sight of Frostbite pierces debuff immunity.Spell Block / Reflection Notes:Not blocked when Frostbite is passively applied.Modifiers [?]modifier_crystal_maiden_crystal_cloneUndispellable
+Ability Draft Notes:
+* Requires drafting  Frostbite to be unlocked.
+Access  Crystal Clone by toggling auto-cast on  Frostbite
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+Does not interrupts Crystal Maiden's channeling abilities upon cast.
+Crystal Clone disjoints projectiles upon cast.
+Also provides 0.1-second  1800 and  800 ground vision respectively upon cast.
+Crystal Maiden slides backward from the direction she is facing, at a speed of 916.67 up to 0.3 seconds.
+Can move over other units and over impassable terrain.
+While sliding, Crystal Clone cancels all movement orders and attack orders, and then it creates an illusion instantly despite having a slight animation delay.
+The illusion created does not visually animate, it is also unselectable and uncontrollable.
+However, it can still be attacked by enemies via ground-targeting an attack (A) on the nearest unit.
+Despite the ability tooltip, the illusion does not have a fixed health, it passively shatters when it collectively receives 150 damage (before all reductions, except Damage Barriers).
+When the illusion shatters, it applies  Frostbite within 450 radius based on its current level.
+Frostbite notes fully apply. If it is not learned, it is not applied.
+The Frostbite applied is independent of the ability and does not cost any mana.
+Taunt sources and its mechanic notes fully apply to the illusion.
+However, once the illusion is taunted, the taunt state lasts indefinitely regardless of the taunt duration and does not change targets even when it cannot find the taunting unit anymore. Freezing Field  Link▶️RF
+
+
+
+AbilityNo Target  / Channeled
+AffectsEnemies ( Self)
+DamageMagical
+
+Surrounds Crystal Maiden with 100 random icy explosions that slow enemies and deal massive damage. Grants bonus armor while channeling. Lasts 10 seconds.
+
+Passive Component Frostbite Timer:  2.5Cast Animation: 0+0Max Channel Time: 10 ( 0)Slow Radius:  810Min Explosion Spawn Radius: 195Max Explosion Spawn Radius:  785Explosion Damage Radius:  320Self Armor Bonus: 20Explosion Spawn Interval: 0.1 ( 0.083)Damage per Explosion: 105/170/250 ( 155/220/300)Move Speed Slow: 40%Attack Speed Slow: 60Slow Duration: 1 Self Move Speed Slow: 75%
+
+
+ 100/95/90
+ 200/400/600
+Aghanim's Scepter Upgrade:New Ability
+Grants the Stop Freezing Field ability.Allows you to move, cast and attack during Freezing Field. Can still be interrupted by enemies. You move 75% slower during this. Increases total number of explosions by 20%. Applies Frostbite to any unit that has been standing in the Freezing Field for over 2.5s.
+
+Spell Block / Reflection Notes:Not blocked when Frostbite is passively applied.Modifiers [?]modifier_crystal_maiden_freezing_fieldDeath
+
+modifier_crystal_maiden_freezing_field_slowAny
+modifier_crystal_maiden_freezing_field_trackerDeathAbility Draft Notes:
+ Frostbite must be drafted as well for it to get applied.
+Once the place of her exile, Icewrack has become an anchor for Rylai's frigid onslaught.
+
+
+Both the movement speed and attack speed slow is applied to all enemies within the radius in 0.1-second intervals, regardless of the ice explosions.
+The explosions occur in 0.1 ( 0.083)-second intervals, starting 0.1 ( 0.083) seconds after cast, resulting in 99 ( 121) explosions.
+Each ice explosion can spawn within a random distance of 195 to 785 away from Crystal Maiden.
+The explosion spawn radius is divided into four 90° segments (0°–90°, 90°–180°, 180°–270°, 270°–360°).
+The first explosion occurs within the northeast segment of the circle, following explosions proceeding counterclockwise, regardless of facing direction.
+With the max spawn radius and explosion radius, it can damage units up to 1105 range away.
+The radius is always centered on Crystal Maiden and follows her even when she is moved.
+Despite the visual effects, the damage is dealt as the falling ice shards are spawned, not upon them reaching the ground.
+SCEPTER Freezing Field now provides an aura that tracks enemies within the area. The tracker lingers for 0.1 seconds.
+If an enemy unit is affected by the tracker for 2.5 seconds,  Frostbite is applied to the enemy unit based on its current level.
+A unit can only be affected by Frostbite once per cast of Freezing Field. Even if they re-enter the area, they are not affected a second time.
+If a unit is already frostbitten by a manual cast, it can still be frostbitten again by Freezing Field, and refreshing the duration.
+The tracker resets whenever it is reapplied to a unit. This means a unit must be affected by it for 2.5 seconds continuously in order to be frostbitten.
+The tracker is placed on enemies even without having  Aghanim's Scepter, tracking the duration enemies spend within the area normally.
+This means when acquiring the item while channeling, enemies which have been in the area for more than 2.5 seconds instantly have Frostbite applied to them.
+The tracker does not affect invulnerable or hidden units.
+SCEPTER Freezing Field no longer requires channeling and Crystal Maiden can move and act freely during its duration.
+Still interrupts Crystal Maiden's channeling abilities upon cast.
+While Freezing Field is active, it applies a 75% movement speed slow on Crystal Maiden, which can be off-set by movement speed bonuses, including haste.
+Freezing Field is interrupted if Crystal Maiden gets stunned, silenced, cycloned, feared, hexed or slept during it.
+It also stops when Crystal Maiden dies, or when she uses the  Stop Freezing Field sub-ability.
+The following abilities are no longer able to interrupt Freezing Field:
+ Glimpse,  Earth Splitter,  Relocate,  Recall,  X Marks the Spot,  Return,  Overgrowth and  Nether Swap.
+SPELL STEAL The passive  Frostbite applied is based on  Crystal Maiden's current ability level when acquired.
+SOULBIND The passive  Frostbite applied on any of the targets is not shared with the other. Stop Freezing Field RF
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Immediately stops the Freezing Field
+
+Cast Animation:  0+0Max Duration: 10
+
+
+ 1
+ 0
+
+
+Requires  Aghanim's Scepter to be unlocked.
+Replaces  Freezing Field until the sub-ability is used or the duration ends.
+Interrupts Crystal Maiden's channeling abilities upon cast.
+Goes into a 1-second cooldown right after Freezing Field is cast, this is to prevent accidental double-casts prematurely ending the ability.

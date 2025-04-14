@@ -1,0 +1,263 @@
+Rocket Barrage Link▶️QR
+
+
+
+AbilityNo Target
+AffectsEnemies  / Self
+DamageMagical
+
+Launches a salvo of rockets at nearby enemy units in a radius around the Gyrocopter. Gyrocopter has increased resistance to slows during this time. Lasts 3 seconds.
+
+Cast Animation:  0+0Search Radius: 400Number of Targets: 1Rockets per Second: 10Damage per Rocket: 8/14/20/26 ( 22/28/34/40)Self Slow Resistance Bonus: 20%/30%/40%/50%Barrage Duration: 3 Move Speed Bonus: 30
+
+
+ 7/6.5/6/5.5
+ 75/80/85/90Modifiers [?]modifier_gyrocopter_rocket_barrageAny
+Aurel's new craft has an increased payload for rockets, enhancing their rapid-fire capabilities.
+
+
+Interrupts Gyrocopter's channeling abilities upon cast.
+Gyrocopter can act freely during Rocket Barrage.
+Despite the visual effects, Rocket Barrage deals the spell damage instantly, rather than on each rocket's impact.
+Neither hit invisible units nor units in the Fog of War.
+The units damaged are selected randomly within the search radius. There are no priorities.
+Does not fire rockets while Gyrocopter is hidden.
+Deals damage in 0.1-second intervals, starting 0.1 seconds after cast, resulting in 30 damage instances.
+Can deal a total of 240/420/600/780 ( 660/840/1020/1200) damage (before reductions), assuming all rockets hit.
+Leveling up the ability does not update the current active instance.
+Stacks multiplicatively with other slow resistance sources.
+TALENT The movement speed increasing  talent does not update the current active instance.
+Increases Gyrocopter's total movement speed to 350 while active.
+However, the damage per rocket increasing  talent immediately update the current active instance. Homing Missile   Link▶️Link▶️Link▶️Link▶️WE
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamageMagical
+
+Fires a homing missile to seek the targeted enemy unit. The missile gains speed over time, dealing damage and stunning when it impacts the target. Enemy units can destroy the missile before it reaches its target.
+
+Cast Animation: 0+0Cast Range:  1050Launch Delay: 2.5Hero Attacks to Destroy: 3Tower Attacks to Destroy: 6Damage: 90/180/270/360Stun Duration: 1.3/1.7/2.1/2.5 ( 1.6/2/2.4/2.8) Rocket Barrage Radius:  700 Rocket Barrage Delay: 1
+
+
+ 30/24/18/12
+ 120/130/140/150
+Aghanim's Shard Upgrade:
+
+Homing Missiles now constantly fires the current level of Rocket Barrage in a 700 area of effect after 1 second of being cast. This Rocket Barrage prioritizes the Homing Missile target.
+
+Spell Block / Reflection Notes:Blocked upon impact.Modifiers [?]modifier_gyrocopter_homing_missileUndispellable
+modifier_gyrocopter_homing_rocket_barrageDeath
+
+modifier_stunnedStrongAbility Draft Notes:
+ Rocket Barrage has to be drafted as well for it to get applied.
+The biggest missile Aurel could possibly attach to his craft, The Bomb™ has carefully calculated aerodynamics and explosives for maximum impact.
+
+     Visual indicator above the target.  
+
+
+Homing Missile
+
+
+
+
+
+Summoned Ward
+
+
+
+
+
+
+Health
+100
++0
+
+
+
+
+
+
+
+
+
+
+
+This unit has no mana.
+
+
+Level
+
+
+
+2
+
+
+Duration
+
+
+
+Infinite
+
+
+Armor
+
+
+
+0
+
+
+Magic Resistance
+
+
+
+0%
+
+
+Status Resistance
+
+
+
+0
+
+
+Collision Size
+
+
+
+27
+
+
+Bound Radius
+
+
+
+24
+
+
+Vision Range
+
+(G)
+
+400
+
+
+Bounty
+
+
+
+50
+
+
+Experience
+
+
+
+20
+
+
+Notes
+
+UncontrollablePhased
+
+
+
+When cast, a stationary missile is placed 150 range in front of Gyrocopter, which begins to move 2.5 seconds later.
+ Homing Missile has an initial speed of 500 and increases by 15 per second, increasing by 1 movement speed every 0.07 seconds.
+The speed acceleration is not capped and continues to increase until it hits the target or is destroyed.
+If the missile's target dies, it automatically switches to the nearest valid target within 700 range of the previous target, prioritizing heroes.
+If there are no other valid targets, it is instantly destroyed.
+Only attacks from heroes, illusions, towers and fountain, can damage the missile.
+The missile can be pushed forward or backward by  Force Staff,  Hurricane Pike and  Psychic Headband.
+The missile cannot impact the target while being affected by the aforementioned forced movement sources. it passes through, reorients, and continues to chase the target.
+The missile is instantly destroyed if targeted by  Force Boots and when affected by  Chronosphere.
+Heroes and buildings deal 33.33 and 16.67 damage respectively to the Homing Missile.
+Treats attacks from clones and illusions as heroes.
+Creeps do not attack Homing Missile.
+The rocket first applies the debuff, then the damage.
+The cross-hair over the target is visible to allies only.
+Although the ability neither grants vision nor True Sight over the target, the missile homes and hits invisible units.
+Provides 400 radius flying vision over the hit target. The vision lingers for 3.5 seconds.
+Leveling up ability does not update the current active flying missiles.
+SHARD Homing Missile starts firing  Rocket Barrage of the current level,  second after being deployed.
+This Rocket Barrage has a radius of  and prioritizes its current target over other units.
+Rocket Barrage notes fully apply. If it is not leveled, Rocket Barrage's animation will still fire at the target but deal no damage.
+Although the missile launches the Rocket Barrage, the damage is sourced to Gyrocopter, and not to the  Homing Missile.
+Therefore, the damage is affected by outgoing damage manipulation and spell lifesteal.
+Acquiring  Aghanim's Shard immediately updates all currently existing Homing Missiles.
+SPELL STEAL The  Rocket Barrage applied is based on  Gyrocopter's current ability level when acquired.
+SOULBIND The second Homing Missile is launched after the first hit its target or is destroyed. Flak Cannon   Link▶️Link▶️EF
+
+
+
+AbilityNo Target ( Passive)
+AffectsEnemies  / Self
+Damage Instant Attack
+
+Gyrocopter's attacks hit all enemy units in an area around it for a limited number of attacks. Only the main target of attacks will receive attack bonuses such as Critical Strike. Lasts 12 seconds or until the attacks are used.
+
+Passive Component Side Gunner Range:  700 Side Gunner Attack Interval:  1.3 Side Gunner Targets:  1Cast Animation:  0+0Night Vision Bonus: 200Search Radius:  1250Number of Attacks: 4/5/6/7 ( 7/8/9/10)Duration: 12 Side Gunner Bonus Targets: 1 Attack Damage Bonus: 25
+
+
+ 26/24/22/20 ( 21/19/17/15)
+ 40/50/60/70
+Aghanim's Scepter Upgrade:
+Adds a Side Gunner that at random attacks enemy units near Gyrocopter. When Flak Cannon is active, side gunner attacks 2 units instead. Prioritizes furthest unit away within its range.
+
+Break Notes:The Side Gunner is disabled.
+Modifiers [?]modifier_gyrocopter_flak_cannonDeath
+modifier_gyrocopter_flak_cannon_scepterUndispellable
+This newly revamped Gyrocopter has attached enough armaments to assault in a 360 degree radius.
+
+     Overhead Flak Cannon icon.  
+Interrupts Gyrocopter's channeling abilities upon cast.
+Increases Gyrocopter's  nighttime vision range to 1000 upon cast.
+Causes Gyrocopter to perform instant attacks on all nearby enemies whenever he launches an attack projectile. This means it does not matter if the attack successfully hits or not.
+The instant attacks do not trigger attack modifiers or any on-hit effects. They do not have True Strike.
+The projectiles from the active instant attacks travel at a speed of 800.
+The flaks have no count limit. All valid nearby targets get targeted.
+The primary attack target is not affected by Flak Cannon. It is only hit by the primary attack.
+Does not target  Couriers, wards, buildings, invisible units, or units inside the Fog of War.
+However, attacking couriers, wards, buildings, or allied units still causes flaks to hit all valid targets within the search radius.
+The visual effect above Gyrocopter and the number of attacks left on the buff icon are visible to everyone.
+SCEPTER Adds a passive component to Flak Cannon, with the active components still present. Therefore, the Side Cannon  Ability Upgrade requires Flak Cannon to be learned to work.
+Passively perform instant attacks, using Gyrcopter's current projectile speed, on the furthest enemy within 700 range of him.
+While Flak Cannon is active, Gyrocopter attacks 2 enemy units within range simultaneously.
+These instant attacks can trigger any attack modifiers and on-hit effects normally, except for Flak Cannon while it is active. They do not have True Strike, but ignore disarms.
+Instant attacks launched this way neither interrupt Gyrocopter's channeling abilities nor interrupt his attack orders.
+Does not target wards,  Couriers or attack immune enemies, but does target buildings. Only targets units Gyrocopter has vision over.
+Does not launch attacks when Gyrocopter is hidden or invisible.
+The Side Gunner ignores fade times and fade delays of invisible sources. It stops launching instant attacks when Gyrocopter is fully invisible.
+For  melee units, if the enemy target is 350 range farther than the attacker's range, the attack will always miss.
+TALENT Both the attack damage bonus and number of attacks increasing  talents do not update the current active instance.
+Grants flat bonus attack damage while Flak Cannon is active. Call Down Link▶️Link▶️RC
+
+
+
+AbilityTarget Point  / Vector Targeting
+AffectsEnemies
+DamageMagical
+
+Call down 3 aerial missile strikes that slow and damage enemy units in a target area. Each strike is 500 distance from the previous one and is delayed by 1 seconds.
+
+Cast Animation: 0.3+0.5Cast Range:  1000 ( Global)Effect Radius: 400Number of Call Downs: 3Number of Missiles per Call Down: 1Delay per Missile: 1Missile Damage: 250/400/550Missile One Move Speed Slow: 50%Missile Slow Duration: 4
+
+
+ 90/75/60 ( 60/45/35)
+ 150/200/250Modifiers [?]modifier_gyrocopter_call_down_thinkerUndispellable
+
+modifier_gyrocopter_call_down_slowAny'Bombs away!'
+
+
+Provides a 2-second 400 radius flying vision at the targeted area upon cast with each missile.
+Each missile impacts for 1 seconds  after cast.
+Additional instances of Call Down are launched in 1 intervals, starting 1 seconds after the primary Call Down, taking 3 seconds to launch them all.
+The additional instances are launched along the selected vector, 500 range apart from each other, so that they overlap a bit.
+This results in them covering a total area with a length of 1800 and a width of 400.
+Once cast, the additional instances cannot be stopped in any way, not even by Gyrocopter's death.
+Can deal a total of 750/1200/1650 damage (before reductions), assuming both missiles hit.
+Leveling up the ability does not update the current active instance.
+The missiles first apply their debuffs, then their damage.
+Successive movement speed slow debuffs refresh each other.
+The big red area indicator is visible to allies only. The sound effects are audible and the missiles are visible to everyone.

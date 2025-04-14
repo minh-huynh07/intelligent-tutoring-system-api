@@ -1,0 +1,246 @@
+Scatterblast Link▶️Link▶️QR
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamagePhysical
+
+Snapfire unloads with a wide blast that damages and slows enemies in a cone. Enemies caught at point-blank range take an extra 1.5 damage.
+
+Cast Animation: 0.4+0.83Cast Range:  800Starting Radius:  225Travel Distance:  800End Radius:  400Point-Blank Distance: 450Damage: 100/160/220/280 ( 170/230/290/350)Point-Blank Damage Multiplier: 1.5Move Speed Slow: 100%Attack Speed Slow: 100Slow Duration: 1
+
+
+ 16/14/12/10
+ 85/90/95/100Modifiers [?]
+modifier_snapfire_scatterblast_slowAny
+modifier_snapfire_scatterblast_disarmDeathA favorite from her collection, Beadie crafted Ol' Rackatee as her first line of defense when she ventured into the Outlands.
+
+     Scatterblast's custom targeting indicator.  
+Scatterblast travels at a speed of 3000, taking 0.27 seconds to travel the full distance.
+With the travel distance and end radius, it can hit units up to 1200 range away.
+The complete area is shaped like a cone.
+Scatterblast's damage is determined upon projectile hit, and not upon cast.
+It has a custom ability targeting indicator and the damage dealt is determined by two cones, with the darker color cone indicating the point-blank damage distance, and the remaining cone distance.
+Cast range bonuses only increases the arc length and reduce the angle of the cone. It neither increases the point-blank distance, nor the remaining cone distance.
+Deals 150/240/330/420 ( 255/345/435/525) damage (before reductions) to units within point-blank distance.
+Leveling up Scatterblast, or learning the damage increasing  talent does not update the damage of an already launched instance.
+Scatterblast first applies the damage, then the movement speed slow. Firesnap Cookie   Link▶️Link▶️Link▶️Link▶️Link▶️WC
+
+
+
+AbilityTarget Unit
+AffectsAllies  / Enemies
+DamagePhysical
+
+Snapfire feeds a potent cookie to Mortimer or an ally, causing them to hop a short distance. The hopping unit stuns and damages enemies in the landing zone.
+
+Cast Animation: 0.2+0.57Cast Range:  700Impact Radius:  300Jump Distance: 425 ( 600)Impact Damage: 70/140/210/280Jump Duration: 0.484 ( 0.684)Impact Stun Duration: 1/1.4/1.8/2.2 Glob Impact Damage Multiplier: 0.5 Heal: 175
+
+
+ 21/19/17/15 ( 17/15/13/11)
+ 85/90/95/100
+Aghanim's Shard Upgrade:
+
+Firesnap cookies become even more potent, getting increased jump range and launching a Mortimer Kiss to the landing destination.
+
+Modifiers [?]modifier_snapfire_firesnap_cookie_pre_hopDeath
+modifier_snapfire_firesnap_cookie_short_hopDeath
+modifier_snapfire_firesnap_cookie_ally_flail_animDeath
+modifier_snapfire_firesnap_cookie_landing_gestureDeath
+
+modifier_stunnedStrongWith the help of a secret mixture that pairs Beadie's baking skills with her passion for black powder, these battle biscuits pack a punch.
+
+
+↓↓ Double-tapping automatically target self.
+Has a 0.3+0 cast animation when cast on self.
+The projectile travels at a speed of 1100.
+Cannot be cast on allied units that are currently channeling. This includes self-casting.
+Cannot be cast on invulnerable and hidden units.
+If the ally starts channeling, turns invulnerable, or is hidden after the projectile launch, the projectile does nothing upon impact.
+Can target, but has no effect on units affected by  Chronosphere and  Black Hole, the projectile does nothing on impact.
+Upon projectile impact, the target jumps 425 ( 600) range forwards and 257 ( 362) range upwards. While in the air, other units can pass below them.
+During the jump, the target is fully disabled and prevented from acting.
+Can jump over other units and over impassable terrain.
+The area damage and stun are applied upon losing the hop buff. This means if the leap gets interrupted, the effects are applied earlier.
+Firesnap Cookie first applies the heal, then the damage, then the stun, then the Mortimer Kisses debuff.
+The health restore  talent immediately upgrades already launched cookies, making them heal on impact.
+Destroys trees within 300 radius around the target upon landing.
+SHARD upon cast landing the unit deals one instance of impact damage based on the current level of  Mortimer Kisses, and leaves a lava puddle behind. The puddle applies the debuff in 0.5-second intervals, starting immediately and lasts for 3 seconds.
+Mortimer Kisses notes fully apply. If it is not learned, no glob is launched.
+Firesnap Cookie can deal up to the following amount of impact damage and total damage per second (before reductions) per level of Mortimer Kisses, considering its impact damage, and standing within the puddle for the full duration:
+LEVEL 1 160/230/300/370 ( 190/260/330/400) + 270 total damage per second
+LEVEL 2 205/275/345/415 ( 235/305/375/445) + 360 total damage per second
+LEVEL 3 250/320/390/460 ( 280/350/420/490) + 450 total damage per second
+
+SHARD The projectile provides 500 radius flying vision as it travels. This vision lingers for 3.5 seconds at the impact area.
+Since  Firesnap Cookie,  Spit Out and Mortimer Kisses use the same modifer, they do not stack, with the damage from the first applied debuff taking priority. Lil' Shredder Link▶️Link▶️EE
+
+
+
+AbilityNo Target
+AffectsSelf  / Enemy Units
+DamagePhysical ( Instant Attack)
+
+Snapfire heats up her mounted turret to rapidly fire 6 fixed-damage attacks. Each attack reduces the enemy's armor. Provides bonus attack range for the duration.
+
+Cast Animation: 0+0Attack Range Bonus: 75/150/225/300Attack Speed Bonus: 300Base Attack Time: 1Set Attack Damage: 30/55/80/105 ( 0)Number of Attacks: 6 ( 8)Armor Reduction per Attack: 0.5Armor Reduction Duration: 5Buff Duration: 6 Secondary Targets Search Radius:  575/650/725/800 Bonus Attack Targets: 3 Attack Damage as Damage: 100%
+
+
+ 24/20/16/12
+ 70/80/90/100Modifiers [?]modifier_snapfire_lil_shredder_buffAny
+modifier_snapfire_lil_shredder_attackAny
+
+modifier_snapfire_lil_shredder_debuffAnyBeadie constantly tinkers with a design she first dreamed up plotting an exodus from her old gang.
+
+
+Interrupts Snapfire's channeling abilities on cast.
+Increases Snapfire's attack range to 575/650/725/800, and sets her base attack time to 1.
+Sets Snapfire's damage to the given values, attack damage bonuses, and reductions are completely ignored.
+TALENT This restriction is removed with the Lil' Shredder uses attack damage  talent.
+Leveling up Lil' Shredder or learning the  talent does not update the damage of the currently active instance.
+An attack charge is lost whenever an attack is executed, regardless of the outcome. This means missed attacks use up charges as well.
+The number of charges left is visible on the buff icon.
+Lil' Shredder uses a single debuff on the target. Following attacks increase its stack count.
+A number on the icon reveals the number of stacks. The number is visible to everyone.
+Since only one debuff is used, each attack resets the duration of the entire stack.
+The armor reduction is applied on any attacked target, including buildings and allies.
+Can deal a total of 180/330/480/630 ( 240/440/640/840) damage with all 6 ( 8) attacks (before reductions).
+Can reduce a total of 3 ( 4) armor with all attacks.
+The attacks first place the debuff, then apply their own damage.
+Since the Lil' Shredder debuff is applied before the damage, the ability's damage benefits from the armor reduction applied.
+Successive casts do not stack but refresh the buff, resetting the number of attacks and updating the attack range bonus.
+TALENT The multishot  talent performs instant attacks on 3 different random targets within attack range whenever attacking during Lil' Shredder.
+These instant attacks can proc any attack modifiers and on-hit effects normally. They do not have True Strike, and are affected by disarms.
+The secondary attacks have no target priorities, they choose random valid targets within range, excluding buildings.
+The secondary attacks' search radius can be further increased by other attack range bonuses. Gobble Up  Link▶️Link▶️DF
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Allies
+DamageInstant Kill
+
+Mortimer gobbles up a creep or an allied hero, which he can then spit towards enemies. The unit stays in his belly up to 3 seconds.
+
+Cast Animation: 0.3+1.27Cast Range:  150Max Duration: 3
+
+
+ 40
+ 120Modifiers [?]modifier_snapfire_gobble_up_creepDeath
+modifier_snapfire_gobble_up_belly_has_unitDeath
+Ability Draft Notes:
+Requires drafting  Mortimer Kisses to be unlocked.
+
+
+     Visual indicator above Snapfire when gobbling a unit.  
+Requires  Aghanim's Scepter to be unlocked.
+Can be cast on any unit, except for enemy heroes, ancient creeps and creep-heroes.
+Cannot be cast on allies who have ☐ Disabled Help from Snapfire.
+Disjoints projectiles for the target unit upon cast.
+The target unit is invulnerable, hidden, silenced, muted, and disarmed while swallowed.
+During Gobble Up, the unit is periodically moved to Snapfire's current position. This periodic movement cannot be interrupted.
+This means their auras are effectively bestowed around Snapfire until spat out.
+The unit is automatically released after 3 seconds if  Spit Out is not cast.
+If the unit is an enemy or neutral creep, Gobble Up changes the targeted creep's owner to Snapfire and instantly kills it in the form of HP Removal when released, this effectively deniesing it.
+The damage dealt can be defined as expr 100% × CurrentHP
+Treats illusions and clones as heroes.
+Swallowing a unit turns this ability inactive and turns the Spit Out sub-ability active.
+This ability stays inactive until the unit is released, either by timing out, by using the sub-ability, or upon Snapfire's death. Spit Out Link▶️Link▶️Link▶️FG
+
+
+
+AbilityTarget Area
+AffectsEnemies  / Allies
+DamagePhysical  /  Instant Kill
+
+Mortimer spits out the unit that's in his mouth, causing impact damage and stun in a large area. The glob leaves a pool of firespit that slows and applies damage over time.
+
+Cast Animation: 0.3+1.03Cast Range:  3000Impact Radius:  400Debuff Damage per Second: 100Move Speed Slow: 25%Puddle Duration: 3Debuff Duration: 1Stun Duration: 1.2Projectile Flying Vision Radius:  500Projectile Max Height:  130
+
+
+ 0
+ 0Modifiers [?]modifier_snapfire_spit_creep_arcing_unitDeath
+modifier_snapfire_ground_magma_thinkerUndispellable
+
+modifier_stunnedStrong
+modifier_snapfire_magma_burn_slowAnyAbility Draft Notes:
+Requires drafting  Mortimer Kisses to be unlocked.
+
+
+
+Requires  Aghanim's Scepter to be unlocked.
+This ability stays inactive until  Gobble Up is cast and turns inactive again once the targeted unit is spat out in any way.
+The swallowed unit serves as a projectile, and is moved in an arc towards the targeted point, with a max height of 130.
+The projectile has a min and max travel time of 0.6 – 2.1 seconds respectively, and a projectile speed of 1400.
+This means up to 2333 range, the speed adapts to lower values, and for distance starting at 2940, the speed adapts to higher values.
+While flying, the unit is stunned, invulnerable and hidden.
+Upon landing, if the unit is an enemy or neutral creep, it instantly kills it in the form of HP Removal.
+The damage dealt can be defined as expr 100% × CurrentHP
+Treats illusions and clones as heroes.
+Neither requires Mortimer Kisses to be leveled to be unlocked nor relies on Mortimer Kisses to work, once Aghanim's Scepter is acquired.
+Upon landing, the unit deals one instance of impact damage based on the current level of  Mortimer Kisses, and leaves a lava puddle behind. The puddle lasts 3 seconds.
+The puddle applies the debuff on enemies in 0.5-second intervals, starting immediately as it is created, resulting in 7 instances.
+The debuff lasts 1 second, and deals 50 damage in 0.5-second intervals, starting immediately upon being placed, resulting in 3 instances.
+Can deal a total of 630/720/810 ( 690/780/870) damage, considering impact damage, and standing within the puddle for the full duration (before reductions).
+Multiple instances of the debuff do not stack.
+Since   Firesnap Cookie, Spit Out and Mortimer Kisses use the same modifer, they do not stack, with the damage from the first applied debuff taking priority.
+The impact first applies the damage, then the stun.
+Spit Out has no minimum distance.
+The projectile provides 500 radius flying vision as it travels. This vision lingers for 3.5 seconds at the impact area.
+Destroys trees within 150 radius around the projectile upon landing. Mortimer Kisses Link▶️Link▶️Link▶️RD
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamagePhysical
+
+Snapfire's friend launches a barrage of firespit globs over 5.5 seconds. Globs cause impact damage and create pools of firespit, which slow and apply damage over time. Snapfire has a reduced turn rate for the duration and a minimum launch range of 600. Each glob can be targeted with a right click.
+
+Cast Animation: 0.5+0.73Cast Range:  3000Min Distance: 600Max Distance:  3000Impact Radius:  275Self Turn Rate Slow: 75%Number of Projectiles: 8 ( 14)Impact Damage: 180/270/360 ( 240/330/420)Debuff Damage per Second: 60/80/100Enemy Move Speed Slow: 15%/20%/25%Launch Duration: 5.5Puddle Duration: 3Debuff Duration: 1Projectile Flying Vision Radius:  500Projectile Max Height:  130
+
+
+ 120/110/100
+ 125/150/175
+Aghanim's Scepter Upgrade:New Ability
+Grants the Gobble Up ability.
+
+Modifiers [?]modifier_snapfire_mortimer_kissesDeath
+modifier_prevent_tauntsDeath
+modifier_snapfire_mortimer_kisses_vision_sourceUndispellable
+modifier_projectile_visionUndispellable
+modifier_snapfire_ground_magma_thinkerUndispellable
+
+modifier_snapfire_magma_burn_slowAnyLittle did Beadie know when she adopted Mortimer, dragon toads--which aren't even toads at all--share more than just a name with their distant draconic cousins.
+
+
+The projectiles have a min and max travel time of 0.8 – 2 seconds respectively, and a projectile speed of 1300.
+This means up to 1625 range, the speed adapts to lower values, and for distance starting at 2600, the speed adapts to higher values.
+Launches globs in 0.688 ( 0.393)-second intervals, starting immediately upon cast, resulting in 8 ( 14) globs.
+Mortimer Kisses is not a channeling ability. It can only be interrupted in the following conditions:
+When Snapfire is affected by silence, cyclone, hex, sleep, taunt, or fear sources.
+When other orders, except for attack and movement orders, are given to Snapfire.
+Stun sources using the modifier_stunned reliably interrupt Mortimer Kisses.
+Other disabling sources (e.g. forced movement from enemies) may interrupt Mortimer Kisses only if the disabling duration is greater than the intervals between two launched globs.
+Therefore, neither teleport sources nor being affected by the following abilities cancel Mortimer Kisses.
+ Glimpse,  Return or  Nether Swap.
+ Firesnap Cookie does not cancel Mortimer Kisses if it was cast by an ally.
+The following effects are applied on Snapfire while Mortimer Kisses are active:
+Sets Snapfire's movement speed to 0 (has priority over hastes) and disarms Snapfire for its duration, so it cannot move or attack.
+Attack orders behave like move orders during disarms,  Right Click on an enemy sets a new location as well.
+Reduces Snapfire's turn rate to 0.15 while launching globs.
+The location for the globs can be changed with a move order ( Right Click or M).
+The destination for each glob is marked with a red circle indicator, which is visible to allies only.
+Although the ability reduces Snapfire's turn rate while active, the globs are launched where the order was targeted, they are not launched based on facing angle.
+Each glob deals the impact damage and leaves a lava puddle behind. The puddles last 3 seconds.
+The puddles apply the debuff on enemies in 0.5-second intervals, starting immediately as they are created, resulting in 7 instances.
+The debuff lasts 1 second, and deals 30/40/50 damage in 0.5-second intervals, starting immediately upon being placed, resulting in 3 instances.
+Multiple instances of the debuff do not stack.
+Since   Firesnap Cookie,  Spit Out and Mortimer Kisses use the same modifer, they do not stack, with the damage from the first applied debuff taking priority.
+A single glob can deal a total of 450/630/810 ( 510/690/870) damage, considering impact damage, and standing within the puddle for the full duration (before reductions).
+Provides 275 radius flying vision at the current targeted location for the globs, lasting until Mortimer stops launching projectiles.
+The projectiles provide a 500 radius flying vision as they travel. This vision lingers for 3.5 seconds at the impact area.
+Leveling up Mortimer Kisses does not update the impact damage of already launched globs.
+However, the lava puddles are updated to apply the debuff with the current value.
+Already placed debuffs are not updated to the current values.

@@ -1,0 +1,210 @@
+Nature's Grasp Link▶️Link▶️Link▶️QT
+
+
+
+AbilityTarget Point
+AffectsEnemies
+DamageMagical
+
+Creates vines towards the target location. Vines slow down and deal damage to enemies that walk through. Vines deal 50% more damage if they touch a tree. Does half damage to creeps.
+
+Cast Animation: 0.2+0.7Cast Range:  1500Vine Path Length:  1500Vines Radius:  135Damage per Second: 30/40/50/60 ( 55/65/75/85)Tree Contact Damage Multiplier: 1.5Creep Damage Multiplier: 0.5Move Speed Slow: 25%/30%/35%/40%Vines Duration: 9/10/11/12Aura Linger Duration: 0.5
+
+
+ 20/19/18/17 ( 15/14/13/12)
+ 90Modifiers [?]modifier_treant_natures_grasp_creation_thinkerUndispellable
+modifier_treant_natures_grasp_latch_thinkerUndispellable
+
+modifier_treant_natures_grasp_damageDeath
+modifier_treant_natures_grasp_damage_bonusDeathThe Protectors don't often come into vision; their natural state being nestled within their leafy brethren.
+
+     Nature's Grasp formations.  
+Nature's Grasp's effects have a travel time, and are not instantly applied within its whole area.
+The vine path consists of 8 thickets, which are placed in a straight line in front of Treant Protector.
+The thickets are placed with 175 distance from each other, with the first one starting 175 range in front of Treant Protector, resulting in a total length of 1500.
+The brambles spawn in 0.1-second intervals, with the first one spawning upon cast, resulting in a formation time of 0.8 seconds.
+With the path length and effect radius, Nature's Grasp can hit units up to 1635 range away.
+The thicket's duration starts after it was created. This means the last thicket disappears 9.8/10.8/11.8/12.8 seconds after cast.
+If a tree is within the radius of any thicket, all thickets deal increased damage.
+Checks for trees once upon creation of the path. Trees created or destroyed after the thickets' creation are ignored.
+The movement speed slow and damage are provided by an aura, which is applied by each thicket in the path, it has a linger duration of 0.5 seconds.
+There are two different modifiers used — the damage modifier is used by regular thickets, while the damage bonus modifier is used by thickets buffed by trees.
+Both of these modifiers stack with each other but do not stack with multiple of themselves.
+Deals damage in 0.25-second intervals, starting 0.25 seconds after the debuff is placed.
+Deals 7.5/10/12.5/15 ( 13.75/16.25/18.75/21.25) or 11.25/15/18.75/22.5 ( 20.63/24.38/28.13/31.88) damage when buffed by a tree.
+Can deal up to 285/420/575/750 ( 522.5/682.5/862.5/1062.5) or 427.5/630/862.5/1125 ( 783.75/1023.75/1293.75/1593.75) damage (before reductions) when buffed by a tree to a single unit within the area for the entire duration.
+Against creeps, it deals 3.75/5/6.25/7.5 ( 6.88/8.13/9.38/10.63) or 5.63/7.5/9.38/11.25 ( 10.31/12.19/14.06/15.94) damage in the same intervals.
+Can deal up to 142.5/210/287.5/375 ( 261.25/341.25/431.25/531.25) or 213.75/315/431.25/562.5 ( 391.88/511.88/646.88/796.88) damage when buffed by a tree to a single creep within the area for the entire duration.
+Treats creep-heroes as creeps.
+Successive debuffs do not update the damage values but refresh their duration. Leech Seed   Link▶️WE
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Allies
+DamageMagical
+
+Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it.
+
+Cast Animation: 0.3+0.2Cast Range:  400/450/500/550Radius:  650Pulse Interval: 1Damage per Pulse: 20/35/50/65 ( 65/80/95/110)Heal per Pulse: 20/35/50/65 ( 65/80/95/110)Move Speed Slow: 8%/14%/20%/26% ( 26%/32%/38%/44%)Duration: 5
+
+
+ 24/20/16/12
+ 80/90/100/110Modifiers [?]
+modifier_treant_leech_seedAnyRooftrellen nurtures the beings under his stewardship, sustained by the lifeforce of trespassers into his sacred ground.
+
+
+The healing projectiles travel at a speed of 450.
+Healing projectiles cannot target invulnerable or hidden units, but airborne projectiles still heal them.
+Always heals for the full amount per instance, regardless of how much damage the target actually takes.
+Deals damage and sends healing projectiles in 1-second intervals, starting immediately upon cast, resulting in 5 pulses.
+Can deal up to 100/175/250/325 ( 325/400/475/550) damage (before reductions) and heal for the same amount of health a single unit for the same amount.
+The debuff persists through death, so even when the target dies, Leech Seed continues pulsing.
+If the target turns invisible while Leech Seed is still active, the pulses continue coming from its current actual position, making it possible to track the target.
+Sapling Facet allows Leech Seed to be cast at the target location, instead of an unit, planting a tree that generates both the damage and healing pulses.
+The tree is instantly regrown if destroyed.
+Tree may impair vision through fog of war and block units pathways. It also increases damage from Nature's Grasp when touching a tree.
+Since it's Point Target and not Single Unit Target, the tree doesn't damage only the targeted unit, but generates damaging pulses to every Unit on its area of effect, dealing reduced damage to creeps.
+With both Cast Range and Area of Effect, pulses can damage/heal enemies/allies up to 1200 distance towards the angle it's been cast. Living Armor Link▶️Link▶️EV
+
+
+
+AbilityTarget Point  / Target Unit( Target Area)
+AffectsAllies
+
+
+Infuses the target hero or structure with a protective coating which heals the target and provides bonus armor.
+
+Cast Animation: 0.3+0.66Cast Range: GlobalHeal per Second: 3/4/5/6 ( 5/6/7/8)Armor Bonus: 4/6/8/10 ( 12/14/16/18)Duration: 15/20/25/30 Radius:  450
+
+
+ 30/25/20/15
+ 50Modifiers [?]modifier_treant_living_armorAny
+The roots and tendrils of the Treant Protectors are far-reaching, stimulating the growth and rejuvenation of all of nature.
+
+
+When ground-targeted, the closest hero or building to the target point is targeted instead.
+Although creeps can be directly targeted, ground-targeting excludes creeps.
+Treats creep-heroes as heroes.
+↓↓ Double-tapping automatically targets self.
+Fully affects ally  Couriers.
+Can be cast on buildings, but not on wards.
+Cannot target invulnerable and hidden units.
+Living Armor heals in 1-second intervals, starting 1 second after the buff is placed, resulting in 15/20/25/30 instances.
+Can heal up to 45/80/125/180 ( 75/120/175/240) health for the entire duration.
+TALENT Living Armor now turns into a  radius area-targeted ability, so that it cannot directly target units anymore.
+↓↓ Double-tapping ground-targets the ability and centers the radius around Treant Protector. Eyes In The Forest Link▶️DD
+
+
+
+AbilityTarget Unit  / Passive
+AffectsTrees
+DamageMagical
+
+Treant Protector enchants a tree, which grants him unobstructed vision in that location. If Overgrowth is cast, units within a 800 radius of an enchanted tree will be entangled and damaged.
+
+Passive ComponentGlobal Tree Respawn Time: 10Cast Animation: 0.2+0.83Cast Range:  160Vision Radius:  800Overgrowth Radius:  800
+
+ 40
+N 3
+
+ 0
+ 100Modifiers [?]modifier_treant_eyes_in_the_forestUndispellable
+Ability Draft Notes:
+Requires drafting  Overgrowth to be unlocked.
+One can never be too certain who, or what, might need protecting.
+
+
+Requires  Aghanim's Scepter to be unlocked.
+Eyes In The Forest sets the respawn time of all natural trees on the map to  seconds, down from the default 3 minutes. Planted trees are not affected.
+The set tree respawn time is innate to Treant Protector, and requires Eyes In The Forest to be unlocked.
+Acquiring Aghanim's Scepter causes destroyed trees on the map to respawn immediately.
+There is no limit on how many enchanted trees can be up at one time, and the enchantment lasts until the tree is destroyed.
+A single tree can be enchanted multiple times. However, this provides no gameplay benefit.
+Enchanted trees have distinct icons  on the minimap. It is colored green/blue if Treant Protector is an ally.
+Enchanted trees have 800 radius flying vision.
+If enemies have True Sight over the enchanted tree, the visual effects on both the affected tree and the 800 radius circle around it can be seen.
+Except for the following True Sight sources:   Rocket Flare,  Gem of True Sight's Reveal and  Seer Stone's Reveal.
+The sound effect upon cast is audible to allies only.
+Applies  Overgrowth based on the current level within 800 radius of every enchanted tree when Overgrowth is cast.
+Overgrowth notes fully apply.
+Multiple overlapping Overgrowth radius do not stack.
+When losing Aghanim's Scepter, the enchanted trees still provide vision, and the enchantment is not removed.
+However, Overgrowth no longer root enemies around the enchanted trees anymore.
+SPELL STEAL Tree enchantments disappear upon losing ability. Nature's Guise   Link▶️
+
+
+
+AbilityPassive
+AffectsSelf ( Enemies)
+Damage Magical
+
+Provides Treant with Tree Walking whenever he hasn't taken damage for 3 seconds. While nearby trees or affected by Nature's Grasp, Treant gains bonus movement speed.
+
+Tree Search Radius:  200Move Speed Bonus: 12% ( 20%)Damage Downtime: 3 Fade Delay: 0 Invisibility Linger Duration: 0.75 Root Total Damage: 200 Default Root Duration: 1 Near-Tree Root Duration: 2
+
+
+   10
+
+Aghanim's Shard Upgrade:
+
+Causes Treant to move faster and become invisible with Nature's Guise and root enemies upon attacking. Deals damage over time and roots for longer if the attack was near a tree.
+
+Debuff Immunity Notes:True Sight pierces debuff immunity.Illusion Notes:Invisibility fully works.Cannot trigger the root on attack.Modifiers [?]modifier_treant_natures_guiseUndispellable
+modifier_treant_natures_guise_tree_walkingDeath
+modifier_treant_natures_guise_invisDeath
+
+modifier_treant_natures_guise_rootAnyAbility Draft Notes:
+Treant Protector neither has this ability nor is it bound to any of his abilities.
+The Protectors don't often come into vision; their natural state being nestled within their leafy brethren.
+
+
+This is innate to Treant Protector and does not need to be learned.
+Nature's Guise is disabled when taking damage greater than 0 (after reductions), while not already affected by it.
+Only damage from player-controlled sources, including allies, and  Roshan can disable Nature's Guise.
+As long as Treant Protector is within the tree search radius, taking damage does not disable any of the passive bonuses.
+Checks for trees periodically within 200 radius and grants the ability effects instantly.
+Trees include allied  Nature's Guise vines, regular trees and planted trees.
+Tree-walking does not grant phased movement.
+SHARD Attacks now root the target whenever the ability is off cooldown, preventing them from moving and casting certain mobility abilities.
+If Treant Protector has the tree-walking modifier, the root duration is increased to 2 seconds.
+Deals 4 instances of 50 damage over the total duration. The damage interval adapts to the root duration.
+The first damage instance is dealt after a quarter of the root duration is over, and not immediately upon placing the debuff.
+Provides True Sight over the target.
+SHARD Treant Protector also gains invisibility and phased movement within 200 range of a tree.
+Unlike the other bonuses, the invisibility has a linger duration of 0.75 seconds.
+This means the invisibility is not lost instantly upon getting out of range of a tree, and may not be lost at all when coming within range of a tree again.
+Casting abilities do not break the invisibility.
+However, attacking breaks the invisibility, regardless of whether the attack actually landed or not.
+While attacking within the tree search radius, it causes the invisibility to be re-applied on him 0.75 seconds later.
+Nature's Guise uses the cooldown system to indicate its fade delay for its invisibility. It has visual purposes only. Overgrowth Link▶️Link▶️RR
+
+
+
+AbilityNo Target
+AffectsEnemies ( Trees)
+DamageMagical
+
+Summons an overgrowth of vines and branches around Treant that prevent afflicted enemies from moving, blinking, going invisible, or attacking.
+
+Cast Animation: 0.5+1.17Radius:  800Damage per Second: 85Duration: 3/4/5
+
+
+ 120/110/100 ( 85/75/65)
+ 200/250/300
+Aghanim's Scepter Upgrade:New Ability
+Grants the Eyes In The Forest ability.If Overgrowth is cast, units within a radius of an enchanted tree will be entangled and damaged. Passively causes all trees to respawn much faster.
+
+Modifiers [?]
+modifier_treant_overgrowthAny
+modifier_treant_overgrowth DeathRooftrellen calls the ancestral spirit of nature, releasing its power through all of his kin.
+
+
+Roots and disarms the targets, preventing them from moving, attacking, and casting certain mobility abilities.
+Provides True Sight over the targets, but does not affect already invisible targets.
+Forces a stop command onto affected units upon placing the debuff, canceling ability casts, and interrupting channeling abilities.
+Since this only happens once upon placing the debuff, it does not prevent other channeling abilities after the debuff is placed.
+Deals damage in 1-second intervals, starting 1 second after cast, resulting in 3/4/5 instances.
+Can deal up to 255/340/425 damage (before reductions).
+SCEPTER Overgrowth also affects enemies within 800 range of an   Enchanted Tree.
+Multiple overlapping Overgrowth radius do not stack.

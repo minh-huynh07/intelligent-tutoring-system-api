@@ -1,0 +1,190 @@
+Flux  Link▶️QC
+
+
+
+AbilityTarget Unit
+AffectsEnemies
+DamageMagical
+
+Infuses a lone enemy unit with swirling, volatile energy, dealing damage over time. The damage is not applied if another enemy unit is near the target. Arc Warden:Slows the target's movement speed. Tempest Double:Movement speed slow is decreased, but damage is increased.
+
+Cast Animation: 0.3+0.77Cast Range:  500/600/700/800 ( 675/775/875/975)Search Radius: 225Damage per Second: 15/30/45/60Move Speed Slow: 14%/21%/28%/35%Duration: 6 ( 7.5) Tempest Component (Dire)Damage per Second: 20/45/70/95Move Speed Slow: 6%/10%/14%/18%
+
+
+ 16
+ 75Modifiers [?]
+modifier_arc_warden_fluxAnyAn infinitesimal fraction of the power which imprisoned the Ancients.
+
+ Dire side icon.
+While Flux' damage component is disabled, the particle effects on the target vanish, with only a red glow remaining on the unit, indicating the debuff is still there.
+Nearby buildings, wards and hidden units are ignored and do not mute the effects.
+However, invulnerable units are not ignored.
+Multiple and/or successive casts on the same target fully stack, with all instances working independently from each other.
+If the target has allies or neutral creeps within the 225 search radius, the ability temporarily stops damaging the target, until it is alone again.
+Checks for enemies and neutrals in 0.5-second intervals, beginning instantly upon cast. The damage updates are based on the result of the checks.
+Deals damage in the same intervals, based on the checks, resulting in 13 ( 16) possible instances.
+Deals 7.5/15/22.5/30 per instance, and can deal up to 97.5/195/292.5/390 ( 120/240/360/480) damage to the affected target if all instances are applied.
+TEMPEST NOTES Deals 10/22.5/35/47.5 per instance, and can deal up to 130/292.5/455/617.5 ( 160/360/560/760) damage.
+Both instances on the same target can deal up to 227.5/487.5/747.5/1007.5 ( 280/600/920/1240) damage (before reductions). Magnetic Field  Link▶️WF
+
+
+
+AbilityTarget Area
+AffectsAllies ( Enemies)
+DamagePhysical
+
+ Arc Warden:Generates a circular distortion field of magnetic energy that grants bonus attack speed and protects allied heroes and buildings within it by evading attacks coming from outside the field. Tempest Double:Allies gain bonus attack range and deal bonus damage with their attacks. Duration is increased.
+
+Cast Animation: 0.3+0Cast Range:  900Effect Radius:  300Evasion: 100%Attack Damage Bonus: 0Ranged Attack Range Bonus: 0Attack Speed Bonus: 50/60/70/80 ( 70/80/90/100)Aura Linger Duration: 0.1Duration: 3.5/4.5/5.5/6.5 Magic Resistance Bonus: 40% Enemy Move Speed Slow: 30% Enemy Max Knockback Distance: 350 Enemy Knockback Duration: 0.3 Tempest Component (Dire)Evasion: 0%Attack Damage Bonus: 20/40/60/80 ( 40/60/80/100)Ranged Attack Range Bonus: 150Attack Speed Bonus: 0Duration: 5/6/7/8
+
+
+ 20/19/18/17 ( 13/12/11/10)
+ 50/70/90/110
+Aghanim's Shard Upgrade:
+
+Magnetic Field pushes enemies out of the area when cast and slows them while they are in it. Also provides allies inside with magic resistance.
+
+Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]modifier_arc_warden_magnetic_field_thinker_evasionUndispellable
+modifier_arc_warden_magnetic_field_thinker_attack_speedUndispellable
+modifier_arc_warden_magnetic_field_evasionUndispellable
+modifier_arc_warden_magnetic_field_attack_speedUndispellable
+modifier_arc_warden_magnetic_field_attack_rangeUndispellable
+
+modifier_knockbackAnyTime and space are of little consequence to one as old as Zet.
+
+ Dire side icon.
+All effects, except the knockback, are provided by an aura. Its buff lingers for 0.1 seconds.
+Affects heroes, illusions, clones, creep-heroes and buildings. All other units are completely unaffected.
+Does not affect invulnerable or hidden units, so buildings are only affected when attackable.
+Grants the following bonuses to allies within the radius:
+Flat attack speed bonus. However, the attack speed bonus of multiple Magnetic Fields does not stack.
+100% evasion bonus from incoming attacks outside of the radius.
+Therefore, it does not evade attacks landing on allies when the source of the attack is within the field.
+The evasion effect of multiple fields works independently.
+This means when an ally is within the intersection of two  Magnetic Fields, attacks are evaded unless their source is also within the intersection.
+TEMPEST NOTES Grants the following bonuses to allies within the radius:
+Flat  ranged attack range bonus.
+Increases both Arc Warden's and the Tempest Double's attack range to 775.
+Grants flat base attack damage to attacks that are launched while the attacking hero is still within the radius.
+Fully benefits illusions, and is affected by every percentage-based base attack damage increasing or reducing effects.
+Both effects of the Tempest Component affect buildings and fully stack with themselves.
+Despite its visual effects, the effective area is a cylinder, not a sphere.
+SHARD Magnetic Field pushes every enemy within its 300 radius out of it upon cast.
+The knockback is not a set distance. It pushes every enemy so that they are 350 range away from the center of the targeted area. So the min and max knockback distance are 50 — 350 respectively.
+The knockback duration is always 0.3, so the speed varies between 1166.67 — 166.67, depending on the knockback distance.
+Enemies are not disabled during the knockback, and are able to act freely, except moving during it.
+Can push units over impassable terrain. Any trees the knocked back unit collides with gets destroyed.
+SHARD All active instances now grant magic resistance bonus and immediately apply movement speed slow.
+Increases both heroes' and buildings' magic resistance within its 300 effect radius.
+The movement speed slow of multiple fields stack additively with each and with other sources of movement speed slow.
+Can reduce affected enemies' movement speed by 60% by stacking two instances.
+Stack multiplicatively with other  magic resistance sources.
+Increases most heroes's magic resistance to 55% ( 40%).
+With the magic resistance bonus from this source, every 10 points of  intelligence further increases the total magic resistance by 0.6%. [?]
+TALENT The attack speed and attack damage increasing  talent immediately upgrade all current active instances, but not already placed buffs. Spark Wraith  Link▶️Link▶️Link▶️ER
+
+
+
+AbilityTarget Area
+AffectsEnemies
+DamageMagical
+
+ Arc Warden:Summons a Spark Wraith that slowly materializes and patrols a targeted area until an enemy comes within its range. Once a target has been found the wraith fuses with them, dealing magical damage and slowing the unit. Tempest Double:Increased Wraith Speed and slow duration, decreased Activation Delay and Damage.
+
+Cast Animation: 0.3+0.77Cast Range:  2000Search Radius:  375Activation Delay: 2Projectile Speed: 400Damage: 100/180/260/340 ( 135/243/351/459)Creep Damage Multiplier: 1.4Move Speed Slow: 100%Slow Duration: 0.4/0.5/0.6/0.7Wraith Duration: 16Vision Radius:  300 Secondary Search Radius:  225 Second Activation Delay: 2 Secondary Wraith Duration: 15 Tempest Component (Dire)Activation Delay: 1Projectile Speed: 725Damage: 75/140/205/270 ( 101/189/276/364)Slow Duration: 0.6/0.8/1/1.2
+
+
+ 4
+ 80
+Aghanim's Scepter Upgrade:
+Causes Spark Wraiths to spawn a new Spark Wraith after impacting an enemy, which then starts its 2 second activation period. The new Spark Wraiths last 15 seconds.
+
+Modifiers [?]modifier_arc_warden_spark_wraith_thinkerUndispellable
+modifier_projectile_visionUndispellable
+
+modifier_arc_warden_spark_wraith_purgeAnyLesser fragments of Zet's original self.
+
+ Dire side icon.
+The Spark Wraith is fully visible to the enemy.
+Once the activation delay is over, it checks for enemies, including neutral creeps, in 0.2-second intervals and launches itself toward the first registered enemy at a speed of 400.
+Both the activation delay and second activation delay are independent of the wraith's duration.
+TEMPEST NOTES The Spark Wraith has a 725 projectile speed instead.
+If multiple enemies are within range after the delay, the closest enemy is targeted.
+Damage values are based on the current level of the ability upon cast.
+Leveling up Spark Wraith and chosing the damage increasing  talent does not update the damage of already placed or launched Spark Wraiths.
+SCEPTER However, upgrade from  Aghanim's Scepter immediately upgrades all placed and launched Spark Wraiths.
+Treats clones, illusions, the  Spirit Bear and  Roshan as heroes, and other creep-heroes as creeps.
+Can deal up to 140/252/364/476 ( 189/340.2/491.4/642.6) damage (before reductions) to creeps.
+TEMPEST NOTES Can deal up to 105/196/287/378 ( 141.4/264.6/386.4/509.6) damage to creeps.
+Fully affects invisible units.
+Can target units inside the Fog of War, but not invulnerable or hidden units.
+Provides 300 radius ground vision for its full duration. The vision does not linger.
+The launched projectile also provides the same vision values, which linger for 3.34 seconds after reaching the target.
+The wraith first applies the damage, then the debuff.
+Despite the internal modifier name, Spark Wraith does not dispel the target.
+SCEPTER Spark Wraiths create a secondary wraith immediately upon hitting the enemy.
+These secondary wraiths have to go through a 2-second activation delay.
+This effect only occurs once per Spark Wraith. Secondary Spark Wraiths cannot spawn new wraiths. Tempest Double Link▶️RD
+
+
+
+AbilityTarget Point
+AffectsThe Self
+
+
+Briefly refocusing its fractured elements into a single form, the Arc Warden is able to create a perfect electrical duplication of itself. The duplicate can use all of Arc Warden's current items and special Tempest Double versions of his spells, except most consumables and items that drop on death. The duplicate has separate item and ability cooldowns. The Tempest Double loses its sense of self if he is too far away from Arc Warden and deals less attack damage.
+
+Cast Animation: 0.15+0.5Cast Range:  700Number of Doubles: 1Self Max Health as Clone Health: 100%Self Max Mana as Clone Mana: 100%Penalty Distance:  2000 ( Global)Clone Attack Damage Reduction: 50% ( 0%)Duration: 18/22/26 ( 28/32/36)
+
+
+ 70/60/50
+ 0Root Notes:Does not prevent the Tempest Double from being teleported back to the Self.Modifiers [?]modifier_arc_warden_tempest_doubleUndispellable
+modifier_killDeath
+
+modifier_arc_warden_distance_penaltyUndispellableAbility Draft Notes:
+This ability is not available in Ability Draft.
+Warped by the power of its peers, Arc Warden becomes what it despises most: disharmony.
+
+     Arc Warden's icons at the side of the screen. The currently selected unit is highlighted.  
+This ability is always inactive for the Tempest Double.
+The  Tempest Double is a clone that always spawns at the selected location facing the same angle as Arc Warden, with 100% of Arc Warden's max health and mana.
+↓↓ Double-tapping spawns the Tempest Double next to Arc Warden.
+On the first cast of Tempest Double, the double is actually summoned. On every following cast, it is just healed or revived.
+The double gets dispelled as if it died, removing all modifiers which are removed by death. This means most modifiers that persist through death are not removed.
+Its cooldowns are not refreshed upon getting re-summoned, so all cooldowns from the previous cast carry over.
+Resummoning the Tempest Double does not disjoint projectiles.
+Reduces the Tempest Double's main and bonus attack damage when the distance between Arc Warden and the Tempest Double exceeds 2000 distance.
+Does not reduce outgoing conditional attack damage bonuses (e.g.  Pierce or  Shadow Walk).
+Stacks additively with other total attack damage reduction sources.
+The penalty is also applied when Arc Warden is dead unless it has Reincarnation sources.
+A debuff appears on the Tempest Double whenever this penalty is active. The debuff is visible to allies only.
+TALENT The no damage penalty distance  talent updates the current active instance and fully removes this restriction.
+Arc Warden and the Tempest Double are represented by an icon with health and mana bars for each on the top left corner of the screen.
+When a Zet is selected, its icon becomes brighter. When a Zet takes damage, its icon blinks red.
+The Tempest Double is visually distinguishable from the original Zet for everyone.
+On the minimap, allies see the unique  minimap icon, while enemies see  Arc Warden's default icon.
+The buffs of a consumed  Moon Shard,  Aghanim's Blessing and  Aghanim's Shard are copied as well.
+However, other permanent modifiers (e.g.  Duel,  Intelligence Steal) are not.
+Any permanent modifiers gained by the Tempest Double while alive are lost once it gets resummoned.
+Abilities that grant effects for killing heroes (e.g.  Flesh Heap,  Track, etc.) do not do so when the Tempest Double is killed.
+The double is a clone and therefore treated exactly like a hero by all abilities since it is not an illusion.
+The double has a 180/240/300  and a 180/240/300XP bounty. The gold is granted to the killing player, and the experience is distributed like any other experience.
+However, if the double is killed by creeps or buildings, the gold gets distributed as well, just like hero kills do when not killed by players.
+The Tempest Double does not passively gain any experience like heroes usually do, so it does not leech experience from its allies.
+Any experience the Double would have gained (e.g. via  Transmute) is transferred to Arc Warden, even if the Tempest Double was dead at the time.
+Other ultimate abilities are also always inactive if the Tempest Double attempts to copy them (e.g. in custom games).
+SPELL STEAL Creates a Double based on  Rubick's model, that has all Rubick's basic abilities, with  Spell Steal inactive, and without the other acquired abilities. Losing and reacquiring the ability allows Rubick to summon another Double from the previous steal. Tempest 
+
+
+
+AbilityInnate
+AffectsThe Self
+
+
+The upheaval has attuned Arc Warden to the Ancients.
+
+
+Notes
+This is innate to Arc Warden and does not need to be learned.
+When the hero's faction is the  Radiant, the Zet will have its regular abilities, while its  Tempest Double will have the Tempest Component's ability traits and values as alternatives.
+When the hero's faction is the  Dire, the Zet will have the Tempest Component's ability traits and values by default, while its Tempest Double will retain the original ability traits and values.

@@ -1,0 +1,152 @@
+Inner Fire Link▶️QV
+
+
+
+AbilityNo Target
+AffectsEnemies
+DamageMagical
+
+In a fiery rage, knocks all nearby enemies away from you to a fixed distance, dealing damage and disarming them.
+
+Cast Animation: 0.2+0.64Radius:  500Damage: 120/180/240/300Max Knockback Distance: 400Knockback Duration: 1Debuff Duration: 1.9/2.6/3.3/4 ( 2.65/3.35/4.05/4.75) Self Heal per Hit Hero: 60/90/120/150 Creep Heal Multiplier: 0.2 Enemy Move Speed Slow: 40%
+
+
+ 17/15/13/11 ( 14/12/10/8)
+ 75/100/125/150
+Aghanim's Shard Upgrade:
+
+Lowers Inner Fire cooldown and causes it to apply a movement speed slow and heal Huskar for a percentage of the damage dealt to enemies.
+
+Debuff Immunity Notes:The forced movement is instantly canceled.Modifiers [?]
+modifier_huskar_inner_fire_knockbackDeath
+modifier_huskar_inner_fire_disarmAnyNot even Huskar's own flesh can contain the unending expansion of his life force.
+
+
+Inner Fire first applies the damage, then the debuffs.
+The disarm and movement speed slow are applied at the same time as the knockback.
+Enemies are not disabled during the knockback. They can still turn, cast abilities and use items. Channeling abilities are not interrupted.
+Can push units over impassable terrain. Destroys trees enemies come in contact with during the knockback.
+Does not knockback  Roshan, but does damage and disarm him.
+The knockback is not a set distance. It pushes every enemy so they are 400 range away from Huskar's cast location until they reach 400 distance from the cast location.
+The knockback duration is always 1, so the speed varies between 1 and 400, depending on the knockback distance.
+SHARD Inner Fire now applies a movement speed slow and heal.
+The disarm modifier is also responsible for the movement speed slow.
+Always heals for the full amount per instance, regardless of how much damage the target(s) takes.
+Treats illusions and clones as heroes, and creep-heroes as creeps.
+Heals Huskar for 12/18/24/30 health per creep hit and for the following values per hit hero:
+LEVEL 1 60/120/180/240/300 health.
+LEVEL 2 90/180/270/360/450 health.
+LEVEL 3 120/240/360/480/600 health.
+LEVEL 4 150/300/450/600/750 health. Burning Spear  Link▶️Link▶️WR
+
+
+
+AbilityActive Attack Modifier
+AffectsEnemies
+DamageMagical ( Pure)
+
+Huskar sets his spears aflame, dealing damage over time with his regular attack. Multiple attacks will stack additional damage. Each attack drains some of Huskar's health.
+
+Cast Range:  450Damage per Second: 5/10/15/20 ( 9/14/19/24)Duration: 9
+
+
+ 0
+ 0
+
+
+
+
+ 3% Current HealthDebuff Immunity Notes:Does not pierce debuff immunity.Fully pierces debuff immunity.Modifiers [?]modifier_huskar_burning_spear_selfUndispellable
+
+modifier_huskar_burning_spear_debuffDeath
+modifier_huskar_burning_spear_counterDeathAbility Draft Notes:
+Uses the caster's current attack range when Autocast.Manually casting it uses the cast range.
+The Sacred Warrior ignites his weaponry after marking it with his own blood - causing far greater pain than he himself feels.
+
+
+The 3% current health as cost counts as setting health.
+Current health as cost is non-lethal. Therefore, this ability can be cast even with 1 health.
+Burning Spear's cast range can only be further increased by attack range bonuses of the same range as the caster. However, it is not affected by cast range bonuses.
+Uses Huskar's 400 attack range when Autocast is active. Manually casting it uses the 450 cast range.
+Places two debuffs on the target with each attack — the first debuff gets refreshed, while the second debuff is stacked.
+A number on the first debuff's icon shows the number of stacks, visible to everyone.
+The stacks' durations are independent of each other. Successive casts do not refresh the duration of previous casts.
+The debuff modifier is only placed once and refreshed with successive casts.
+The debuff deals damage 1 second after it is applied, and can be defined as:
+expr 5/10/15/20 ( 9/14/19/24) × Stacks
+The damage is decided by the ability's level upon placing the debuff modifier. Therefore, placing new Burning Spear stacks with a higher ability level on targets with old active stacks uses the old damage value.
+Can deal up to 45/90/135/180 ( 81/126/171/216) damage per Burning Spear instance (before reductions).
+Cannot be cast on buildings, wards, and ally units.
+TALENT Both the damage per second increasing and the pure damage  talents immediately update all current active Burning Spear stacks. Berserker's Blood  EB
+
+
+
+AbilityPassive
+AffectsSelf
+
+
+Huskar's injuries feed his power, giving increased attack speed, magic resistance and health regen based on missing health. Health regen is a percentage of your strength.
+
+Max Attack Speed Bonus: 160/210/260/310Max Magic Resistance Bonus: 10%/15%/20%/25%Strength as Max Health Regen Bonus: 25%/40%/55%/70% ( 50%/65%/80%/95%)Max Bonus Health Threshold: 10%Illusion Notes:Does not benefit from the bonus magic resistance.Modifiers [?]modifier_huskar_berserkers_bloodUndispellable
+After losing his birthright, Huskar gained a lethality in physical combat that is only heightened as his own blood is spilled.
+
+
+Huskar's model size increases the closer he gets to the max bonuses of Berserker's Blood, up to 35%.
+Although not visible in the HUD due to it not showing enough decimals, each missing point of health grants bonuses.
+The bonuses grow exponentially, ramping up faster the lower his max health is.
+The benefits ramp up to approximately 50% of the ability values at 40% max health and 75% of the ability values at 25% max health.
+Stacks multiplicatively with other  magic resistance sources.
+Increases Huskar's magic resistance up to 32.5%/36.25%/40%/43.75% at 10% max health.
+While leaping during  Life Break, it can further increases the magic resistance 66%/68%/70%/72%.
+No bonuses are applied at 100% max health and the maximum bonus values are applied when strictly below 10% max health.
+The health percentage is checked periodically and the effects are adapted instantly. Life Break   Link▶️Link▶️RF
+
+
+
+AbilityTarget Unit
+AffectsEnemies  / Self
+DamageMagical
+
+Huskar draws upon his health to break an enemy's life, leaping at a target to shatter a percentage of that hero's current health and slow both their movement and attack speed. While leaping, Huskar is Debuff Immune and has 50% increases magic resistance.
+
+Cast Animation: 0.3+0.5Cast Range:  550 ( 800)Current Health as Damage: 32%/38%/44% ( 52%/58%/64%)Move Speed Slow: 60%Attack Speed Slow: 60/100/140Slow Duration: 3/4/5 ( 5/6/7)   Taunt Duration: 3 Self Affecting ComponentsCurrent Health as Damage: 32%/38%/44%Magic Resistance Bonus: 50%Max Debuff Immunity Duration: 5
+
+
+ 16/14/12 ( 11/9/7)
+ 0
+Aghanim's Scepter Upgrade:
+Forces the enemy target to attack Huskar and increases cast range.
+
+Spell Block / Reflection Notes:Blocked upon impact.The self-damage is prevented as well.Modifiers [?]modifier_huskar_life_break_chargeDeath
+
+modifier_huskar_life_break_slowAny
+modifier_huskar_life_break_tauntDeathNo matter the danger, Huskar thrusts himself into melees that only he can survive.
+
+
+Launches an invisible projectile and periodically drags Huskar along with it at a speed of 1200 upon cast.
+Applies a basic dispel on Huskar upon cast.
+Huskar receives a hidden charge buff, which lasts for 5 seconds or until reaching the target, whichever is shorter.
+This modifier grants Huskar debuff immunity, magic resistance bonus, disarms him, forces him to face the target, and is responsible for the leap animation.
+Since the modifier has a set max duration, it can expire while leaping, continuing the rest of the leap without its effects.
+Stacks multiplicatively with other  magic resistance sources (e.g.  Berserker's Blood).
+Increases Huskar's magic resistance up to 62.5% while leaping.
+With the magic resistance bonus from this source, every 10 points of  intelligence further increases the total magic resistance by 0.5%. [?]
+Huskar does not need to turn in order to cast targeted abilities or items during the leap.
+However, the following effects are able to stop the leap:
+When Huskar is disabled during the leap.
+Position change effects (e.g.  Blink) or affected by other forced movement sources.
+When the distance between the target and Huskar becomes greater than 2440 at any time during the leap.
+However, the projectile itself does not stop. If re-cast before the projectile reaches the target, Life Break's effects are still applied on Huskar and that target.
+Can be cast on and debuff  Roshan, but does not damage him.
+Can be cast on  Couriers.
+The following effects are applied on the target and Huskar upon Life Break connecting:
+Life Break first applies the damage on the target, the damage on Huskar, the movement speed slow debuff, then the taunt debuff.
+Deals magical damage to both Huskar and the target based on their current health.
+Since the  magic resistance bonus is only granted while leaping, the current health as self-damage value is not affected by Life Break's own magic resistance bonus.
+The self-damage is not lethal, it cannot be used to deny oneself.
+Huskar is then given an attack order on the target, regardless of auto-attack settings.
+SCEPTER Life Break now taunts the target upon cast, forcing them to attack Huskar.
+Does not silence the target, so active attack modifiers with Autocast on are still applied.
+Has the same taunt priority as  Berserker's Call,  Little Friends and  Winter's Curse, but lower than  Duel.
+Since the ability upgrade is determined if Huskar has  Aghanim's Scepter equipped, the taunt is applied if Huskar has the item equipped while being dragged by Life Break's projectile.
+SOULBIND Deals 53.76%/61.56%/68.64% of current health as self-damage. Huskar ends at the secondary target's location.

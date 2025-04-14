@@ -1,0 +1,208 @@
+Reflection Link▶️QC
+
+
+
+AbilityTarget Area
+AffectsEnemy Heroes
+
+
+Terrorblade brings forth an invulnerable dark reflection of all enemy heroes in a target area. Affected enemy heroes are slowed and attacked by their reflection.
+
+Cast Animation: 0.3+0.87Cast Range:  700Radius:  500Move Speed Slow: 15%/20%/25%/30% ( 25%/30%/35%/40%)Attack Speed Slow: 15/20/25/30 ( 25/30/35/40) Duration: 5  Reflection IllusionsDamage Dealt: 55%/70%/85%/100% ( 65%/80%/95%/110%)
+
+
+ 23/20/17/14 ( 19/16/13/10)
+ 35/40/45/50Debuff Immunity Notes:Neither affects nor places the debuff on debuff immune units.Modifiers [?]modifier_terrorblade_reflection_invulnerabilityDeath
+modifier_illusionDeath
+modifier_invulnerableDeath
+
+modifier_terrorblade_reflection_slowAnyIn the fractal prison of Foulfell, Terrorblade learned the truth of this old tale: you are your own worst enemy. Now it is a lesson he teaches others.
+
+     Reflection illusion as they appear to allies and enemies.  
+Reflection slows all visible enemy heroes and clones within 500 radius, and creates illusions of them.
+Treats clones and creep-heroes as creeps.
+Reflection illusions have the following properties:
+They are spell immune, invulnerable, hidden, untargetable and uncontrollable.
+Visually distinguishable for everyone.
+Have unobstructed movement with its movement speed set to 550.
+Provide vision equal to the vision range of their target.
+The Reflection-illusion spawns 108-distance from the affected enemy hero if the target's collision size is 27, and 72-distance if its collision size is 18.
+The created illusion appears either north, east, south, or west from the target.
+The illusions attempt to attack their targets. If they cannot be attacked, they follow the targets close enough until they can be attacked again.
+The illusions do not lose track when their targets turn invisible, hidden or move into the Fog of War.
+However, they do need vision to attack.
+Just like other illusions, Reflection illusions bestow auras and can make use of other passive abilities that work for illusions.
+The movement speed slow debuff and the illusion are bound to each other.
+Dispelling the slow removes all the Reflection illusions of that unit as well.
+Debuff of successive casts does not stack but creates an illusion for each enemy hero within range upon cast.
+Although the movement speed slow duration gets refreshed, each created illusion has its separate duration, meaning new casts do not refresh the duration of previous illusions.
+Leveling up the ability or the slow increasing  talent do not update the current active instance.
+Has a cast backswing of 1.66 during  Metamorphosis. Conjure Image Link▶️WE
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Creates an illusion of Terrorblade that deals damage.
+
+Cast Animation: 0.15+0.77Number of Illusions: 1  Duration: 34 ( 44)  Conjure Image IllusionsDamage Dealt: 30%/40%/50%/60% ( 40%/50%/60%/70%)Damage Taken: 275%
+
+
+ 16
+ 55/65/75/85Modifiers [?]modifier_terrorblade_conjureimageDeath
+modifier_illusionDeath
+modifier_invulnerableDeath
+There's only one thing more dangerous than facing Terrorblade. Facing MORE Terrorblades!
+
+     Conjure Image illusion as they appear to allies and enemies.  
+The created illusions are visually distinguishable from the real Terrorblade for the enemies.
+The illusion spawns 108-distance from its caster if the caster's collision size is 27, and 72-distance if its collision size is 18.
+The created illusion appears either north, east, south, or west from their caster.
+The illusion has a expr 2 × IllusionLVL bounty.
+Considering the cooldown and cast time, it is possible to have 3 ( 3) illusions up at a time.
+Has a cast backswing of 0.7 during  Metamorphosis.
+COSMETIC Has a cast backswing of 1 during Metamorphosis with  Fractal Horns of Inner Abysm equipped.
+TALENT The illusion damage increasing  talent does not increase the damage dealt by current active illusions. Metamorphosis Link▶️Link▶️Link▶️ET
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Terrorblade transforms into a powerful demon with a ranged attack. Any of Terrorblade's illusions that are within  range will also be transformed by Metamorphosis.
+
+Cast Animation:  0+0Transformation Time: 0.35 Base Attack Time: 1.5Attack Damage Bonus: 30/40/50/60Attack Range Bonus: 340/360/380/400Aura Linger Duration: 1Metamorphosis Duration: 35/40/45/50 ( 55/60/65/70) IllusionsAura Radius: 1200
+
+
+ 150 ( 130)
+ 100
+Aghanim's Scepter Upgrade:New Ability
+Grants the Terror Wave ability.
+
+Modifiers [?]modifier_terrorblade_metamorphosis_transformDeath
+modifier_terrorblade_metamorphosisDeath
+modifier_terrorblade_metamorphosis_transform_auraDeath
+modifier_terrorblade_metamorphosis_transform_aura_applierUndispellable
+Ability Draft Notes:
+Toggling Autocast on swaps this ability out with  Terror Wave. Their cooldowns are separate.
+Temper, temper. The rage rises up and takes control. Meet Terrorblade's own worst self.
+
+
+During the transformation, Terrorblade is prevented from acting and it cannot be interrupted.
+This applies to transforming illusions as well.
+Turns Terrorblade and all of his current illusions within  radius into a  ranged unit with 490/510/530/550 attack range for its duration.
+This causes items that use different values for melee and ranged heroes (e.g.  Manta Style) to now treat the caster as a ranged hero.
+Attack range bonuses are not overridden and still work normally.
+Terrorblade's attack projectiles now travel at a speed of 900.
+Grants flat base attack damage.
+Fully benefits illusions, and is affected by every percentage-based base attack damage increasing or reducing effects.
+Also sets his base attack time to 1.5.
+However, since Terrorblade's base attack time is at 1.5 by default, this makes no difference for him and only affects casters with a different base attack time.
+The aura affects illusions under Terrorblade's control, including invulnerable and hidden illusions. Its buff lingers for 1 seconds.
+Does not affect illusions from other sources (e.g. an enemy  Reflection,  Haunt-based illusions, etc.).
+While transformed, Terrorblade does not leave footprints behind. It also affects certain of his abilities' cast backswing.
+Metamorphosis is fully canceled under the following conditions:
+Upon death.
+Upon casting  Demon Zeal.
+SPELL STEAL Does not grant the attack range bonus. Transforms  Rubick into a lesser demon form and is fully canceled upon losing ability.
+MORPH NOTES Fully canceled upon losing ability. Demon Zeal Link▶️DZ
+
+
+
+AbilityNo Target
+AffectsSelf
+
+
+Costs part of Terrorblade's current HP to cast, providing Terrorblade and nearby illusions bonus movement and attack speed. Can't be cast while in Metamorphosis and Metamorphosis will remove Demon Zeal.
+
+Cast Animation: 0.2+0.5Move Speed Bonus: 100Attack Speed Bonus: 100 Duration: 30 IllusionsAura Radius: 1200
+
+
+ 60
+ 0
+
+
+
+
+ 20% Current HealthModifiers [?]modifier_terrorblade_demon_zeal_auraDeath
+modifier_terrorblade_demon_zealDeath
+Ability Draft Notes:
+Requires drafting  Sunder to be unlocked.
+
+
+
+Requires  Aghanim's Shard to be unlocked.
+Only works on Terrorblade's own illusions.
+The 20% current health as cost counts as setting health.
+Casting the following abilities ends the Demon Zeal buff prematurely:
+ Metamorphosis
+ Terror Wave Terror Wave Link▶️Link▶️FD
+
+
+
+AbilityNo Target
+AffectsEnemies  / Self
+
+
+Causes a wave to travel outwards in all directions forcing enemy heroes to become Feared upon impact, and grants Terrorblade Metamorphosis for a short time.
+
+Cast Animation:  0+0Radius:  1600Effect Delay: 0.6Metamorphosis Duration: 10Enemy Fear Duration: 2  IllusionsAura Radius: 1200
+
+
+ 90
+ 75Modifiers [?]modifier_metamorphosis_fear_thinkerUndispellable
+modifier_terrorblade_metamorphosis_transformDeath
+modifier_terrorblade_metamorphosisDeath
+modifier_terrorblade_metamorphosis_transform_auraDeath
+modifier_terrorblade_metamorphosis_transform_aura_applierUndispellable
+
+modifier_terrorblade_fearAnyAbility Draft Notes:
+Requires drafting  Metamorphosis to be unlocked. Toggling Autocast off swaps this ability out with Metamorphosis. Their cooldowns are separate.
+
+
+
+Requires  Aghanim's Scepter to be unlocked.
+If cast while in hero form, Terror Wave transforms Terrorblade into demon form for 10 seconds, based on the current level of  Metamorphosis.
+Metamorphosis notes fully apply. If it is not learned or if the caster does not have Metamorphosis, the caster does not transform.
+If cast while already in Metamorphosis, its duration gets extended by the same value instead.
+Successive casts increase the current Metamorphosis buff duration. There is no limit to how often this can be done.
+The wave is released 0.6 seconds after cast, starting at the original cast location. It does not follow Terrorblade.
+Terror Wave is a thin ring expanding outwards at a speed of 1000, taking 1.6 seconds to reach the maximum radius.
+It can be avoided by teleporting towards Terrorblade over the ring shortly after cast.
+Terror Wave's fear makes affected enemies run away from the caster, rather than make them run toward their team's fountain.
+Despite the tooltip, the fear affects any unit, not just heroes.
+The cast sound is global and audible to the enemy through the Fog of War.
+Metamorphosis is fully canceled under the following conditions:
+Upon death.
+Upon casting  Demon Zeal.
+SPELL STEAL Fully grants all of  Metamorphosis' ability effects upon transforming and the lesser demon form persists upon losing ability. Sunder  Link▶️RR
+
+
+
+AbilityTarget Unit
+AffectsHeroes
+
+
+Severs the life from both Terrorblade and a target hero, exchanging a percentage of both units' current health. Some health points must remain.
+
+Cast Animation: 0.35+0.83Cast Range:  475Min Health: 35%/30%/25%
+
+
+ 120/80/40 ( 90/50/10)
+ 100/75/50
+Aghanim's Shard Upgrade:New Ability
+
+Grants the Demon Zeal ability.
+
+Debuff Immunity Notes:Neither can target debuff immune allies nor debuff immune enemies.You didn't need that life, did you? The Demon Marauder steals that which you hold most dear.
+
+
+Sunder can be cast on both enemy and ally heroes, as well as illusions.
+Cannot be cast on allies who have ☐ Disabled Help from Terrorblade.
+Both Terrorblade and the affected target's health will always end up with at least 35%/30%/25% of their max health.
+For example, if both targets have 5% health before Sunder, then they both end up at 35%/30%/25% thereafter.
+This counts as setting health.
+SOULBIND Terrorblade first receives the primary target's current health, then the primary target receives the secondary target's current health, and then the secondary target receives Terrorblade's current health.
