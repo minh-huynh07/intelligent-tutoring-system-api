@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
-    <option name="sdkName" value="Python 3.13 (intelligent-tutoring-system-api)" />
+    <option name="sdkName" value="Python 3.9 (LearningRecommendationSystem)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (intelligent-tutoring-system-api)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (LearningRecommendationSystem)" project-jdk-type="Python SDK" />
 </project>
