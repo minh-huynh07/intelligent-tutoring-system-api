@@ -1,9 +1,8 @@
 import pandas as pd
-import nltk
-from nltk import WordNetLemmatizer
 from utils import create_folder, save_file, get_data
 from constants import DOTA2_URL, HEROES_URL, HEROES_STATS_URL, BENCHMARK_BY_HERO_ID_URL
 from bs4 import BeautifulSoup
+import re
 
 class HeroCrawler:
 
@@ -18,24 +17,23 @@ class HeroCrawler:
     def get_all_heroes(self):
         soup = self.get_html(self.base_url + "/wiki/Heroes")
         hero_grid = soup.select("#content table tr td a[title]")
+        heroes = []
 
         for hero_anchor in hero_grid:
             name = hero_anchor["title"].strip()
             if name:
                 url = hero_anchor["href"]
-                self.heroes.append({
+                heroes.append({
                     "name": name,
                     "url": url
                 })
-        return self.heroes
+        return heroes
 
     def normalize_text(self, text):
-        lemmatizer = WordNetLemmatizer()
-
-        text = ''.join(e for e in text if e.isalnum() or e.isspace())
-        tokens = nltk.word_tokenize(text)
-        lemmatized_tokens = [lemmatizer.lemmatize(token.lower()) for token in tokens]
-        return " ".join(lemmatized_tokens)
+        text = text.lower()
+        text = re.sub(r'[^\x00-\x7F]+', ' ', text)
+        text = re.sub(r'\s+', ' ', text)
+        return text.strip()
 
     def get_hero(self, hero):
         soup = self.get_html(self.base_url + hero["url"])
@@ -44,7 +42,7 @@ class HeroCrawler:
         results = []
         for info in abilities_info:
             parent = info.parent
-            results.append(parent.text.strip())
+            results.append(self.normalize_text(parent.text))
 
         return " ".join(results)
 
@@ -52,15 +50,24 @@ class HeroCrawler:
         create_folder(folder)
         save_file(f'{folder}/{filename}', content)
 
+    def save_to_csv(self, folder="heroes_data", filename="heroes_ability.csv"):
+        create_folder(folder)
+        df = pd.DataFrame(self.heroes)
+        df.to_csv(f"{folder}/{filename}", index=False)
+
     def start(self):
-        heroes = self.get_all_heroes()
-        for hero in heroes:
+        self.heroes = self.get_all_heroes()
+        for hero in self.heroes:
+            # if hero["name"] != "Alchemist":
+            #     continue
             print(f"Fetching data for {hero['name']}...")
 
             abilities = self.get_hero(hero)
             self.save_to_file(f"{hero["name"]}.txt", abilities)
+            hero["ability"] = abilities
 
-        print(f"Total heroes found: {len(heroes)}")
+        print(f"Total heroes found: {len(self.heroes)}")
+        self.save_to_csv()
 
 class HeroStatsCrawler:
     def __init__(self):
@@ -114,8 +121,8 @@ class HeroStatsCrawler:
 
         self.save_to_csv()
 #
-# heroes_crawler = HeroCrawler()
-# heroes_crawler.start()
+heroes_crawler = HeroCrawler()
+heroes_crawler.start()
 #
 # hero_stats_crawler = HeroStatsCrawler()
 # hero_stats_crawler.start()
