@@ -1,6 +1,6 @@
 import pandas as pd
 from utils import create_folder, save_file, get_data
-from constants import DOTA2_URL, HEROES_URL, HEROES_STATS_URL, BENCHMARK_BY_HERO_ID_URL
+from constants import DOTA2_URL, HEROES_URL, HEROES_STATS_URL, BENCHMARK_BY_HERO_ID_URL, CLOUDFLARE_OPEN_DOTA_URL
 from bs4 import BeautifulSoup
 import re
 
@@ -121,8 +121,15 @@ class HeroStatsCrawler:
 
         self.save_to_csv()
 #
-heroes_crawler = HeroCrawler()
-heroes_crawler.start()
+# heroes_crawler = HeroCrawler()
+# heroes_crawler.start()
 #
 # hero_stats_crawler = HeroStatsCrawler()
 # hero_stats_crawler.start()
+#
+# df = pd.read_csv("heroes_stats_data/heroes_stats.csv")
+# df["img"] = df["img"].apply(lambda x: CLOUDFLARE_OPEN_DOTA_URL + x)
+# cols = ["id", "localized_name", "img"]
+# heroes = df[cols]
+# heroes.rename(columns={"localized_name": "name"}, inplace=True)
+# heroes.to_json("heroes_stats_data/heroes.json", orient="records", indent=4)
