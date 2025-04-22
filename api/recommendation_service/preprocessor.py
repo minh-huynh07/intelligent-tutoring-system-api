@@ -17,7 +17,7 @@ class HeroesPreprocessing:
         preprocessed_data.drop(columns=['ability', 'url'], inplace=True)
 
         # populate id column
-        heroes_data = pd.read_json("heroes.json", dtype={"id": int, "name": str, "img": str})
+        heroes_data = pd.read_json("../../heroes.json", dtype={"id": int, "name": str, "img": str})
         preprocessed_data = preprocessed_data.merge(
             heroes_data[['id', 'name']], on='name', how='left'
         )
@@ -84,8 +84,8 @@ class HeroesStatsPreprocessing:
         # Save to csv file
         self.heroes_stats.to_csv("dataset/heroes_stats_preprocessed.csv", index=False)
 
-heroes_processor = HeroesPreprocessing()
-heroes_processor.preprocess()
-
-heroes_stats_preprocessor = HeroesStatsPreprocessing()
-heroes_stats_preprocessor.preprocess()
+# heroes_processor = HeroesPreprocessing()
+# heroes_processor.preprocess()
+#
+# heroes_stats_preprocessor = HeroesStatsPreprocessing()
+# heroes_stats_preprocessor.preprocess()

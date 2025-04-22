@@ -1,6 +1,6 @@
 import pandas as pd
 from utils import create_folder, save_file, get_data
-from constants import DOTA2_URL, HEROES_URL, HEROES_STATS_URL, BENCHMARK_BY_HERO_ID_URL, CLOUDFLARE_OPEN_DOTA_URL
+from constants import DOTA2_URL, HEROES_URL, HEROES_STATS_URL, BENCHMARK_BY_HERO_ID_URL
 from bs4 import BeautifulSoup
 import re
 
