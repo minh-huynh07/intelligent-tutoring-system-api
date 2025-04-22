@@ -19,13 +19,14 @@ class HeroesPreprocessing:
         # populate id column
         heroes_data = pd.read_json("heroes.json", dtype={"id": int, "name": str, "img": str})
         preprocessed_data = preprocessed_data.merge(
-            heroes_data[['name', 'id']], on='name', how='left'
+            heroes_data[['id', 'name']], on='name', how='left'
         )
         preprocessed_data['id'] = preprocessed_data['id'].fillna(0).astype(int)
+        preprocessed_data.drop(columns=['name'], inplace=True)
         preprocessed_data.sort_values('id', inplace=True)
 
         # Save to csv file
-        preprocessed_data.to_csv("heroes_data/heroes_ability_preprocessed.csv", index=False)
+        preprocessed_data.to_csv("dataset/heroes_ability_preprocessed.csv", index=False)
 
 class HeroesStatsPreprocessing:
     def __init__(self):
@@ -81,10 +82,10 @@ class HeroesStatsPreprocessing:
         self.heroes_stats = self.scale_min_max()
 
         # Save to csv file
-        self.heroes_stats.to_csv("heroes_stats_data/heroes_stats_preprocessed.csv", index=False)
+        self.heroes_stats.to_csv("dataset/heroes_stats_preprocessed.csv", index=False)
 
-# heroes_processor = HeroesPreprocessing()
-# heroes_processor.preprocess()
-#
-# heroes_stats_preprocessor = HeroesStatsPreprocessing()
-# heroes_stats_preprocessor.preprocess()
+heroes_processor = HeroesPreprocessing()
+heroes_processor.preprocess()
+
+heroes_stats_preprocessor = HeroesStatsPreprocessing()
+heroes_stats_preprocessor.preprocess()
