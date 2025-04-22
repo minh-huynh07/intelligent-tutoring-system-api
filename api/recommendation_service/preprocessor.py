@@ -51,22 +51,15 @@ class HeroesStatsPreprocessing:
         self.heroes_stats['turn_rate'] = self.heroes_stats['turn_rate'].fillna(turn_rate_mean)
 
         # Remove Kez for consistency between different dataset
-        self.heroes_stats = self.heroes_stats[self.heroes_stats['localized_name'] != 'Kez']
+        self.heroes_stats = self.heroes_stats[~self.heroes_stats['localized_name'].isin(['Kez', 'Ring Master'])]
 
         return self.heroes_stats
 
     def scale_min_max(self):
         scaler = MinMaxScaler()
+        features = [col for col in self.heroes_stats.columns if col != 'id']
+        self.heroes_stats[features] = scaler.fit_transform(self.heroes_stats[features])
 
-        id_col = self.heroes_stats['id'].astype(int)
-        features = self.heroes_stats.drop('id', axis=1)
-
-        scaled_features = pd.DataFrame(scaler.fit_transform(features), columns=features.columns)
-
-        heroes_stats_scaled = pd.concat([id_col, scaled_features], axis=1)
-        heroes_stats_scaled.index = self.heroes_stats.index
-
-        return heroes_stats_scaled
 
     def preprocess(self):
         # Flatten the object columns
@@ -84,7 +77,7 @@ class HeroesStatsPreprocessing:
         self.handle_missing_values()
         self.drop_unnecessary_columns()
 
-        self.heroes_stats = self.scale_min_max()
+        self.scale_min_max()
 
         # Save to csv file
         self.heroes_stats.to_csv(base_dir + "dataset/heroes_stats_preprocessed.csv", index=False)
