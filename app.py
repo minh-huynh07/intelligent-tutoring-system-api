@@ -1,4 +1,6 @@
 from flask import Flask
+
+from api.steam_service import steam_bp
 from config import DevelopmentConfig, ProductionConfig  # Ensure proper imports here
 from api import common_bp
 from api.recommendation_service import recommendation_bp
@@ -32,8 +34,10 @@ def create_app(config_class):
         db.create_all()
 
     # Register blueprint for common services
-    app.register_blueprint(common_bp, url_prefix='/api')
-    app.register_blueprint(recommendation_bp, url_prefix='/recommendation')
+    # app.register_blueprint(common_bp, url_prefix='/api')
+    app.register_blueprint(recommendation_bp, url_prefix='/api/recommendation')
+    app.register_blueprint(steam_bp, url_prefix='/auth')
+
     return app
 
 
