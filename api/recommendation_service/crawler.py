@@ -1,8 +1,11 @@
+import os
 import pandas as pd
 from utils import create_folder, save_file, get_data
 from constants import DOTA2_URL, HEROES_URL, HEROES_STATS_URL, BENCHMARK_BY_HERO_ID_URL
 from bs4 import BeautifulSoup
 import re
+
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 class HeroCrawler:
 
@@ -48,12 +51,12 @@ class HeroCrawler:
 
     def save_to_file(self, filename, content, folder="heroes_data"):
         create_folder(folder)
-        save_file(f'{folder}/{filename}', content)
+        save_file(os.path.join(BASE_DIR, folder, filename), content)
 
     def save_to_csv(self, folder="heroes_data", filename="heroes_ability.csv"):
         create_folder(folder)
         df = pd.DataFrame(self.heroes)
-        df.to_csv(f"{folder}/{filename}", index=False)
+        df.to_csv(os.path.join(BASE_DIR, folder, filename), index=False)
 
     def start(self):
         self.heroes = self.get_all_heroes()
@@ -99,7 +102,7 @@ class HeroStatsCrawler:
     def save_to_csv(self, folder="heroes_stats_data", filename="heroes_stats.csv"):
         create_folder(folder)
         df = pd.DataFrame(self.hero_stats)
-        df.to_csv(f"{folder}/{filename}", index=False)
+        df.to_csv(os.path.join(BASE_DIR, folder, filename), index=False)
 
     def start(self):
         self.heroes = get_data(HEROES_URL)

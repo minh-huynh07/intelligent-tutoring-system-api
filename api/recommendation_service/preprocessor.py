@@ -1,13 +1,15 @@
+import os
+
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import MinMaxScaler
 
-base_dir = "api/recommendation_service/"
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 class HeroesPreprocessing:
 
     def preprocess(self):
-        heroes_ability = pd.read_csv(base_dir + '/heroes_data/heroes_ability.csv')
+        heroes_ability = pd.read_csv(os.path.join(BASE_DIR, 'heroes_data/heroes_ability.csv'))
 
         # run rf-idf
         vectorizer = TfidfVectorizer(stop_words='english', lowercase=True, ngram_range=(2, 4), min_df=0.01, max_df=0.9)
@@ -19,7 +21,7 @@ class HeroesPreprocessing:
         preprocessed_data.drop(columns=['ability', 'url'], inplace=True)
 
         # populate id column
-        heroes_data = pd.read_json(base_dir + "/heroes.json", dtype={"id": int, "name": str, "img": str})
+        heroes_data = pd.read_json(os.path.join(BASE_DIR, "heroes.json"), dtype={"id": int, "name": str, "img": str})
         preprocessed_data = preprocessed_data.merge(
             heroes_data[['id', 'name']], on='name', how='left'
         )
@@ -28,11 +30,11 @@ class HeroesPreprocessing:
         preprocessed_data.sort_values('id', inplace=True)
 
         # Save to csv file
-        preprocessed_data.to_csv(base_dir + "dataset/heroes_ability_preprocessed.csv", index=False)
+        preprocessed_data.to_csv(os.path.join(BASE_DIR, "dataset/heroes_ability_preprocessed.csv"), index=False)
 
 class HeroesStatsPreprocessing:
     def __init__(self):
-        self.heroes_stats = pd.read_csv(base_dir + 'heroes_stats_data/heroes_stats.csv')
+        self.heroes_stats = pd.read_csv(os.path.join(BASE_DIR, 'heroes_stats_data/heroes_stats.csv'))
 
     def drop_unnecessary_columns(self):
         drop_columns = ['roles', 'attack_type', 'primary_attr', 'img', 'icon', 'localized_name',
@@ -80,10 +82,10 @@ class HeroesStatsPreprocessing:
         self.scale_min_max()
 
         # Save to csv file
-        self.heroes_stats.to_csv(base_dir + "dataset/heroes_stats_preprocessed.csv", index=False)
+        self.heroes_stats.to_csv(os.path.join(BASE_DIR, "dataset/heroes_stats_preprocessed.csv"), index=False)
 
 # heroes_processor = HeroesPreprocessing()
 # heroes_processor.preprocess()
 
-heroes_stats_preprocessor = HeroesStatsPreprocessing()
-heroes_stats_preprocessor.preprocess()
+# heroes_stats_preprocessor = HeroesStatsPreprocessing()
+# heroes_stats_preprocessor.preprocess()

@@ -7,6 +7,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 from utils import create_folder
 
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+
 class HeroCosineModel:
 
     abilities_sim_matrix = None
@@ -15,9 +17,9 @@ class HeroCosineModel:
 
     def __init__(self):
         self.model_dir = 'model'
-        self.abilities_sim_matrix_file_path = self.model_dir + "/abilities_sim_matrix.pkl"
-        self.stats_sim_matrix_file_path = self.model_dir + "/stats_sim_matrix.pkl"
-        self.hero_idx_file_path = self.model_dir + "/hero_idx.pkl"
+        self.abilities_sim_matrix_file_path = os.path.join(BASE_DIR, self.model_dir, "abilities_sim_matrix.pkl")
+        self.stats_sim_matrix_file_path = os.path.join(BASE_DIR, self.model_dir, "stats_sim_matrix.pkl")
+        self.hero_idx_file_path = os.path.join(BASE_DIR, self.model_dir, "hero_idx.pkl")
 
 
     def build_similarity_model(self, heroes_ability, heroes_stats):
@@ -49,20 +51,20 @@ class HeroCosineModel:
 
     def load_similarity_model(self):
         if self.abilities_sim_matrix is None:
-            with open(os.path.join(self.model_dir, 'abilities_sim_matrix.pkl'), 'rb') as f:
+            with open(self.abilities_sim_matrix_file_path, 'rb') as f:
                 self.abilities_sim_matrix = pickle.load(f)
         if self.stats_sim_matrix is None:
-            with open(os.path.join(self.model_dir, 'stats_sim_matrix.pkl'), 'rb') as f:
+            with open(self.stats_sim_matrix_file_path, 'rb') as f:
                 self.stats_sim_matrix = pickle.load(f)
         if self.hero_idx is None:
-            with open(os.path.join(self.model_dir, 'hero_idx.pkl'), 'rb') as f:
+            with open(self.hero_idx_file_path, 'rb') as f:
                 self.hero_idx = pickle.load(f)
 
 
     def build(self):
         # Load data
-        abilities = pd.read_csv('dataset/heroes_ability_preprocessed.csv')
-        heroes_stats = pd.read_csv('dataset/heroes_stats_preprocessed.csv')
+        abilities = pd.read_csv(os.path.join(BASE_DIR, 'dataset/heroes_ability_preprocessed.csv'))
+        heroes_stats = pd.read_csv(os.path.join(BASE_DIR, 'dataset/heroes_stats_preprocessed.csv'))
 
         self.abilities_sim_matrix, self.stats_sim_matrix, self.hero_idx = self.build_similarity_model(abilities, heroes_stats)
 
@@ -70,15 +72,6 @@ class HeroCosineModel:
 
 
     def get_similar_heroes(self, hero_ids, top_n=3):
-
-        # throw exception if file not found
-        if not os.path.exists(os.path.join(self.abilities_sim_matrix_file_path)):
-            raise FileNotFoundError(f"Abilities similarity matrix file does not exist.")
-        if not os.path.exists(os.path.join(self.stats_sim_matrix_file_path)):
-            raise FileNotFoundError(f"Stats similarity matrix file does not exist.")
-        if not os.path.exists(os.path.join(self.hero_idx_file_path)):
-            raise FileNotFoundError(f"Hero index file does not exist.")
-
         self.load_similarity_model()
 
         hero_indices = [np.where(self.hero_idx == hero_id)[0][0] for hero_id in hero_ids]
@@ -99,6 +92,6 @@ class HeroCosineModel:
         return set(similar_indices)
 
 
-model = HeroCosineModel()
+# model = HeroCosineModel()
 # model.build()
-print(model.get_similar_heroes([1, 2]))
+# print(model.get_similar_heroes([1, 2]))
