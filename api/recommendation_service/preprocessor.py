@@ -2,10 +2,12 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import MinMaxScaler
 
+base_dir = "api/recommendation_service/"
+
 class HeroesPreprocessing:
 
     def preprocess(self):
-        heroes_ability = pd.read_csv('heroes_data/heroes_ability.csv')
+        heroes_ability = pd.read_csv(base_dir + '/heroes_data/heroes_ability.csv')
 
         # run rf-idf
         vectorizer = TfidfVectorizer(stop_words='english', lowercase=True, ngram_range=(2, 4), min_df=0.01, max_df=0.9)
@@ -17,7 +19,7 @@ class HeroesPreprocessing:
         preprocessed_data.drop(columns=['ability', 'url'], inplace=True)
 
         # populate id column
-        heroes_data = pd.read_json("../../heroes.json", dtype={"id": int, "name": str, "img": str})
+        heroes_data = pd.read_json(base_dir + "/heroes.json", dtype={"id": int, "name": str, "img": str})
         preprocessed_data = preprocessed_data.merge(
             heroes_data[['id', 'name']], on='name', how='left'
         )
@@ -26,11 +28,11 @@ class HeroesPreprocessing:
         preprocessed_data.sort_values('id', inplace=True)
 
         # Save to csv file
-        preprocessed_data.to_csv("dataset/heroes_ability_preprocessed.csv", index=False)
+        preprocessed_data.to_csv(base_dir + "dataset/heroes_ability_preprocessed.csv", index=False)
 
 class HeroesStatsPreprocessing:
     def __init__(self):
-        self.heroes_stats = pd.read_csv('heroes_stats_data/heroes_stats.csv')
+        self.heroes_stats = pd.read_csv(base_dir + 'heroes_stats_data/heroes_stats.csv')
 
     def drop_unnecessary_columns(self):
         drop_columns = ['roles', 'attack_type', 'primary_attr', 'img', 'icon', 'localized_name',
@@ -47,6 +49,9 @@ class HeroesStatsPreprocessing:
         # Handle turn_rate
         turn_rate_mean = self.heroes_stats['turn_rate'].mean()
         self.heroes_stats['turn_rate'] = self.heroes_stats['turn_rate'].fillna(turn_rate_mean)
+
+        # Remove Kez for consistency between different dataset
+        self.heroes_stats = self.heroes_stats[self.heroes_stats['localized_name'] != 'Kez']
 
         return self.heroes_stats
 
@@ -76,16 +81,16 @@ class HeroesStatsPreprocessing:
         # Combine results
         self.heroes_stats = pd.concat([self.heroes_stats, roles_df, attack_type_df, primary_attr_df], axis=1)
 
-        self.drop_unnecessary_columns()
         self.handle_missing_values()
+        self.drop_unnecessary_columns()
 
         self.heroes_stats = self.scale_min_max()
 
         # Save to csv file
-        self.heroes_stats.to_csv("dataset/heroes_stats_preprocessed.csv", index=False)
+        self.heroes_stats.to_csv(base_dir + "dataset/heroes_stats_preprocessed.csv", index=False)
 
 # heroes_processor = HeroesPreprocessing()
 # heroes_processor.preprocess()
-#
-# heroes_stats_preprocessor = HeroesStatsPreprocessing()
-# heroes_stats_preprocessor.preprocess()
+
+heroes_stats_preprocessor = HeroesStatsPreprocessing()
+heroes_stats_preprocessor.preprocess()
