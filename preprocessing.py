@@ -1,5 +1,6 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.preprocessing import MinMaxScaler
 
 class HeroesPreprocessing:
 
@@ -48,6 +49,19 @@ class HeroesStatsPreprocessing:
 
         return self.heroes_stats
 
+    def scale_min_max(self):
+        scaler = MinMaxScaler()
+
+        id_col = self.heroes_stats['id'].astype(int)
+        features = self.heroes_stats.drop('id', axis=1)
+
+        scaled_features = pd.DataFrame(scaler.fit_transform(features), columns=features.columns)
+
+        heroes_stats_scaled = pd.concat([id_col, scaled_features], axis=1)
+        heroes_stats_scaled.index = self.heroes_stats.index
+
+        return heroes_stats_scaled
+
     def preprocess(self):
         # Flatten the object columns
         roles_df = self.heroes_stats['roles'].str.get_dummies(',')
@@ -63,6 +77,8 @@ class HeroesStatsPreprocessing:
 
         self.drop_unnecessary_columns()
         self.handle_missing_values()
+
+        self.heroes_stats = self.scale_min_max()
 
         # Save to csv file
         self.heroes_stats.to_csv("heroes_stats_data/heroes_stats_preprocessed.csv", index=False)
