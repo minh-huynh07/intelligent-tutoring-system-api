@@ -15,6 +15,16 @@ services:
       - SECRET_KEY=mysecret_production
       - DATABASE_URL=mysql+pymysql://app:iamapp@db:3306/intelligent_tutoring_system
 
+  recommendation_app:
+    build: .
+    container_name: intelligent_tutoring_recommendation
+    ports:
+      - "5001:5000"
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_ENV=development
+      - SECRET_KEY=mysecret_production
 
   db:
     image: mysql:8
