@@ -123,6 +123,6 @@ class HeroCosineModel:
         return set(similar_indices)
 
 
-model = HeroCosineModel()
-model.build()
-print(model.get_similar_heroes([1, 2]))
+# model = HeroCosineModel()
+# model.build()
+# print(model.get_similar_heroes([1, 2]))

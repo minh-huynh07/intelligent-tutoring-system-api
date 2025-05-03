@@ -158,8 +158,8 @@ class HeroStatsCrawler:
 
         self.save_to_csv()
 #
-heroes_crawler = HeroCrawler()
-heroes_crawler.start()
+# heroes_crawler = HeroCrawler()
+# heroes_crawler.start()
 #
 # hero_stats_crawler = HeroStatsCrawler()
 # hero_stats_crawler.start()

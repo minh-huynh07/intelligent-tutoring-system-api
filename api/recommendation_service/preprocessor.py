@@ -153,14 +153,14 @@ class RecommendedItemsPreprocessing:
             index=False
         )
 
-heroes_processor = HeroesAbilityPreprocessing()
-heroes_processor.preprocess()
-
-basic_stats_preprocessor = BasicStatsPreprocessing()
-basic_stats_preprocessor.preprocess()
-
-aggregate_stats_preprocessor = AggregateStatsPreprocessing()
-aggregate_stats_preprocessor.preprocess()
-
-recommended_items_preprocessor = RecommendedItemsPreprocessing()
-recommended_items_preprocessor.preprocess()
+# heroes_processor = HeroesAbilityPreprocessing()
+# heroes_processor.preprocess()
+#
+# basic_stats_preprocessor = BasicStatsPreprocessing()
+# basic_stats_preprocessor.preprocess()
+#
+# aggregate_stats_preprocessor = AggregateStatsPreprocessing()
+# aggregate_stats_preprocessor.preprocess()
+#
+# recommended_items_preprocessor = RecommendedItemsPreprocessing()
+# recommended_items_preprocessor.preprocess()
