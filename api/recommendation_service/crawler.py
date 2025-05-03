@@ -77,11 +77,21 @@ class HeroCrawler:
         df = pd.DataFrame(self.heroes)
         df.to_csv(os.path.join(BASE_DIR, folder, filename), index=False)
 
+    def merge_heroes_data(self):
+        # heroes_data = pd.read_json(os.path.join(BASE_DIR, "heroes.json"),
+        #                            dtype={"id": int, "name": str, "img": str})
+        # heroes_data["name"] = heroes_data["name"].str.lower()
+        # self.heroes["name"] = self.heroes["name"].str.lower()
+        # self.heroes = self.heroes.merge(
+        #     heroes_data[['id', 'name']], on='name', how='left'
+        # )
+        # self.heroes.sort_values("id", inplace=True)
+        pass
+        
+
     def start(self):
         self.heroes = self.get_all_heroes()
         for hero in self.heroes:
-            # if hero["name"] != "Alchemist":
-            #     continue
             print(f"Fetching data for {hero['name']}...")
 
             abilities, recommended_items = self.get_hero(hero)
@@ -90,7 +100,7 @@ class HeroCrawler:
             hero["ability"] = abilities
             hero["recommended_items"] = recommended_items
 
-        print(f"Total heroes found: {len(self.heroes)}")
+        self.merge_heroes_data()
         self.save_to_csv()
 
 class HeroStatsCrawler:
@@ -148,8 +158,8 @@ class HeroStatsCrawler:
 
         self.save_to_csv()
 #
-# heroes_crawler = HeroCrawler()
-# heroes_crawler.start()
+heroes_crawler = HeroCrawler()
+heroes_crawler.start()
 #
 # hero_stats_crawler = HeroStatsCrawler()
 # hero_stats_crawler.start()
