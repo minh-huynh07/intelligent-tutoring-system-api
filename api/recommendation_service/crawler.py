@@ -40,6 +40,11 @@ class HeroCrawler:
 
     def get_hero(self, hero):
         soup = self.get_html(self.base_url + hero["url"])
+        ability = self.get_hero_ability(soup)
+        recommended_items = self.get_recommend_item(soup)
+        return ability, recommended_items
+
+    def get_hero_ability(self, soup):
         abilities_info = soup.find_all("div", class_="ability-background")
 
         results = []
@@ -49,11 +54,25 @@ class HeroCrawler:
 
         return " ".join(results)
 
+    def get_recommend_item(self, soup):
+        h2_recommended_items = soup.find("span", id="Recommended_Items").parent
+
+        recommended_items = []
+        next_element = h2_recommended_items.find_next_sibling("ul")
+        while next_element and next_element.name != 'h2':
+            if next_element.name == "ul":
+                item_links = next_element.select(".image-link > a[title]")
+                for link in item_links:
+                    recommended_items.append(self.normalize_text(link.text))
+            next_element = next_element.find_next_sibling()
+
+        return ",".join(recommended_items)
+
     def save_to_file(self, filename, content, folder="heroes_data"):
         create_folder(folder)
         save_file(os.path.join(BASE_DIR, folder, filename), content)
 
-    def save_to_csv(self, folder="heroes_data", filename="heroes_ability.csv"):
+    def save_to_csv(self, folder="heroes_data", filename="heroes_data.csv"):
         create_folder(folder)
         df = pd.DataFrame(self.heroes)
         df.to_csv(os.path.join(BASE_DIR, folder, filename), index=False)
@@ -65,9 +84,11 @@ class HeroCrawler:
             #     continue
             print(f"Fetching data for {hero['name']}...")
 
-            abilities = self.get_hero(hero)
-            self.save_to_file(f"{hero["name"]}.txt", abilities)
+            abilities, recommended_items = self.get_hero(hero)
+            self.save_to_file(f"{hero["name"]}.txt", abilities, "heroes_data/ability")
+            self.save_to_file(f"{hero["name"]}.txt", recommended_items, "heroes_data/recommended_items")
             hero["ability"] = abilities
+            hero["recommended_items"] = recommended_items
 
         print(f"Total heroes found: {len(self.heroes)}")
         self.save_to_csv()
@@ -77,19 +98,22 @@ class HeroStatsCrawler:
         self.heroes = []
         self.hero_stats = []
 
-    def get_percentile(self, arr, percentile):
-        expected_percentile = next(filter(lambda x: x["percentile"] == percentile, arr), None)
-        return expected_percentile["value"] if expected_percentile else ""
+    def get_percentile(self, arr, percentiles: []):
+        for percentile in percentiles:
+            expected_percentile = next(filter(lambda x: x["percentile"] == percentile, arr), None)
+            if expected_percentile and expected_percentile["value"] != 0:
+                return expected_percentile["value"]
+        return 0
 
     def calculate_benchmark(self, benchmark):
         return {
-            "gold_per_min": self.get_percentile(benchmark["gold_per_min"], 0.5),
-            "xp_per_min": self.get_percentile(benchmark["xp_per_min"], 0.5),
-            "kills_per_min": self.get_percentile(benchmark["kills_per_min"], 0.5),
-            "last_hits_per_min": self.get_percentile(benchmark["last_hits_per_min"], 0.5),
-            "hero_damage_per_min": self.get_percentile(benchmark["hero_damage_per_min"], 0.5),
-            "hero_healing_per_min": self.get_percentile(benchmark["hero_healing_per_min"], 0.5),
-            "tower_damage": self.get_percentile(benchmark["tower_damage"], 0.5),
+            "gold_per_min": self.get_percentile(benchmark["gold_per_min"], [0.5]),
+            "xp_per_min": self.get_percentile(benchmark["xp_per_min"], [0.5]),
+            "kills_per_min": self.get_percentile(benchmark["kills_per_min"], [0.5]),
+            "last_hits_per_min": self.get_percentile(benchmark["last_hits_per_min"], [0.5]),
+            "hero_damage_per_min": self.get_percentile(benchmark["hero_damage_per_min"], [0.5]),
+            "hero_healing_per_min": self.get_percentile(benchmark["hero_healing_per_min"], [0.5, 0.6, 0.7, 0.8, 0.9, 0.95, 0.99]),
+            "tower_damage": self.get_percentile(benchmark["tower_damage"], [0.5]),
         }
 
     def fetch_hero_stats(self):

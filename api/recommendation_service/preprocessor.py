@@ -9,7 +9,7 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 class HeroesPreprocessing:
 
     def preprocess(self):
-        heroes_ability = pd.read_csv(os.path.join(BASE_DIR, 'heroes_data/heroes_ability.csv'))
+        heroes_ability = pd.read_csv(os.path.join(BASE_DIR, 'heroes_data/heroes_data.csv'))
 
         # run rf-idf
         vectorizer = TfidfVectorizer(stop_words='english', lowercase=True, ngram_range=(2, 4), min_df=0.01, max_df=0.9)
