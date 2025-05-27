@@ -7,7 +7,7 @@ from sklearn.preprocessing import MultiLabelBinarizer
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
-PCA_COMPONENTS = 67
+PCA_COMPONENTS = 5
 
 class HeroesAbilityPreprocessing:
 
@@ -153,14 +153,15 @@ class RecommendedItemsPreprocessing:
             index=False
         )
 
-# heroes_processor = HeroesAbilityPreprocessing()
-# heroes_processor.preprocess()
-#
-# basic_stats_preprocessor = BasicStatsPreprocessing()
-# basic_stats_preprocessor.preprocess()
-#
-# aggregate_stats_preprocessor = AggregateStatsPreprocessing()
-# aggregate_stats_preprocessor.preprocess()
-#
-# recommended_items_preprocessor = RecommendedItemsPreprocessing()
-# recommended_items_preprocessor.preprocess()
+if __name__ == '__main__':
+    heroes_processor = HeroesAbilityPreprocessing()
+    heroes_processor.preprocess()
+
+    basic_stats_preprocessor = BasicStatsPreprocessing()
+    basic_stats_preprocessor.preprocess()
+
+    aggregate_stats_preprocessor = AggregateStatsPreprocessing()
+    aggregate_stats_preprocessor.preprocess()
+
+    recommended_items_preprocessor = RecommendedItemsPreprocessing()
+    recommended_items_preprocessor.preprocess()

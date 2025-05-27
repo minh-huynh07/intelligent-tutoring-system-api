@@ -1,0 +1,466 @@
+{
+	"info": {
+		"_postman_id": "148bab91-1562-4dff-82a1-d9c5e7c5cdff",
+		"name": "intelligent_tutoring_system_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5083790",
+		"_collection_link": "https://www.postman.com/dinhphu951998/workspace/intelligent-tutoring-system-api/collection/5083790-148bab91-1562-4dff-82a1-d9c5e7c5cdff?action=share&source=collection_link&creator=5083790"
+	},
+	"item": [
+		{
+			"name": "AUTH",
+			"item": [
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"nhattan.ezvisa@gmail.com\",\r\n    \"password\": \"Test@123\",\r\n    \"name\": \"Nguyen Nhat Tan\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8002/api/auth/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"auth",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "me",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/auth/10dfe275-d837-4419-bbb8-15935f0edfc1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"auth",
+								"10dfe275-d837-4419-bbb8-15935f0edfc1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"nntan.sdh242@hcmut.edu.vn\",\r\n    \"password\": \"Test@123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8002/api/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "confirm-signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"nntan.sdh242@hcmut.edu.vn\",\r\n    \"otp\": \"835812\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8002/api/auth/confirm-signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"auth",
+								"confirm-signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "refresh",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cookie",
+								"value": "user_cognito_sub=598ae54c-8091-701d-4951-b491679193bf;refresh_token=eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.RfMEOb9gJSZxO9Lxdt8moXexM_EmzgtDq6mml6zRs2kibvGqO02SItZFZ9v6MAUn5dwKge-hRWZuI-rv1gUZ-ORrLRpjYqsK9BsXFbSM0hM7RHnmeoVken6_lyhlMuA3eSaOLUzA4qzEBKjGdjoo6jgpAGlAuTMvBc1yi-uMefvMGmSLUtSVZV9eZ13bXRD6OZSglEsyPVhNveRZF3jblApu-HvkAvF3vTzU36DqKv4A4G9WTTPtk-YnDOEv6TAgPOoHQ5Uv72wC_6eiC2uYMrAeVYIZZgWzFCJhlpJ_FH3KVpjJiFqrr6ZmSugcgogiV1V_dQhnR9IR7OTst0CAjw.Jk0jbilJHPL3LQiS.r4T2nzqATr5kGvKnnYbIKCMsD2bQ5vvghev8jdYJ0hzMOk2z5ityvpbuB_gCUQkgD1O3H05XALMF9YLdi2V0wIdd1ekHIaFhfQIpnEJd2ywNrnTjJBmtQy--cXAshzH1AqoS9AMA55DB1mnN7fdpwZPB7uGOR-p8RG1e1UZjPR4U9jRn7NQYqcLGrglqnoYI4K8YKy17NczsWGlkwBFc-PqDMZK_f4_MN3oUOcvkUnZJcZcx9dLjr6Gxa6rJtXIjtpSDzJseOuoZA_O5OtLHGC6Nktp98rkU5_e7AKA8j1G4b38bu3mB6vPtaaj7bveX8W-cDv3x_Yv5AoPD7_VMC81Q_I3ABVeyN_4ImU0fx_RZCMZJGuQZwqUbWcva1HvlQyrWjPNsZeSslmhdP_9UXocx38qvw8GOr-bn8QFWTe5IltWGUcriTZseJyOgexGjmJrQEuAu_pCUSIdy9yuuCRsXcXup_BI63Py-3mpUtLGjeTUdCpnZtxe2bCgLtgnPbPLcw87xczF47Sy5Alpsa9Adlud4uZFQJwNpDKpdkAcTYE8rzinkXZppdrDzM5yPwavk3ckLEy2lQfy8zbo4UTaUPNlFu8YqSP3mKVyT2K6iQEwgqG3CCajXrqarz17EFaujP2Uf2Jgg-SXOziGb1_QiO5I00iJAVgKjKbvQOh47TS_Lrr5QOoxI3oonj9AQLKXD5OdsFtSOacd71cFUQMmljFdG-u_VaUZ9L3pdffQgvNF0jyzErTITMraIHCHdpdkeVz8HPJ7KFylLDuh7PlzffmFnyXZ3xFDNmSDGIJWUiWdYBZ38KPe8dcTGon8f-ZZwVQ7UAuON8xaLzzKT6NuK1CJf2LN48gElItibDp2gugWQ2OT8YfB1F2rlgUXzBCBHOq2wsnOd2iHR2n5i6OL-tRZsSqf6EEmybZC29aD1zwt1gnjUjOKDMlyOUmkc4zN1WHTQlN9P3D176IlvQlX1JCdYxEVzavPKbWwfPHymWeCyriAQhVzr_6csTO2cSmdjfTiH8KvSxDc7_61AttcF2bSJppcQGEiTxLYgV3nCzxs3R4YU7yo6aZ06JunmH43ArYkyIgFXpPYuDWTRyU5CyKx-93K47EnuFqjITAA1PZMnwkQge8TCC5FEYYm7r563W5HMHC-wdMgl2-7LsJNRR4ALK1gf_vlZXFPZ0w4j3DdFCAkjOwqLvh7E8YlVUj2qGFoSPlqwaAN82mQAc0qkMmU390Wh46x-JjnxvSafSM5012DFceh78THZhibc65O2j1m5kvyxyMMRX-fDOxzSZAAm9wS035yNSDZeT5TidwfWbiwcs9qEmnxcl23Q-vC75AdKEKQkbw.Wkr-e0Hdlt-fE1Iu5E0Rng",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8002/api/auth/refresh",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"auth",
+								"refresh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "me(protected)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "me(clear cookie)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "COURSES",
+			"item": [
+				{
+					"name": "read_courses",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/api/courses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"courses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create_course",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n    \"title\": \"Warding like a pro\",\r\n    \"description\": \"This is description\",\r\n    \"type\": \"ORDINARY\",\r\n    \"heroes\": [7],\r\n    \"user_id\": \"10dfe275-d837-4419-bbb8-15935f0edfc1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8002/api/courses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"courses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_course_by_id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_courses_by_instructor_id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update_course",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete_course",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_courses_target_heroes",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"hero_ids\": [40]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8002/api/courses/by-heroes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"api",
+								"courses",
+								"by-heroes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RECOMMENDATION",
+			"item": [
+				{
+					"name": "heroes",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"heroIds\": [1]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5001/api/recommendation/heroes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"recommendation",
+								"heroes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "courses",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"heroIds\": [10]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5001/api/recommendation/courses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5001",
+							"path": [
+								"api",
+								"recommendation",
+								"courses"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OpenDota2",
+			"item": [
+				{
+					"name": "Heroes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.opendota.com/api/heroes",
+							"protocol": "https",
+							"host": [
+								"api",
+								"opendota",
+								"com"
+							],
+							"path": [
+								"api",
+								"heroes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Benchmark by heroID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.opendota.com/api/benchmarks?hero_id=126",
+							"protocol": "https",
+							"host": [
+								"api",
+								"opendota",
+								"com"
+							],
+							"path": [
+								"api",
+								"benchmarks"
+							],
+							"query": [
+								{
+									"key": "hero_id",
+									"value": "126"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Hero Stats",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.opendota.com/api/heroStats",
+							"protocol": "https",
+							"host": [
+								"api",
+								"opendota",
+								"com"
+							],
+							"path": [
+								"api",
+								"heroStats"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Test flask app",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/api/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"test"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
